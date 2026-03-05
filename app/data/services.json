@@ -1,0 +1,275 @@
+{
+  "Pintor": {
+    "meta": {
+      "title": "Pintor Profissional em Foz do Iguaçu | SOS Construir",
+      "description": "Pintores experientes em Foz do Iguaçu. Pintura interna, externa, comercial. Profissionais certificados com garantia integral.",
+      "keywords": "pintor foz do iguaçu, pintura profissional, pintura interna, pintura externa",
+      "ogImage": "/images/hero/servico-pintor.jpg",
+      "breadcrumbLabel": "Pintor"
+    },
+    "sections": {
+      "hero": {
+        "title": "Pintura Profissional Sem Dor de Cabeça",
+        "subtitle": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
+        "image": "/images/hero/servico-pintor.jpg"
+      },
+      "whatWeDo": {
+        "differentials": [
+          {
+            "icon": "🎨",
+            "title": "Preparação Profissional",
+            "description": "Antes da pintura, nossos pintores preparam minuciosamente as superfícies, garantindo um acabamento impecável."
+          },
+          {
+            "icon": "🎯",
+            "title": "Seleção Especializada de Tintas",
+            "description": "Escolhem e misturam tintas com expertise, assegurando cores vibrantes e durabilidade em cada aplicação."
+          },
+          {
+            "icon": "🖌️",
+            "title": "Técnicas Avançadas de Aplicação",
+            "description": "Utilizando métodos especializados, aplicam a tinta de forma uniforme, seja em paredes, tetos ou outras superfícies."
+          },
+          {
+            "icon": "⚠️",
+            "title": "Segurança em Alturas",
+            "description": "Caso necessário, nossos profissionais estão aptos a trabalhar em alturas, priorizando sempre a segurança."
+          },
+          {
+            "icon": "🔄",
+            "title": "Trabalho Multimaterial",
+            "description": "Lidam com uma variedade de materiais, adaptando-se às necessidades específicas de cada projeto."
+          },
+          {
+            "icon": "🔧",
+            "title": "Reparos Integrados",
+            "description": "Além da pintura, nossos pintores realizam pequenos reparos para garantir a integridade das superfícies."
+          },
+          {
+            "icon": "✨",
+            "title": "Limpeza Impecável",
+            "description": "Após concluir o trabalho, nossos pintores garantem que o ambiente esteja impecável, sem resíduos ou bagunças."
+          },
+          {
+            "icon": "👥",
+            "title": "Trabalho em Equipe",
+            "description": "Trabalham em estreita colaboração com designers e clientes, assegurando que a visão desejada seja alcançada com precisão."
+          }
+        ]
+      },
+      "partner": {
+        "partnerName": "FozTintas",
+        "logo": "/images/logos/foztintas.png",
+        "subtitle": "Trabalhamos com a FozTintas, referência em qualidade desde 1985. Tintas premium, cores personalizadas e o melhor preço direto do fabricante para seu projeto.",
+        "tags": [
+          "Tintas premium com durabilidade garantida",
+          "Entrega rápida e rastreada",
+          "Preço direto da fábrica, sem intermediários",
+          "Consultoria de cores gratuita para o seu projeto"
+        ],
+        "cta": "Conhecer Tintas FozTintas",
+        "footerInfo": {
+          "usage": "Usado em 500+ projetos na região",
+          "guarantee": "Garantia oficial FozTintas"
+        }
+      },
+      "workGallery": {
+        "filters": [
+          "Pintura Interna",
+          "Pintura Externa",
+          "Pintura Comercial"
+        ]
+      },
+      "process": {
+        "steps": [
+          {
+            "step": 1,
+            "title": "Contato e Orçamento",
+            "description": "Você nos conta o que precisa e nós cuidamos de todo o planejamento e orçamento.",
+            "icon": "📞"
+          },
+          {
+            "step": 2,
+            "title": "Cuidado e Proteção",
+            "description": "Nossa equipe protege seus móveis e prepara as paredes com perfeição.",
+            "icon": "🛡️"
+          },
+          {
+            "step": 3,
+            "title": "Execução Premium",
+            "description": "Profissionais verificados aplicam as melhores tintas do mercado.",
+            "icon": "🔧"
+          },
+          {
+            "step": 4,
+            "title": "Satisfação Garantida",
+            "description": "Entregamos tudo limpo e no lugar. Zero estresse para você!",
+            "icon": "✨"
+          }
+        ]
+      },
+      "professionals": {
+        "title": "Pintores Profissionais Verificados",
+        "subtitle": "Escolha um pintor certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
+      },
+      "faq": {
+        "title": "Dúvidas Frequentes sobre Pintura",
+        "questions": [
+          {
+            "question": "Vocês realizam reparos em paredes antes da pintura?",
+            "answer": "Sim! Fazemos preenchimento de rachaduras, nivelamento e todas as correções necessárias antes de iniciar a pintura."
+          },
+          {
+            "question": "Quanto tempo dura a pintura feita pela SOS Construir?",
+            "answer": "A durabilidade da pintura depende de vários fatores, incluindo a preparação adequada das superfícies e a qualidade dos materiais. Nossos profissionais garantem resultados duradouros."
+          },
+          {
+            "question": "Posso usar minha própria tinta?",
+            "answer": "Sim, você tem a opção de fornecer sua própria tinta. Embora normalmente forneçamos tanto a tinta quanto o material necessário, se preferir contratar apenas o serviço e fornecer seu próprio material, ficaremos felizes em discutir essa alternativa."
+          },
+          {
+            "question": "Vocês fazem Pintura Exterior?",
+            "answer": "Sim, nossos pintores são treinados para trabalhar tanto em ambientes internos quanto externos, oferecendo soluções abrangentes para suas necessidades de pintura."
+          }
+        ]
+      }
+    }
+  },
+  "Metalurgico": {
+    "meta": {
+      "title": "Metalúrgica Profissional em Foz do Iguaçu | SOS Construir",
+      "description": "Serviços metalúrgicos de excelência em Foz do Iguaçu. Estruturas metálicas, portões, soldas e projetos sob medida com profissionais certificados.",
+      "keywords": "metalúrgica foz do iguaçu, serralheria, solda, estruturas metálicas, portões",
+      "ogImage": "/images/hero/metalworker.jpg",
+      "breadcrumbLabel": "Metalúrgica"
+    },
+    "sections": {
+      "hero": {
+        "title": "Metalúrgica Profissional Sem Dor de Cabeça",
+        "subtitle": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
+        "image": "/images/hero/metalworker.jpg"
+      },
+      "whatWeDo": {
+        "differentials": [
+          {
+            "icon": "🔥",
+            "title": "Soldas de Alta Resistência",
+            "description": "Utilizamos equipamentos modernos e técnicas avançadas de soldagem para garantir juntas seguras e acabamento liso."
+          },
+          {
+            "icon": "📐",
+            "title": "Projetos Sob Medida",
+            "description": "Desenhamos e fabricamos peças personalizadas que se encaixam perfeitamente na sua planta ou necessidade de espaço."
+          },
+          {
+            "icon": "🛡️",
+            "title": "Tratamento Anticorrosivo",
+            "description": "Aplicação de fundo preparador e opções de galvanização para garantir que suas estruturas resistam ao tempo e à ferrugem."
+          },
+          {
+            "icon": "🏗️",
+            "title": "Estruturas Seguras",
+            "description": "Cálculo e execução de estruturas metálicas para coberturas e galpões seguindo rigorosas normas técnicas de segurança."
+          },
+          {
+            "icon": "🚪",
+            "title": "Portões e Grades",
+            "description": "Fabricação e instalação de portões (basculantes, de correr) e grades de proteção com foco em estética e segurança."
+          },
+          {
+            "icon": "🔧",
+            "title": "Reparos e Manutenção",
+            "description": "Fazemos consertos rápidos em dobradiças, trilhos, reforço de soldas e troca de roldanas em estruturas já existentes."
+          },
+          {
+            "icon": "⏱️",
+            "title": "Entrega Pontual",
+            "description": "Cronograma transparente da fabricação na oficina até o dia da instalação na sua obra."
+          },
+          {
+            "icon": "✨",
+            "title": "Instalação Limpa",
+            "description": "Nossa equipe realiza a montagem final cuidando do seu ambiente, entregando tudo instalado e organizado."
+          }
+        ]
+      },
+      "partner": {
+        "partnerName": "AçoFoz Fornecedores",
+        "logo": "/images/logos/acofoz.png",
+        "subtitle": "Trabalhamos em parceria com as melhores distribuidoras de aço da região. Matéria-prima certificada, garantindo resistência estrutural máxima para sua obra.",
+        "tags": [
+          "Aço com certificação de qualidade",
+          "Tubos e perfis de alta resistência",
+          "Opções de material galvanizado",
+          "Melhor custo-benefício em metais"
+        ],
+        "cta": "Conhecer Materiais",
+        "footerInfo": {
+          "usage": "Mais de 300 toneladas de aço instaladas",
+          "guarantee": "Garantia de procedência do material"
+        }
+      },
+      "workGallery": {
+        "filters": [
+          "Portões e Grades",
+          "Estruturas Metálicas",
+          "Coberturas",
+          "Projetos Especiais"
+        ]
+      },
+      "process": {
+        "steps": [
+          {
+            "step": 1,
+            "title": "Contato e Orçamento",
+            "description": "Você nos conta o que precisa e nós cuidamos de todo o planejamento e orçamento.",
+            "icon": "📞"
+          },
+          {
+            "step": 2,
+            "title": "Projeto e Aprovação",
+            "description": "Desenvolvemos projeto detalhado. Apresentamos opções de materiais e design antes de fabricar.",
+            "icon": "📐"
+          },
+          {
+            "step": 3,
+            "title": "Fabricação em Oficina",
+            "description": "Profissionais certificados fabricam com precisão. Solda de qualidade, acabamento profissional, cada peça perfeita.",
+            "icon": "🏭"
+          },
+          {
+            "step": 4,
+            "title": "Satisfação Garantida",
+            "description": "Instalação profissional completa. Inspeção rigorosa e garantia integral em mãos. Pronto para aproveitar!",
+            "icon": "✨"
+          }
+        ]
+      },
+      "professionals": {
+        "title": "Metalúrgicos Profissionais Verificados",
+        "subtitle": "Escolha um Metalúrgico certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
+      },
+      "faq": {
+        "title": "Dúvidas Frequentes sobre Metalurgia",
+        "questions": [
+          {
+            "question": "Vocês fabricam estruturas para telhados e coberturas?",
+            "answer": "Sim! Fabricamos e instalamos tesouras, treliças e estruturas metálicas completas para telhados de residências e galpões."
+          },
+          {
+            "question": "Os portões já vêm com motor e automação?",
+            "answer": "Fabricamos o portão já preparado e balanceado para receber o motor. Podemos incluir a instalação da automação no seu orçamento, se desejar."
+          },
+          {
+            "question": "Como funciona o processo de pintura das peças?",
+            "answer": "Nossas estruturas são entregues com tratamento antiferrugem e fundo preparador (zarcão). A pintura final com cor também pode ser orçada à parte, incluindo opções de pintura epóxi."
+          },
+          {
+            "question": "Fazem consertos em grades e portões de terceiros?",
+            "answer": "Sim, nossa equipe realiza manutenção preventiva e corretiva, como troca de roldanas, reforço de soldas quebradas e alinhamento de trilhos."
+          }
+        ]
+      }
+    }
+  }
+}
