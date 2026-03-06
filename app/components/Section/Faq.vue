@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { FAQSection } from '~/types/service'
+import type { FAQSection } from '~/types/sections'
 
 defineProps<{
   section: FAQSection

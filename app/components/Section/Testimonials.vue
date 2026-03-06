@@ -1,13 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import type Testimonial from '~/types/testimonial'
-
-interface FeedbackSection {
-  title?: string
-}
+import type { BaseSection } from '~/types/sections'
 
 defineProps<{
-  section?: FeedbackSection
+  section?: BaseSection
 }>()
 
 const testimonials = ref<Testimonial[]>([])
@@ -19,7 +16,6 @@ const fetchTestimonials = async () => {
   // Simulando delay de rede de 1 segundo
   await new Promise(resolve => setTimeout(resolve, 1000))
 
-  // Mock com mais dados para o carrossel não ficar "vazio" em telas grandes
   testimonials.value = [
     {
       id: 1,

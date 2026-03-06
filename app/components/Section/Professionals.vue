@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import type Professional from '~/types/profissional'
-import type { ProfessionalsSection } from '~/types/service'
+import type { BaseSection } from '~/types/sections'
 
 const props = defineProps<{
-  section: ProfessionalsSection
+  section: BaseSection
 }>()
 
 const professionals = ref<Professional[]>([])
@@ -78,7 +78,7 @@ onMounted(() => {
             {{ props.section.title }}
           </h2>
           <p class="text-section-subtitle mb-8 leading-relaxed">
-            {{ props.section.subtitle }}
+            {{ props.section.description }}
           </p>
 
           <div class=" rounded-xl p-6 mb-8 border border-gray-100">

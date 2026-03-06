@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import type { ProcessSection } from '@/types/service'
+import type { ProcessSection } from '@/types/sections'
 
 const process: ProcessSection = {
   steps: [

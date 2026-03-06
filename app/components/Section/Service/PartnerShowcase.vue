@@ -28,7 +28,7 @@ const props = defineProps<{
           </h2>
 
           <p class="text-section-subtitle text-lg mb-8 leading-relaxed">
-            {{ props.section.subtitle }}
+            {{ props.section.description }}
           </p>
 
           <ul class="space-y-4 mb-8">

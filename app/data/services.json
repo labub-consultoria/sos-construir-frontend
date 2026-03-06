@@ -10,58 +10,14 @@
     "sections": {
       "hero": {
         "title": "Pintura Profissional Sem Dor de Cabeça",
-        "subtitle": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
+        "description": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
         "image": "/images/services/pintor/hero.png"
-      },
-      "whatWeDo": {
-        "differentials": [
-          {
-            "icon": "🎨",
-            "title": "Preparação Profissional",
-            "description": "Antes da pintura, nossos pintores preparam minuciosamente as superfícies, garantindo um acabamento impecável."
-          },
-          {
-            "icon": "🎯",
-            "title": "Seleção Especializada de Tintas",
-            "description": "Escolhem e misturam tintas com expertise, assegurando cores vibrantes e durabilidade em cada aplicação."
-          },
-          {
-            "icon": "🖌️",
-            "title": "Técnicas Avançadas de Aplicação",
-            "description": "Utilizando métodos especializados, aplicam a tinta de forma uniforme, seja em paredes, tetos ou outras superfícies."
-          },
-          {
-            "icon": "⚠️",
-            "title": "Segurança em Alturas",
-            "description": "Caso necessário, nossos profissionais estão aptos a trabalhar em alturas, priorizando sempre a segurança."
-          },
-          {
-            "icon": "🔄",
-            "title": "Trabalho Multimaterial",
-            "description": "Lidam com uma variedade de materiais, adaptando-se às necessidades específicas de cada projeto."
-          },
-          {
-            "icon": "🔧",
-            "title": "Reparos Integrados",
-            "description": "Além da pintura, nossos pintores realizam pequenos reparos para garantir a integridade das superfícies."
-          },
-          {
-            "icon": "✨",
-            "title": "Limpeza Impecável",
-            "description": "Após concluir o trabalho, nossos pintores garantem que o ambiente esteja impecável, sem resíduos ou bagunças."
-          },
-          {
-            "icon": "👥",
-            "title": "Trabalho em Equipe",
-            "description": "Trabalham em estreita colaboração com designers e clientes, assegurando que a visão desejada seja alcançada com precisão."
-          }
-        ]
       },
       "partner": {
         "partnerName": "FozTintas",
         "logo": "/images/services/pintor/foztintas/logo.png",
         "coverImage": "/images/services/pintor/foztintas/cover.png",
-        "subtitle": "Trabalhamos com a FozTintas, referência em qualidade desde 1985. Tintas premium, cores personalizadas e o melhor preço direto do fabricante para seu projeto.",
+        "description": "Trabalhamos com a FozTintas, referência em qualidade desde 1985. Tintas premium, cores personalizadas e o melhor preço direto do fabricante para seu projeto.",
         "tags": [
                     {
             "icon": "format-paint",
@@ -124,7 +80,7 @@
       },
       "professionals": {
         "title": "Pintores Profissionais Verificados",
-        "subtitle": "Escolha um pintor certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
+        "description": "Escolha um pintor certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
       },
       "faq": {
         "title": "Dúvidas Frequentes sobre Pintura",
@@ -160,57 +116,13 @@
     "sections": {
       "hero": {
         "title": "Metalúrgica Profissional Sem Dor de Cabeça",
-        "subtitle": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
+        "description": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
         "image": "/images/services/metalurgico/hero.png"
-      },
-      "whatWeDo": {
-        "differentials": [
-          {
-            "icon": "🔥",
-            "title": "Soldas de Alta Resistência",
-            "description": "Utilizamos equipamentos modernos e técnicas avançadas de soldagem para garantir juntas seguras e acabamento liso."
-          },
-          {
-            "icon": "📐",
-            "title": "Projetos Sob Medida",
-            "description": "Desenhamos e fabricamos peças personalizadas que se encaixam perfeitamente na sua planta ou necessidade de espaço."
-          },
-          {
-            "icon": "🛡️",
-            "title": "Tratamento Anticorrosivo",
-            "description": "Aplicação de fundo preparador e opções de galvanização para garantir que suas estruturas resistam ao tempo e à ferrugem."
-          },
-          {
-            "icon": "🏗️",
-            "title": "Estruturas Seguras",
-            "description": "Cálculo e execução de estruturas metálicas para coberturas e galpões seguindo rigorosas normas técnicas de segurança."
-          },
-          {
-            "icon": "🚪",
-            "title": "Portões e Grades",
-            "description": "Fabricação e instalação de portões (basculantes, de correr) e grades de proteção com foco em estética e segurança."
-          },
-          {
-            "icon": "🔧",
-            "title": "Reparos e Manutenção",
-            "description": "Fazemos consertos rápidos em dobradiças, trilhos, reforço de soldas e troca de roldanas em estruturas já existentes."
-          },
-          {
-            "icon": "⏱️",
-            "title": "Entrega Pontual",
-            "description": "Cronograma transparente da fabricação na oficina até o dia da instalação na sua obra."
-          },
-          {
-            "icon": "✨",
-            "title": "Instalação Limpa",
-            "description": "Nossa equipe realiza a montagem final cuidando do seu ambiente, entregando tudo instalado e organizado."
-          }
-        ]
       },
       "partner": {
         "partnerName": "AçoFoz Fornecedores",
         "logo": "/images/logos/acofoz.png",
-        "subtitle": "Trabalhamos em parceria com as melhores distribuidoras de aço da região. Matéria-prima certificada, garantindo resistência estrutural máxima para sua obra.",
+        "description": "Trabalhamos em parceria com as melhores distribuidoras de aço da região. Matéria-prima certificada, garantindo resistência estrutural máxima para sua obra.",
         "tags": [
           {
             "icon": "check",
@@ -274,7 +186,7 @@
       },
       "professionals": {
         "title": "Metalúrgicos Profissionais Verificados",
-        "subtitle": "Escolha um Metalúrgico certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
+        "description": "Escolha um Metalúrgico certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
       },
       "faq": {
         "title": "Dúvidas Frequentes sobre Metalurgia",

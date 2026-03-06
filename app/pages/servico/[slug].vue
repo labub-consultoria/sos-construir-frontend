@@ -2,13 +2,15 @@
 import type { Service, SectionKey } from '~/types/service'
 
 import {
+  SectionTestimonials,
   SectionServiceHero,
   SectionServicePartnerShowcase,
   SectionWorksGallery,
   SectionOurProcess,
   SectionProfessionals,
   SectionFaq,
-  SectionServiceWhatWeDo
+  SectionFinalCta,
+  SectionWhyChooseUs
 } from '#components'
 
 import servicesData from '~/data/services.json'
@@ -47,23 +49,39 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 
+const layoutOrder: SectionKey[] = [
+  'hero',
+  'partner',
+  'process',
+  'professionals',
+  'testimonials',
+  'workGallery',
+  'whyChooseUs',
+  'faq',
+  'finalCta'
+]
 const sectionComponents: Record<SectionKey, Component> = {
   hero: SectionServiceHero,
-  whatWeDo: SectionServiceWhatWeDo,
   partner: SectionServicePartnerShowcase,
   workGallery: SectionWorksGallery,
   process: SectionOurProcess,
   professionals: SectionProfessionals,
-  faq: SectionFaq
+  whyChooseUs: SectionWhyChooseUs,
+  faq: SectionFaq,
+  finalCta: SectionFinalCta,
+  testimonials: SectionTestimonials
 }
 
 const sections = computed(() => {
   if (!service.value) return []
 
-  return Object.entries(service.value.sections).map(([key, value]) => ({
-    type: key as SectionKey,
-    data: value
-  }))
+  return layoutOrder.map((sectionKey) => {
+    return {
+      type: sectionKey,
+      // Se a chave existir no JSON, passa os dados. Se não existir, passa undefined (ativando o withDefaults!)
+      data: service.value?.sections[sectionKey]
+    }
+  })
 })
 </script>
 
@@ -75,7 +93,5 @@ const sections = computed(() => {
       :key="section.type"
       :section="section.data"
     />
-
-    <SectionFinalCta />
   </div>
 </template>

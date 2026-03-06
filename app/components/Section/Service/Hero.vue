@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { HeroSection } from '@/types/service'
+import type { ServiceHeroSection } from '@/types/service'
 
 const props = defineProps<{
-  section: HeroSection
+  section: ServiceHeroSection
 }>()
 
 // Procura por "Dor de Cabeça" e envolve em um span laranja
@@ -51,7 +51,7 @@ const formattedTitle = computed(() => {
         />
 
         <p class="text-section-subtitle text-lg mb-8 max-w-lg">
-          {{ props.section.subtitle }}
+          {{ section.description }}
         </p>
 
         <ul class="space-y-3 mb-10">

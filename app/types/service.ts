@@ -1,6 +1,5 @@
-/**
- * Meta information for SEO
- */
+import type { BaseSection, WorkGallerySection, ProcessSection, FinalCtaSection, FAQSection, WhyChooseUsSection } from './sections'
+
 export interface ServiceMeta {
   title: string
   description: string
@@ -9,50 +8,19 @@ export interface ServiceMeta {
   breadcrumbLabel: string
 }
 
-/**
- * Hero section content
- */
-export interface HeroSection {
-  title: string
-  subtitle: string
+export interface ServiceHeroSection extends BaseSection {
   image: string
 }
 
-/**
- * What we do - differential/feature
- */
-export interface Differential {
-  icon: string
-  title: string
-  description: string
-}
-
-/**
- * What we do section
- */
-export interface WhatWeDoSection {
-  differentials: Differential[]
-}
-
-/**
- * Partner information
- */
-export interface Partner {
-  name: string
-  logo: string
-}
 export interface Tag {
   icon: string
   text: string
 }
 
-/**
- * Partner section
- */
-export interface PartnerSection {
+export interface PartnerSection extends BaseSection {
   partnerName: string
   logo: string
-  subtitle: string
+  description: string
   tags: Tag[]
   cta: string
   footerInfo: {
@@ -62,80 +30,29 @@ export interface PartnerSection {
   coverImage: string
 }
 
-/**
- * Work gallery section
- */
-export interface WorkGallerySection {
-  filters: string[]
+export interface ServicePartnerSection extends BaseSection {
+  partnerName: string
+  logo: string
+  tags: string[]
+  cta: string
+  footerInfo: { usage: string, guarantee: string }
 }
 
-/**
- * Process step
- */
-export interface ProcessStep {
-  step: number
-  title: string
-  description: string
-  icon: string
-}
-
-/**
- * Process section
- */
-export interface ProcessSection {
-  steps: ProcessStep[]
-}
-
-/**
- * Professionals section
- */
-export interface ProfessionalsSection {
-  title: string
-  subtitle: string
-}
-
-/**
- * FAQ Question
- */
-export interface FAQQuestion {
-  question: string
-  answer: string
-}
-
-/**
- * FAQ section
- */
-export interface FAQSection {
-  title: string
-  questions: FAQQuestion[]
-}
-
-/**
- * All sections combined
- */
 export interface ServiceSections {
-  hero: HeroSection
-  whatWeDo: WhatWeDoSection
+  hero: ServiceHeroSection
   partner: PartnerSection
   workGallery: WorkGallerySection
   process: ProcessSection
-  professionals: ProfessionalsSection
-  faq: FAQSection
+  professionals: BaseSection
+  whyChooseUs?: WhyChooseUsSection
+  faq?: FAQSection
+  testimonials?: BaseSection
+  finalCta?: FinalCtaSection
 }
 
-/**
- * Complete Service
- */
 export interface Service {
   meta: ServiceMeta
   sections: ServiceSections
-}
-
-/**
- * Services data (key-value map)
- */
-export interface ServicesData {
-  [key: string]: Service
 }
 
 export type SectionKey = keyof ServiceSections
