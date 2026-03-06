@@ -1,119 +1,63 @@
-<template>
-  <div>
-    <div v-if="service && !loading">
-      <!-- Meta tags dinâmicas -->
-      <Head>
-        <title>{{ service.meta.title }}</title>
-        <Meta
-          name="description"
-          :content="service.meta.description" />
-        <Meta
-          name="keywords"
-          :content="service.meta.keywords" />
-        <Meta
-          property="og:title"
-          :content="service.meta.title" />
-        <Meta
-          property="og:description"
-          :content="service.meta.description" />
-        <Meta
-          property="og:image"
-          :content="service.meta.ogImage" />
-      </Head>
-
-      <service-hero-section
-        :title="service.sections.hero.title"
-        :subtitle="service.sections.hero.subtitle"
-        :image="service.sections.hero.image"
-      />
-      <service-partner-showcase-section
-        :partner-name="service.sections.partner.partnerName"
-        :logo="service.sections.partner.logo"
-        :subtitle="service.sections.partner.subtitle"
-        :tags="service.sections.partner.tags"
-        :cta="service.sections.partner.cta"
-        :footer-info="service.sections.partner.footerInfo"
-        :cover-image="service.sections.partner.coverImage"
-      />
-      <WorksGallerySection />
-      <OurProcessSection />
-      <ProfessionalsShowcase />
-      <ClientsFeedbackSection />
-      <WhyChooseUsSection />
-      <FaqSection />
-      <FinalCtaSection />
-    </div>
-
-    <div v-else-if="!loading && !service">
-      <NotFound />
-    </div>
-
-    <!-- Loading -->
-    <div
-      v-else
-      class="flex items-center justify-center min-h-screen">
-      <div class="animate-spin">
-        <Icon
-          name="mdi:loading"
-          size="48"
-          class="text-orange-500" />
-      </div>
-    </div>
-  </div>
-</template>
-
 <script setup lang="ts">
-import { computed, ref, onMounted } from 'vue'
-import type { Service } from '~/types/service'
+import type { Service, SectionKey } from '~/types/service'
+
+import {
+  SectionServiceHero,
+  SectionServicePartnerShowcase,
+  SectionWorksGallery,
+  SectionOurProcess,
+  SectionProfessionals,
+  SectionFaq,
+  SectionServiceWhatWeDo
+} from '#components'
+
 import servicesData from '~/data/services.json'
 
 const route = useRoute()
-const slug = route.params.slug as string
 
-// Estado com tipagem
-const service = ref<Service | null>(null)
-const loading = ref(true)
+const { data: service } = await useAsyncData<Service | null>(
+  `service-${route.params.slug}`,
+  async () => {
+    const slug = route.params.slug as string
+    const key = slug.charAt(0).toUpperCase() + slug.slice(1)
 
-/**
- * Buscar serviço do JSON
- * Capitaliza slug: "pintor" → "Pintor"
- */
-const loadService = () => {
-  loading.value = true
-
-  try {
-    // Capitalizar primeiro caractere
-    const serviceKey = slug.charAt(0).toUpperCase() + slug.slice(1)
-
-    // Buscar em services.json
-    const foundService = (servicesData as Record<string, Service>)[serviceKey]
-
-    if (foundService) {
-      service.value = foundService
-    } else {
-      service.value = null
-    }
-  } catch (error) {
-    console.error('Erro ao carregar serviço:', error)
-    service.value = null
-  } finally {
-    loading.value = false
+    return (servicesData as Record<string, Service>)[key] ?? null
   }
+)
+
+if (!service.value) {
+  throw createError({ statusCode: 404 })
 }
 
-// Lifecycle
-onMounted(() => {
-  loadService()
-})
+const sectionComponents: Record<SectionKey, Component> = {
+  hero: SectionServiceHero,
+  whatWeDo: SectionServiceWhatWeDo,
+  partner: SectionServicePartnerShowcase,
+  workGallery: SectionWorksGallery,
+  process: SectionOurProcess,
+  professionals: SectionProfessionals,
+  faq: SectionFaq
+}
 
-// Tipagem
-useHead({
-  title: computed(() => service.value?.meta.title || 'Serviço'),
-  meta: computed(() => [
-    {
-      name: 'description',
-      content: service.value?.meta.description || ''
-    }
-  ])
+const sections = computed(() => {
+  if (!service.value) return []
+
+  return Object.entries(service.value.sections).map(([key, value]) => ({
+    type: key as SectionKey,
+    data: value
+  }))
 })
 </script>
+
+<template>
+  <div>
+    <component
+      :is="sectionComponents[section.type] || 'div' "
+      v-for="section in sections"
+      :key="section.type"
+      :section="section.data"
+    />
+
+    <SectionFinalCta />
+  </div>
+</template>

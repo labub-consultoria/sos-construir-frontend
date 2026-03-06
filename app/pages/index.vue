@@ -1,18 +1,13 @@
-<script setup lang="ts">
-</script>
-
 <template>
   <div>
-    <HeroSection />
-    <ValidationSection />
-    <ServicesCategoriesSection />
-    <PartnersShowcase />
-    <WhyChooseUsSection />
-    <OurProcessSection />
-    <ProfessionalsShowcase />
-    <WorksGallerySection />
-    <ClientsFeedbackSection />
-    <BlogPostsSection />
-    <FinalCtaSection />
+    <section-hero />
+    <section-validation />
+    <section-services-categories />
+    <section-why-choose-us />
+    <section-our-process />
+    <section-works-gallery />
+    <section-clients-feedback />
+    <section-blog-posts />
+    <section-final-cta />
   </div>
 </template>

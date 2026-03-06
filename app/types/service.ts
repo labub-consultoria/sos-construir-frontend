@@ -137,3 +137,5 @@ export interface Service {
 export interface ServicesData {
   [key: string]: Service
 }
+
+export type SectionKey = keyof ServiceSections

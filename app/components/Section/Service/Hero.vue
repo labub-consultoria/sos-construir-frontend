@@ -1,16 +1,15 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import type { HeroSection } from '@/types/service'
 
-const props = defineProps({
-  title: { type: String, required: true },
-  subtitle: { type: String, required: true },
-  image: { type: String, required: true }
-})
+const props = defineProps<{
+  section: HeroSection
+}>()
 
 // Procura por "Dor de Cabeça" e envolve em um span laranja
 const formattedTitle = computed(() => {
-  if (!props.title) return ''
-  return props.title.replace(
+  if (!props.section.title) return ''
+  return props.section.title.replace(
     /(Dor de Cabeça)/gi,
     '<span class="text-orange-500">$1</span>'
   )
@@ -21,7 +20,7 @@ const formattedTitle = computed(() => {
   <section class="relative w-full min-h-[600px] flex items-center bg-white overflow-hidden">
     <div class="absolute inset-0 z-0 flex justify-end">
       <img
-        :src="image"
+        :src="props.section.image"
         alt="Profissional trabalhando"
         class="w-full md:w-3/4 lg:w-2/3 h-full object-cover object-right"
       />
@@ -46,7 +45,7 @@ const formattedTitle = computed(() => {
         ></h1>
 
         <p class="text-section-subtitle text-lg mb-8 max-w-lg">
-          {{ subtitle }}
+          {{ props.section.subtitle }}
         </p>
 
         <ul class="space-y-3 mb-10">
