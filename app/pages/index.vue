@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import type { ProcessSection } from '@/types/sections'
+import type { ProcessSection, WorkGallerySection } from '@/types/sections'
 
 const process: ProcessSection = {
   steps: [
@@ -33,6 +33,30 @@ const process: ProcessSection = {
     }
   ]
 }
+const worksGallery: WorkGallerySection = {
+  filters: [
+    {
+      label: 'Todos os Projetos',
+      slug: 'todos',
+      count: 600
+    },
+    {
+      label: 'Construções',
+      slug: 'construcoes',
+      count: 100
+    },
+    {
+      label: 'Reformas',
+      slug: 'reformas',
+      count: 200
+    },
+    {
+      label: 'Piscinas',
+      slug: 'piscinas',
+      count: 70
+    }
+  ]
+}
 </script>
 
 <template>
@@ -40,18 +64,39 @@ const process: ProcessSection = {
     <section-hero />
     <section-validation />
     <section-services-categories />
-    <section-why-choose-us
+    <section-partners />
+    <section-why-choose-us />
+    <section-our-process
       :section="{
+        ...process,
+        bgSection: 'bg-section-bg-1'
+      }"
+    />
+    <section-professionals
+      :section="{
+        title: 'Nossos Profissionais Especializados',
+        description: 'Escolha entre mais de 100 profissionais certificados.',
         bgSection: 'bg-section-bg-2'
       }"
     />
-    <section-our-process
-      :section="process"
-      :bg-section="'bg-section-bg-1'"
+    <section-works-gallery
+      :section="{
+        ...worksGallery,
+        bgSection: 'bg-section-bg-1'
+      }"
     />
-    <!-- <section-works-gallery /> -->
-    <section-testimonials />
-    <section-blog-posts />
+    <section-testimonials
+      :section="{
+        title: 'Clientes que confiam na SOS',
+        bgSection: 'bg-section-bg-2'
+      }"
+    />
+    <section-blog
+      :section="{
+        title: 'Dicas e Novidades de Construção',
+        bgSection: 'bg-section-bg-1'
+      }"
+    />
     <section-final-cta />
   </div>
 </template>

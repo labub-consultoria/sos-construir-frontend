@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import WorksGalleryCard from '../WorksGalleryCard.vue'
-import type { ProjectWork } from '../WorksGalleryCard.vue'
+import type { ProjectWork } from '~/types/projectWork'
 import type { WorkGallerySection } from '~/types/sections'
 
 const props = defineProps<{
@@ -22,27 +22,6 @@ const loading = ref(true)
 // Estado do clique no Mobile
 const activeCardId = ref<number | string | null>(null)
 
-// Referência e lógica do Carrossel
-const carouselRef = ref<HTMLElement | null>(null)
-let autoPlayInterval: ReturnType<typeof setInterval>
-
-const startAutoPlay = () => {
-  clearInterval(autoPlayInterval)
-  autoPlayInterval = setInterval(() => {
-    // Se não existir carrossel OU se tiver um card aberto lendo, pausa o carrossel!
-    if (!carouselRef.value || activeCardId.value !== null) return
-
-    const { scrollLeft, scrollWidth, clientWidth } = carouselRef.value
-    if (scrollLeft + clientWidth >= scrollWidth - 20) {
-      carouselRef.value.scrollTo({ left: 0, behavior: 'smooth' })
-    } else {
-      carouselRef.value.scrollBy({ left: 300, behavior: 'smooth' })
-    }
-  }, 5000)
-}
-
-const pauseAutoPlay = () => clearInterval(autoPlayInterval)
-
 // Função que simula a chamada da API
 const fetchProjectsFromApi = async () => {
   loading.value = true
@@ -59,13 +38,16 @@ const fetchProjectsFromApi = async () => {
     { id: 8, type: 'classic', imageUrl: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop', aspectRatio: '2/3' }
   ]
   loading.value = false
-  startAutoPlay()
 }
 
 onMounted(() => fetchProjectsFromApi())
-onUnmounted(() => pauseAutoPlay())
 
 const filteredProjects = computed(() => {
+  if (activeFilter.value === 'todos') return projects.value
+  return projects.value.slice(1)
+})
+
+const reversedFilteredProjects = computed(() => {
   if (activeFilter.value === 'todos') return projects.value
   return projects.value.slice(1)
 })
@@ -139,35 +121,46 @@ const filteredProjects = computed(() => {
         <div class="lg:col-span-8 relative">
           <div
             v-if="loading"
-            class="grid grid-cols-2 grid-rows-2 gap-4"
+            class="grid grid-cols-3 grid-rows-2 gap-6 h-full"
           >
-            <div
-              v-for="i in 4"
+            <USkeleton
+              v-for="i in 6"
               :key="i"
-              class="w-full h-[300px] bg-gray-100 rounded-2xl animate-pulse"
+              class="w-full h-full rounded-2xl basis-1/3"
             />
           </div>
-
-          <div
-            v-else
-            ref="carouselRef"
-            class="grid grid-rows-2 grid-flow-col gap-4 lg:gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden auto-cols-[240px] md:auto-cols-[260px] lg:auto-cols-[260px]"
-            @mouseenter="pauseAutoPlay"
-            @mouseleave="startAutoPlay"
-            @touchstart="pauseAutoPlay"
-            @touchend="startAutoPlay"
-          >
-            <div
-              v-for="project in filteredProjects"
-              :key="project.id"
-              class="snap-center w-full"
-              @click.stop="activeCardId = activeCardId === project.id ? null : project.id"
+          <div class="flex flex-col gap-5">
+            <UCarousel
+              v-slot="{ item }"
+              :prev="{ color: 'primary' }"
+              :next="{ variant: 'solid' }"
+              :items="filteredProjects"
+              :ui="{
+                item: 'basis-1/3'
+              }"
+              class=""
             >
               <WorksGalleryCard
-                :work="project"
-                :is-active="activeCardId === project.id"
+                :work="item"
+                :is-active="activeCardId === item.id"
               />
-            </div>
+            </UCarousel>
+
+            <UCarousel
+              v-slot="{ item }"
+              :prev="{ color: 'primary' }"
+              :next="{ variant: 'solid' }"
+              :items="reversedFilteredProjects"
+              :ui="{
+                item: 'basis-1/3'
+              }"
+              class=""
+            >
+              <WorksGalleryCard
+                :work="item"
+                :is-active="activeCardId === item.id"
+              />
+            </UCarousel>
           </div>
         </div>
 

@@ -5,7 +5,7 @@ const _props = withDefaults(defineProps<{
   section?: WhyChooseUsSection
 }>(), {
   section: () => ({
-    title: 'Por Que Escolher a SOS Construir',
+    title: 'Sua Obra sem Dor de Cabeça',
     description: 'Mais de 10 anos transformando casas em Foz do Iguaçu com qualidade, confiança e zero dor de cabeça.',
     stats: [
       { icon: 'mdi:calendar-blank-outline', text: '10+ anos' },
@@ -35,7 +35,8 @@ const _props = withDefaults(defineProps<{
       }
     ],
     ctaText: 'Solicitar Orçamento Sem Compromisso',
-    ctaLink: '#'
+    ctaLink: '#',
+    bgSection: 'bg-section-bg-2'
   })
 })
 </script>
@@ -47,6 +48,9 @@ const _props = withDefaults(defineProps<{
   >
     <div class="container mx-auto px-4 max-w-7xl">
       <div class="text-center mb-16 flex flex-col items-center">
+        <span class="text-orange-500 font-bold text-xs tracking-widest uppercase mb-3">
+          Por Que Escolher a SOS
+        </span>
         <h2 class="title-section">
           {{ section.title }}
         </h2>

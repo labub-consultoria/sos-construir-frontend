@@ -1,20 +1,10 @@
 <script setup lang="ts">
 import WorksGalleryCardBeforeAfter from './WorksGalleryCardBeforeAfter.vue'
-
-export interface ProjectWork {
-  id: number | string
-  type: 'classic' | 'before-after'
-  imageUrl: string
-  beforeImageUrl?: string
-  aspectRatio?: string
-  title?: string
-  author?: string
-  tag?: string
-}
+import type { ProjectWork } from '~/types/projectWork'
 
 const _props = defineProps<{
   work: ProjectWork
-  isActive?: boolean // <-- NOVA PROP
+  isActive?: boolean
 }>()
 </script>
 

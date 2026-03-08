@@ -3,6 +3,10 @@ export interface BaseSection {
   description?: string
   bgSection?: string
 }
+export interface Tag {
+  icon: string
+  text: string
+}
 
 export interface FAQQuestion {
   question: string
@@ -52,4 +56,19 @@ export interface FinalCtaSection extends BaseSection {
   buttonIcon?: string
   buttonText?: string
   buttonLink?: string
+}
+
+interface Partner {
+  id: number
+  name: string
+  logo: string
+  link: string
+}
+
+export interface PartnersSection extends BaseSection {
+  kicker?: string
+  ctaText?: string
+  ctaLink?: string
+  tags: Tag[]
+  partners: Partner[]
 }

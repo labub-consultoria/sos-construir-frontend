@@ -13,6 +13,9 @@ defineProps<{
   >
     <div class="container mx-auto px-4 max-w-6xl">
       <div class="text-center mb-16 md:mb-20">
+        <span class="text-orange-500 font-bold text-xs tracking-widest uppercase mb-3">
+          DO INÍCIO AO FIM
+        </span>
         <h2 class="title-section">
           {{ section.title || 'Como funciona nosso processo' }}
         </h2>
@@ -42,7 +45,10 @@ defineProps<{
             />
           </div>
 
-          <div class="relative z-10 py-2 px-2 w-full">
+          <div
+            class="relative z-10 py-2 px-2 w-full"
+            :class="section.bgSection || 'bg-white'"
+          >
             <h3 class="text-lg font-bold text-blue-500 mb-3">
               {{ step.title }}
             </h3>

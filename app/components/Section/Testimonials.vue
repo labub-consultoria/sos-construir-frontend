@@ -3,9 +3,13 @@ import { ref, onMounted } from 'vue'
 import type Testimonial from '~/types/testimonial'
 import type { BaseSection } from '~/types/sections'
 
-defineProps<{
+const props = withDefaults(defineProps<{
   section?: BaseSection
-}>()
+}>(), {
+  section: () => ({
+    title: 'Clientes que confiam na SOS'
+  })
+})
 
 const testimonials = ref<Testimonial[]>([])
 const loading = ref(true)
@@ -62,9 +66,12 @@ onMounted(() => {
     class="py-16 md:py-10 w-full overflow-hidden"
     :class="section?.bgSection || 'white'"
   >
-    <div class="container mx-auto px-4 mb-12">
-      <h2 class="title-section text-center">
-        {{ section?.title || 'O Que Dizem Nossos Clientes' }}
+    <div class="container mx-auto px-4 mb-12 text-center">
+      <span class="text-orange-500 font-bold text-xs tracking-widest uppercase mb-3">
+        RESULTADOS QUE FALAM POR SI
+      </span>
+      <h2 class="title-section">
+        {{ props.section.title }}
       </h2>
     </div>
 
@@ -77,15 +84,14 @@ onMounted(() => {
         :key="i"
         class="w-[300px] md:w-[400px] shrink-0 bg-white border border-gray-100 rounded-2xl p-8 h-64 animate-pulse flex flex-col"
       >
-        <div class="w-8 h-8 bg-gray-200 rounded mb-4" />
         <div class="space-y-3 mb-8">
-          <div class="h-4 bg-gray-200 rounded w-full" />
-          <div class="h-4 bg-gray-200 rounded w-5/6" />
-          <div class="h-4 bg-gray-200 rounded w-4/6" />
+          <USkeleton class="h-4 w-full" />
+          <USkeleton class="h-4 w-full" />
+          <USkeleton class="h-4 w-5/6" />
         </div>
         <div class="mt-auto flex flex-col items-center gap-2">
-          <div class="h-4 bg-gray-200 rounded w-1/2" />
-          <div class="h-3 bg-gray-200 rounded w-1/3" />
+          <USkeleton class="h-4 w-1/3" />
+          <USkeleton class="h-4 w-1/4" />
         </div>
       </div>
     </div>
@@ -94,45 +100,26 @@ onMounted(() => {
       v-else
       class="relative w-full group"
     >
-      <div class="marquee-track flex">
-        <div class="flex gap-6 pr-6">
+      <div>
+        <UCarousel
+          v-slot="{ item }"
+          loop
+          :auto-scroll="{
+            speed: 1,
+            stopOnMouseEnter: true,
+            stopOnInteraction: false
+          }"
+          :items="testimonials"
+          :ui="{
+            item: 'basis-1/4'
+          }"
+        >
           <TestimonialCard
-            v-for="testimonial in testimonials"
-            :key="'first-' + testimonial.id"
-            :testimonial="testimonial"
-            class="w-[300px] md:w-[400px] shrink-0"
+            :testimonial="item"
+            class="my-1"
           />
-        </div>
-
-        <div class="flex gap-6 pr-6">
-          <TestimonialCard
-            v-for="testimonial in testimonials"
-            :key="'second-' + testimonial.id"
-            :testimonial="testimonial"
-            class="w-[300px] md:w-[400px] shrink-0"
-          />
-        </div>
+        </UCarousel>
       </div>
     </div>
   </section>
 </template>
-
-<style scoped>
-.marquee-track {
-  width: max-content;
-  animation: scroll-left 40s linear infinite;
-}
-
-.marquee-track:hover {
-  animation-play-state: paused;
-}
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-</style>

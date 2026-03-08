@@ -19,6 +19,9 @@ export default defineAppConfig({
           class: 'ring-primary-500'
         }
       ]
+    },
+    skeleton: {
+      base: 'animate-pulse rounded-md bg-default/10'
     }
   }
 })

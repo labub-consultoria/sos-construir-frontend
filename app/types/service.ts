@@ -1,4 +1,4 @@
-import type { BaseSection, WorkGallerySection, ProcessSection, FinalCtaSection, FAQSection, WhyChooseUsSection } from './sections'
+import type { BaseSection, WorkGallerySection, ProcessSection, FinalCtaSection, FAQSection, WhyChooseUsSection, Tag } from './sections'
 
 export interface ServiceMeta {
   title: string
@@ -10,11 +10,6 @@ export interface ServiceMeta {
 
 export interface ServiceHeroSection extends BaseSection {
   image: string
-}
-
-export interface Tag {
-  icon: string
-  text: string
 }
 
 export interface PartnerSection extends BaseSection {
