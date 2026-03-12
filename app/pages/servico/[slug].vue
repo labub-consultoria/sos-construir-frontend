@@ -10,7 +10,7 @@ import {
   SectionProfessionals,
   SectionFaq,
   SectionFinalCta,
-  SectionWhyChooseUs
+  SectionWhyChooseUs,
 } from '#components'
 
 import servicesData from '~/data/servicesPages.json'
@@ -46,7 +46,7 @@ useSeoMeta({
   twitterTitle: service.value.meta.title,
   twitterDescription: service.value.meta.description,
   twitterImage: service.value.meta.ogImage,
-  twitterCard: 'summary_large_image'
+  twitterCard: 'summary_large_image',
 })
 
 const layoutOrder: SectionKey[] = [
@@ -58,7 +58,7 @@ const layoutOrder: SectionKey[] = [
   'workGallery',
   'whyChooseUs',
   'faq',
-  'finalCta'
+  'finalCta',
 ]
 const sectionComponents: Record<SectionKey, Component> = {
   hero: SectionServiceHero,
@@ -69,7 +69,7 @@ const sectionComponents: Record<SectionKey, Component> = {
   whyChooseUs: SectionWhyChooseUs,
   faq: SectionFaq,
   finalCta: SectionFinalCta,
-  testimonials: SectionTestimonials
+  testimonials: SectionTestimonials,
 }
 
 const sections = computed(() => {
@@ -84,13 +84,9 @@ const sections = computed(() => {
         ? {
             ...data,
             bgSection:
-              index === 0
-                ? undefined
-                : index % 2 === 0
-                  ? 'bg-section-bg-1'
-                  : 'bg-section-bg-2'
+              index === 0 ? undefined : index % 2 === 0 ? 'bg-section-bg-1' : 'bg-section-bg-2',
           }
-        : undefined
+        : undefined,
     }
   })
 })
@@ -99,7 +95,7 @@ const sections = computed(() => {
 <template>
   <div>
     <component
-      :is="sectionComponents[section.type] || 'div' "
+      :is="sectionComponents[section.type] || 'div'"
       v-for="section in sections"
       :key="section.type"
       :section="section.data"

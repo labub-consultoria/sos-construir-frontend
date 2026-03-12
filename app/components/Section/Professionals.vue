@@ -14,7 +14,7 @@ const loading = ref(true)
 const fetchProfessionalsFromApi = async () => {
   loading.value = true
   // Simulando
-  await new Promise(resolve => setTimeout(resolve, 1000))
+  await new Promise((resolve) => setTimeout(resolve, 1000))
 
   professionals.value = [
     {
@@ -29,14 +29,14 @@ const fetchProfessionalsFromApi = async () => {
       isTopRated: true,
       verifications: [
         { text: 'Profissional Verificado SOS', type: 'success' },
-        { text: 'Garantia Integral SOS', type: 'warning' }
+        { text: 'Garantia Integral SOS', type: 'warning' },
       ],
       specialties: ['Pintura Interna', 'Grafitti', 'Impermeabilização'],
       portfolio: [
         'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=150&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=150&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1604014237800-1c9102c219da?q=80&w=150&auto=format&fit=crop'
-      ]
+        'https://images.unsplash.com/photo-1604014237800-1c9102c219da?q=80&w=150&auto=format&fit=crop',
+      ],
     },
     {
       id: 2,
@@ -50,15 +50,15 @@ const fetchProfessionalsFromApi = async () => {
       isTopRated: false,
       verifications: [
         { text: 'Profissional Verificado SOS', type: 'success' },
-        { text: 'Garantia Integral SOS', type: 'warning' }
+        { text: 'Garantia Integral SOS', type: 'warning' },
       ],
       specialties: ['Pintura Residencial', 'Texturas', 'Massa Corrida'],
       portfolio: [
         'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=150&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=150&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1604014237800-1c9102c219da?q=80&w=150&auto=format&fit=crop'
-      ]
-    }
+        'https://images.unsplash.com/photo-1604014237800-1c9102c219da?q=80&w=150&auto=format&fit=crop',
+      ],
+    },
   ]
   loading.value = false
 }
@@ -70,10 +70,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section
-    class="py-16 w-full"
-    :class="props.section?.bgSection"
-  >
+  <section class="py-16 w-full" :class="props.section?.bgSection">
     <div class="container mx-auto px-4 max-w-7xl">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div class="lg:col-span-4 flex flex-col">
@@ -84,25 +81,37 @@ onMounted(() => {
             {{ props.section.description }}
           </p>
           <div class="hidden lg:block">
-            <div class=" rounded-xl p-6 mb-8 border border-gray-100">
+            <div class="rounded-xl p-6 mb-8 border border-gray-100">
               <ul class="space-y-4">
                 <li class="flex items-center gap-3">
-                  <div class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center">
+                  <div
+                    class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center"
+                  >
                     <Icon name="mdi:check-bold" />
                   </div>
-                  <span class="font-medium text-blue-700 text-sm">+500 Profissionais Disponíveis</span>
+                  <span class="font-medium text-blue-700 text-sm"
+                    >+500 Profissionais Disponíveis</span
+                  >
                 </li>
                 <li class="flex items-center gap-3">
-                  <div class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center">
+                  <div
+                    class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center"
+                  >
                     <Icon name="mdi:shield-check-outline" />
                   </div>
-                  <span class="font-medium text-blue-700 text-sm">Garantia Integral de Qualidade</span>
+                  <span class="font-medium text-blue-700 text-sm"
+                    >Garantia Integral de Qualidade</span
+                  >
                 </li>
                 <li class="flex items-center gap-3">
-                  <div class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center">
+                  <div
+                    class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center"
+                  >
                     <Icon name="mdi:star" />
                   </div>
-                  <span class="font-medium text-blue-700 text-sm">Avaliações Reais de Clientes</span>
+                  <span class="font-medium text-blue-700 text-sm"
+                    >Avaliações Reais de Clientes</span
+                  >
                 </li>
               </ul>
             </div>
@@ -115,20 +124,14 @@ onMounted(() => {
             >
               Explorar todos os profissionais
               <template #trailing>
-                <Icon
-                  name="mdi:arrow-right"
-                  class="text-xl"
-                />
+                <Icon name="mdi:arrow-right" class="text-xl" />
               </template>
             </UButton>
           </div>
         </div>
 
         <div class="lg:col-span-8 flex flex-col gap-6">
-          <div
-            v-if="loading"
-            class="space-y-6"
-          >
+          <div v-if="loading" class="space-y-6">
             <div
               v-for="i in 2"
               :key="i"
@@ -136,7 +139,7 @@ onMounted(() => {
             >
               <USkeleton class="w-16 h-16 rounded-full mr-4" />
               <div class="flex-1 space-y-4 py-1">
-                <USkeleton class="h-4  rounded w-3/4" />
+                <USkeleton class="h-4 rounded w-3/4" />
                 <div class="space-y-2">
                   <USkeleton class="h-4 rounded" />
                   <USkeleton class="h-4 rounded w-5/6" />
@@ -146,30 +149,36 @@ onMounted(() => {
           </div>
 
           <template v-else>
-            <ProfessionalCard
-              v-for="prof in professionals"
-              :key="prof.id"
-              :professional="prof"
-            />
+            <ProfessionalCard v-for="prof in professionals" :key="prof.id" :professional="prof" />
           </template>
         </div>
         <div class="block lg:hidden">
-          <div class=" rounded-xl p-6 mb-8 border border-gray-100">
+          <div class="rounded-xl p-6 mb-8 border border-gray-100">
             <ul class="space-y-4">
               <li class="flex items-center gap-3">
-                <div class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center">
+                <div
+                  class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center"
+                >
                   <Icon name="mdi:check-bold" />
                 </div>
-                <span class="font-medium text-blue-700 text-sm">+500 Profissionais Disponíveis</span>
+                <span class="font-medium text-blue-700 text-sm"
+                  >+500 Profissionais Disponíveis</span
+                >
               </li>
               <li class="flex items-center gap-3">
-                <div class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center">
+                <div
+                  class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center"
+                >
                   <Icon name="mdi:shield-check-outline" />
                 </div>
-                <span class="font-medium text-blue-700 text-sm">Garantia Integral de Qualidade</span>
+                <span class="font-medium text-blue-700 text-sm"
+                  >Garantia Integral de Qualidade</span
+                >
               </li>
               <li class="flex items-center gap-3">
-                <div class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center">
+                <div
+                  class="bg-orange-500 p-1 w-6 h-6 rounded-full text-white flex items-center justify-center"
+                >
                   <Icon name="mdi:star" />
                 </div>
                 <span class="font-medium text-blue-700 text-sm">Avaliações Reais de Clientes</span>
@@ -185,10 +194,7 @@ onMounted(() => {
           >
             Explorar todos os profissionais
             <template #trailing>
-              <Icon
-                name="mdi:arrow-right"
-                class="text-xl"
-              />
+              <Icon name="mdi:arrow-right" class="text-xl" />
             </template>
           </UButton>
         </div>

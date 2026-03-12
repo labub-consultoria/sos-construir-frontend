@@ -24,21 +24,15 @@ const scrollToTop = () => {
 }
 
 // TODO: MUDAR ESSAS CATEGORIAS
-const categories = [
-  'Todos', 'Construção', 'Instalações Elétricas', 'Hidráulica',
-  'Acabamento', 'Piscinas', 'Paisagismo', 'Energia Solar',
-  'Vidraçaria', 'Marcenaria'
-]
+const categories = [...new Set(services.map((s) => s.category))]
 
 const finalCtaSection: FinalCtaSection = {
   title: 'Não Encontrou o Serviço que Procura?',
-  description: 'Temos ainda mais soluções customizadas! Entre em contato para conhecer todas as nossas opções disponíveis.'
+  description:
+    'Temos ainda mais soluções customizadas! Entre em contato para conhecer todas as nossas opções disponíveis.',
 }
 
-const items = ref<BreadcrumbItem[]>([
-  { label: 'Home', to: '/' },
-  { label: 'Serviços' }
-])
+const items = ref<BreadcrumbItem[]>([{ label: 'Home', to: '/' }, { label: 'Serviços' }])
 
 // Lógica de Filtro (Agora incluindo a Pesquisa)
 const filteredServices = computed(() => {
@@ -47,17 +41,18 @@ const filteredServices = computed(() => {
   // 1. Filtra pela Categoria
   if (selectedCategory.value !== 'Todos') {
     result = result.filter(
-      service => service.category.toLowerCase() === selectedCategory.value.toLowerCase()
+      (service) => service.category.toLowerCase() === selectedCategory.value.toLowerCase()
     )
   }
 
   // 2. Filtra pela Pesquisa de texto (Nome, Descrição ou Keywords)
   if (searchQuery.value.trim()) {
     const query = searchQuery.value.toLowerCase().trim()
-    result = result.filter(service =>
-      service.name.toLowerCase().includes(query)
-      || service.description.toLowerCase().includes(query)
-      || (service.keywords && service.keywords.some(k => k.toLowerCase().includes(query)))
+    result = result.filter(
+      (service) =>
+        service.name.toLowerCase().includes(query) ||
+        service.description.toLowerCase().includes(query) ||
+        (service.keywords && service.keywords.some((k) => k.toLowerCase().includes(query)))
     )
   }
 
@@ -71,7 +66,7 @@ const visibleServices = computed(() => {
 
 // Mapeando do formato do JSON para o formato do Componente
 const mappedCards = computed<SolutionCard[]>(() => {
-  return visibleServices.value.map(service => ({
+  return visibleServices.value.map((service) => ({
     id: service.id,
     type: 'image',
     size: service.size || 'medium',
@@ -79,7 +74,7 @@ const mappedCards = computed<SolutionCard[]>(() => {
     description: service.description,
     icon: service.icon,
     image: service.image,
-    link: `/servico/${service.slug}`
+    link: `/servico/${service.slug}`,
   }))
 })
 
@@ -118,12 +113,8 @@ useIntersectionObserver(
 
       <div class="mb-5 flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
-          <h1 class="title-section">
-            Explore Nossas Soluções
-          </h1>
-          <p class="text-gray-600 text-lg">
-            Tudo o que sua casa precisa, em um único lugar.
-          </p>
+          <h1 class="title-section">Explore Nossas Soluções</h1>
+          <p class="text-gray-600 text-lg">Tudo o que sua casa precisa, em um único lugar.</p>
         </div>
 
         <div class="w-full md:max-w-xs">
@@ -159,7 +150,7 @@ useIntersectionObserver(
           :class="[
             selectedCategory === item
               ? 'bg-orange-500 text-white shadow-md shadow-orange-500/20'
-              : 'bg-white text-gray-600 border border-gray-200 hover:border-orange-500 hover:text-orange-500'
+              : 'bg-white text-gray-600 border border-gray-200 hover:border-orange-500 hover:text-orange-500',
           ]"
           @click="setCategory(item)"
         >
@@ -172,35 +163,26 @@ useIntersectionObserver(
         class="py-20 text-center flex flex-col items-center justify-center"
       >
         <UIcon name="i-heroicons-magnifying-glass" class="text-gray-300 text-6xl mb-4" />
-        <h3 class="text-xl font-medium text-gray-900 mb-2">
-          Nenhum serviço encontrado
-        </h3>
-        <p class="text-gray-500">
-          Não encontramos nenhum resultado para "{{ searchQuery }}".
-        </p>
+        <h3 class="text-xl font-medium text-gray-900 mb-2">Nenhum serviço encontrado</h3>
+        <p class="text-gray-500">Não encontramos nenhum resultado para "{{ searchQuery }}".</p>
         <UButton
           class="mt-4"
           color="primary"
           variant="soft"
-          @click="searchQuery = ''; selectedCategory = 'Todos'"
+          @click="
+            searchQuery = ''
+            selectedCategory = 'Todos'
+          "
         >
           Limpar filtros
         </UButton>
       </div>
 
       <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <ServiceCard
-          v-for="card in mappedCards"
-          :key="card.id"
-          :card="card"
-          class="min-h-72"
-        />
+        <ServiceCard v-for="card in mappedCards" :key="card.id" :card="card" class="min-h-72" />
       </div>
 
-      <div
-        ref="loadMoreTrigger"
-        class="h-20 flex items-center justify-center mt-8"
-      >
+      <div ref="loadMoreTrigger" class="h-20 flex items-center justify-center mt-8">
         <UIcon
           v-if="visibleCount < filteredServices.length"
           name="i-heroicons-arrow-path"
@@ -209,16 +191,14 @@ useIntersectionObserver(
       </div>
     </UContainer>
 
-    <section-final-cta
-      :section="finalCtaSection"
-    />
+    <section-final-cta :section="finalCtaSection" />
 
     <Transition name="fade">
       <button
         v-if="showBackToTop"
-        @click="scrollToTop"
         class="fixed bottom-8 right-8 z-50 p-3 bg-orange-500 hover:bg-orange-600 text-white rounded-full shadow-lg transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-orange-500/50"
         aria-label="Voltar ao topo"
+        @click="scrollToTop"
       >
         <UIcon name="i-heroicons-arrow-up-20-solid" class="text-2xl block" />
       </button>
@@ -231,6 +211,7 @@ useIntersectionObserver(
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -239,8 +220,11 @@ useIntersectionObserver(
 /* Transição do botão flutuante */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
+
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;

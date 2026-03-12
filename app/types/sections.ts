@@ -33,7 +33,7 @@ export interface ReasonCard {
   description: string
 }
 export interface WhyChooseUsSection extends BaseSection {
-  stats?: { icon: string, text: string }[]
+  stats?: { icon: string; text: string }[]
   reasons?: ReasonCard[]
   ctaText?: string
   ctaLink?: string

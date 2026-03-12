@@ -83,18 +83,22 @@ onUnmounted(() => {
       :src="beforeImageUrl"
       alt="Projeto Antes"
       class="absolute inset-0 w-full h-full object-cover z-0"
-    >
+    />
 
     <img
       :src="afterImageUrl"
       alt="Projeto Depois"
       class="absolute inset-0 w-full h-full object-cover z-10 transition-all duration-75"
       :style="{ clipPath: `inset(0 0 0 ${sliderPercentage}%)` }"
+    />
+    <div
+      class="absolute bottom-4 left-4 z-20 bg-black text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded tracking-widest opacity-70"
     >
-    <div class="absolute bottom-4 left-4 z-20 bg-black text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded tracking-widest opacity-70">
       Antes
     </div>
-    <div class="absolute bottom-4 right-4 z-20 bg-black text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded tracking-widest opacity-70">
+    <div
+      class="absolute bottom-4 right-4 z-20 bg-black text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded tracking-widest opacity-70"
+    >
       Depois
     </div>
 
@@ -104,11 +108,10 @@ onUnmounted(() => {
     >
       <div class="absolute top-0 bottom-0 left-[-1px] w-[2px] bg-white opacity-80 shadow-md" />
 
-      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-orange-500 flex items-center justify-center shadow-lg border-2 border-white scale-100 group-hover:scale-110 transition-transform">
-        <Icon
-          name="mdi:chevron-left-right"
-          class="text-white text-xl"
-        />
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-orange-500 flex items-center justify-center shadow-lg border-2 border-white scale-100 group-hover:scale-110 transition-transform"
+      >
+        <Icon name="mdi:chevron-left-right" class="text-white text-xl" />
       </div>
     </div>
   </div>

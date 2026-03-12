@@ -14,7 +14,9 @@ defineProps<{
     class="relative rounded-2xl overflow-hidden group transition-all duration-300 md:max-h-[240px]"
     :class="[
       card.size === 'large' ? 'md:col-span-2' : 'md:col-span-1',
-      card.type === 'image' ? 'h-[280px] md:h-[240px]' : 'h-full md:min-h-[240px] bg-white border border-gray-100 shadow-sm hover:shadow-md'
+      card.type === 'image'
+        ? 'h-[280px] md:h-[240px]'
+        : 'h-full md:min-h-[240px] bg-white border border-gray-100 shadow-sm hover:shadow-md',
     ]"
   >
     <template v-if="card.type === 'image'">
@@ -25,13 +27,14 @@ defineProps<{
           loading="lazy"
           class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-95"
         />
-        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent z-10" />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent z-10"
+        />
         <template #header>
-          <div class="absolute z-20 w-12 h-12 rounded-xl flex items-center justify-center mb-6 transition-colors bg-black/30 backdrop-blur-md">
-            <Icon
-              :name="card.icon"
-              class="text-orange-500 text-2xl"
-            />
+          <div
+            class="absolute z-20 w-12 h-12 rounded-xl flex items-center justify-center mb-6 transition-colors bg-black/30 backdrop-blur-md"
+          >
+            <Icon :name="card.icon" class="text-orange-500 text-2xl" />
           </div>
         </template>
         <template #footer>
@@ -44,7 +47,7 @@ defineProps<{
             </p>
             <span class="text-orange-500 flex items-center pt-2">
               Saiba Mais
-              <Icon name="mdi:arrow-right"/>
+              <Icon name="mdi:arrow-right" />
             </span>
           </div>
         </template>
@@ -52,16 +55,12 @@ defineProps<{
     </template>
 
     <template v-else>
-      <UCard
-        variant="solid"
-        class="bg-white"
-      >
+      <UCard variant="solid" class="bg-white">
         <template #header>
-          <div class="w-12 h-12 rounded-xl bg-orange-50 flex items-center justify-center mb-3 group-hover:bg-orange-100 transition-colors">
-            <Icon
-              :name="card.icon"
-              class="text-orange-500 text-2xl"
-            />
+          <div
+            class="w-12 h-12 rounded-xl bg-orange-50 flex items-center justify-center mb-3 group-hover:bg-orange-100 transition-colors"
+          >
+            <Icon :name="card.icon" class="text-orange-500 text-2xl" />
           </div>
         </template>
         <template #footer>

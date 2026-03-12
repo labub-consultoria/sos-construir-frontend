@@ -13,9 +13,11 @@ const defaultSection: SolutionsSection = {
       type: 'image',
       size: 'large',
       title: 'Construção Civil & Reformas',
-      description: 'Do projeto estrutural ao acabamento final. Gerenciamento completo da sua obra residencial ou comercial.',
+      description:
+        'Do projeto estrutural ao acabamento final. Gerenciamento completo da sua obra residencial ou comercial.',
       icon: 'mdi:hard-hat',
-      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop'
+      image:
+        'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop',
     },
     {
       id: 2,
@@ -23,15 +25,15 @@ const defaultSection: SolutionsSection = {
       size: 'medium',
       title: 'Instalações Elétricas',
       description: 'Rede residencial, industrial e projetos de energia solar fotovoltaica.',
-      icon: 'mdi:lightning-bolt'
+      icon: 'mdi:lightning-bolt',
     },
     {
       id: 3,
       type: 'standard',
       size: 'medium',
       title: 'Hidráulica',
-      description: 'Instalação, manutenção, caça-vazamentos e limpeza de caixas d\'água.',
-      icon: 'mdi:water-outline'
+      description: "Instalação, manutenção, caça-vazamentos e limpeza de caixas d'água.",
+      icon: 'mdi:water-outline',
     },
     {
       id: 4,
@@ -40,7 +42,8 @@ const defaultSection: SolutionsSection = {
       title: 'Piscinas & Lazer',
       description: 'Construção, manutenção e tratamento de piscinas.',
       icon: 'mdi:water-polo',
-      image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=800&auto=format&fit=crop'
+      image:
+        'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=800&auto=format&fit=crop',
     },
     {
       id: 5,
@@ -48,10 +51,10 @@ const defaultSection: SolutionsSection = {
       size: 'medium',
       title: 'Pintura & Acabamento',
       description: 'Pintura interna, externa, texturas e efeitos decorativos.',
-      icon: 'mdi:format-paint'
-    }
+      icon: 'mdi:format-paint',
+    },
   ],
-  bgSection: 'bg-section-bg-2'
+  bgSection: 'bg-section-bg-2',
 }
 
 const props = defineProps<{
@@ -60,15 +63,12 @@ const props = defineProps<{
 
 const section = computed(() => ({
   ...defaultSection,
-  ...props.section
+  ...props.section,
 }))
 </script>
 
 <template>
-  <section
-    class="py-16 md:py-24 w-full"
-    :class="section.bgSection"
-  >
+  <section class="py-16 md:py-24 w-full" :class="section.bgSection">
     <div class="container mx-auto px-4 max-w-7xl">
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div>
@@ -93,19 +93,12 @@ const section = computed(() => ({
         >
           {{ section.ctaText }}
           <template #trailing>
-            <Icon
-              name="mdi:arrow-right"
-              class="text-lg"
-            />
+            <Icon name="mdi:arrow-right" class="text-lg" />
           </template>
         </UButton>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <ServiceCard
-          v-for="card in section.cards"
-          :key="card.id"
-          :card="card"
-        />
+        <ServiceCard v-for="card in section.cards" :key="card.id" :card="card" />
       </div>
       <div class="mt-8 flex md:hidden justify-center">
         <UButton
@@ -118,10 +111,7 @@ const section = computed(() => ({
         >
           {{ section.ctaText }}
           <template #trailing>
-            <Icon
-              name="mdi:arrow-right"
-              class="text-xl"
-            />
+            <Icon name="mdi:arrow-right" class="text-xl" />
           </template>
         </UButton>
       </div>

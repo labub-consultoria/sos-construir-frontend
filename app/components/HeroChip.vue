@@ -7,7 +7,9 @@ defineProps<{
 </script>
 
 <template>
-  <div class="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 rounded-full px-2 py-1 mb-4 shadow-sm">
+  <div
+    class="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 rounded-full px-2 py-1 mb-4 shadow-sm"
+  >
     <UAvatarGroup size="2xs">
       <UAvatar
         v-for="user in users"

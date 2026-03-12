@@ -24,21 +24,24 @@ const defaultSection = {
   badgeAvatars: [
     'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&h=64',
     'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=64&h=64',
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&h=64'
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&h=64',
   ],
   titleDark: 'Sua Obra Perfeita',
   titleOrange: 'Começa Aqui',
-  subtitle: 'Conectamos você aos melhores arquitetos, empreiteiros e fornecedores. Garantia de qualidade e pagamentos seguros.',
+  subtitle:
+    'Conectamos você aos melhores arquitetos, empreiteiros e fornecedores. Garantia de qualidade e pagamentos seguros.',
   searchPlaceholder: 'O que você procura? (ex: Pintor, Piso...)',
   popularTags: ['Pintura', 'Elétrica', 'Design'],
-  mainImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop', // Imagem de obra genérica
+  mainImage:
+    'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop', // Imagem de obra genérica
   floatingCard: {
     rating: 5,
     text: '"Excelente trabalho na reforma da minha cozinha!"',
     authorName: 'Ana S.',
-    authorAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&h=64'
+    authorAvatar:
+      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&h=64',
   },
-  bgSection: 'bg-[#FAFAFA]'
+  bgSection: 'bg-[#FAFAFA]',
 }
 const props = defineProps<{
   section?: Partial<HeroSectionProps>
@@ -46,25 +49,25 @@ const props = defineProps<{
 
 const section = computed(() => ({
   ...defaultSection,
-  ...props.section
+  ...props.section,
 }))
 
 const users = [
   {
     id: 2,
     name: 'Rodrigo Goes',
-    avatar: 'https://i.pravatar.cc/100?img=1'
+    avatar: 'https://i.pravatar.cc/100?img=1',
   },
   {
     id: 1,
     name: 'Ronaldo Silva',
-    avatar: 'https://i.pravatar.cc/100?img=2'
+    avatar: 'https://i.pravatar.cc/100?img=2',
   },
   {
     id: 3,
     name: 'Roger Guedes',
-    avatar: 'https://i.pravatar.cc/100?img=3'
-  }
+    avatar: 'https://i.pravatar.cc/100?img=3',
+  },
 ]
 const searchQuery = ref('')
 
@@ -75,15 +78,18 @@ const handleSearch = () => {
 </script>
 
 <template>
-  <section class="relative pt-24 pb-16 lg:pt-10 lg:pb-10 overflow-hidden"
-           :class="section.bgSection"
+  <section
+    class="relative pt-24 pb-16 lg:pt-10 lg:pb-10 overflow-hidden"
+    :class="section.bgSection"
   >
     <div class="container mx-auto px-4 max-w-7xl">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
         <div class="flex flex-col items-start z-10">
           <HeroChip :users="users" />
 
-          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-[1.1]">
+          <h1
+            class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-[1.1]"
+          >
             <span class="text-blue-500 block mb-2">{{ section.titleDark }}</span>
             <span class="text-orange-500 block">{{ section.titleOrange }}</span>
           </h1>
@@ -91,7 +97,9 @@ const handleSearch = () => {
           <p class="text-gray-500 text-lg mb-10 max-w-lg leading-relaxed">
             {{ section.subtitle }}
           </p>
-          <div class="w-full max-w-xl bg-white rounded-2xl shadow- border border-gray-100 flex items-center mb-6 shadow-md">
+          <div
+            class="w-full max-w-xl bg-white rounded-2xl shadow- border border-gray-100 flex items-center mb-6 shadow-md"
+          >
             <UInput
               v-model="searchQuery"
               icon="i-heroicons-magnifying-glass-20-solid"
@@ -135,7 +143,7 @@ const handleSearch = () => {
             :src="section.mainImage"
             alt="Obra perfeita"
             class="w-full h-full object-cover rounded-3xl shadow-2xl"
-          >
+          />
 
           <div
             v-if="section.floatingCard"

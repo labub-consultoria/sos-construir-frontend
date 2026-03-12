@@ -16,10 +16,7 @@ const toggle = (index: number) => {
 </script>
 
 <template>
-  <section
-    class="py-16 w-full"
-    :class="section?.bgSection"
-  >
+  <section class="py-16 w-full" :class="section?.bgSection">
     <div class="container mx-auto px-4 max-w-3xl">
       <h2 class="title-section text-center mb-10">
         {{ section.title }}

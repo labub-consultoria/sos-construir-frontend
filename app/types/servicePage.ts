@@ -1,4 +1,12 @@
-import type { BaseSection, WorkGallerySection, ProcessSection, FinalCtaSection, FAQSection, WhyChooseUsSection, Tag } from './sections'
+import type {
+  BaseSection,
+  WorkGallerySection,
+  ProcessSection,
+  FinalCtaSection,
+  FAQSection,
+  WhyChooseUsSection,
+  Tag,
+} from './sections'
 
 export interface ServiceMeta {
   title: string
@@ -30,7 +38,7 @@ export interface ServicePartnerSection extends BaseSection {
   logo: string
   tags: string[]
   cta: string
-  footerInfo: { usage: string, guarantee: string }
+  footerInfo: { usage: string; guarantee: string }
 }
 
 export interface ServiceSections {

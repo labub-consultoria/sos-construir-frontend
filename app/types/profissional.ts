@@ -8,7 +8,7 @@ export default interface Professional {
   satisfaction: string
   avatar: string
   isTopRated?: boolean
-  verifications: { text: string, type: 'success' | 'warning' }[]
+  verifications: { text: string; type: 'success' | 'warning' }[]
   specialties: string[]
   portfolio: string[]
 }

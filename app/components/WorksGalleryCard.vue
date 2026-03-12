@@ -26,7 +26,7 @@ const _props = defineProps<{
       :alt="work.title || 'Projeto'"
       class="absolute inset-0 w-full h-full object-cover z-0 transition-transform duration-500 lg:group-hover:scale-105"
       :class="{ 'scale-105': isActive }"
-    >
+    />
 
     <div
       class="absolute inset-0 z-10 bg-gradient-to-t from-black/80 via-black/30 to-transparent p-6 flex flex-col justify-end transition-opacity duration-300"
@@ -39,21 +39,12 @@ const _props = defineProps<{
         {{ work.tag }}
       </div>
 
-      <h4
-        v-if="work.title"
-        class="text-white font-bold text-2xl mb-1.5 leading-tight"
-      >
+      <h4 v-if="work.title" class="text-white font-bold text-2xl mb-1.5 leading-tight">
         {{ work.title }}
       </h4>
 
-      <div
-        v-if="work.author"
-        class="text-white/80 text-sm flex items-center gap-1.5 mb-5"
-      >
-        <Icon
-          name="mdi:account-outline"
-          class="text-sm"
-        />
+      <div v-if="work.author" class="text-white/80 text-sm flex items-center gap-1.5 mb-5">
+        <Icon name="mdi:account-outline" class="text-sm" />
         {{ work.author }}
       </div>
 

@@ -3,7 +3,7 @@ export default defineAppConfig({
     colors: {
       primary: 'orange',
       secondary: 'blue',
-      neutral: 'slate'
+      neutral: 'slate',
     },
 
     button: {
@@ -11,17 +11,17 @@ export default defineAppConfig({
         {
           color: 'primary',
           variant: 'solid',
-          class: 'bg-primary-500 hover:bg-primary/90 active:bg-primary/90'
+          class: 'bg-primary-500 hover:bg-primary/90 active:bg-primary/90',
         },
         {
           color: 'primary',
           variant: 'outline',
-          class: 'ring-primary-500'
-        }
-      ]
+          class: 'ring-primary-500',
+        },
+      ],
     },
     skeleton: {
-      base: 'animate-pulse rounded-md bg-default/10'
-    }
-  }
+      base: 'animate-pulse rounded-md bg-default/10',
+    },
+  },
 })
