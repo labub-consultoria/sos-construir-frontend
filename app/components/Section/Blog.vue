@@ -3,10 +3,17 @@ import { ref, onMounted } from 'vue'
 import type { BaseSection } from '~/types/sections'
 import type { BlogPost } from '~/types/blogPost'
 
-const _props = defineProps<{
-  section?: BaseSection
+const defaultSection: BaseSection = {
+  title: 'Dicas e Novidades de Construção'
+}
+const props = defineProps<{
+  section?: Partial<BaseSection>
 }>()
 
+const section = computed(() => ({
+  ...defaultSection,
+  ...props.section
+}))
 const posts = ref<BlogPost[]>([])
 const loading = ref(true)
 
@@ -63,7 +70,7 @@ onMounted(() => {
           BLOG
         </span>
         <h2 class="text-3xl md:text-4xl font-bold text-blue-500 tracking-tight">
-          {{ section?.title || 'Dicas e Novidades de Construção' }}
+          {{ section.title }}
         </h2>
       </div>
 

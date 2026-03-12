@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { PartnerSection } from '@/types/service'
+import type { PartnerSection } from '~/types/servicePage'
 
 const props = defineProps<{
   section: PartnerSection

@@ -1,12 +1,28 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { ServiceHeroSection } from '@/types/service'
+import type { ServiceHeroSection } from '~/types/servicePage'
 
 const props = defineProps<{
   section: ServiceHeroSection
 }>()
 
-// Procura por "Dor de Cabeça" e envolve em um span laranja
+const users = [
+  {
+    id: 2,
+    name: 'Rodrigo Goes',
+    avatar: 'https://i.pravatar.cc/100?img=1'
+  },
+  {
+    id: 1,
+    name: 'Ronaldo Silva',
+    avatar: 'https://i.pravatar.cc/100?img=2'
+  },
+  {
+    id: 3,
+    name: 'Roger Guedes',
+    avatar: 'https://i.pravatar.cc/100?img=3'
+  }
+]
 const formattedTitle = computed(() => {
   if (!props.section.title) return ''
   return props.section.title.replace(
@@ -29,19 +45,7 @@ const formattedTitle = computed(() => {
 
     <div class="container max-w-7xl mx-auto px-4 py-6 relative z-10">
       <div class="max-w-3xl">
-        <div class="inline-flex items-center gap-2 bg-orange-50 border border-orange-100 rounded-full px-1 py-1 mb-4 shadow-sm">
-          <div class="flex -space-x-2">
-            <img
-              src="https://i.pravatar.cc/100?img=1"
-              class="w-6 h-6 rounded-full border-2 border-white"
-            >
-            <img
-              src="https://i.pravatar.cc/100?img=2"
-              class="w-6 h-6 rounded-full border-2 border-white"
-            >
-          </div>
-          <span class="text-xs font-semibold text-orange-600">Escolhido por 1000+ clientes</span>
-        </div>
+        <HeroChip :users="users" />
 
         <div class="w-8 h-1 bg-orange-500 rounded-full mb-6" />
 

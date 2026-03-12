@@ -3,13 +3,18 @@ import { ref, onMounted } from 'vue'
 import type Testimonial from '~/types/testimonial'
 import type { BaseSection } from '~/types/sections'
 
-const props = withDefaults(defineProps<{
-  section?: BaseSection
-}>(), {
-  section: () => ({
-    title: 'Clientes que confiam na SOS'
-  })
-})
+const defaultSection: BaseSection = {
+  kicker: 'RESULTADOS QUE FALAM POR SI',
+  title: 'Clientes que confiam na SOS'
+}
+const props = defineProps<{
+  section?: Partial<BaseSection>
+}>()
+
+const section = computed(() => ({
+  ...defaultSection,
+  ...props.section
+}))
 
 const testimonials = ref<Testimonial[]>([])
 const loading = ref(true)
@@ -64,14 +69,14 @@ onMounted(() => {
 <template>
   <section
     class="py-16 md:py-10 w-full overflow-hidden"
-    :class="section?.bgSection || 'white'"
+    :class="section.bgSection"
   >
     <div class="container mx-auto px-4 mb-12 text-center">
       <span class="text-orange-500 font-bold text-xs tracking-widest uppercase mb-3">
-        RESULTADOS QUE FALAM POR SI
+        {{ section.kicker }}
       </span>
       <h2 class="title-section">
-        {{ props.section.title }}
+        {{ section.title }}
       </h2>
     </div>
 

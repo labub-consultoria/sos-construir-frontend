@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Service, SectionKey } from '~/types/service'
+import type { Service, SectionKey } from '~/types/servicePage'
 
 import {
   SectionTestimonials,
@@ -13,7 +13,7 @@ import {
   SectionWhyChooseUs
 } from '#components'
 
-import servicesData from '~/data/services.json'
+import servicesData from '~/data/servicesPages.json'
 
 const route = useRoute()
 

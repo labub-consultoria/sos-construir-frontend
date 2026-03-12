@@ -1,10 +1,12 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
-
+@plugin 'tailwind-scrollbar';
 
 @theme static {
   --font-sans: 'Public Sans', sans-serif;
 
+  --bg-default: white;
+  --ui-bg: blue;
   /* Principais */
   --color-blue-50: #EFF6FF;
   --color-blue-100: #DBEAFE;

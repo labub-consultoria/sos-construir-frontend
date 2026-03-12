@@ -1,44 +1,48 @@
 <script setup lang="ts">
 import type { WhyChooseUsSection } from '~/types/sections'
 
-const _props = withDefaults(defineProps<{
-  section?: WhyChooseUsSection
-}>(), {
-  section: () => ({
-    title: 'Sua Obra sem Dor de Cabeça',
-    description: 'Mais de 10 anos transformando casas em Foz do Iguaçu com qualidade, confiança e zero dor de cabeça.',
-    stats: [
-      { icon: 'mdi:calendar-blank-outline', text: '10+ anos' },
-      { icon: 'mdi:home-outline', text: '1000+ obras' },
-      { icon: 'mdi:star-outline', text: '4.8★ avaliação' }
-    ],
-    reasons: [
-      {
-        icon: 'mdi:target',
-        title: 'Gestão Centralizada',
-        description: 'Você lida apenas com a SOS. Nós coordenamos todos os profissionais para você não se estressar.'
-      },
-      {
-        icon: 'mdi:license',
-        title: 'Profissionais Certificados',
-        description: 'Equipe rigorosamente selecionada, testada na prática e de extrema confiança.'
-      },
-      {
-        icon: 'mdi:shield-check-outline',
-        title: 'Garantia Integral',
-        description: 'Cobertura total contra imprevistos. Se algo sair do combinado, nós resolvemos sem custos extras.'
-      },
-      {
-        icon: 'mdi:handshake-outline',
-        title: 'Suporte Pós-Obra',
-        description: 'Nossa responsabilidade não acaba na entrega. Estaremos à disposição para qualquer ajuste futuro.'
-      }
-    ],
-    ctaText: 'Solicitar Orçamento Sem Compromisso',
-    ctaLink: '#',
-    bgSection: 'bg-section-bg-2'
-  })
-})
+const defaultSection: WhyChooseUsSection = {
+  title: 'Sua Obra sem Dor de Cabeça',
+  description: 'Mais de 10 anos transformando casas em Foz do Iguaçu com qualidade, confiança e zero dor de cabeça.',
+  stats: [
+    { icon: 'mdi:calendar-blank-outline', text: '10+ anos' },
+    { icon: 'mdi:home-outline', text: '1000+ obras' },
+    { icon: 'mdi:star-outline', text: '4.8★ avaliação' }
+  ],
+  reasons: [
+    {
+      icon: 'mdi:target',
+      title: 'Gestão Centralizada',
+      description: 'Você lida apenas com a SOS. Nós coordenamos todos os profissionais para você não se estressar.'
+    },
+    {
+      icon: 'mdi:license',
+      title: 'Profissionais Certificados',
+      description: 'Equipe rigorosamente selecionada, testada na prática e de extrema confiança.'
+    },
+    {
+      icon: 'mdi:shield-check-outline',
+      title: 'Garantia Integral',
+      description: 'Cobertura total contra imprevistos. Se algo sair do combinado, nós resolvemos sem custos extras.'
+    },
+    {
+      icon: 'mdi:handshake-outline',
+      title: 'Suporte Pós-Obra',
+      description: 'Nossa responsabilidade não acaba na entrega. Estaremos à disposição para qualquer ajuste futuro.'
+    }
+  ],
+  ctaText: 'Solicitar Orçamento Sem Compromisso',
+  ctaLink: '#',
+  bgSection: 'bg-section-bg-2'
+}
+const props = defineProps<{
+  section?: Partial<WhyChooseUsSection>
+}>()
+
+const section = computed(() => ({
+  ...defaultSection,
+  ...props.section
+}))
 </script>
 
 <template>

@@ -1,231 +1,283 @@
 {
-  "Pintor": {
-    "meta": {
-      "title": "Pintor Profissional em Foz do Iguaçu | SOS Construir",
-      "description": "Pintores experientes em Foz do Iguaçu. Pintura interna, externa, comercial. Profissionais certificados com garantia integral.",
-      "keywords": "pintor foz do iguaçu, pintura profissional, pintura interna, pintura externa",
-      "ogImage": "/images/services/pintor/hero.png",
-      "breadcrumbLabel": "Pintor"
+  "services": [
+    {
+      "id": 1,
+      "name": "Cerâmica e Porcelanato",
+      "slug": "ceramica-porcelanato",
+      "category": "acabamento",
+      "size": "medium",
+      "icon": "mdi-floor-plan",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Ffotos-premium%2Fcolocando-piso-ceramico-renovando-o-piso_220873-14666.jpg%3Fw%3D2000&f=1&nofb=1&ipt=2f8a6505cc3251a8df56eaec47aa125be222b4f658e4da2de813415bac1ad157",
+      "description": "Instalação profissional de cerâmica e porcelanato para pisos e paredes.",
+      "keywords": ["porcelanato", "cerâmica", "assentamento de piso", "revestimento"],
+      "popularity": 93
     },
-    "sections": {
-      "hero": {
-        "title": "Pintura Profissional Sem Dor de Cabeça",
-        "description": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
-        "image": "/images/services/pintor/hero.png"
-      },
-      "partner": {
-        "partnerName": "FozTintas",
-        "logo": "/images/services/pintor/foztintas/logo.png",
-        "coverImage": "/images/services/pintor/foztintas/cover.png",
-        "description": "Trabalhamos com a FozTintas, referência em qualidade desde 1985. Tintas premium, cores personalizadas e o melhor preço direto do fabricante para seu projeto.",
-        "tags": [
-                    {
-            "icon": "format-paint",
-            "text": "Tintas premium com durabilidade garantida"
+    {
+      "id": 2,
+      "name": "Concreto Polido",
+      "slug": "concreto-polido",
+      "category": "acabamento",
+      "size": "medium",
+      "icon": "mdi-texture-box",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhrcamargo.com.br%2Fwp-content%2Fuploads%2F2025%2F01%2Fo-que-e-piso-industrial-de-concreto-polido-1024x585.webp&f=1&nofb=1&ipt=cf7f77faf2eaee48dc5c55b61b857eb9382c27053d88417819edd2bb88cf8d74",
+      "description": "Aplicação de concreto polido moderno para pisos residenciais e comerciais.",
+      "keywords": ["concreto polido", "piso industrial", "piso moderno"],
+      "popularity": 80
+    },
+    {
+      "id": 3,
+      "name": "Construtor de Piscinas",
+      "slug": "construtor-de-piscinas",
+      "category": "construcao",
+      "size": "medium",
+      "icon": "mdi-pool",
+      "image": "https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg",
+      "description": "Construção de piscinas personalizadas com acabamento profissional.",
+      "keywords": ["construção de piscina", "piscina residencial", "piscina sob medida"],
+      "popularity": 85
+    },
+    {
+      "id": 4,
+      "name": "Eletricista",
+      "slug": "eletricista",
+      "category": "instalacoes",
+      "size": "medium",
+      "icon": "mdi-lightning-bolt",
+      "image": "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg",
+      "description": "Instalações elétricas, manutenção e reparos residenciais e comerciais.",
+      "keywords": ["eletricista", "instalação elétrica", "manutenção elétrica"],
+      "popularity": 98
+    },
+    {
+      "id": 5,
+      "name": "Encanador",
+      "slug": "encanador",
+      "category": "instalacoes",
+      "size": "medium",
+      "icon": "mdi-pipe-wrench",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tudoconstrucao.com%2Fwp-content%2Fuploads%2F2023%2F07%2FEncanador-em-Curitiba-3.jpg&f=1&nofb=1&ipt=188dce122ff619826a00a84ba29787218109be2fe7900368e5f68626b1b3ebbb",
+      "description": "Reparos hidráulicos, vazamentos e instalação de encanamento.",
+      "keywords": ["encanador", "hidráulica", "vazamento", "encanamento"],
+      "popularity": 96
+    },
+    {
+      "id": 6,
+      "name": "Energia Solar",
+      "slug": "energia-solar",
+      "category": "instalacoes",
+      "size": "medium",
+      "icon": "mdi-solar-power",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhccenergiasolar.com.br%2Fwp-content%2Fuploads%2F2022%2F05%2FAnyConv.com__paineis-solares-mudancas.webp&f=1&nofb=1&ipt=7822a591f688c84ac26b4d94198d5ce245fcbf3095f6a438908ac99b81735f27",
+      "description": "Instalação de sistemas de energia solar para economia e sustentabilidade.",
+      "keywords": ["energia solar", "painel solar", "energia fotovoltaica"],
+      "popularity": 94
+    },
+    {
+      "id": 7,
+      "name": "Gesso e Drywall",
+      "slug": "gesso-drywall",
+      "category": "acabamento",
+      "size": "medium",
+      "icon": "mdi-wall",
+      "image": "https://images.pexels.com/photos/6474343/pexels-photo-6474343.jpeg",
+      "description": "Instalação de forros, paredes e sancas em gesso e drywall.",
+      "keywords": ["drywall", "gesso", "forro de gesso"],
+      "popularity": 90
+    },
+    {
+      "id": 8,
+      "name": "Instalação de Gás",
+      "slug": "instalacao-de-gas",
+      "category": "instalacoes",
+      "size": "medium",
+      "icon": "mdi-gas-cylinder",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.aglgas.com.br%2Fwp-content%2Fuploads%2F2025%2F05%2FConstrucao-de-Instalacao-de-Gas.jpg&f=1&nofb=1&ipt=a7f2b3af04bb1dd016cfb682ccc222e19bd00562da563e0070624accae575ed9",
+      "description": "Instalação segura de sistemas de gás residencial e comercial.",
+      "keywords": ["gás encanado", "instalação de gás", "rede de gás"],
+      "popularity": 84
+    },
+    {
+      "id": 9,
+      "name": "Jardinagem e Paisagismo",
+      "slug": "jardinagem-paisagismo",
+      "category": "externo",
+      "size": "medium",
+      "icon": "mdi-flower",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fomaringa.com.br%2Fwp-content%2Fuploads%2F2025%2F02%2FCasa-e-Jardim-Pedra-28.jpg&f=1&nofb=1&ipt=a676a5f1c2e1fd415ba2e606514fecf981a92a1bde8f13ffd2204586007d0e1d",
+      "description": "Criação e manutenção de jardins e projetos paisagísticos.",
+      "keywords": ["jardinagem", "paisagismo", "manutenção de jardim"],
+      "popularity": 88
+    },
+    {
+      "id": 10,
+      "name": "Lago Artificial",
+      "slug": "lago-artificial",
+      "category": "externo",
+      "size": "medium",
+      "icon": "mdi-water",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.totalconstrucao.com.br%2Fwp-content%2Fuploads%2F2019%2F04%2Flago-artificial-grande3.jpg&f=1&nofb=1&ipt=acd4fbc0b6a23d60b5ccf4a6d7de2ad9b1c7659144dfd4bb7bdc06ba6846a9cd",
+      "description": "Construção de lagos artificiais decorativos para jardins.",
+      "keywords": ["lago artificial", "lago ornamental", "paisagismo"],
+      "popularity": 70
+    },
 
-          }, 
-          {
-            "icon": "package-variant-closed",
-            "text":  "Entrega rápida e rastreada"
-          },
-          {
-            "icon": "currency-usd",
-            "text": "Preço direto da fábrica, sem intermediários"
-          },
-          {
-            "icon": "check",
-            "text": "Consultoria de cores gratuita para o seu projeto"
-          }
-        ],
-        "cta": "Conhecer Tintas FozTintas",
-        "footerInfo": {
-          "usage": "Usado em 500+ projetos na região",
-          "guarantee": "Garantia oficial FozTintas"
-        }
-      },
-      "workGallery": {
-        "filters": [
-          { "label": "Todos os Projetos", "slug": "todos", "count": 360 },
-          { "label": "Trabalho Interno", "slug": "interno", "count": 180 },
-          { "label": "Trabalho externo", "slug": "externo", "count": 120 },
-          { "label": "Ampla diversidade", "slug": "diversidade", "count": 60 }
-        ]
-      },
-      "process": {
-        "steps": [
-          {
-            "step": 1,
-            "title": "Contato e Orçamento",
-            "description": "Você nos conta o que precisa e nós cuidamos de todo o planejamento e orçamento.",
-            "icon": "phone-in-talk-outline"
-          },
-          {
-            "step": 2,
-            "title": "Cuidado e Proteção",
-            "description": "Nossa equipe protege seus móveis e prepara as paredes com perfeição.",
-            "icon": "shield-alert"
-          },
-          {
-            "step": 3,
-            "title": "Execução Premium",
-            "description": "Profissionais verificados aplicam as melhores tintas do mercado.",
-            "icon": "format-paint"
-          },
-          {
-            "step": 4,
-            "title": "Satisfação Garantida",
-            "description": "Entregamos tudo limpo e no lugar. Zero estresse para você!",
-            "icon": "creation"
-          }
-        ]
-      },
-      "professionals": {
-        "title": "Pintores Profissionais Verificados",
-        "description": "Escolha um pintor certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
-      },
-      "faq": {
-        "title": "Dúvidas Frequentes sobre Pintura",
-        "questions": [
-          {
-            "question": "Vocês realizam reparos em paredes antes da pintura?",
-            "answer": "Sim! Fazemos preenchimento de rachaduras, nivelamento e todas as correções necessárias antes de iniciar a pintura."
-          },
-          {
-            "question": "Quanto tempo dura a pintura feita pela SOS Construir?",
-            "answer": "A durabilidade da pintura depende de vários fatores, incluindo a preparação adequada das superfícies e a qualidade dos materiais. Nossos profissionais garantem resultados duradouros."
-          },
-          {
-            "question": "Posso usar minha própria tinta?",
-            "answer": "Sim, você tem a opção de fornecer sua própria tinta. Embora normalmente forneçamos tanto a tinta quanto o material necessário, se preferir contratar apenas o serviço e fornecer seu próprio material, ficaremos felizes em discutir essa alternativa."
-          },
-          {
-            "question": "Vocês fazem Pintura Exterior?",
-            "answer": "Sim, nossos pintores são treinados para trabalhar tanto em ambientes internos quanto externos, oferecendo soluções abrangentes para suas necessidades de pintura."
-          }
-        ]
-      }
-    }
-  },
-  "Metalurgico": {
-    "meta": {
-      "title": "Metalúrgica Profissional em Foz do Iguaçu | SOS Construir",
-      "description": "Serviços metalúrgicos de excelência em Foz do Iguaçu. Estruturas metálicas, portões, soldas e projetos sob medida com profissionais certificados.",
-      "keywords": "metalúrgica foz do iguaçu, serralheria, solda, estruturas metálicas, portões",
-      "ogImage": "/images/services/metalurgico/hero.png",
-      "breadcrumbLabel": "Metalúrgica"
+    {
+      "id": 11,
+      "name": "Metalúrgica",
+      "slug": "metalurgica",
+      "category": "estrutura",
+      "size": "medium",
+      "icon": "mdi-anvil",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fas1.ftcdn.net%2Fjpg%2F00%2F59%2F15%2F30%2F1000_F_59153054_cMTv8b41eoUzcRAcfP4LSAMV2bBKgZv8.jpg&f=1&nofb=1&ipt=80498399dc4272532b0f5dfa30a82be2765e1f690076047a1f4b9f1a2ead5d2f",
+      "description": "Fabricação e instalação de estruturas metálicas sob medida.",
+      "keywords": ["metalúrgica", "estrutura metálica", "portões metálicos"],
+      "popularity": 82
     },
-    "sections": {
-      "hero": {
-        "title": "Metalúrgica Profissional Sem Dor de Cabeça",
-        "description": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
-        "image": "/images/services/metalurgico/hero.png"
-      },
-      "partner": {
-        "partnerName": "AçoFoz Fornecedores",
-        "logo": "/images/logos/acofoz.png",
-        "description": "Trabalhamos em parceria com as melhores distribuidoras de aço da região. Matéria-prima certificada, garantindo resistência estrutural máxima para sua obra.",
-        "tags": [
-          {
-            "icon": "check",
-            "text": "Aço de alta qualidade com certificação"
-          },
-          {
-            "icon": "check",
-            "text": "Tubos e perfis de alta resistência"
-          },
-                    {
-            "icon": "check",
-            "text": "Opções de material galvanizado"
-          },
-          {
-            "icon": "check",
-            "text": "Melhor custo-benefício em metais"
-          }
-        ],
-        "cta": "Conhecer Materiais",
-        "footerInfo": {
-          "usage": "Mais de 300 toneladas de aço instaladas",
-          "guarantee": "Garantia de procedência do material"
-        },
-        "coverImage": "/images/services/metalurgico/acofoz/cover.png"
-      },
-      "workGallery": {
-        "filters": [
-          {
-            "label": "Portões e Grades",
-            "slug": "portoes-e-grades",
-            "count": 0
-          },
-          {
-            "label": "Estruturas Metálicas",
-            "slug": "estruturas-metalicas",
-            "count": 0
-          },
-          {
-            "label": "Coberturas",
-            "slug": "coberturas",
-            "count": 0
-          },
-          {
-            "label": "Projetos Especiais",
-            "slug": "projetos-especiais",
-            "count": 0
-          }
-        ]
-      },
-      "process": {
-        "steps": [
-          {
-            "step": 1,
-            "title": "Contato e Orçamento",
-            "description": "Você nos conta o que precisa e nós cuidamos de todo o planejamento e orçamento.",
-            "icon": "📞"
-          },
-          {
-            "step": 2,
-            "title": "Projeto e Aprovação",
-            "description": "Desenvolvemos projeto detalhado. Apresentamos opções de materiais e design antes de fabricar.",
-            "icon": "📐"
-          },
-          {
-            "step": 3,
-            "title": "Fabricação em Oficina",
-            "description": "Profissionais certificados fabricam com precisão. Solda de qualidade, acabamento profissional, cada peça perfeita.",
-            "icon": "🏭"
-          },
-          {
-            "step": 4,
-            "title": "Satisfação Garantida",
-            "description": "Instalação profissional completa. Inspeção rigorosa e garantia integral em mãos. Pronto para aproveitar!",
-            "icon": "✨"
-          }
-        ]
-      },
-      "professionals": {
-        "title": "Metalúrgicos Profissionais Verificados",
-        "description": "Escolha um Metalúrgico certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
-      },
-      "faq": {
-        "title": "Dúvidas Frequentes sobre Metalurgia",
-        "questions": [
-          {
-            "question": "Vocês fabricam estruturas para telhados e coberturas?",
-            "answer": "Sim! Fabricamos e instalamos tesouras, treliças e estruturas metálicas completas para telhados de residências e galpões."
-          },
-          {
-            "question": "Os portões já vêm com motor e automação?",
-            "answer": "Fabricamos o portão já preparado e balanceado para receber o motor. Podemos incluir a instalação da automação no seu orçamento, se desejar."
-          },
-          {
-            "question": "Como funciona o processo de pintura das peças?",
-            "answer": "Nossas estruturas são entregues com tratamento antiferrugem e fundo preparador (zarcão). A pintura final com cor também pode ser orçada à parte, incluindo opções de pintura epóxi."
-          },
-          {
-            "question": "Fazem consertos em grades e portões de terceiros?",
-            "answer": "Sim, nossa equipe realiza manutenção preventiva e corretiva, como troca de roldanas, reforço de soldas quebradas e alinhamento de trilhos."
-          }
-        ]
-      }
+    {
+      "id": 12,
+      "name": "Paver",
+      "slug": "paver",
+      "category": "externo",
+      "size": "medium",
+      "icon": "mdi-grid",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwesterninterlock.com%2Fwp-content%2Fuploads%2F2023%2F09%2F4-ways-to-retain-paver-edge-2.jpg&f=1&nofb=1&ipt=b5cd5a63a92c0319e1f5b0540a2cfb6fc2153984a0112a717d3a4a8d5d3fcd57",
+      "description": "Instalação de paver para calçadas, garagens e áreas externas.",
+      "keywords": ["paver", "piso intertravado", "calçada"],
+      "popularity": 86
+    },
+    {
+      "id": 13,
+      "name": "Pedras Decorativas",
+      "slug": "pedras-decorativas",
+      "category": "acabamento",
+      "size": "medium",
+      "icon": "mdi-diamond-stone",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.decorfacil.com%2Fwp-content%2Fuploads%2F2016%2F03%2Fimagem16-7.jpg&f=1&nofb=1&ipt=d85294a9145a755519e35a470b5848e32b2a828b3c025920c418836b0105e049",
+      "description": "Revestimento com pedras naturais para decoração interna e externa.",
+      "keywords": ["pedra decorativa", "revestimento de pedra"],
+      "popularity": 78
+    },
+    {
+      "id": 14,
+      "name": "Pedreiro",
+      "slug": "pedreiro",
+      "category": "construcao",
+      "size": "medium",
+      "icon": "mdi-hammer",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Ftrabalhador-industrial-de-pedreiros-instalando-alvenaria-tijolos-na-parede-exterior-com-faca-punho-galinha-357073339.jpg&f=1&nofb=1&ipt=06328538e968f468fd77a33213dee8e560ee7b49b82d7ae1b86349e4e48ae6bc",
+      "description": "Serviços gerais de alvenaria para obras e reformas.",
+      "keywords": ["pedreiro", "alvenaria", "obra"],
+      "popularity": 97
+    },
+
+    {
+      "id": 15,
+      "name": "Pintor",
+      "slug": "pintor",
+      "category": "acabamento",
+      "size": "medium",
+      "icon": "mdi-paint-roller",
+      "image": "https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg",
+      "description": "Pintura profissional residencial e comercial.",
+      "keywords": ["pintor", "pintura residencial", "pintura de parede"],
+      "popularity": 95
+    },
+    {
+      "id": 16,
+      "name": "Playground",
+      "slug": "playground",
+      "category": "externo",
+      "size": "medium",
+      "icon": "mdi-slide",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F99%2F52%2F36%2F995236eb0abbf1553f4dece5e71726e9.jpg&f=1&nofb=1&ipt=f2e7d4a076d6098fe2bb5bc91acd40b6785f618cb367b3286950b3e9b661f275",
+      "description": "Instalação de playgrounds para condomínios e áreas de lazer.",
+      "keywords": ["playground", "parque infantil"],
+      "popularity": 65
+    },
+    {
+      "id": 17,
+      "name": "Poço Artesiano",
+      "slug": "poco-artesiano",
+      "category": "estrutura",
+      "size": "medium",
+      "icon": "mdi-water-well",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclickpetroleoegas.com.br%2Fwp-content%2Fuploads%2F2025%2F07%2Fpoco-artesiano-proibido-brasil.jpeg&f=1&nofb=1&ipt=d8b6b858742d95be8bd179ec93e668e428867cef130771fc8ca30eac715e233a",
+      "description": "Perfuração e instalação de poços artesianos.",
+      "keywords": ["poço artesiano", "perfuração de poço"],
+      "popularity": 83
+    },
+    {
+      "id": 18,
+      "name": "Portas",
+      "slug": "instalacao-de-portas",
+      "category": "acabamento",
+      "size": "medium",
+      "icon": "mdi-door",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tenhaumareforma.com.br%2Fblog%2Fwp-content%2Fuploads%2F2026%2F01%2Fimage-144.jpg&f=1&nofb=1&ipt=c068815c1573ea7e29acc8bceed128273a06016199b0b2dde3f4fc41fb977a74",
+      "description": "Instalação e ajuste de portas internas e externas.",
+      "keywords": ["instalação de portas", "portas de madeira"],
+      "popularity": 77
+    },
+
+    {
+      "id": 19,
+      "name": "Reforma de Telhado",
+      "slug": "reforma-telhado",
+      "category": "reformas",
+      "size": "medium",
+      "icon": "mdi-home-roof",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Funihands.com.br%2Fwp-content%2Fuploads%2F2024%2F11%2Fprofissionais-durante-reforma-de-um-telhado-2.jpg&f=1&nofb=1&ipt=3f23ffbf3049acaee55a3eb9ff7136a8a54029267af9a3d42dd8b6ae61370027",
+      "description": "Manutenção, troca de telhas e reforma completa de telhados.",
+      "keywords": ["reforma de telhado", "troca de telhas"],
+      "popularity": 89
+    },
+    {
+      "id": 20,
+      "name": "Reforma e Construção",
+      "slug": "reforma-construcao",
+      "category": "construcao",
+      "size": "medium",
+      "icon": "mdi-home-edit",
+      "image": "https://images.pexels.com/photos/534220/pexels-photo-534220.jpeg",
+      "description": "Serviços completos de construção e reforma residencial.",
+      "keywords": ["reforma", "construção"],
+      "popularity": 92
+    },
+    {
+      "id": 21,
+      "name": "Sofá Sob Medida",
+      "slug": "sofa-sob-medida",
+      "category": "moveis",
+      "size": "medium",
+      "icon": "mdi-sofa",
+      "image": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg",
+      "description": "Fabricação de sofás personalizados sob medida.",
+      "keywords": ["sofá sob medida", "sofá personalizado"],
+      "popularity": 74
+    },
+    {
+      "id": 22,
+      "name": "Terraplanagem e Locação",
+      "slug": "terraplanagem",
+      "category": "estrutura",
+      "size": "medium",
+      "icon": "mdi-bulldozer",
+      "image": "https://demolidorafortaleza.com.br/images/service/terraplanagem.jpg",
+      "description": "Serviços de terraplanagem e locação de máquinas pesadas.",
+      "keywords": ["terraplanagem", "movimentação de terra"],
+      "popularity": 87
+    },
+    {
+      "id": 23,
+      "name": "Vidraçaria",
+      "slug": "vidracaria",
+      "category": "acabamento",
+      "size": "medium",
+      "icon": "mdi-window-closed-variant",
+      "image": "https://www.vidracariaebox.com.br/wp-content/uploads/2018/10/servicos-vidracaria-no-rj-1024x680.jpg",
+      "description": "Instalação de vidros, box de banheiro e fachadas.",
+      "keywords": ["vidraçaria", "box de vidro", "vidro temperado"],
+      "popularity": 91
     }
-  }
+  ]
 }

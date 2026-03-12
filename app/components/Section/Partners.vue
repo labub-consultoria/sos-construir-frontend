@@ -1,32 +1,37 @@
 <script setup lang="ts">
 import type { PartnersSection } from '~/types/sections'
 
-const _props = withDefaults(defineProps<{
-  section?: PartnersSection
-}>(), {
-  section: () => ({
-    kicker: 'PARCEIROS CONFIÁVEIS',
-    title: 'Temos os Melhores Materiais',
-    description: 'Trabalhamos com as principais marcas do mercado. Materiais direto da fábrica, preço justo e qualidade garantida para sua obra.',
-    tags: [
-      { icon: 'mdi:check-circle-outline', text: 'Materiais premium' },
-      { icon: 'mdi:check-circle-outline', text: 'Entrega rastreável' },
-      { icon: 'mdi:check-circle-outline', text: 'Preço de fábrica' }
-    ],
-    ctaText: 'Ver Catálogo',
-    ctaLink: '#',
-    partners: [
-      { id: 1, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
-      { id: 2, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
-      { id: 3, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
-      { id: 4, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
-      { id: 5, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
-      { id: 6, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
-      { id: 7, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' }
-    ],
-    bgSection: 'bg-section-bg-1'
-  })
-})
+const defaultSection: PartnersSection = {
+  kicker: 'PARCEIROS CONFIÁVEIS',
+  title: 'Temos os Melhores Materiais',
+  description: 'Trabalhamos com as principais marcas do mercado. Materiais direto da fábrica, preço justo e qualidade garantida para sua obra.',
+  tags: [
+    { icon: 'mdi:check-circle-outline', text: 'Materiais premium' },
+    { icon: 'mdi:check-circle-outline', text: 'Entrega rastreável' },
+    { icon: 'mdi:check-circle-outline', text: 'Preço de fábrica' }
+  ],
+  ctaText: 'Ver Catálogo',
+  ctaLink: '#',
+  partners: [
+    { id: 1, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
+    { id: 2, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
+    { id: 3, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
+    { id: 4, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
+    { id: 5, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
+    { id: 6, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' },
+    { id: 7, name: 'Foz Tintas', logo: '/images/services/pintor/foztintas/logo.png', link: '#' }
+  ],
+  bgSection: 'bg-section-bg-1'
+}
+
+const props = defineProps<{
+  section?: Partial<PartnersSection>
+}>()
+
+const section = computed(() => ({
+  ...defaultSection,
+  ...props.section
+}))
 </script>
 
 <template>

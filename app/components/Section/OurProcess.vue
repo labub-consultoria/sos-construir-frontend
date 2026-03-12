@@ -1,9 +1,49 @@
 <script setup lang="ts">
 import type { ProcessSection } from '@/types/sections'
 
-defineProps<{
-  section: ProcessSection
+const defaultSection: ProcessSection = {
+  title: 'Como funciona nosso processo',
+  description: 'Do primeiro contato até a entrega, nós gerenciamos cada detalhe para que você não precise se preocupar com nada.',
+  steps: [
+    {
+      step: 1,
+      title: 'Contato e Orçamento',
+      description:
+        'Descreva o que você precisa. Nossa plataforma conecta o seu projeto aos melhores profissionais da região.',
+      icon: 'phone-in-talk-outline'
+    },
+    {
+      step: 2,
+      title: 'Escolha com Segurança',
+      description:
+        'Receba orçamentos e compare perfis. Todos os nossos profissionais são rigorosamente verificados e avaliados.',
+      icon: 'shield-alert'
+    },
+    {
+      step: 3,
+      title: 'Execução Premium',
+      description:
+        'O profissional escolhido realiza o trabalho com qualidade, cumprindo os prazos e requisitos combinados.',
+      icon: 'hammer-screwdriver'
+    },
+    {
+      step: 4,
+      title: 'Entrega e Garantia',
+      description:
+        'Obra limpa e finalizada! Você aprova o serviço e conta com a nossa garantia integral para sua tranquilidade.',
+      icon: 'handshake'
+    }
+  ]
+}
+
+const props = defineProps<{
+  section?: Partial<ProcessSection>
 }>()
+
+const section = computed(() => ({
+  ...defaultSection,
+  ...props.section
+}))
 </script>
 
 <template>
@@ -17,10 +57,10 @@ defineProps<{
           DO INÍCIO AO FIM
         </span>
         <h2 class="title-section">
-          {{ section.title || 'Como funciona nosso processo' }}
+          {{ section.title }}
         </h2>
         <p class="text-section-subtitle text-base md:text-lg max-w-2xl mx-auto">
-          {{ section.description || 'Do primeiro contato até a entrega, nós gerenciamos cada detalhe para que você não precise se preocupar com nada.' }}
+          {{ section.description }}
         </p>
       </div>
 

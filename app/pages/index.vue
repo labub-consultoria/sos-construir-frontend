@@ -61,42 +61,67 @@ const worksGallery: WorkGallerySection = {
 
 <template>
   <div>
-    <section-hero />
-    <section-validation />
-    <section-services-categories />
-    <section-partners />
-    <section-why-choose-us />
+    <section-hero
+      :section="{
+        bgSection: 'bg-section-bg-1'
+      }"
+    />
+    <section-validation
+      :section="{
+        bgSection: 'bg-section-bg-2'
+      }"
+    />
+    <section-services-categories
+      :section="{
+        bgSection: 'bg-section-bg-1'
+      }"
+    />
+    <section-partners
+      :section="{
+        bgSection: 'bg-section-bg-2'
+      }"
+    />
+    <section-why-choose-us
+      :section="{
+        bgSection: 'bg-section-bg-1'
+      }"
+    />
     <section-our-process
       :section="{
         ...process,
-        bgSection: 'bg-section-bg-1'
+        bgSection: 'bg-section-bg-2'
       }"
     />
     <section-professionals
       :section="{
         title: 'Nossos Profissionais Especializados',
         description: 'Escolha entre mais de 100 profissionais certificados.',
-        bgSection: 'bg-section-bg-2'
+        bgSection: 'bg-section-bg-1'
       }"
     />
     <section-works-gallery
       :section="{
         ...worksGallery,
-        bgSection: 'bg-section-bg-1'
+        bgSection: 'bg-section-bg-2'
       }"
     />
     <section-testimonials
       :section="{
         title: 'Clientes que confiam na SOS',
-        bgSection: 'bg-section-bg-2'
+        bgSection: 'bg-section-bg-1'
       }"
     />
     <section-blog
       :section="{
         title: 'Dicas e Novidades de Construção',
-        bgSection: 'bg-section-bg-1'
+        bgSection: 'bg-section-bg-2'
       }"
     />
-    <section-final-cta />
+    <section-final-cta
+      :section="{
+        title: 'Pronto Para Começar Seu Projeto?',
+        description: 'Solicite um orçamento gratuito e sem compromisso. Nossa equipe entrará em contato em até 24 horas.'
+      }"
+    />
   </div>
 </template>

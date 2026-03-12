@@ -1,0 +1,231 @@
+{
+  "Pintor": {
+    "meta": {
+      "title": "Pintor Profissional em Foz do Iguaçu | SOS Construir",
+      "description": "Pintores experientes em Foz do Iguaçu. Pintura interna, externa, comercial. Profissionais certificados com garantia integral.",
+      "keywords": "pintor foz do iguaçu, pintura profissional, pintura interna, pintura externa",
+      "ogImage": "/images/services/pintor/hero.png",
+      "breadcrumbLabel": "Pintor"
+    },
+    "sections": {
+      "hero": {
+        "title": "Pintura Profissional Sem Dor de Cabeça",
+        "description": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
+        "image": "/images/services/pintor/hero.png"
+      },
+      "partner": {
+        "partnerName": "FozTintas",
+        "logo": "/images/services/pintor/foztintas/logo.png",
+        "coverImage": "/images/services/pintor/foztintas/cover.png",
+        "description": "Trabalhamos com a FozTintas, referência em qualidade desde 1985. Tintas premium, cores personalizadas e o melhor preço direto do fabricante para seu projeto.",
+        "tags": [
+                    {
+            "icon": "format-paint",
+            "text": "Tintas premium com durabilidade garantida"
+
+          }, 
+          {
+            "icon": "package-variant-closed",
+            "text":  "Entrega rápida e rastreada"
+          },
+          {
+            "icon": "currency-usd",
+            "text": "Preço direto da fábrica, sem intermediários"
+          },
+          {
+            "icon": "check",
+            "text": "Consultoria de cores gratuita para o seu projeto"
+          }
+        ],
+        "cta": "Conhecer Tintas FozTintas",
+        "footerInfo": {
+          "usage": "Usado em 500+ projetos na região",
+          "guarantee": "Garantia oficial FozTintas"
+        }
+      },
+      "workGallery": {
+        "filters": [
+          { "label": "Todos os Projetos", "slug": "todos", "count": 360 },
+          { "label": "Trabalho Interno", "slug": "interno", "count": 180 },
+          { "label": "Trabalho externo", "slug": "externo", "count": 120 },
+          { "label": "Ampla diversidade", "slug": "diversidade", "count": 60 }
+        ]
+      },
+      "process": {
+        "steps": [
+          {
+            "step": 1,
+            "title": "Contato e Orçamento",
+            "description": "Você nos conta o que precisa e nós cuidamos de todo o planejamento e orçamento.",
+            "icon": "phone-in-talk-outline"
+          },
+          {
+            "step": 2,
+            "title": "Cuidado e Proteção",
+            "description": "Nossa equipe protege seus móveis e prepara as paredes com perfeição.",
+            "icon": "shield-alert"
+          },
+          {
+            "step": 3,
+            "title": "Execução Premium",
+            "description": "Profissionais verificados aplicam as melhores tintas do mercado.",
+            "icon": "format-paint"
+          },
+          {
+            "step": 4,
+            "title": "Satisfação Garantida",
+            "description": "Entregamos tudo limpo e no lugar. Zero estresse para você!",
+            "icon": "creation"
+          }
+        ]
+      },
+      "professionals": {
+        "title": "Pintores Profissionais Verificados",
+        "description": "Escolha um pintor certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
+      },
+      "faq": {
+        "title": "Dúvidas Frequentes sobre Pintura",
+        "questions": [
+          {
+            "question": "Vocês realizam reparos em paredes antes da pintura?",
+            "answer": "Sim! Fazemos preenchimento de rachaduras, nivelamento e todas as correções necessárias antes de iniciar a pintura."
+          },
+          {
+            "question": "Quanto tempo dura a pintura feita pela SOS Construir?",
+            "answer": "A durabilidade da pintura depende de vários fatores, incluindo a preparação adequada das superfícies e a qualidade dos materiais. Nossos profissionais garantem resultados duradouros."
+          },
+          {
+            "question": "Posso usar minha própria tinta?",
+            "answer": "Sim, você tem a opção de fornecer sua própria tinta. Embora normalmente forneçamos tanto a tinta quanto o material necessário, se preferir contratar apenas o serviço e fornecer seu próprio material, ficaremos felizes em discutir essa alternativa."
+          },
+          {
+            "question": "Vocês fazem Pintura Exterior?",
+            "answer": "Sim, nossos pintores são treinados para trabalhar tanto em ambientes internos quanto externos, oferecendo soluções abrangentes para suas necessidades de pintura."
+          }
+        ]
+      }
+    }
+  },
+  "Metalurgico": {
+    "meta": {
+      "title": "Metalúrgica Profissional em Foz do Iguaçu | SOS Construir",
+      "description": "Serviços metalúrgicos de excelência em Foz do Iguaçu. Estruturas metálicas, portões, soldas e projetos sob medida com profissionais certificados.",
+      "keywords": "metalúrgica foz do iguaçu, serralheria, solda, estruturas metálicas, portões",
+      "ogImage": "/images/services/metalurgico/hero.png",
+      "breadcrumbLabel": "Metalúrgica"
+    },
+    "sections": {
+      "hero": {
+        "title": "Metalúrgica Profissional Sem Dor de Cabeça",
+        "description": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
+        "image": "/images/services/metalurgico/hero.png"
+      },
+      "partner": {
+        "partnerName": "AçoFoz Fornecedores",
+        "logo": "/images/logos/acofoz.png",
+        "description": "Trabalhamos em parceria com as melhores distribuidoras de aço da região. Matéria-prima certificada, garantindo resistência estrutural máxima para sua obra.",
+        "tags": [
+          {
+            "icon": "check",
+            "text": "Aço de alta qualidade com certificação"
+          },
+          {
+            "icon": "check",
+            "text": "Tubos e perfis de alta resistência"
+          },
+                    {
+            "icon": "check",
+            "text": "Opções de material galvanizado"
+          },
+          {
+            "icon": "check",
+            "text": "Melhor custo-benefício em metais"
+          }
+        ],
+        "cta": "Conhecer Materiais",
+        "footerInfo": {
+          "usage": "Mais de 300 toneladas de aço instaladas",
+          "guarantee": "Garantia de procedência do material"
+        },
+        "coverImage": "/images/services/metalurgico/acofoz/cover.png"
+      },
+      "workGallery": {
+        "filters": [
+          {
+            "label": "Portões e Grades",
+            "slug": "portoes-e-grades",
+            "count": 0
+          },
+          {
+            "label": "Estruturas Metálicas",
+            "slug": "estruturas-metalicas",
+            "count": 0
+          },
+          {
+            "label": "Coberturas",
+            "slug": "coberturas",
+            "count": 0
+          },
+          {
+            "label": "Projetos Especiais",
+            "slug": "projetos-especiais",
+            "count": 0
+          }
+        ]
+      },
+      "process": {
+        "steps": [
+          {
+            "step": 1,
+            "title": "Contato e Orçamento",
+            "description": "Você nos conta o que precisa e nós cuidamos de todo o planejamento e orçamento.",
+            "icon": "phone-in-talk-outline"
+          },
+          {
+            "step": 2,
+            "title": "Projeto e Aprovação",
+            "description": "Desenvolvemos projeto detalhado. Apresentamos opções de materiais e design antes de fabricar.",
+            "icon": "hammer"
+          },
+          {
+            "step": 3,
+            "title": "Fabricação em Oficina",
+            "description": "Profissionais certificados fabricam com precisão. Solda de qualidade, acabamento profissional, cada peça perfeita.",
+            "icon": "factory"
+          },
+          {
+            "step": 4,
+            "title": "Satisfação Garantida",
+            "description": "Instalação profissional completa. Inspeção rigorosa e garantia integral em mãos. Pronto para aproveitar!",
+            "icon": "creation"
+          }
+        ]
+      },
+      "professionals": {
+        "title": "Metalúrgicos Profissionais Verificados",
+        "description": "Escolha um Metalúrgico certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
+      },
+      "faq": {
+        "title": "Dúvidas Frequentes sobre Metalurgia",
+        "questions": [
+          {
+            "question": "Vocês fabricam estruturas para telhados e coberturas?",
+            "answer": "Sim! Fabricamos e instalamos tesouras, treliças e estruturas metálicas completas para telhados de residências e galpões."
+          },
+          {
+            "question": "Os portões já vêm com motor e automação?",
+            "answer": "Fabricamos o portão já preparado e balanceado para receber o motor. Podemos incluir a instalação da automação no seu orçamento, se desejar."
+          },
+          {
+            "question": "Como funciona o processo de pintura das peças?",
+            "answer": "Nossas estruturas são entregues com tratamento antiferrugem e fundo preparador (zarcão). A pintura final com cor também pode ser orçada à parte, incluindo opções de pintura epóxi."
+          },
+          {
+            "question": "Fazem consertos em grades e portões de terceiros?",
+            "answer": "Sim, nossa equipe realiza manutenção preventiva e corretiva, como troca de roldanas, reforço de soldas quebradas e alinhamento de trilhos."
+          }
+        ]
+      }
+    }
+  }
+}

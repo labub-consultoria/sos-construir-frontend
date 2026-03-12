@@ -10,35 +10,39 @@ export interface StatsSection {
   stats?: StatItem[]
 }
 
-const _props = withDefaults(defineProps<{
-  section?: StatsSection
-}>(), {
-  section: () => ({
-    bgSection: 'bg-section-bg-1',
-    stats: [
-      {
-        value: '120+',
-        labelTop: 'Profissionais',
-        labelBottom: 'Verificados'
-      },
-      {
-        value: '1.5k',
-        labelTop: 'Projetos',
-        labelBottom: 'Realizados'
-      },
-      {
-        value: '4.9',
-        labelTop: 'Nota Média',
-        labelBottom: 'de Avaliação'
-      },
-      {
-        value: '100%',
-        labelTop: 'Garantia de',
-        labelBottom: 'Satisfação'
-      }
-    ]
-  })
-})
+const defaultSection: StatsSection = {
+  bgSection: 'bg-section-bg-1',
+  stats: [
+    {
+      value: '120+',
+      labelTop: 'Profissionais',
+      labelBottom: 'Verificados'
+    },
+    {
+      value: '1.5k',
+      labelTop: 'Projetos',
+      labelBottom: 'Realizados'
+    },
+    {
+      value: '4.9',
+      labelTop: 'Nota Média',
+      labelBottom: 'de Avaliação'
+    },
+    {
+      value: '100%',
+      labelTop: 'Garantia de',
+      labelBottom: 'Satisfação'
+    }
+  ]
+}
+const props = defineProps<{
+  section?: Partial<StatsSection>
+}>()
+
+const section = computed(() => ({
+  ...defaultSection,
+  ...props.section
+}))
 </script>
 
 <template>

@@ -1,4 +1,5 @@
 export interface BaseSection {
+  kicker?: string
   title?: string
   description?: string
   bgSection?: string
@@ -76,7 +77,7 @@ export interface PartnersSection extends BaseSection {
 export interface SolutionCard {
   id: number | string
   type: 'image' | 'standard'
-  colSpan?: number
+  size?: 'large' | 'medium'
   title: string
   description: string
   icon: string

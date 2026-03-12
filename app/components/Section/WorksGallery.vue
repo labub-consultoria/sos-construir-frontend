@@ -4,9 +4,19 @@ import WorksGalleryCard from '../WorksGalleryCard.vue'
 import type { ProjectWork } from '~/types/projectWork'
 import type { WorkGallerySection } from '~/types/sections'
 
+const defaultSection: WorkGallerySection = {
+  title: 'Confira Nossos Trabalhos',
+  description: 'Centenas de projetos transformados em Foz do Iguaçu. Qualidade, dedicação e resultado que fala por si.',
+  filters: []
+}
 const props = defineProps<{
-  section: WorkGallerySection
+  section: Partial<WorkGallerySection>
 }>()
+
+const section = computed(() => ({
+  ...defaultSection,
+  ...props.section
+}))
 
 const filters = ref(props.section.filters)
 const activeFilter = ref('todos')
@@ -56,7 +66,7 @@ const reversedFilteredProjects = computed(() => {
 <template>
   <section
     class="py-16 md:py-24  w-full overflow-hidden"
-    :class="section?.bgSection"
+    :class="section.bgSection"
     @click="activeCardId = null"
   >
     <div class="container mx-auto px-4 max-w-7xl">
@@ -64,10 +74,10 @@ const reversedFilteredProjects = computed(() => {
         <div class="lg:col-span-4 flex flex-col justify-between">
           <div>
             <h2 class="text-4xl lg:text-5xl font-bold text-blue-500 mb-6 leading-tight tracking-tight">
-              Confira<br class="hidden lg:block"> Nossos Trabalhos
+              {{ section.title }}
             </h2>
             <p class="text-section-subtitle text-base lg:text-lg mb-8 leading-relaxed">
-              Centenas de projetos transformados em Foz do Iguaçu. Qualidade, dedicação e resultado que fala por si.
+              {{ section.description }}
             </p>
 
             <div class="space-y-3 mb-10">
