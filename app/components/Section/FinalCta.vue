@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import type { FinalCtaSection } from '~/types/sections'
 
+const phoneNumber = '5545999976544'
+const whatsappMessage = encodeURIComponent('Olá! Gostaria de solicitar um orçamento para minha obra.')
+const whatsappLink = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`
+
 const defaultSection: FinalCtaSection = {
   title: 'Se ficar com alguma dúvida',
   description: 'Entre em contato com nossa equipe',
   ctaText: 'Fale com a SOS (WhatsApp)',
   ctaIcon: 'mdi:chat-outline',
-  ctaLink:
-    'https://wa.me/554599976544?text=Ol%C3%A1%21%20Vim%20pelo%20site%20sosconstuir.com.br%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es',
+  ctaLink: whatsappLink
 }
 const props = defineProps<{
   section?: Partial<FinalCtaSection>
@@ -28,14 +31,8 @@ const section = computed(() => ({
       <p class="text-white/80 text-base md:text-lg mb-8">
         {{ section.description }}
       </p>
-      <UButton
-        :to="section.ctaLink"
-        target="_blank"
-        color="primary"
-        variant="solid"
-        size="xl"
-        class="text-white font-bold px-8 py-3 rounded-lg transition-colors flex items-center gap-2"
-      >
+      <UButton :to="section.ctaLink" target="_blank" color="primary" variant="solid" size="xl"
+        class="text-white font-bold px-8 py-3 rounded-lg transition-colors flex items-center gap-2">
         <template #leading>
           <Icon :name="section.ctaIcon || 'mdi:chat-outline'" class="text-2xl" />
         </template>

@@ -8,7 +8,7 @@ const meta: Meta = {
     'Mais de 10 anos resolvendo obras e reformas em Foz do Iguaçu. Eletricista, encanador, pedreiro, energia solar e mais de 20 serviços com garantia, materiais de qualidade e zero dor de cabeça.',
   keywords:
     'construção Foz do Iguaçu, reforma Foz do Iguaçu, empresa de reforma, empresa de construção, eletricista, encanador, pedreiro, pintor, energia solar, serviços residenciais, mão de obra, orçamento de obra, reforma com garantia, SOS Construir',
-  ogImage: 'https://images.pexels.com/photos/534220/pexels-photo-534220.jpeg',
+  ogImage: '/og-image.jpg',
   breadcrumbLabel: 'Início',
 }
 useSeoMeta({
@@ -92,37 +92,27 @@ const worksGallery: WorkGallerySection = {
     <section-partners :section="{ bgSection: 'bg-section-bg-2' }" />
     <section-why-choose-us :section="{ bgSection: 'bg-section-bg-1' }" />
     <section-our-process :section="{ ...process, bgSection: 'bg-section-bg-2' }" />
-    <section-professionals
-      :section="{
-        title: 'Nossos Profissionais Especializados',
-        description: 'Escolha entre mais de 100 profissionais certificados.',
-        bgSection: 'bg-section-bg-1',
-      }"
-    />
-    <section-works-gallery
-      :section="{
-        ...worksGallery,
-        bgSection: 'bg-section-bg-2',
-      }"
-    />
-    <section-testimonials
-      :section="{
-        title: 'Clientes que confiam na SOS',
-        bgSection: 'bg-section-bg-1',
-      }"
-    />
-    <section-blog
-      :section="{
-        title: 'Dicas e Novidades de Construção',
-        bgSection: 'bg-section-bg-2',
-      }"
-    />
-    <section-final-cta
-      :section="{
-        title: 'Pronto Para Começar Seu Projeto?',
-        description:
-          'Solicite um orçamento gratuito e sem compromisso. Nossa equipe entrará em contato em até 24 horas.',
-      }"
-    />
+    <section-professionals :section="{
+      title: 'Nossos Profissionais Especializados',
+      description: 'Escolha entre mais de 100 profissionais certificados.',
+      bgSection: 'bg-section-bg-1',
+    }" />
+    <section-works-gallery :section="{
+      ...worksGallery,
+      bgSection: 'bg-section-bg-2',
+    }" />
+    <section-testimonials :section="{
+      title: 'Clientes que confiam na SOS',
+      bgSection: 'bg-section-bg-1',
+    }" />
+    <section-blog :section="{
+      title: 'Dicas e Novidades de Construção',
+      bgSection: 'bg-section-bg-2',
+    }" />
+    <section-final-cta :section="{
+      title: 'Pronto Para Começar Seu Projeto?',
+      description:
+        'Solicite um orçamento gratuito e sem compromisso. Nossa equipe entrará em contato em até 24 horas.',
+    }" />
   </div>
 </template>

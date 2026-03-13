@@ -74,11 +74,8 @@ onMounted(() => {
       </div>
 
       <div v-if="loading" class="flex gap-6 overflow-hidden">
-        <div
-          v-for="i in 3"
-          :key="i"
-          class="w-[300px] md:w-[350px] shrink-0 bg-white border border-gray-100 rounded-2xl h-[400px] basis-1/3"
-        >
+        <div v-for="i in 3" :key="i"
+          class="w-[300px] md:w-[350px] shrink-0 bg-white border border-gray-100 rounded-2xl h-[400px] basis-1/3">
           <USkeleton class="h-48 w-full" />
           <div class="p-6 space-y-4">
             <USkeleton class="w-1/3 h-3" />
@@ -89,14 +86,8 @@ onMounted(() => {
       </div>
 
       <div>
-        <UCarousel
-          v-slot="{ item }"
-          loop
-          wheel-gestures
-          :autoplay="{ delay: 5000 }"
-          :items="posts"
-          :ui="{ item: 'basis-1/3' }"
-        >
+        <UCarousel v-slot="{ item }" loop wheel-gestures :autoplay="{ delay: 5000 }" :items="posts"
+          :ui="{ item: 'basis-2/3 md:basis-1/3' }">
           <BlogCard :post="item" class="my-1" />
         </UCarousel>
       </div>

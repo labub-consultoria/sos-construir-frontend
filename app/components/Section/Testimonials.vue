@@ -78,11 +78,8 @@ onMounted(() => {
     </div>
 
     <div v-if="loading" class="flex gap-6 px-4">
-      <div
-        v-for="i in 5"
-        :key="i"
-        class="w-[300px] md:w-[400px] shrink-0 bg-white border border-gray-100 rounded-2xl p-8 h-64 animate-pulse flex flex-col"
-      >
+      <div v-for="i in 5" :key="i"
+        class="w-[300px] md:w-[400px] shrink-0 bg-white border border-gray-100 rounded-2xl p-8 h-64 animate-pulse flex flex-col">
         <div class="space-y-3 mb-8">
           <USkeleton class="h-4 w-full" />
           <USkeleton class="h-4 w-full" />
@@ -97,19 +94,13 @@ onMounted(() => {
 
     <div v-else class="relative w-full group">
       <div>
-        <UCarousel
-          v-slot="{ item }"
-          loop
-          :auto-scroll="{
-            speed: 1,
-            stopOnMouseEnter: true,
-            stopOnInteraction: false,
-          }"
-          :items="testimonials"
-          :ui="{
-            item: 'basis-1/4',
-          }"
-        >
+        <UCarousel v-slot="{ item }" loop :auto-scroll="{
+          speed: 1,
+          stopOnMouseEnter: false,
+          stopOnInteraction: false,
+        }" :items="testimonials" :ui="{
+          item: 'basis-2/3 sm:basis-2/4 md:basis-2/4 lg:basis-2/4 xl:basis-1/4',
+        }">
           <TestimonialCard :testimonial="item" class="my-1" />
         </UCarousel>
       </div>

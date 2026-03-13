@@ -1,4 +1,5 @@
 export default defineAppConfig({
+  modules: ['@nuxt/image'],
   ui: {
     colors: {
       primary: 'orange',
