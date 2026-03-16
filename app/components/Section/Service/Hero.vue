@@ -4,16 +4,12 @@ import { useRoute } from 'vue-router'
 import type { ServiceHeroSection } from '~/types/servicePage'
 import type { BreadcrumbItem } from '@nuxt/ui'
 
-// TODO: AJEITAR PROPS E OS 2 CTA DIANMICO
-const PHONENUMBER = '5545999976544'
-const whatsappMessage = encodeURIComponent('Olá! Gostaria de solicitar um orçamento para minha obra.')
-const primaryLink = formatWhatsappLink(PHONENUMBER, whatsappMessage)
 const defaultSection: ServiceHeroSection = {
   title: 'Se ficar com alguma dúvida',
   description: 'Entre em contato com nossa equipe',
   primaryCta: {
     text: 'Solicitar Orçamento',
-    link: primaryLink,
+    link: DEFAULT_CTA_WHATSAPP_LINK,
     icon: 'mdi:chat-outline',
   },
   secondaryCta: {
@@ -82,7 +78,8 @@ const formattedTitle = computed(() => {
     <div class="absolute inset-0 z-0 flex justify-end">
       <img v-if="props.section" :src="props.section.image" alt="Profissional trabalhando"
         class="w-full md:w-3/4 lg:w-2/3 h-full object-cover object-right" />
-      <div class="absolute inset-0 bg-gradient-to-r from-white via-white/30 to-transparent" />
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-white via-white to-white/50 md:via-white/30 md:to-transparent" />
     </div>
 
     <div class="container max-w-7xl mx-auto px-4 py-6 relative z-10">

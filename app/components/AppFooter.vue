@@ -44,7 +44,7 @@ defineProps<{
             Mais de 10 anos transformando obras em realidade.
           </p>
           <div class="flex gap-2">
-            <UButton icon="i-simple-icons-instagram" variant="soft" to="https://instagram.com/sosconstruir"
+            <UButton icon="i-simple-icons-instagram" variant="soft" to="https://instagram.com/sos_construir"
               class="text-white rounded-full bg-white/10 p-3" target="_blank" aria-label="Instagram" />
             <UButton icon="i-simple-icons-facebook" size="lg" variant="ghost" to="https://facebook.com/sosconstruir"
               class="text-white rounded-full bg-white/10 p-3" target="_blank" aria-label="Facebook" />
@@ -106,7 +106,7 @@ defineProps<{
     </template>
     <template #left>
       <p class="text-sm">
-        © 2025 SOS Construir. Todos os direitos reservados.
+        © {{ new Date().getFullYear() }} SOS Construir. Todos os direitos reservados.
       </p>
     </template>
 

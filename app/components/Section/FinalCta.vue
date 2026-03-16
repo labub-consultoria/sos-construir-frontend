@@ -1,16 +1,12 @@
 <script setup lang="ts">
 import type { FinalCtaSection } from '~/types/sections'
 
-const phoneNumber = '5545999976544'
-const whatsappMessage = encodeURIComponent('Olá! Gostaria de solicitar um orçamento para minha obra.')
-const whatsappLink = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`
-
 const defaultSection: FinalCtaSection = {
   title: 'Se ficar com alguma dúvida',
   description: 'Entre em contato com nossa equipe',
   ctaText: 'Fale com a SOS (WhatsApp)',
   ctaIcon: 'mdi:chat-outline',
-  ctaLink: whatsappLink
+  ctaLink: DEFAULT_CTA_WHATSAPP_LINK
 }
 const props = defineProps<{
   section?: Partial<FinalCtaSection>

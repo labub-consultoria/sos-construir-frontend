@@ -75,3 +75,24 @@ export interface ServiceCard extends Service {
 export interface ServicesSection extends BaseSection {
   services?: ServiceCard[]
 }
+
+export interface HeroSectionProps {
+  badgeText?: string
+  badgeAvatars?: string[]
+  titleDark?: string
+  titleOrange?: string
+  subtitle?: string
+  searchPlaceholder?: string
+  popularTags?: {
+    name: string
+    slug: string
+  }[]
+  mainImage?: string
+  floatingCard?: {
+    rating: number
+    text: string
+    authorName: string
+    authorAvatar: string
+  }
+  bgSection?: string
+}

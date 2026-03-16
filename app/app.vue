@@ -2,11 +2,7 @@
 import { useWindowScroll } from '@vueuse/core';
 import AppHeader from './components/AppHeader.vue';
 import type Meta from './types/meta';
-import formatWhatsappLink from './utils/formatWhatsappLink';
 
-const PHONENUMBER = '5545999976544'
-const EMAIL = 'contato@sosconstruir.com.br'
-const whatsappMessage = encodeURIComponent('Olá! Gostaria de solicitar um orçamento para minha obra.')
 useColorMode().preference = 'light'
 useHead({
   meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
@@ -122,13 +118,12 @@ const scrollToTop = () => {
 </script>
 
 <template>
-  <UApp>
-    <AppHeader :cta-link="formatWhatsappLink(PHONENUMBER, whatsappMessage)" cta-text="Solicitar Orçamento" />
+  <UApp class="app">
+    <AppHeader :cta-link="DEFAULT_CTA_WHATSAPP_LINK" cta-text="Solicitar Orçamento" />
     <UMain>
       <NuxtPage />
     </UMain>
-    <AppFooter :email="EMAIL" :phone-number="PHONENUMBER"
-      :whatsapp-link="formatWhatsappLink(PHONENUMBER, whatsappMessage)" />
+    <AppFooter :email="EMAIL" :phone-number="PHONENUMBER" :whatsapp-link="DEFAULT_CTA_WHATSAPP_LINK" />
     <Transition name="fade">
       <div v-if="showBackToTop" class="fixed bottom-8 right-8">
         <UButton class="p-3 bg-orange-500 hover:bg-orange-600 text-white rounded-full shadow-lg"

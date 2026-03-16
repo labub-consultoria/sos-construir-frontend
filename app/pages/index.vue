@@ -109,12 +109,13 @@ const worksGallery: WorkGallerySection = {
     }" />
     <section-partners :section="{ bgSection: 'bg-section-bg-2' }" />
     <section-why-choose-us :section="{ bgSection: 'bg-section-bg-1' }" />
-    <section-our-process :section="{ ...process, bgSection: 'bg-section-bg-2' }" />
     <section-professionals :section="{
       title: 'Nossos Profissionais Especializados',
       description: 'Escolha entre mais de 100 profissionais certificados.',
-      bgSection: 'bg-section-bg-1',
+      bgSection: 'bg-section-bg-2',
     }" />
+    <section-our-process :section="{ ...process, bgSection: 'bg-section-bg-1' }" />
+
     <section-works-gallery :section="{
       ...worksGallery,
       bgSection: 'bg-section-bg-2',

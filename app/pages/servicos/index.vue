@@ -4,19 +4,23 @@ import { useIntersectionObserver } from '@vueuse/core'
 import type { FinalCtaSection, ServiceCard } from '@/types/sections'
 import type { Category, Service } from '@/types/service'
 
-import data from '@/data/services.json'
 import type { BreadcrumbItem } from '@nuxt/ui'
 import categoriesData from '@/data/servicesCategories.json'
 import type Meta from '~/types/meta'
 
-const services = data.services as Service[]
 const categories = [{ name: 'Todos', slug: 'todos' }, ...categoriesData.categories] as Category[]
 
-const allServices = ref<Service[]>(services)
-const selectedCategory = ref('todos')
-const searchQuery = ref('')
-const visibleCount = ref(12)
 const loadMoreTrigger = ref<HTMLElement | null>(null)
+const {
+  visibleCount,
+  searchQuery,
+  selectedCategory,
+  filteredServices,
+  visibleServices,
+  setCategory,
+  loadMore,
+  clearFilters,
+} = useServices()
 
 const finalCtaSection: FinalCtaSection = {
   title: 'Não Encontrou o Serviço que Procura?',
@@ -48,36 +52,6 @@ useSeoMeta({
 })
 const items = ref<BreadcrumbItem[]>([{ label: 'Home', to: '/' }, { label: 'Serviços' }])
 
-// Lógica de Filtro (Agora incluindo a Pesquisa)
-const filteredServices = computed(() => {
-  let result = allServices.value
-
-  // 1. Filtra pela Categoria
-  if (selectedCategory.value !== 'todos') {
-    result = result.filter(
-      (service) => service.category.toLowerCase() === selectedCategory.value.toLowerCase()
-    )
-  }
-
-  // 2. Filtra pela Pesquisa de texto (Nome, Descrição ou Keywords)
-  if (searchQuery.value.trim()) {
-    const query = searchQuery.value.toLowerCase().trim()
-    result = result.filter(
-      (service) =>
-        service.name.toLowerCase().includes(query) ||
-        service.description.toLowerCase().includes(query) ||
-        (service.keywords && service.keywords.some((k) => k.toLowerCase().includes(query)))
-    )
-  }
-
-  return result
-})
-
-// Lógica de Paginação (12 em 12)
-const visibleServices = computed(() => {
-  return filteredServices.value.slice(0, visibleCount.value)
-})
-
 const mappedCards = computed<ServiceCard[]>((
   () => {
     return visibleServices.value.map((s: Service): ServiceCard => {
@@ -91,13 +65,6 @@ const mappedCards = computed<ServiceCard[]>((
   }
 ))
 
-
-// Resetar paginação ao trocar de categoria
-const setCategory = (category: string) => {
-  selectedCategory.value = category
-  visibleCount.value = 12
-}
-
 // Resetar paginação quando o usuário digitar algo novo na pesquisa
 watch(searchQuery, () => {
   visibleCount.value = 12
@@ -110,16 +77,15 @@ useIntersectionObserver(
     if (isIntersecting && visibleCount.value < filteredServices.value.length) {
       // Adiciona um pequeno delay opcional para efeito visual suave
       setTimeout(() => {
-        visibleCount.value += 12
+        loadMore()
       }, 300)
     }
   },
   { threshold: 0.5 }
 )
-const clearFilters = () => {
-  searchQuery.value = ''
-  selectedCategory.value = 'Todos'
-}
+
+
+
 </script>
 
 <template>

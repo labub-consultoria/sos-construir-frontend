@@ -1,5 +1,3 @@
-// TODO: ESTILIZAR CORRETAMENTE OS LINKS https://ui.nuxt.com/docs/components/navigation-menu
-// AUMENTAR
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
@@ -7,7 +5,6 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 
 const route = useRoute()
 
-// Definição dos links de navegação solicitados
 const items = computed<NavigationMenuItem[]>(() => [
   {
     label: 'Sobre Nós',
@@ -70,7 +67,7 @@ defineProps<{
     <template #body>
       <UNavigationMenu :items="items" orientation="vertical" class="mx-2.5" :ui="{
         link: 'block text-center',
-        linkLabel: 'text-blue-500 hover:text-blue-600 text-base bg-black',
+        linkLabel: 'text-blue-500 hover:text-blue-600 text-base',
       }" />
 
       <UButton color="primary" size="lg" block class="mt-6 font-semibold" :to="ctaLink">
