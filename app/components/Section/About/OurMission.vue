@@ -10,7 +10,7 @@ const stats = [
   {
     icon: 'mdi:star',
     value: 'Qualidade Garantida',
-    label: 'Cada detalhe importa. Executamos com o mesmo padrão em todos os projetos, sem exceção.'
+    label: 'Cada detalhe importa. O mesmo padrão de execução em todos os projetos, sem exceção.'
   },
   {
     icon: 'mdi:clock',
@@ -34,20 +34,21 @@ const stats = [
 
           <div>
             <h2 class="title-section">
-              Nossa missão: mais que construir, transformar
+              Cada detalhe importa.
             </h2>
           </div>
+          <img src="/images/about/cover-3-mobile.jpg" alt="Obra em andamento"
+            class="w-full lg:hidden h-[300px] my-3 object-cover rounded-2xl shadow-sm" loading="lazy">
 
           <div class="space-y-6 text-gray-600 leading-relaxed text-[16px]">
             <p>
-              Não estamos aqui apenas para erguer estruturas. Estamos aqui para transformar
-              vidas através de espaços bem construídos, onde as pessoas possam criar memórias,
-              crescer seus negócios e realizar seus sonhos.
+              Não basta erguer uma estrutura. O que nos move é entregar algo que o cliente olhe e sinta que valeu cada
+              centavo. Um espaço bem construído, que vai durar, e que foi feito com o cuidado que o projeto merecia.
             </p>
             <p>
-              Acreditamos que qualidade é um direito, não um privilégio. Por isso, garantimos
-              que cada projeto - seja uma reforma simples ou uma construção complexa - receba
-              a mesma dedicação, profissionalismo e cuidado.
+              Seja uma reforma simples ou uma construção do zero, o padrão não muda. Cada projeto recebe o mesmo nível
+              de dedicação, profissionalismo e atenção ao detalhe, porque acreditamos que qualidade não deveria ser
+              exceção.
             </p>
           </div>
 
@@ -66,7 +67,7 @@ const stats = [
           </div>
         </div>
 
-        <div class="flex-1 flex justify-center lg:justify-end">
+        <div class="hidden lg:flex lg:flex-1 justify-center lg:justify-end">
           <div class="w-full max-w-xs lg:max-w-sm">
             <img src="/images/about/cover-4.jpg" alt="Profissional dedicado transformando espaços"
               class="w-full aspect-[9/16] object-cover rounded-3xl shadow-lg" loading="lazy">

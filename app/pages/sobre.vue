@@ -11,8 +11,8 @@ useSeoMeta({
 })
 
 const hero: ServiceHeroSection = {
-  title: 'Construindo sonhos, reformando realidades.',
-  description: 'Nós somos a Só Construir o seu SOS da Construção, para uma parceria tranquila na construção ou reforma, sem dores de cabeça.',
+  title: 'Sua obra do jeito certo. Sem Dor de Cabeça.',
+  description: 'Conectamos você aos melhores profissionais e materiais da região, e cuidamos de cada etapa da obra. ',
   image: '/images/about/hero.jpg',
   secondaryCta: {
     text: 'Conheça Nossos Serviços',
@@ -21,7 +21,7 @@ const hero: ServiceHeroSection = {
   },
   features: [
     {
-      text: '10+ anos fazendo isso bem',
+      text: '10+ anos de experiência',
       icon: 'mdi:hammer'
     },
     {
@@ -29,7 +29,7 @@ const hero: ServiceHeroSection = {
       icon: 'mdi:emoticon'
     },
     {
-      text: 'Cada projeto é nossa responsabilidade',
+      text: 'Garantia total em cada projeto',
       icon: 'mdi:house'
     }
   ],
