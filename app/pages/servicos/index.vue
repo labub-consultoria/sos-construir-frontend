@@ -10,7 +10,8 @@ import type Meta from '~/types/meta'
 
 const categories = [{ name: 'Todos', slug: 'todos' }, ...categoriesData.categories] as Category[]
 
-const loadMoreTrigger = ref<HTMLElement | null>(null)
+const loadMoreTrigger = useTemplateRef('loadMoreTrigger')
+
 const {
   visibleCount,
   searchQuery,
@@ -73,19 +74,12 @@ watch(searchQuery, () => {
 // Scroll Infinito
 useIntersectionObserver(
   loadMoreTrigger,
-  ([isIntersecting]) => {
-    if (isIntersecting && visibleCount.value < filteredServices.value.length) {
-      // Adiciona um pequeno delay opcional para efeito visual suave
-      setTimeout(() => {
-        loadMore()
-      }, 300)
+  ([entry]) => {
+    if (entry?.isIntersecting && visibleCount.value < filteredServices.value.length) {
+      loadMore()
     }
   },
-  { threshold: 0.5 }
 )
-
-
-
 </script>
 
 <template>
@@ -134,13 +128,13 @@ useIntersectionObserver(
         </UButton>
       </div>
 
-      <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         <ServiceCard v-for="card in mappedCards" :key="card.id" :card="card" class="min-h-72" />
       </div>
 
-      <div ref="loadMoreTrigger" class="h-20 flex items-center justify-center mt-8">
-        <UIcon v-if="visibleCount < filteredServices.length" name="i-heroicons-arrow-path"
-          class="animate-spin text-3xl text-orange-500" />
+      <div ref="loadMoreTrigger" v-show="visibleCount < filteredServices.length"
+        class="h-20 flex items-center justify-center ">
+        <UIcon name="i-heroicons-arrow-path" class="animate-spin text-3xl text-orange-500" />
       </div>
     </UContainer>
 

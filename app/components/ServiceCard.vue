@@ -26,7 +26,7 @@ defineProps<{
         </template>
         <template #footer>
           <div class="p-2 md:p-0 flex flex-col">
-            <h3 class="text-lg md:text-xl font-bold text-blue-500 mb-3">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-bold text-blue-500 mb-3">
               {{ card.name }}
             </h3>
             <p class="text-section-subname text-sm leading-relaxed text-blue-500/60 ">
@@ -53,7 +53,7 @@ defineProps<{
         </template>
         <template #footer>
           <div class="absolute bottom-10 z-20 p-2 md:p-0 flex flex-col">
-            <h3 class="text-lg md:text-xl font-bold text-white mb-3">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-bold text-white mb-3">
               {{ card.name }}
             </h3>
             <p class="text-section-subname text-sm text-white/80 leading-relaxed">

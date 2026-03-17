@@ -2,7 +2,7 @@ import servicesData from '@/data/services.json'
 import type { Service } from '@/types/service'
 import { useDebounceFn } from '@vueuse/core'
 
-const PAGE_SIZE = 12
+const PAGE_SIZE = 9
 
 export function useServices() {
   const allServices = servicesData.services as Service[]
