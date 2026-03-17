@@ -20,7 +20,7 @@ defineProps<{
         <div class="flex items-center gap-4 mb-4">
           <div class="rounded-full border-3 border-orange-500">
             <img :src="professional.avatar" :alt="professional.name"
-              class="w-18 h-18 rounded-full object-cover border-3 border-white" />
+              class="w-18 rounded-full object-cover border-3 border-white" />
           </div>
           <div>
             <h3 class="font-bold text-blue-700 text-lg">

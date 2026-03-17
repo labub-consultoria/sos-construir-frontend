@@ -24,9 +24,9 @@ const stats = [
       <div class="grid lg:grid-cols-3 gap-2 lg:gap-12 items-stretch">
 
         <div class="flex flex-col gap-4">
-          <img src="/images/about/cover-2.png" alt="Equipe em reunião de planejamento"
+          <img src="/images/about/cover-2.jpg" alt="Equipe em reunião de planejamento"
             class="hidden lg:block w-full h-[350px] lg:h-[450px] object-cover rounded-2xl shadow-sm" loading="lazy">
-          <img src="/images/about/cover-1.png" alt="Obra em andamento"
+          <img src="/images/about/cover-1.jpg" alt="Obra em andamento"
             class="hidden lg:block w-full h-[200px] lg:h-[250px] object-cover rounded-2xl shadow-sm" loading="lazy">
         </div>
 
@@ -39,7 +39,7 @@ const stats = [
           <h2 class="title-section ">
             Cuidando da sua obra como se fosse a nossa.
           </h2>
-          <img src="/images/about/cover-2.png" alt="Obra em andamento"
+          <img src="/images/about/cover-2.jpg" alt="Obra em andamento"
             class="w-full lg:hidden h-[250px] my-3 object-cover rounded-2xl shadow-sm" loading="lazy">
 
           <div class="space-y-4 text-gray-600 leading-relaxed mb-10 text-[16px]">

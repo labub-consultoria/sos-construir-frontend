@@ -14,10 +14,10 @@
         "image": "/images/services/pintor/hero.jpg"
       },
       "partner": {
-        "partnerName": "FozTintas",
-        "logo": "/images/services/pintor/foztintas/logo.png",
-        "coverImage": "/images/services/pintor/foztintas/cover.png",
-        "description": "Trabalhamos com a FozTintas, referência em qualidade desde 1985. Tintas premium, cores personalizadas e o melhor preço direto do fabricante para seu projeto.",
+        "partnerName": "Arte Tintas",
+        "logo": "/images/services/pintor/artetintas/logo.webp",
+        "coverImage": "/images/services/pintor/artetintas/cover.webp",
+        "description": "Trabalhamos com a Arte Tintas, referência em qualidade há mais de 30 anos. Tintas imobiliárias, consultoria de cores e o melhor atendimento para o seu projeto, com entrega rápida e o melhor custo-benefício da região.",
         "tags": [
           {
             "icon": "format-paint",
@@ -36,10 +36,13 @@
             "text": "Consultoria de cores gratuita para o seu projeto"
           }
         ],
-        "cta": "Conhecer Tintas FozTintas",
+        "cta": {
+          "text": "Conhecer a Arte Tintas",
+          "link": "https://www.artetintas.com.br"
+        },
         "footerInfo": {
           "usage": "Usado em 500+ projetos na região",
-          "guarantee": "Garantia oficial FozTintas"
+          "guarantee": "Garantia oficial Arte Tintas"
         }
       },
       "workGallery": {
@@ -369,7 +372,10 @@
             "text": "Produto com certificação de qualidade exportação"
           }
         ],
-        "cta": "Conhecer Linhas Rohden",
+        "cta": {
+          "text": "Conhecer as Portas Rohden",
+          "link": "https://rohden.com"
+        },
         "footerInfo": {
           "usage": "Líder nacional com +20 milhões de portas produzidas",
           "guarantee": "Garantia de fábrica e suporte exclusivo SOS"

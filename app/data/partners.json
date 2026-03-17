@@ -2,10 +2,10 @@
     "partners": [
         {
             "id": 1,
-            "name": "Foz Tintas",
-            "slug": "foz-tintas",
+            "name": "Arte Tintas",
+            "slug": "arte-tintas",
             "category": "tintas",
-            "logo": "/images/services/pintor/foztintas/logo.png",
+            "logo": "/images/services/pintor/artetintas/logo.webp",
             "description": "As melhores marcas de tintas para você dar mais cor a sua casa ou negócio. A Foz Tintas tem ótimas promoções para ajudar você a economizar na sua reforma."
         },
         {

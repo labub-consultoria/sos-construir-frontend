@@ -12,7 +12,7 @@ import type { Meta } from '~~/shared/types/meta'
 interface Cta {
   link: string
   text: string
-  icon: string
+  icon?: string
 }
 interface Feature {
   text: string
@@ -30,7 +30,7 @@ export interface PartnerSection extends BaseSection {
   logo: string
   description: string
   tags: Tag[]
-  cta: string
+  cta: Cta
   footerInfo: {
     usage: string
     guarantee: string

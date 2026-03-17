@@ -31,7 +31,7 @@ const fetchPosts = async () => {
     {
       id: 2,
       image:
-        '/images/blog/cover-1.png',
+        '/images/blog/cover-1.jpg',
       category: 'REFORMA',
       title: 'Como Fazer um Muro de Arrimo Seguro',
       link: '/blog/2',
@@ -39,7 +39,7 @@ const fetchPosts = async () => {
     {
       id: 3,
       image:
-        '/images/blog/cover-3.png',
+        '/images/blog/cover-3.jpg',
       category: 'MANUTENÇÃO',
       title: 'Como Evitar Infiltrações na Sua Casa?',
       link: '/blog/3',
@@ -47,7 +47,7 @@ const fetchPosts = async () => {
     {
       id: 4,
       image:
-        '/images/blog/cover-4.png',
+        '/images/blog/cover-4.jpg',
       category: 'TENDÊNCIAS',
       title: 'Cores que Vão Dominar as Reformas em 2026',
       link: '/blog/4',
