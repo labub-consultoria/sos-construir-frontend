@@ -1,6 +1,6 @@
 import { ref, computed, watch } from 'vue'
 import { useDebounceFn } from '@vueuse/core'
-
+// TODO: SUGGESTIONS TAMBÉM ENVIAR UM ITEM "TODOS OS SERVIÇOS"
 const PAGE_SIZE = 9
 
 export function useServices() {
@@ -46,7 +46,14 @@ export function useServices() {
     visibleCount.value = PAGE_SIZE
   }
 
-  const suggestions = ref<Service[]>([])
+  type Suggestion = Pick<Service, 'slug' | 'name' | 'description' | 'icon'>
+  const suggestions = ref<Suggestion[]>([])
+  const seeAllServices: Suggestion = {
+    name: 'Todos os Serviços',
+    description: 'Veja todos os serviços disponíveis',
+    icon: 'mdi:briefcase',
+    slug: 'todos',
+  }
 
   const _updateSuggestions = useDebounceFn(async () => {
     const q = searchQuery.value.trim()
@@ -61,8 +68,9 @@ export function useServices() {
       })
 
       suggestions.value = res.data
+      suggestions.value.push(seeAllServices)
     } catch (error) {
-      suggestions.value = []
+      suggestions.value = [seeAllServices]
       throw error
     }
   }, 250)

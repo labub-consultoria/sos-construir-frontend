@@ -119,7 +119,7 @@ const handleSearch = () => {
         <div class="flex flex-col items-start z-10">
           <HeroChip :users="users" />
 
-          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-[1.1]">
+          <h1 class="text-[2.5rem] sm:text-6xl font-extrabold tracking-tight mb-6 leading-[1.1]">
             <span class="text-blue-500 block mb-2">{{ section.titleDark }}</span>
             <span class="text-orange-500 block">{{ section.titleOrange }}</span>
           </h1>
@@ -152,7 +152,7 @@ const handleSearch = () => {
                 <ul
                   class=" bg-white border border-gray-100 rounded-2xl shadow-xl z-50 max-h-64 
                 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent hover:scrollbar-thumb-gray-400 overflow-y-auto">
-                  <li v-for="service in suggestions" :key="service.id" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-orange-50
+                  <li v-for="service in suggestions" :key="service.slug" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-orange-50
                transition-colors border-b border-gray-50 last:border-none" @click="handleSelect(service.slug)">
                     <UIcon :name="service.icon" class="text-orange-500 bg-orange-500 text-xl shrink-0" />
                     <div class="flex flex-col min-w-0">
