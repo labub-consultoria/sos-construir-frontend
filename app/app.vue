@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { useWindowScroll } from '@vueuse/core';
 
-useColorMode().value = 'light'
 useHead({
   meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
   link: [
