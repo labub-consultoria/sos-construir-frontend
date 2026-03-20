@@ -52,7 +52,7 @@ export function useServices() {
     name: 'Todos os Serviços',
     description: 'Veja todos os serviços disponíveis',
     icon: 'mdi:briefcase',
-    slug: 'todos',
+    slug: '',
   }
 
   const _updateSuggestions = useDebounceFn(async () => {

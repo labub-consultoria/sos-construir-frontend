@@ -4,12 +4,6 @@ import type { NuxtError } from '#app'
 
 const props = defineProps<{ error: NuxtError }>()
 
-const PHONENUMBER = '5545999976544'
-const EMAIL = 'contato@sosconstruir.com.br'
-const whatsappMessage = encodeURIComponent('Olá! Gostaria de solicitar um orçamento para minha obra.')
-
-const formatWhatsappLink = (phone: string, message: string) => `https://wa.me/${phone}?text=${message}`
-
 const isDevelopment = import.meta.env.DEV
 
 const errorMessages: Record<number, { title: string; description: string; icon: string }> = {
@@ -62,7 +56,7 @@ useSeoMeta({
     twitterCard: 'summary_large_image',
 })
 const errorWhatsappLink = computed(() => {
-    return `https://wa.me/${PHONENUMBER}?text=${whatsappMessage}`
+    return DEFAULT_CTA_WHATSAPP_LINK
 })
 
 const handleError = () => clearError({ redirect: '/' })
@@ -70,7 +64,7 @@ const handleError = () => clearError({ redirect: '/' })
 
 <template>
     <UApp>
-        <AppHeader :cta-link="formatWhatsappLink(PHONENUMBER, whatsappMessage)" cta-text="Solicitar Orçamento" />
+        <AppHeader :cta-link="DEFAULT_CTA_WHATSAPP_LINK" cta-text="Solicitar Orçamento" />
 
         <main class="min-h-[70vh] flex items-center justify-center px-4 py-16 bg-gradient-to-t from-white to-gray-50">
             <div class="max-w-2xl w-full text-center space-y-8">
@@ -111,7 +105,6 @@ const handleError = () => clearError({ redirect: '/' })
             </div>
         </main>
 
-        <AppFooter :email="EMAIL" :phone-number="PHONENUMBER"
-            :whatsapp-link="formatWhatsappLink(PHONENUMBER, whatsappMessage)" />
+        <AppFooter :email="EMAIL" :phone-number="PHONENUMBER" :whatsapp-link="DEFAULT_CTA_WHATSAPP_LINK" />
     </UApp>
 </template>
