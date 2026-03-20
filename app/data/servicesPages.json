@@ -4,14 +4,14 @@
       "title": "Pintura Residencial e Comercial em Foz do Iguaçu | SOS Construir",
       "description": "Transforme seu ambiente com pintores profissionais em Foz do Iguaçu. Pintura interna, externa e decorativa com acabamento premium e limpeza garantida.",
       "keywords": "pintor foz do iguaçu, pintura de casas, empresa de pintura foz, acabamento de pintura, pintor profissional pr",
-      "ogImage": "/images/services/pintor/hero.jpg",
+      "ogImage": "/images/services/pintor/hero.webp",
       "breadcrumbLabel": "Pintura"
     },
     "sections": {
       "hero": {
-        "title": "Pintura Profissional Sem Dor de Cabeça | SOS Construir",
+        "title": "Pintura Profissional Sem Dor de Cabeça",
         "description": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
-        "image": "/images/services/pintor/hero.jpg"
+        "image": "/images/services/pintor/hero.webp"
       },
       "partner": {
         "partnerName": "Arte Tintas",
@@ -101,6 +101,31 @@
         "title": "Pintores Profissionais Verificados",
         "description": "Escolha um pintor certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
       },
+      "whyChooseUs": {
+        "title": "Por que a SOS é a Melhor Escolha para sua Pintura?",
+        "reasons": [
+          {
+            "title": "Proteção Total do Ambiente",
+            "description": "Ninguém gosta de respingos. Forramos pisos, móveis e rodapés com materiais específicos para garantir uma obra limpa.",
+            "icon": "shield-home-outline"
+          },
+          {
+            "title": "Preparo Técnico de Superfície",
+            "description": "Pintura de verdade começa no lixamento e selagem. Corrigimos imperfeições para a tinta aderir e durar muito mais.",
+            "icon": "texture-box"
+          },
+          {
+            "title": "Acabamento de Alto Padrão",
+            "description": "Recortes precisos e cobertura uniforme sem marcas de rolo, utilizando as melhores ferramentas e as tintas da Arte Tintas.",
+            "icon": "brush-variant"
+          },
+          {
+            "title": "Consultoria de Cores",
+            "description": "Dúvida no tom? Nossos especialistas ajudam você a escolher a cor ideal que harmoniza com a iluminação do seu espaço.",
+            "icon": "palette-outline"
+          }
+        ]
+      },
       "faq": {
         "title": "Dúvidas Frequentes sobre Pintura",
         "questions": [
@@ -129,14 +154,71 @@
       "title": "Metalúrgica e Serralheria em Foz do Iguaçu | SOS Construir",
       "description": "Projetos em aço e ferro sob medida em Foz do Iguaçu. Portões, grades, estruturas metálicas e coberturas com solda profissional e alta durabilidade.",
       "keywords": "metalúrgica foz do iguaçu, serralheria foz, portões de ferro, estruturas metálicas pr, grades e coberturas",
-      "ogImage": "/images/services/metalurgica/hero.jpg",
+      "ogImage": "/images/services/metalurgica/hero.webp",
       "breadcrumbLabel": "Metalúrgica"
     },
     "sections": {
       "hero": {
         "title": "Metalúrgica Profissional Sem Dor de Cabeça",
         "description": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
-        "image": "/images/services/metalurgico/hero.jpg"
+        "image": "/images/services/metalurgico/hero.webp"
+      },
+      "partner": {
+        "partnerName": "Galvanox Serralheria",
+        "logo": "/images/services/metalurgico/galvanox/logo.webp",
+        "coverImage": "/images/services/metalurgico/galvanox/cover.jpg",
+        "description": "Parceria com a Galvanox, referência em Foz do Iguaçu desde 1998. Especialistas em serralheria fina e estruturas metálicas, entregando soluções sob medida em ferro e inox com a precisão artesanal e a resistência que seu projeto exige.",
+        "tags": [
+          {
+            "icon": "anvil",
+            "text": "Soluções sob medida em ferro e aço inox"
+          },
+          {
+            "icon": "shield-lock-outline",
+            "text": "Portões, grades e esquadrias de alta segurança"
+          },
+          {
+            "icon": "history",
+            "text": "Tradição em Foz do Iguaçu há mais de 25 anos"
+          },
+          {
+            "icon": "crane",
+            "text": "Estruturas metálicas para galpões e coberturas"
+          }
+        ],
+        "cta": {
+          "text": "Solicitar Orçamento Galvanox",
+          "link": "https://www.galvanox.com.br"
+        },
+        "footerInfo": {
+          "usage": "Especialista em acabamentos residenciais e industriais",
+          "guarantee": "Garantia de fabricação e durabilidade SOS"
+        }
+      },
+      "whyChooseUs": {
+        "title": "Por que a SOS é Referência em Metalurgia?",
+        "reasons": [
+          {
+            "title": "Solda de Alta Fusão",
+            "description": "Utilizamos técnicas avançadas de soldagem que garantem uniões indestrutíveis e acabamento sem rebarbas.",
+            "icon": "vlc"
+          },
+          {
+            "title": "Tratamento Anticorrosivo",
+            "description": "Todas as peças recebem fundo preparador de alta aderência, essencial para o clima úmido de Foz do Iguaçu.",
+            "icon": "shield-check-outline"
+          },
+          {
+            "title": "Precisão Milimétrica",
+            "description": "Projetos executados com rigor técnico, garantindo que portões e esquadrias funcionem com leveza e silêncio.",
+            "icon": "ruler-square"
+          },
+          {
+            "title": "Soluções em Inox",
+            "description": "Domínio técnico para trabalhar com aço inox, oferecendo sofisticação e durabilidade vitalícia em corrimãos e detalhes.",
+            "icon": "medal-outline"
+          }
+        ]
       },
       "workGallery": {
         "filters": [
@@ -222,14 +304,46 @@
       "title": "Instalação de Paver em Foz do Iguaçu | SOS Construir",
       "description": "Especialistas em pavimentação com paver em Foz do Iguaçu. Calçadas, pátios e áreas externas com drenagem eficiente e alta durabilidade. +4.000 projetos.",
       "keywords": "paver foz do iguaçu, piso intertravado, calçada de paver, pavimentação sustentável, colocação de paver",
-      "ogImage": "/images/services/paver/hero.jpg",
+      "ogImage": "/images/services/paver/hero.webp",
       "breadcrumbLabel": "Paver"
     },
     "sections": {
       "hero": {
         "title": "Pavimentação Inteligente Sem Dor de Cabeça",
         "description": "Transforme sua área externa com a beleza e resistência do paver. Instalação rápida, drenagem eficiente e zero manutenção complicada.",
-        "image": "/images/services/paver/hero.jpg"
+        "image": "/images/services/paver/hero.webp"
+      },
+      "partner": {
+        "partnerName": "BlockForte",
+        "logo": "/images/services/paver/blockforte/logo.png",
+        "coverImage": "/images/services/paver/blockforte/cover.jpg",
+        "description": "Parceria com a BlockForte, especialista em artefatos de concreto com padrão industrial rigoroso. Utilizamos pavers de 60mm e 80mm com precisão dimensional, garantindo calçadas e pátios com encaixe perfeito, alta resistência e preço direto de fábrica.",
+        "tags": [
+          {
+            "icon": "ruler-square",
+            "text": "Precisão dimensional: peças que se encaixam perfeitamente"
+          },
+          {
+            "icon": "truck-delivery",
+            "text": "Entrega garantida com frota própria para sua obra"
+          },
+          {
+            "icon": "factory",
+            "text": "Preço direto da fábrica, sem intermediários"
+          },
+          {
+            "icon": "shield-check",
+            "text": "Pavers de 60mm e 80mm para diferentes níveis de tráfego"
+          }
+        ],
+        "cta": {
+          "text": "Solicitar Orçamento BlockForte",
+          "link": "https://www.blockforte.com.br"
+        },
+        "footerInfo": {
+          "usage": "Peças de 16 lados e retangulares de alta durabilidade",
+          "guarantee": "Garantia de resistência real e padrão industrial"
+        }
       },
       "workGallery": {
         "filters": [
@@ -289,7 +403,7 @@
       },
       "whyChooseUs": {
         "title": "Por que escolher nosso Paver?",
-        "items": [
+        "reasons": [
           {
             "title": "Conforto Térmico",
             "description": "Retém menos calor que o asfalto ou concreto maciço.",
@@ -340,14 +454,14 @@
       "title": "Instalação de Portas em Foz do Iguaçu | SOS Construir",
       "description": "Instalação profissional de portas em Foz do Iguaçu. Especialistas em Kit Porta Pronta Rohden. Acabamento premium, isolamento acústico e agilidade na obra.",
       "keywords": "instalação de portas foz do iguaçu, portas rohden, kit porta pronta, instalador de portas, portas de madeira",
-      "ogImage": "/images/services/instalacao-de-portas/hero.jpg",
+      "ogImage": "/images/services/instalacao-de-portas/hero.webp",
       "breadcrumbLabel": "Instalação de Portas"
     },
     "sections": {
       "hero": {
         "title": "Instalação de Portas Sem Dor de Cabeça",
         "description": "Transforme seus ambientes com a sofisticação das portas Rohden e a instalação impecável da SOS Construir. Rapidez, limpeza e precisão técnica.",
-        "image": "/images/services/instalacao-de-portas/hero.jpg"
+        "image": "/images/services/instalacao-de-portas/hero.webp"
       },
       "partner": {
         "partnerName": "Rohden Portas",
@@ -439,7 +553,7 @@
       },
       "whyChooseUs": {
         "title": "Por que investir em nossas portas?",
-        "items": [
+        "reasons": [
           {
             "title": "Sem Retrabalho",
             "description": "O Kit Porta Pronta elimina a necessidade de lixamento ou pintura no local.",
@@ -490,14 +604,14 @@
       "title": "Energia Solar em Foz do Iguaçu | Economize até 90% | SOS Construir",
       "description": "Instalação de energia solar em Foz do Iguaçu. Reduza sua conta de luz em até 90%. Projetos completos, homologação na Copel e financiamento facilitado.",
       "keywords": "energia solar foz do iguaçu, painel solar, energia fotovoltaica, kit energia solar, instalador energia solar",
-      "ogImage": "/images/services/energia-solar/hero.jpg",
+      "ogImage": "/images/services/energia-solar/hero.webp",
       "breadcrumbLabel": "Energia Solar"
     },
     "sections": {
       "hero": {
         "title": "Transforme o Sol de Foz em Economia no seu Bolso",
         "description": "Reduza sua conta de energia em até 90% com um sistema solar de alta performance. Pagamento facilitado onde a parcela cabe na sua economia.",
-        "image": "/images/services/energia-solar/hero.jpg"
+        "image": "/images/services/energia-solar/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -557,7 +671,7 @@
       },
       "whyChooseUs": {
         "title": "Vantagens da Energia Solar SOS",
-        "items": [
+        "reasons": [
           {
             "title": "Valorização Imediata",
             "description": "Um imóvel com energia solar é vendido até 10% mais rápido e por um valor maior.",
@@ -566,7 +680,7 @@
           {
             "title": "Manutenção Mínima",
             "description": "O sistema exige apenas limpezas periódicas simples para manter a eficiência.",
-            "icon": "mop"
+            "icon": "broom"
           },
           {
             "title": "Independência",
@@ -608,14 +722,14 @@
       "title": "Terraplanagem e Locação de Máquinas em Foz do Iguaçu | SOS Construir",
       "description": "Serviços de terraplanagem, limpeza de terreno e locação de máquinas em Foz do Iguaçu. Retroescavadeira, Bobcat e caminhão caçamba. Base sólida para sua obra.",
       "keywords": "terraplanagem foz do iguaçu, aluguel de retroescavadeira, locação de bobcat, limpeza de terreno, escavação foz",
-      "ogImage": "/images/services/terraplanagem-e-locacao/hero.jpg",
+      "ogImage": "/images/services/terraplanagem-e-locacao/hero.webp",
       "breadcrumbLabel": "Terraplanagem e Locação"
     },
     "sections": {
       "hero": {
-        "title": "A Base Sólida que Sua Obra Precisa Começa Aqui",
+        "title": "A Base Sólida que Sua Obra Começa Aqui",
         "description": "Preparação de terreno com precisão técnica e agilidade. Locação de equipamentos modernos com operadores experientes para garantir o nível perfeito do seu projeto.",
-        "image": "/images/services/terraplanagem-e-locacao/hero.jpg"
+        "image": "/images/services/terraplanagem-e-locacao/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -647,13 +761,13 @@
             "step": 1,
             "title": "Vistoria e Topografia",
             "description": "Analisamos as cotas do terreno e o tipo de solo para planejar o volume de terra a ser movido.",
-            "icon": "miter-saw"
+            "icon": "circular-saw"
           },
           {
             "step": 2,
             "title": "Limpeza e Supressão",
             "description": "Remoção de vegetação, entulhos ou estruturas antigas para liberar a área de trabalho.",
-            "icon": "shovels"
+            "icon": "shovel"
           },
           {
             "step": 3,
@@ -675,7 +789,7 @@
       },
       "whyChooseUs": {
         "title": "Por que preparar seu solo conosco?",
-        "items": [
+        "reasons": [
           {
             "title": "Precisão Técnica",
             "description": "Trabalhamos com foco no nivelamento perfeito, facilitando as próximas etapas da obra.",
@@ -726,14 +840,14 @@
       "title": "Reforma de Telhado em Foz do Iguaçu | SOS Construir",
       "description": "Especialistas em reforma de telhados em Foz do Iguaçu. Reparos de vazamentos, troca de telhas e reforço estrutural com garantia integral e inspeção detalhada.",
       "keywords": "reforma de telhado foz do iguaçu, conserto de telhado, troca de telhas, vazamento telhado, calhas e rufos",
-      "ogImage": "/images/services/reforma-de-telhado/hero.jpg",
+      "ogImage": "/images/services/reforma-de-telhado/hero.webp",
       "breadcrumbLabel": "Reforma de Telhado"
     },
     "sections": {
       "hero": {
         "title": "Reforme seu Telhado Sem Dor de Cabeça",
         "description": "Não espere a próxima chuva para agir. Reformamos seu telhado com agilidade, materiais de primeira e a garantia de quem entende de construção há mais de 10 anos.",
-        "image": "/images/services/reforma-de-telhado/hero.jpg"
+        "image": "/images/services/reforma-de-telhado/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -793,7 +907,7 @@
       },
       "whyChooseUs": {
         "title": "Por que reformar com a SOS?",
-        "items": [
+        "reasons": [
           {
             "title": "Avaliação Gratuita",
             "description": "Diagnosticamos o problema real antes de você gastar um centavo.",
@@ -844,14 +958,14 @@
       "title": "Gesso e Drywall em Foz do Iguaçu | SOS Construir",
       "description": "Especialistas em forros de gesso, divisórias de drywall e sancas decorativas em Foz do Iguaçu. Instalação rápida, limpa e com acabamento impecável.",
       "keywords": "gesso foz do iguaçu, drywall foz, forro de gesso, divisória drywall, sancas de gesso, gesso acartonado",
-      "ogImage": "/images/services/gesso-e-drywall/hero.jpg",
+      "ogImage": "/images/services/gesso-e-drywall/hero.webp",
       "breadcrumbLabel": "Gesso e Drywall"
     },
     "sections": {
       "hero": {
         "title": "Design e Agilidade para Transformar Seus Ambientes",
         "description": "Crie espaços modernos com forros personalizados, iluminação embutida e divisórias inteligentes. O acabamento que sua obra merece com a rapidez que você precisa.",
-        "image": "/images/services/gesso-e-drywall/hero.jpg"
+        "image": "/images/services/gesso-e-drywall/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -911,7 +1025,7 @@
       },
       "whyChooseUs": {
         "title": "Vantagens do Gesso e Drywall SOS",
-        "items": [
+        "reasons": [
           {
             "title": "Obra Limpa e Rápida",
             "description": "O sistema a seco gera muito menos entulho e permite ocupar o espaço em tempo recorde.",
@@ -962,14 +1076,14 @@
       "title": "Poço Artesiano em Foz do Iguaçu | SOS Construir",
       "description": "Perfuração de poços artesianos e semi-artesianos em Foz do Iguaçu. Garanta autonomia, água de qualidade e redução de custos para sua residência ou empresa.",
       "keywords": "poço artesiano foz do iguaçu, perfuração de poços, bomba submersa, manutenção de poços, outorga de água",
-      "ogImage": "/images/services/poco-artesiano/hero.jpg",
+      "ogImage": "/images/services/poco-artesiano/hero.webp",
       "breadcrumbLabel": "Poço Artesiano"
     },
     "sections": {
       "hero": {
         "title": "Independência e Água de Qualidade na sua Propriedade",
         "description": "Garanta o abastecimento contínuo e reduza drasticamente seus custos com água. Projetos completos de perfuração e manutenção com total segurança técnica.",
-        "image": "/images/services/poco-artesiano/hero.jpg"
+        "image": "/images/services/poco-artesiano/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -1007,7 +1121,7 @@
             "step": 2,
             "title": "Perfuração Técnica",
             "description": "Utilização de sondas rotativas modernas para perfuração de poços profundos em solo ou rocha.",
-            "icon": "drill"
+            "icon": "screw-machine-round-top"
           },
           {
             "step": 3,
@@ -1029,7 +1143,7 @@
       },
       "whyChooseUs": {
         "title": "Vantagens do Poço Artesiano",
-        "items": [
+        "reasons": [
           {
             "title": "Economia Real",
             "description": "Livre-se das tarifas crescentes das concessionárias e tenha um retorno rápido do seu investimento.",
@@ -1080,14 +1194,14 @@
       "title": "Vidraçaria e Esquadrias em Foz do Iguaçu | SOS Construir",
       "description": "Serviços especializados de vidraçaria em Foz do Iguaçu. Box para banheiro, espelhos sob medida, fechamento de sacadas e esquadrias de alumínio com segurança e elegância.",
       "keywords": "vidraçaria foz do iguaçu, box de vidro, espelhos sob medida, fechamento de sacada, vidro temperado foz",
-      "ogImage": "/images/services/vidracaria/hero.jpg",
+      "ogImage": "/images/services/vidracaria/hero.webp",
       "breadcrumbLabel": "Vidraçaria"
     },
     "sections": {
       "hero": {
         "title": "Transparência, Elegância e Segurança para seu Espaço",
         "description": "Do box do banheiro ao fechamento da sacada. Projetos personalizados em vidro temperado e esquadrias de alumínio que transformam a iluminação e o design do seu imóvel.",
-        "image": "/images/services/vidracaria/hero.jpg"
+        "image": "/images/services/vidracaria/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -1147,7 +1261,7 @@
       },
       "whyChooseUs": {
         "title": "O Diferencial da Vidraçaria SOS",
-        "items": [
+        "reasons": [
           {
             "title": "Projetos Sob Medida",
             "description": "Não trabalhamos com padrões limitados. Criamos soluções que se moldam exatamente ao seu design.",
@@ -1198,14 +1312,14 @@
       "title": "Instalação de Gás em Foz do Iguaçu | SOS Construir",
       "description": "Serviços especializados de instalação de gás em Foz do Iguaçu. Residencial, comercial e industrial. Testes de estanqueidade e conversão de fogões com segurança total.",
       "keywords": "instalação de gás foz do iguaçu, gás encanado, teste de estanqueidade, conversão de fogão, manutenção de rede de gás",
-      "ogImage": "/images/services/instalacao-de-gas/hero.jpg",
+      "ogImage": "/images/services/instalacao-de-gas/hero.webp",
       "breadcrumbLabel": "Instalação de Gás"
     },
     "sections": {
       "hero": {
-        "title": "Segurança e Precisão em Cada Conexão",
+        "title": "Instalação de gás feita com segurança",
         "description": "Projetos e execuções de redes de gás seguindo rigorosamente as normas ABNT. Proteja seu patrimônio com técnicos especializados e testes de segurança certificados.",
-        "image": "/images/services/instalacao-de-gas/hero.jpg"
+        "image": "/images/services/instalacao-de-gas/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -1265,7 +1379,7 @@
       },
       "whyChooseUs": {
         "title": "Por que confiar na SOS para seu Gás?",
-        "items": [
+        "reasons": [
           {
             "title": "Normas ABNT",
             "description": "Toda instalação é feita seguindo à risca as normas de segurança vigentes.",
@@ -1316,14 +1430,46 @@
       "title": "Pedras Decorativas em Foz do Iguaçu | Revestimentos SOS Construir",
       "description": "Transforme seus ambientes com pedras decorativas em Foz do Iguaçu. Revestimentos naturais para paredes, pisos e jardins com instalação precisa e design exclusivo.",
       "keywords": "pedras decorativas foz do iguaçu, revestimento de pedra, pedra canjiquinha, pedra ferro, filete de pedra, pedras para jardim",
-      "ogImage": "/images/services/pedras-decorativas/hero.jpg",
+      "ogImage": "/images/services/pedras-decorativas/hero.webp",
       "breadcrumbLabel": "Pedras Decorativas"
     },
     "sections": {
       "hero": {
         "title": "A Beleza Natural que Transforma seu Ambiente",
         "description": "Eleve o nível do seu projeto com texturas e cores que só a natureza oferece. Instalação artesanal de pedras decorativas para interiores, fachadas e paisagismo.",
-        "image": "/images/services/pedras-decorativas/hero.jpg"
+        "image": "/images/services/pedras-decorativas/hero.webp"
+      },
+      "partner": {
+        "partnerName": "Roca Design Pedras",
+        "logo": "/images/services/pedras-decorativas/roca/logo.webp",
+        "coverImage": "/images/services/pedras-decorativas/roca/cover.jpeg",
+        "description": "Parceria estratégica com a Roca Design Pedras, referência em revestimentos naturais de alto padrão na região sul. Oferecemos acesso a um catálogo exclusivo de pedras nacionais e importadas, unindo a nobreza do material Roca à instalação artesanal e precisa da SOS Construir.",
+        "tags": [
+          {
+            "icon": "diamond-stone",
+            "text": "Pedras Naturais Exclusivas: Visual único para seu projeto"
+          },
+          {
+            "icon": "home-modern",
+            "text": "Alto Padrão: Ideal para fachadas, áreas gourmet e interiores"
+          },
+          {
+            "icon": "earth",
+            "text": "Curadoria de materiais nacionais e importados"
+          },
+          {
+            "icon": "fountain-pen-tip",
+            "text": "Consultoria em design de revestimentos naturais"
+          }
+        ],
+        "cta": {
+          "text": "Ver Catálogo Roca Pedras",
+          "link": "https://rocapedras.com.br"
+        },
+        "footerInfo": {
+          "usage": "Revestimentos para bordas de piscina, muros e paredes decorativas",
+          "guarantee": "Material natural com durabilidade vitalícia e suporte SOS"
+        }
       },
       "workGallery": {
         "filters": [
@@ -1355,7 +1501,7 @@
             "step": 1,
             "title": "Seleção da Pedra",
             "description": "Ajudamos você a escolher o tipo ideal (Ferro, São Tomé, Canjiquinha) conforme o estilo do seu projeto.",
-            "icon": "rhombus-split"
+            "icon": "diamond-stone"
           },
           {
             "step": 2,
@@ -1383,7 +1529,7 @@
       },
       "whyChooseUs": {
         "title": "O Toque Especial da SOS Construir",
-        "items": [
+        "reasons": [
           {
             "title": "Ambientes Únicos",
             "description": "Por serem naturais, nenhuma pedra é igual à outra, garantindo exclusividade total ao seu espaço.",
@@ -1434,14 +1580,14 @@
       "title": "Lagos Artificiais e Ornamentais em Foz do Iguaçu | SOS Construir",
       "description": "Transforme seu jardim com um lago artificial em Foz do Iguaçu. Projetos personalizados com filtragem biológica, peixes ornamentais e rochas naturais. Peça seu orçamento.",
       "keywords": "lago artificial foz do iguaçu, lago ornamental, carpas kói, cascata residencial, jardim com lago, geomembrana",
-      "ogImage": "/images/services/lago-artificial/hero.jpg",
+      "ogImage": "/images/services/lago-artificial/hero.webp",
       "breadcrumbLabel": "Lago Artificial"
     },
     "sections": {
       "hero": {
         "title": "Tenha um Refúgio Natural Particular no seu Quintal",
         "description": "Lagos artificiais que unem beleza, tecnologia de filtragem biológica e harmonia. O som relaxante da água e a vida ornamental integrados ao seu paisagismo.",
-        "image": "/images/services/lago-artificial/hero.jpg"
+        "image": "/images/services/lago-artificial/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -1491,7 +1637,7 @@
             "step": 4,
             "title": "Acabamento e Paisagismo",
             "description": "Composição com rochas naturais, plantas aquáticas e introdução dos peixes para dar vida ao lago.",
-            "icon": "fish-bowl-outline"
+            "icon": "fishbowl-outline"
           }
         ]
       },
@@ -1501,7 +1647,7 @@
       },
       "whyChooseUs": {
         "title": "O Diferencial da SOS Construir",
-        "items": [
+        "reasons": [
           {
             "title": "Água Cristalina",
             "description": "Sistemas de filtragem avançados que garantem transparência total e baixa manutenção.",
@@ -1552,14 +1698,14 @@
       "title": "Jardinagem e Paisagismo em Foz do Iguaçu | SOS Construir",
       "description": "Serviços profissionais de jardinagem e paisagismo em Foz do Iguaçu. Plantio de grama, jardins verticais, podas especializadas e manutenção completa de áreas verdes.",
       "keywords": "jardinagem foz do iguaçu, paisagismo residencial, plantio de grama, jardim vertical, manutenção de jardim, poda de árvores",
-      "ogImage": "/images/services/jardinagem-e-paisagismo/hero.jpg",
+      "ogImage": "/images/services/jardinagem-e-paisagismo/hero.webp",
       "breadcrumbLabel": "Jardinagem e Paisagismo"
     },
     "sections": {
       "hero": {
         "title": "A Natureza Planejada para o seu Bem-Estar",
         "description": "Transforme sua área externa em um cenário de cinema. Do plantio da grama perfeita ao design de jardins verticais, cuidamos de cada detalhe para seu jardim florescer o ano todo.",
-        "image": "/images/services/jardinagem-e-paisagismo/hero.jpg"
+        "image": "/images/services/jardinagem-e-paisagismo/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -1619,7 +1765,7 @@
       },
       "whyChooseUs": {
         "title": "Vantagens do Paisagismo SOS",
-        "items": [
+        "reasons": [
           {
             "title": "Otimização de Espaço",
             "description": "Com jardins verticais, levamos a natureza até para os menores apartamentos e varandas.",
@@ -1670,14 +1816,14 @@
       "title": "Encanador Profissional em Foz do Iguaçu | SOS Construir",
       "description": "Serviços hidráulicos completos em Foz do Iguaçu. Detecção de vazamentos, desentupimento, manutenção de tubulações e reparos de emergência 24h.",
       "keywords": "encanador foz do iguaçu, caça vazamento, desentupidora foz, encanador 24h, conserto de descarga, reparo hidráulico",
-      "ogImage": "/images/services/encanador/hero.jpg",
+      "ogImage": "/images/services/encanador/hero.webp",
       "breadcrumbLabel": "Encanador"
     },
     "sections": {
       "hero": {
-        "title": "Soluções Hidráulicas Inteligentes Sem Quebra-Quebra",
+        "title": "Encanadores Profissionais sem Dor de Cabeça",
         "description": "Vazamentos, entupimentos ou novas instalações? Nossa equipe utiliza tecnologia de ponta para diagnosticar e reparar problemas hidráulicos com máxima eficiência e limpeza.",
-        "image": "/images/services/encanador/hero.jpg"
+        "image": "/images/services/encanador/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -1737,7 +1883,7 @@
       },
       "whyChooseUs": {
         "title": "O Diferencial Hidráulico da SOS",
-        "items": [
+        "reasons": [
           {
             "title": "Tecnologia Caça-Vazamento",
             "description": "Localização eletrônica que economiza tempo e evita destruição desnecessária do seu acabamento.",
@@ -1788,14 +1934,46 @@
       "title": "Eletricista Profissional em Foz do Iguaçu | Padrão Copel | SOS Construir",
       "description": "Serviços elétricos residenciais, prediais e industriais em Foz do Iguaçu. Especialistas em Padrão Copel, manutenção preventiva e instalações seguras.",
       "keywords": "eletricista foz do iguaçu, padrão copel foz, instalação elétrica residencial, manutenção elétrica, eletricista 24h foz",
-      "ogImage": "/images/services/eletricista/hero.jpg",
+      "ogImage": "/images/services/eletricista/hero.webp",
       "breadcrumbLabel": "Eletricista"
     },
     "sections": {
       "hero": {
         "title": "Energia Segura e Instalações Dentro das Normas",
         "description": "Evite curto-circuitos e prejuízos. Conte com eletricistas certificados para projetos residenciais, prediais e adequação total ao Padrão Copel.",
-        "image": "/images/services/eletricista/hero.jpg"
+        "image": "/images/services/eletricista/hero.webp"
+      },
+      "partner": {
+        "partnerName": "Ande Materiais Elétricos",
+        "logo": "/images/services/eletricista/ande/logo.png",
+        "coverImage": "/images/services/eletricista/ande/cover.jpg",
+        "description": "Parceria estratégica com a Ande Materiais Elétricos, tradição em Foz do Iguaçu desde 1987. Oferecemos acesso a um catálogo completo de materiais certificados, garantindo que sua instalação siga rigorosamente as normas técnicas com o melhor custo-benefício da cidade.",
+        "tags": [
+          {
+            "icon": "lightning-bolt",
+            "text": "Catálogo completo: de fios a painéis de automação"
+          },
+          {
+            "icon": "certificate-outline",
+            "text": "Materiais homologados e padrão Copel"
+          },
+          {
+            "icon": "store-clock-outline",
+            "text": "Tradição e confiança em Foz há mais de 35 anos"
+          },
+          {
+            "icon": "account-wrench-outline",
+            "text": "Suporte técnico especializado para o seu projeto"
+          }
+        ],
+        "cta": {
+          "text": "Ver Materiais na Ande",
+          "link": "https://www.ande.com.br"
+        },
+        "footerInfo": {
+          "usage": "Referência em elétrica para residências e comércios",
+          "guarantee": "Produtos com garantia de fábrica e selo Inmetro"
+        }
       },
       "workGallery": {
         "filters": [
@@ -1850,12 +2028,12 @@
         ]
       },
       "professionals": {
-        "title": "Eletricistas Certificados (NR-10)",
-        "description": "Eletricidade é coisa séria. Nossa equipe possui certificação NR-10 e está apta a realizar desde pequenos reparos até a montagem de padrões de entrada complexos, sempre com foco na preservação da vida e do seu patrimônio."
+        "title": "Eletricistas Certificados",
+        "description": "Eletricidade é coisa séria. Está apta a realizar desde pequenos reparos até a montagem de padrões de entrada complexos, sempre com foco na preservação da vida e do seu patrimônio."
       },
       "whyChooseUs": {
         "title": "Por que a SOS é a escolha certa para sua parte elétrica?",
-        "items": [
+        "reasons": [
           {
             "title": "Especialistas Copel",
             "description": "Garantimos a aprovação da sua entrada de energia sem idas e vindas burocráticas.",
@@ -1864,12 +2042,12 @@
           {
             "title": "Segurança Preventiva",
             "description": "Identificamos fios aquecidos e conexões frouxas que podem causar incêndios invisíveis.",
-            "icon": "shield-flash-outline"
+            "icon": "shield-check-outline"
           },
           {
             "title": "Economia de Energia",
             "description": "Projetos bem dimensionados evitam a fuga de corrente e reduzem o valor da sua conta.",
-            "icon": "leaf-outline"
+            "icon": "leaf"
           }
         ]
       },
@@ -1906,14 +2084,14 @@
       "title": "Assentamento de Cerâmica e Porcelanato em Foz do Iguaçu | SOS Construir",
       "description": "Especialistas em colocação de porcelanato e cerâmica em Foz do Iguaçu. Acabamento impecável, nivelamento perfeito e venda de materiais de alta qualidade.",
       "keywords": "porcelanato foz do iguaçu, assentamento de piso, azulejista foz, colocar cerâmica, piso retificado, revestimento de parede",
-      "ogImage": "/images/services/ceramica-e-porcelanato/hero.jpg",
+      "ogImage": "/images/services/ceramica-e-porcelanato/hero.webp",
       "breadcrumbLabel": "Cerâmica e Porcelanato"
     },
     "sections": {
       "hero": {
         "title": "O Piso dos Seus Sonhos com Acabamento Impecável",
         "description": "Transforme seus ambientes com a elegância do porcelanato e a versatilidade da cerâmica. Unimos mão de obra de elite e materiais premium para um resultado duradouro e sofisticado.",
-        "image": "/images/services/ceramica-e-porcelanato/hero.jpg"
+        "image": "/images/services/ceramica-e-porcelanato/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -1973,7 +2151,7 @@
       },
       "whyChooseUs": {
         "title": "Por que a SOS é líder em Revestimentos?",
-        "items": [
+        "reasons": [
           {
             "title": "Solução Completa",
             "description": "Nós vendemos o material e entregamos instalado. Uma única responsabilidade para sua tranquilidade.",
@@ -2024,14 +2202,14 @@
       "title": "Piso de Concreto Polido em Foz do Iguaçu | SOS Construir",
       "description": "Especialistas em concreto polido em Foz do Iguaçu. Pisos brilhantes, resistentes e de baixa manutenção para indústrias, comércios e residências modernas.",
       "keywords": "concreto polido foz do iguaçu, piso industrial, cimento queimado polido, polimento de concreto, piso para galpão",
-      "ogImage": "/images/services/concreto-polido/hero.jpg",
+      "ogImage": "/images/services/concreto-polido/hero.webp",
       "breadcrumbLabel": "Concreto Polido"
     },
     "sections": {
       "hero": {
         "title": "A Força do Concreto com o Brilho do Alto Padrão",
         "description": "Transforme pisos comuns em superfícies espelhadas, densas e altamente resistentes. A solução definitiva para quem busca durabilidade extrema sem abrir mão da elegância.",
-        "image": "/images/services/concreto-polido/hero.jpg"
+        "image": "/images/services/concreto-polido/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -2091,11 +2269,11 @@
       },
       "whyChooseUs": {
         "title": "Vantagens do Concreto Polido SOS",
-        "items": [
+        "reasons": [
           {
             "title": "Manutenção Zero",
             "description": "Diferente de tintas ou cerâmicas, o concreto polido não descasca e não exige cera. Basta água e sabão neutro.",
-            "icon": "mop"
+            "icon": "broom"
           },
           {
             "title": "Reflexão de Luz",
@@ -2105,7 +2283,7 @@
           {
             "title": "Sustentabilidade",
             "description": "Aproveita a estrutura existente do piso, reduzindo o desperdício de materiais e a pegada de carbono.",
-            "icon": "leaf-outline"
+            "icon": "leaf"
           }
         ]
       },
@@ -2142,14 +2320,14 @@
       "title": "Pedreiro Profissional em Foz do Iguaçu | SOS Construir",
       "description": "Encontre pedreiros experientes e confiáveis em Foz do Iguaçu. Construção, reforma, reboco e estruturas com garantia de qualidade e zero dor de cabeça.",
       "keywords": "pedreiro foz do iguaçu, mestre de obras, pedreiro para reforma, construção civil foz, reboco e alvenaria",
-      "ogImage": "/images/services/pedreiro/hero.jpg",
+      "ogImage": "/images/services/pedreiro/hero.webp",
       "breadcrumbLabel": "Pedreiro"
     },
     "sections": {
       "hero": {
         "title": "Mão de Obra de Elite para Construir Seus Sonhos",
         "description": "Chega de atrasos e serviços mal executados. Conte com pedreiros verificados pela SOS Construir para uma obra limpa, rápida e com acabamento de alto padrão.",
-        "image": "/images/services/pedreiro/hero.jpg"
+        "image": "/images/services/pedreiro/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -2187,7 +2365,7 @@
             "step": 2,
             "title": "Infraestrutura e Alvenaria",
             "description": "Levantamento de paredes, vigas e colunas com precisão técnica e materiais de primeira linha.",
-            "icon": "wall-outline"
+            "icon": "wall"
           },
           {
             "step": 3,
@@ -2199,7 +2377,7 @@
             "step": 4,
             "title": "Entrega e Limpeza",
             "description": "Finalização do serviço com inspeção rigorosa de qualidade. Entregamos sua obra limpa e organizada.",
-            "icon": "home-check-outline"
+            "icon": "clipboard-check"
           }
         ]
       },
@@ -2209,7 +2387,7 @@
       },
       "whyChooseUs": {
         "title": "Por que a SOS é a melhor escolha para sua obra?",
-        "items": [
+        "reasons": [
           {
             "title": "Zero Surpresas",
             "description": "Trabalhamos com transparência total. Você sabe exatamente o que está sendo feito em cada etapa.",
@@ -2260,14 +2438,14 @@
       "title": "Construção de Piscinas em Foz do Iguaçu | SOS Construir",
       "description": "Transforme seu quintal em um oásis. Especialistas em construção de piscinas de alvenaria, vinil e fibra em Foz do Iguaçu. Projetos personalizados com garantia.",
       "keywords": "construção de piscinas foz do iguaçu, piscina de alvenaria, piscina de fibra, piscina de vinil, reforma de piscina, cascata e iluminação led",
-      "ogImage": "/images/services/construcao-de-piscinas/hero.jpg",
+      "ogImage": "/images/services/construcao-de-piscinas/hero.webp",
       "breadcrumbLabel": "Construção de Piscinas"
     },
     "sections": {
       "hero": {
         "title": "A Área de Lazer dos Seus Sonhos com Segurança Total",
         "description": "Projetamos e construímos sua piscina do zero, unindo design moderno, tecnologia de filtragem e acabamento premium. Sua diversão sem dor de cabeça.",
-        "image": "/images/services/construcao-de-piscinas/hero.jpg"
+        "image": "/images/services/construcao-de-piscinas/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -2327,7 +2505,7 @@
       },
       "whyChooseUs": {
         "title": "Por que a SOS é a escolha certa para sua Piscina?",
-        "items": [
+        "reasons": [
           {
             "title": "Personalização Total",
             "description": "Borda infinita, prainha para crianças ou spa integrado? Nós realizamos qualquer projeto.",
@@ -2378,14 +2556,46 @@
       "title": "Sofá Sob Medida em Foz do Iguaçu | Estofados SOS Construir",
       "description": "Criação e reforma de sofás sob medida em Foz do Iguaçu. Conforto exclusivo, design personalizado e materiais premium para sua sala. Peça seu orçamento.",
       "keywords": "sofá sob medida foz do iguaçu, estofados personalizados, reforma de sofá, sofá retrátil sob medida, fabricação de sofás foz",
-      "ogImage": "/images/services/sofa-sob-medida/hero.jpg",
+      "ogImage": "/images/services/sofa-sob-medida/hero.webp",
       "breadcrumbLabel": "Sofá Sob Medida"
     },
     "sections": {
       "hero": {
         "title": "Conforto e Estilo Planejados para o Seu Espaço",
         "description": "Não adapte sua sala ao sofá; nós criamos o sofá perfeito para sua sala. Design exclusivo, tecidos premium e ergonomia sob medida para o seu descanso.",
-        "image": "/images/services/sofa-sob-medida/hero.jpg"
+        "image": "/images/services/sofa-sob-medida/hero.webp"
+      },
+      "partner": {
+        "partnerName": "Tekila Estofados",
+        "logo": "/images/services/sofa-sob-medida/tekila/logo.webp",
+        "coverImage": "/images/services/sofa-sob-medida/tekila/cover.jpg",
+        "description": "Parceria exclusiva com a Tekila Estofados, fábrica regional com tradição desde 1998. Unimos a consultoria de design da SOS Construir à fabricação artesanal da Tekila, entregando estofados com estrutura reforçada, espumas de alta densidade e acabamento personalizado direto da fábrica.",
+        "tags": [
+          {
+            "icon": "sofa-outline",
+            "text": "Fabricação própria: do projeto à costura final"
+          },
+          {
+            "icon": "fountain-pen-tip",
+            "text": "Personalização total de tecidos, cores e medidas"
+          },
+          {
+            "icon": "account-group-outline",
+            "text": "Atendimento familiar e cuidadoso em cada detalhe"
+          },
+          {
+            "icon": "factory",
+            "text": "Preço de fábrica para projetos sob medida"
+          }
+        ],
+        "cta": {
+          "text": "Ver Mostruário Tekila",
+          "link": "https://www.instagram.com/estofados_tekila/"
+        },
+        "footerInfo": {
+          "usage": "Especialista em sofás, poltronas e colchoaria premium",
+          "guarantee": "Garantia de estrutura e suporte regional ágil"
+        }
       },
       "workGallery": {
         "filters": [
@@ -2445,7 +2655,7 @@
       },
       "whyChooseUs": {
         "title": "Por que escolher um sofá da SOS?",
-        "items": [
+        "reasons": [
           {
             "title": "Ergonomia Adaptada",
             "description": "Defina a altura do encosto e a profundidade do assento de acordo com sua altura para o máximo conforto.",
@@ -2496,14 +2706,14 @@
       "title": "Reforma e Construção em Foz do Iguaçu | SOS Construir",
       "description": "Sua solução completa em construção civil residencial e comercial em Foz do Iguaçu. Da fundação ao acabamento, garantimos prazos, qualidade e zero dor de cabeça.",
       "keywords": "reforma residencial foz, construção civil foz do iguaçu, construtora foz, reforma comercial, gerenciamento de obras",
-      "ogImage": "/images/services/reforma-e-construcao/hero.png",
+      "ogImage": "/images/services/reforma-e-construcao/hero.webp",
       "breadcrumbLabel": "Reforma e Construção"
     },
     "sections": {
       "hero": {
-        "title": "Construímos o Seu Sonho, Gerenciamos Sua Tranquilidade",
+        "title": "Sua Escolha de Confiança para Reformas e Construção",
         "description": "Sua obra entregue no prazo, com custo otimizado e qualidade superior. Assumimos a responsabilidade integral do seu projeto, da fundação à entrega das chaves.",
-        "image": "/images/services/reforma-e-construcao/hero.png"
+        "image": "/images/services/reforma-e-construcao/hero.webp"
       },
       "workGallery": {
         "filters": [
@@ -2563,7 +2773,7 @@
       },
       "whyChooseUs": {
         "title": "O Padrão de Qualidade SOS Construir",
-        "items": [
+        "reasons": [
           {
             "title": "Responsabilidade Única",
             "description": "Você lida apenas com a SOS. Nós resolvemos qualquer desafio com fornecedores ou equipes.",
@@ -2614,14 +2824,46 @@
       "title": "Fabricação e Instalação de Playgrounds em Foz do Iguaçu | SOS Construir",
       "description": "Playgrounds seguros e criativos em Foz do Iguaçu. Fabricação sob medida em madeira, plástico ou metal para condomínios, escolas e parques. Normas ABNT.",
       "keywords": "playground foz do iguaçu, parquinho infantil, brinquedos de madeira para condomínio, playground de plástico, instalação de parquinho",
-      "ogImage": "/images/services/playground/hero.jpg",
+      "ogImage": "/images/services/playground/hero.webp",
       "breadcrumbLabel": "Playground"
     },
     "sections": {
       "hero": {
-        "title": "Diversão Segura e Ambientes que Estimulam o Brincar",
+        "title": "Diversão e Segurança para Crianças",
         "description": "Criamos espaços de lazer que unem design inovador, resistência e total conformidade com as normas de segurança. O playground perfeito para seu condomínio ou escola.",
-        "image": "/images/services/playground/hero.jpg"
+        "image": "/images/services/playground/hero.webp"
+      },
+      "partner": {
+        "partnerName": "Urssus Play",
+        "logo": "/images/services/playground/urssusplay/logo.jpg",
+        "coverImage": "/images/services/playground/urssusplay/cover.jpeg  ",
+        "description": "Parceria estratégica com a Urssus Play (Linha Strongfer), referência nacional em mobiliário recreativo de alta performance. Oferecemos playgrounds com padrão de exportação, projetados para uso intenso em condomínios, escolas e praças, unindo diversão lúdica com a máxima segurança normativa.",
+        "tags": [
+          {
+            "icon": "shield-star-outline",
+            "text": "Padrão Industrial: Projetado para uso público intenso"
+          },
+          {
+            "icon": "check-decagram-outline",
+            "text": "Segurança Certificada: Total conformidade com normas ABNT"
+          },
+          {
+            "icon": "vibrate",
+            "text": "Materiais de Alta Resistência: Madeira plástica, metal e polietileno"
+          },
+          {
+            "icon": "toy-brick-plus-outline",
+            "text": "Módulos Expansíveis: O playground que cresce com o seu espaço"
+          }
+        ],
+        "cta": {
+          "text": "Ver Linha Urssus Play",
+          "link": ""
+        },
+        "footerInfo": {
+          "usage": "Equipamentos presentes em prefeituras, clubes e parques nacionais",
+          "guarantee": "Garantia de fábrica Strongfer e instalação técnica SOS"
+        }
       },
       "workGallery": {
         "filters": [
@@ -2665,7 +2907,7 @@
             "step": 3,
             "title": "Fabricação e Testes",
             "description": "Produção com acabamentos arredondados e parafusos embutidos para evitar qualquer risco de acidente.",
-            "icon": "saw-blade"
+            "icon": "slide"
           },
           {
             "step": 4,
@@ -2681,7 +2923,7 @@
       },
       "whyChooseUs": {
         "title": "Por que investir em um Playground SOS?",
-        "items": [
+        "reasons": [
           {
             "title": "Alta Durabilidade",
             "description": "Materiais com proteção UV e tratamentos anticorrosivos para resistir ao sol e chuva de Foz do Iguaçu.",

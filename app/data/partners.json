@@ -23,6 +23,60 @@
             "category": "argamassa",
             "logo": "/images/services/ceramica-e-porcelanato/hipermassa/logo.jpg",
             "description": ""
+        },
+        {
+            "id": 4,
+            "name": "Galvanox Serralheria",
+            "slug": "galvanox",
+            "category": "metalurgico",
+            "logo": "/images/services/metalurgico/galvanox/logo.webp",
+            "coverImage": "/images/services/metalurgico/galvanox/cover.jpg",
+            "description": "Parceria com a Galvanox, referência em Foz do Iguaçu desde 1998. Especialistas em serralheria fina e estruturas metálicas, entregando soluções sob medida em ferro e inox com a precisão artesanal e a resistência que seu projeto exige."
+        },
+        {
+            "id": 5,
+            "name": "Urssus Play",
+            "slug": "urssus-play",
+            "category": "playground",
+            "logo": "/images/services/playground/urssusplay/logo.jpg",
+            "coverImage": "/images/services/playground/urssusplay/cover.jpeg",
+            "description": "Parceria estratégica com a Urssus Play (Linha Strongfer), referência nacional em mobiliário recreativo de alta performance. Oferecemos playgrounds com padrão de exportação, projetados para uso intenso em condomínios, escolas e praças, unindo diversão lúdica com a máxima segurança normativa."
+        },
+        {
+            "id": 6,
+            "name": "Tekila Estofados",
+            "slug": "tekila",
+            "category": "sofa-sob-medida",
+            "logo": "/images/services/sofa-sob-medida/tekila/logo.webp",
+            "coverImage": "/images/services/sofa-sob-medida/tekila/cover.jpg",
+            "description": "Parceria exclusiva com a Tekila Estofados, fábrica regional com tradição desde 1998. Unimos a consultoria de design da SOS Construir à fabricação artesanal da Tekila, entregando estofados com estrutura reforçada, espumas de alta densidade e acabamento personalizado direto da fábrica."
+        },
+        {
+            "id": 7,
+            "name": "Ande Materiais Elétricos",
+            "slug": "ande",
+            "category": "eletricista",
+            "logo": "/images/services/eletricista/ande/logo.png",
+            "coverImage": "/images/services/eletricista/ande/cover.jpg",
+            "description": "Parceria estratégica com a Ande Materiais Elétricos, tradição em Foz do Iguaçu desde 1987. Oferecemos acesso a um catálogo completo de materiais certificados, garantindo que sua instalação siga rigorosamente as normas técnicas com o melhor custo-benefício da cidade."
+        },
+        {
+            "id": 8,
+            "name": "Roca Design Pedras",
+            "slug": "roca",
+            "category": "pedras-decorativas",
+            "logo": "/images/services/pedras-decorativas/roca/logo.webp",
+            "coverImage": "/images/services/pedras-decorativas/roca/cover.jpeg",
+            "description": "Parceria estratégica com a Roca Design Pedras, referência em revestimentos naturais de alto padrão na região sul. Oferecemos acesso a um catálogo exclusivo de pedras nacionais e importadas, unindo a nobreza do material Roca à instalação artesanal e precisa da SOS Construir."
+        },
+        {
+            "id": 9,
+            "name": "BlockForte",
+            "slug": "blockforte",
+            "category": "paver",
+            "logo": "/images/services/paver/blockforte/logo.png",
+            "coverImage": "/images/services/paver/blockforte/cover.jpg",
+            "description": "Parceria com a BlockForte, especialista em artefatos de concreto com padrão industrial rigoroso. Utilizamos pavers de 60mm e 80mm com precisão dimensional, garantindo calçadas e pátios com encaixe perfeito, alta resistência e preço direto de fábrica."
         }
     ]
 }
