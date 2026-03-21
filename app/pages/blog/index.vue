@@ -90,14 +90,14 @@ useSeoMeta({
 
           <!-- Posts -->
           <div v-else class="grid md:grid-cols-2 gap-8 mb-12">
-            <BlogCard variant="article" v-for="post in posts" :post="post" :key="post.slug" class="my-1" />
+            <BlogCard variant="article" v-for="post in posts" :post="post" :key="post.slug" />
           </div>
 
           <div class="mt-auto flex flex-col sm:flex-row items-center justify-between border-t border-gray-200 pt-6">
             <p class="text-sm text-gray-500 mb-4 sm:mb-0">
               Página {{ currentPage }} de {{ totalPages }}
             </p>
-            <UPagination v-model="currentPage" :page-count="limit" :total="total" />
+            <UPagination v-model:page="currentPage" :items-per-page="limit" :total="total" />
           </div>
         </div>
 
