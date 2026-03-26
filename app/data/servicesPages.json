@@ -314,10 +314,10 @@
         "image": "/images/services/paver/hero.webp"
       },
       "partner": {
-        "partnerName": "BlockForte",
-        "logo": "/images/services/paver/blockforte/logo.png",
-        "coverImage": "/images/services/paver/blockforte/cover.jpg",
-        "description": "Parceria com a BlockForte, especialista em artefatos de concreto com padrão industrial rigoroso. Utilizamos pavers de 60mm e 80mm com precisão dimensional, garantindo calçadas e pátios com encaixe perfeito, alta resistência e preço direto de fábrica.",
+        "partnerName": "Blocos Fort",
+        "logo": "/images/services/paver/blocosfort/logo.jpg",
+        "coverImage": "/images/services/paver/blocosfort/cover.webp",
+        "description": "Parceria com a Blocos Fort, especialista em artefatos de concreto com padrão industrial rigoroso. Utilizamos pavers de 60mm e 80mm com precisão dimensional, garantindo calçadas e pátios com encaixe perfeito, alta resistência e preço direto de fábrica.",
         "tags": [
           {
             "icon": "ruler-square",
@@ -337,8 +337,8 @@
           }
         ],
         "cta": {
-          "text": "Solicitar Orçamento BlockForte",
-          "link": "https://www.blockforte.com.br"
+          "text": "Ver Artefatos Blocos Fort",
+          "link": " https://www.instagram.com/blocos_fort/"
         },
         "footerInfo": {
           "usage": "Peças de 16 lados e retangulares de alta durabilidade",
