@@ -15,7 +15,6 @@ useSeoMeta({
   title: () => `${post.value?.title}`,
   description: () => post.value?.description,
   ogTitle: () => post.value?.title,
-
   ogImage: () => post.value?.coverImage,
   ogDescription: () => post.value?.description
 })

@@ -1,7 +1,5 @@
-import { defineSitemapEventHandler } from '#imports'
 import type { SitemapUrlInput } from '#sitemap/types'
 
-// Se estiver usando arquivos JSON locais, importe-os aqui:
 import servicesData from '~/data/services.json'
 import productsData from '~/data/products.json'
 import postsData from '~/data/blogPosts.json'
