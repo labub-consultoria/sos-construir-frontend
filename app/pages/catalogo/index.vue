@@ -61,9 +61,6 @@ const brandItems = computed(() => {
 
       <!-- Header -->
       <div class="mb-8">
-        <span class="text-orange-500 font-bold text-xs tracking-widest uppercase">
-          Catálogo Completo
-        </span>
         <h1 class="title-section mt-1 mb-2">Materiais Para Sua Obra</h1>
         <p class="text-slate-500 text-lg">
           Trabalhamos com as principais marcas do mercado. Materiais direto da fábrica, preço justo
@@ -86,18 +83,6 @@ const brandItems = computed(() => {
           class="sm:w-52 shadow-sm" placeholder="Ordenar por" />
       </div>
 
-      <!-- Category pills -->
-      <!-- <UScrollArea v-slot="{ item }" :items="categories" orientation="horizontal" class="w-full mb-6 py-2">
-        <button class="px-5 py-2.5 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200 mx-1"
-          :class="[
-            selectedCategory === item.slug
-              ? 'bg-orange-500 text-white shadow-md shadow-orange-500/20'
-              : 'bg-white text-gray-600 border border-gray-200 hover:border-orange-500 hover:text-orange-500',
-          ]" @click="setCategory(item.slug)">
-          {{ item.name }}
-        </button>
-      </UScrollArea> -->
-
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
 
         <!-- SIDEBAR -->
@@ -110,7 +95,7 @@ const brandItems = computed(() => {
           </div>
 
           <div class="space-y-4">
-            <h3 class="font-bold text-gray-900 text-lg">Categoria</h3>
+            <h3 class="font-bold text-blue-500 text-lg">Categoria</h3>
 
             <UCheckboxGroup v-model="selectedCategories" :items="categoryItems" color="primary" :ui="{
               wrapper: 'space-y-4',
@@ -129,7 +114,7 @@ const brandItems = computed(() => {
           </div>
 
           <div v-if="brandItems.length" class="space-y-4 border-t border-gray-100 pt-8">
-            <h3 class="font-bold text-gray-900 text-lg">Marcas</h3>
+            <h3 class="font-bold text-blue-500 text-lg">Marcas</h3>
 
             <UCheckboxGroup v-model="selectedBrands" :items="brandItems" color="primary" :ui="{
               wrapper: 'space-y-4',

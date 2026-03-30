@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "professionalId": "roberto-silva",
+    "name": "Carlos Mendes",
+    "avatar": "https://i.pravatar.cc/80?img=51",
+    "rating": 5,
+    "timeAgo": "Há 1 mês",
+    "text": "Excelente profissional! Muito caprichoso e não deixou sujeira. A pintura da sala ficou perfeita e ele protegeu todos os móveis muito bem. Recomendo de olhos fechados."
+  },
+  {
+    "id": 2,
+    "professionalId": "roberto-silva",
+    "name": "Ana Paula Souza",
+    "avatar": "https://i.pravatar.cc/80?img=47",
+    "rating": 5,
+    "timeAgo": "Há 3 meses",
+    "text": "O Roberto é super pontual e atencioso. Entregou a obra antes do prazo e o acabamento do grafiato que ele fez na fachada ficou incrível. Com certeza chamarei novamente para a parte de dentro."
+  },
+  {
+    "id": 3,
+    "professionalId": "roberto-silva",
+    "name": "Fernando Costa",
+    "avatar": "https://i.pravatar.cc/80?img=68",
+    "rating": 4,
+    "timeAgo": "Há 4 meses",
+    "text": "Muito bom serviço, preço justo e bem transparente na hora de passar a lista de materiais. Atrasou um pouquinho no primeiro dia por causa da chuva forte, mas compensou no final de semana."
+  },
+  {
+    "id": 4,
+    "professionalId": "roberto-silva",
+    "name": "Márcia Oliveira",
+    "avatar": "https://i.pravatar.cc/80?img=32",
+    "rating": 5,
+    "timeAgo": "Há 5 meses",
+    "text": "Fiz a pintura completa da casa com o Roberto e ficou tudo impecável. Ele sugeriu as cores, explicou as diferenças de tinta e o resultado superou minhas expectativas. Profissional de verdade."
+  },
+  {
+    "id": 5,
+    "professionalId": "roberto-silva",
+    "name": "José Rodrigues",
+    "avatar": "https://i.pravatar.cc/80?img=60",
+    "rating": 5,
+    "timeAgo": "Há 6 meses",
+    "text": "Terceira vez que contrato o Roberto. Serviço sempre impecável, chega no horário combinado e deixa tudo limpo ao final do dia. Preço muito justo pelo nível de entrega."
+  },
+  {
+    "id": 6,
+    "professionalId": "roberto-silva",
+    "name": "Patricia Lima",
+    "avatar": "https://i.pravatar.cc/80?img=25",
+    "rating": 4,
+    "timeAgo": "Há 7 meses",
+    "text": "Ótimo trabalho na pintura da fachada. Ficou bonito e uniforme. Só achei a comunicação um pouco lenta nos primeiros dias, mas no geral foi uma ótima experiência."
+  }
+]

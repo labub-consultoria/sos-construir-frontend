@@ -19,11 +19,6 @@ useSeoMeta({
   ogDescription: () => product.value?.description,
 })
 
-defineOgImage('Product.takumi', {
-  title: 'title',
-  image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fobservandotecnologia.com%2Fwp-content%2Fuploads%2F2024%2F01%2Fimagem-1200-x-800-para-o-artigo-de-beneficios-da-internet.jpg&f=1&nofb=1&ipt=ba759ea5eb147a3501a7b1cc6809e3c1e7d04bcea6975444ba01543564b53e43',
-})
-
 const categoryLabel = computed(() =>
   product.value?.category
     .split('-')

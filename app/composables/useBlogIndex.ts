@@ -1,17 +1,54 @@
 export const useBlogIndex = () => {
-  const searchQuery = ref('')
-  const selectedCategory = ref('todos')
-  const currentPage = ref(1)
+  const route = useRoute()
+  const router = useRouter()
+
   const limit = 6
 
+  // ─── Estado inicializado a partir da URL ──────────────────────────────────────
+  const searchQuery = ref(route.query.busca?.toString() || '')
+  const selectedCategory = ref(route.query.categoria?.toString() || 'todos')
+  const currentPage = ref(Number(route.query.page) || 1)
+
+  // ─── Debounce da busca ────────────────────────────────────────────────────────
+  const debouncedSearch = ref(searchQuery.value)
+  let debounceTimer: ReturnType<typeof setTimeout>
+
+  watch(searchQuery, (val) => {
+    clearTimeout(debounceTimer)
+    debounceTimer = setTimeout(() => {
+      debouncedSearch.value = val
+      currentPage.value = 1
+    }, 300)
+  })
+
+  // ─── Reset de página ao mudar categoria ───────────────────────────────────────
+  watch(selectedCategory, () => {
+    currentPage.value = 1
+  })
+
+  // ─── Sincroniza estado → URL ──────────────────────────────────────────────────
+  watch(
+    [debouncedSearch, selectedCategory, currentPage],
+    () => {
+      router.replace({
+        query: {
+          busca: debouncedSearch.value || undefined,
+          categoria: selectedCategory.value !== 'todos' ? selectedCategory.value : undefined,
+          page: currentPage.value > 1 ? currentPage.value : undefined,
+        },
+      })
+    },
+    { deep: true }
+  )
+
+  // ─── Fetch ────────────────────────────────────────────────────────────────────
   const { data, status } = useFetch('/api/blog', {
     query: computed(() => ({
-      search: searchQuery.value || undefined,
+      search: debouncedSearch.value || undefined,
       category: selectedCategory.value !== 'todos' ? selectedCategory.value : undefined,
       page: currentPage.value,
       limit,
     })),
-    watch: [searchQuery, selectedCategory, currentPage],
   })
 
   const posts = computed<BlogPostCard[]>(() => (data.value?.data ?? []) as BlogPostCard[])
@@ -21,7 +58,6 @@ export const useBlogIndex = () => {
 
   const setCategory = (slug: string) => {
     selectedCategory.value = slug
-    currentPage.value = 1
   }
 
   return {

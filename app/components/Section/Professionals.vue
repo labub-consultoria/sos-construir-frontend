@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-
 const defaultSection: BaseSection = {
   title: 'Nossos Profissionais Especializados',
   description: 'Escolha entre mais de 100 profissionais certificados.',
@@ -16,66 +14,7 @@ const section = computed(() => ({
   ...props.section,
 }))
 
-const professionals = ref<Professional[]>([])
-const loading = ref(true)
-
-// TODO: PASSAR PRA API
-const fetchProfessionalsFromApi = async () => {
-  loading.value = true
-  // Simulando
-  await new Promise((resolve) => setTimeout(resolve, 1000))
-
-  professionals.value = [
-    {
-      id: 1,
-      name: 'Roberto Silva',
-      experience: '8 anos de experiência',
-      rating: 4.8,
-      reviews: 127,
-      jobsCompleted: '150+',
-      satisfaction: '98%',
-      avatar: 'https://i.pravatar.cc/150?img=11',
-      isTopRated: true,
-      verifications: [
-        { text: 'Profissional Verificado SOS', type: 'success' },
-        { text: 'Garantia Integral SOS', type: 'warning' },
-      ],
-      specialties: ['Pintura Interna', 'Grafitti', 'Impermeabilização'],
-      portfolio: [
-        'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=150&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=150&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1604014237800-1c9102c219da?q=80&w=150&auto=format&fit=crop',
-      ],
-    },
-    {
-      id: 2,
-      name: 'Gabriel Almeida',
-      experience: '5 anos de experiência',
-      rating: 4.8,
-      reviews: 127,
-      jobsCompleted: '120+',
-      satisfaction: '96%',
-      avatar: 'https://i.pravatar.cc/150?img=12',
-      isTopRated: false,
-      verifications: [
-        { text: 'Profissional Verificado SOS', type: 'success' },
-        { text: 'Garantia Integral SOS', type: 'warning' },
-      ],
-      specialties: ['Pintura Residencial', 'Texturas', 'Massa Corrida'],
-      portfolio: [
-        'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=150&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=150&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1604014237800-1c9102c219da?q=80&w=150&auto=format&fit=crop',
-      ],
-    },
-  ]
-  loading.value = false
-}
-
-// Busca os dados quando o componente é montado na tela
-onMounted(() => {
-  fetchProfessionalsFromApi()
-})
+const { professionals, loading } = useProfessionals({ limit: 2, syncUrl: false })
 </script>
 
 <template>
@@ -138,10 +77,10 @@ onMounted(() => {
           </div>
 
           <template v-else>
-            <ProfessionalCard v-for="prof in professionals" :key="prof.id" :professional="prof"
-              :to="'/profissionais/' + prof.id" />
+            <ProfessionalCard v-for="prof in professionals" :key="prof.id" :professional="prof" />
           </template>
         </div>
+
         <div class="block lg:hidden">
           <div class="rounded-xl p-6 mb-8 border border-gray-100">
             <ul class="space-y-4">

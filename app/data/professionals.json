@@ -1,0 +1,637 @@
+[
+    {
+        "id": "roberto-silva",
+        "name": "Roberto Silva",
+        "title": "Pintura & Acabamento",
+        "bio": "Olá! Sou o Roberto, especialista em pintura residencial e comercial com mais de 8 anos de atuação. Meu foco é sempre entregar um acabamento impecável, sem sujeira e dentro do prazo combinado. Trabalho com os melhores materiais do mercado, utilizo técnicas de pintura mecanizada (Airless) quando necessário e garanto a durabilidade do meu serviço.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=12",
+        "phoneNumber": "5545999990001",
+        "locationText": "Atende Foz do Iguaçu e Região",
+        "responseTimeText": "Responde em até 1 hora",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 8,
+        "jobsCompleted": 150,
+        "satisfactionRate": 98,
+        "rating": 4.8,
+        "reviewCount": 127,
+        "isTopRated": true,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Pintura Interna",
+            "Pintura Externa de Fachadas",
+            "Texturas e Grafiato",
+            "Massa Corrida",
+            "Pintura Airless"
+        ],
+        "courses": [
+            {
+                "name": "Especialização em Efeitos Decorativos",
+                "institution": "Suvinil Academy",
+                "year": "2022",
+                "icon": "mdi:school-outline"
+            },
+            {
+                "name": "Curso Avançado de Pintura Mecanizada (Airless)",
+                "institution": "SENAI Paraná",
+                "year": "2020",
+                "icon": "mdi:certificate-outline"
+            },
+            {
+                "name": "NR-35 - Trabalho em Altura",
+                "institution": "Instituto de Segurança do Trabalho",
+                "year": "2019 (Atualizado)",
+                "icon": "mdi:shield-check-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/r1/600/400",
+            "https://picsum.photos/seed/r2/600/400",
+            "https://picsum.photos/seed/r3/600/400",
+            "https://picsum.photos/seed/r4/600/400",
+            "https://picsum.photos/seed/r5/600/400",
+            "https://picsum.photos/seed/r6/600/400"
+        ]
+    },
+    {
+        "id": "gabriel-almeida",
+        "name": "Gabriel Almeida",
+        "title": "Pintura Residencial",
+        "bio": "Sou o Gabriel, pintor com 5 anos de experiência focado em pintura residencial de alta qualidade. Especialista em texturas e massa corrida, entrego trabalhos limpos, pontuais e com garantia.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=33",
+        "phoneNumber": "5545999990002",
+        "locationText": "Atende Foz do Iguaçu",
+        "responseTimeText": "Responde em até 2 horas",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 5,
+        "jobsCompleted": 120,
+        "satisfactionRate": 96,
+        "rating": 4.8,
+        "reviewCount": 127,
+        "isTopRated": false,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Pintura Residencial",
+            "Texturas",
+            "Massa Corrida"
+        ],
+        "courses": [
+            {
+                "name": "Técnicas de Pintura Residencial",
+                "institution": "SENAI Paraná",
+                "year": "2021",
+                "icon": "mdi:school-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/g1/600/400",
+            "https://picsum.photos/seed/g2/600/400",
+            "https://picsum.photos/seed/g3/600/400"
+        ]
+    },
+    {
+        "id": "carlos-mendes",
+        "name": "Carlos Mendes",
+        "title": "Eletricista Residencial e Comercial",
+        "bio": "Eletricista com 12 anos de experiência em instalações residenciais e comerciais. Trabalho dentro das normas da ABNT, com laudo técnico incluso e total segurança para seu imóvel.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=51",
+        "phoneNumber": "5545999990003",
+        "locationText": "Atende Foz do Iguaçu e Região",
+        "responseTimeText": "Responde em até 1 hora",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 12,
+        "jobsCompleted": 300,
+        "satisfactionRate": 99,
+        "rating": 4.9,
+        "reviewCount": 240,
+        "isTopRated": true,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Elétrica Residencial",
+            "Elétrica Comercial",
+            "Quadro de Distribuição",
+            "CFTV",
+            "Automação"
+        ],
+        "courses": [
+            {
+                "name": "NR-10 - Segurança em Instalações Elétricas",
+                "institution": "SENAI Paraná",
+                "year": "2023",
+                "icon": "mdi:shield-check-outline"
+            },
+            {
+                "name": "Instalações Elétricas ABNT NBR 5410",
+                "institution": "CREA-PR",
+                "year": "2020",
+                "icon": "mdi:certificate-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/c1/600/400",
+            "https://picsum.photos/seed/c2/600/400",
+            "https://picsum.photos/seed/c3/600/400",
+            "https://picsum.photos/seed/c4/600/400"
+        ]
+    },
+    {
+        "id": "joao-ferreira",
+        "name": "João Ferreira",
+        "title": "Encanador e Hidráulica",
+        "bio": "Especialista em hidráulica com 15 anos de experiência. Resolvo vazamentos, entupimentos e novas instalações com rapidez, limpeza e garantia total do serviço prestado.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=68",
+        "phoneNumber": "5545999990004",
+        "locationText": "Atende Foz do Iguaçu e Região",
+        "responseTimeText": "Responde em até 3 horas",
+        "availabilityText": "Disponível na próxima semana",
+        "yearsExperience": 15,
+        "jobsCompleted": 450,
+        "satisfactionRate": 97,
+        "rating": 4.7,
+        "reviewCount": 189,
+        "isTopRated": false,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Hidráulica Predial",
+            "Caça Vazamentos",
+            "Encanamento",
+            "Instalação de Caixas d'água"
+        ],
+        "courses": [
+            {
+                "name": "Instalações Hidráulicas Prediais",
+                "institution": "SENAI Paraná",
+                "year": "2018",
+                "icon": "mdi:school-outline"
+            },
+            {
+                "name": "NR-18 - Segurança em Obras",
+                "institution": "Instituto de Segurança do Trabalho",
+                "year": "2022",
+                "icon": "mdi:shield-check-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/j1/600/400",
+            "https://picsum.photos/seed/j2/600/400",
+            "https://picsum.photos/seed/j3/600/400"
+        ]
+    },
+    {
+        "id": "marcos-oliveira",
+        "name": "Marcos Oliveira",
+        "title": "Pedreiro e Reformas",
+        "bio": "Pedreiro com 20 anos de experiência em construção e reformas residenciais. Do zero ao acabamento, garanto qualidade estrutural e prazos cumpridos em cada etapa da obra.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=15",
+        "phoneNumber": "5545999990005",
+        "locationText": "Atende Foz do Iguaçu e Região",
+        "responseTimeText": "Responde em até 2 horas",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 20,
+        "jobsCompleted": 600,
+        "satisfactionRate": 96,
+        "rating": 4.6,
+        "reviewCount": 312,
+        "isTopRated": false,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Alvenaria",
+            "Reforma Residencial",
+            "Reboco e Chapisco",
+            "Contrapiso",
+            "Demolição"
+        ],
+        "courses": [
+            {
+                "name": "Técnicas Avançadas de Alvenaria",
+                "institution": "SENAI Paraná",
+                "year": "2019",
+                "icon": "mdi:school-outline"
+            },
+            {
+                "name": "NR-18 - Segurança em Obras",
+                "institution": "Instituto de Segurança do Trabalho",
+                "year": "2021",
+                "icon": "mdi:shield-check-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/m1/600/400",
+            "https://picsum.photos/seed/m2/600/400",
+            "https://picsum.photos/seed/m3/600/400",
+            "https://picsum.photos/seed/m4/600/400"
+        ]
+    },
+    {
+        "id": "ana-costa",
+        "name": "Ana Costa",
+        "title": "Paisagismo e Jardinagem",
+        "bio": "Paisagista com 7 anos de experiência em projetos residenciais e comerciais. Crio ambientes verdes que valorizam o imóvel e trazem bem-estar ao dia a dia.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=47",
+        "phoneNumber": "5545999990006",
+        "locationText": "Atende Foz do Iguaçu",
+        "responseTimeText": "Responde em até 4 horas",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 7,
+        "jobsCompleted": 90,
+        "satisfactionRate": 100,
+        "rating": 5,
+        "reviewCount": 64,
+        "isTopRated": true,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Paisagismo Residencial",
+            "Jardinagem",
+            "Lago Artificial",
+            "Irrigação Automatizada"
+        ],
+        "courses": [
+            {
+                "name": "Paisagismo e Jardinagem Avançado",
+                "institution": "SENAC Paraná",
+                "year": "2020",
+                "icon": "mdi:school-outline"
+            },
+            {
+                "name": "Design de Ambientes Externos",
+                "institution": "Instituto de Artes e Design",
+                "year": "2022",
+                "icon": "mdi:certificate-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/a1/600/400",
+            "https://picsum.photos/seed/a2/600/400",
+            "https://picsum.photos/seed/a3/600/400"
+        ]
+    },
+    {
+        "id": "pedro-souza",
+        "name": "Pedro Souza",
+        "title": "Instalação de Gás",
+        "bio": "Técnico certificado em instalação de gás com 10 anos de experiência. Executo projetos e instalações dentro das normas ABNT com laudo e teste de estanqueidade.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=60",
+        "phoneNumber": "5545999990007",
+        "locationText": "Atende Foz do Iguaçu e Região",
+        "responseTimeText": "Responde em até 1 hora",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 10,
+        "jobsCompleted": 200,
+        "satisfactionRate": 98,
+        "rating": 4.9,
+        "reviewCount": 98,
+        "isTopRated": true,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Instalação de Gás Natural",
+            "Instalação de GLP",
+            "Teste de Estanqueidade",
+            "Manutenção de Redes de Gás"
+        ],
+        "courses": [
+            {
+                "name": "Instalações de Gás - ABNT NBR 15526",
+                "institution": "CREA-PR",
+                "year": "2022",
+                "icon": "mdi:certificate-outline"
+            },
+            {
+                "name": "NR-13 - Vasos de Pressão",
+                "institution": "Instituto de Segurança do Trabalho",
+                "year": "2021",
+                "icon": "mdi:shield-check-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/ps1/600/400",
+            "https://picsum.photos/seed/ps2/600/400",
+            "https://picsum.photos/seed/ps3/600/400"
+        ]
+    },
+    {
+        "id": "lucia-ramos",
+        "name": "Lúcia Ramos",
+        "title": "Gesseira e Drywall",
+        "bio": "Especialista em gesso e drywall com 9 anos de mercado. Executo forros, divisórias e acabamentos com precisão e limpeza, garantindo um resultado impecável.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=44",
+        "phoneNumber": "5545999990008",
+        "locationText": "Atende Foz do Iguaçu",
+        "responseTimeText": "Responde em até 2 horas",
+        "availabilityText": "Disponível na próxima semana",
+        "yearsExperience": 9,
+        "jobsCompleted": 180,
+        "satisfactionRate": 97,
+        "rating": 4.7,
+        "reviewCount": 110,
+        "isTopRated": false,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Forro de Gesso",
+            "Drywall",
+            "Gesso Liso",
+            "Divisórias"
+        ],
+        "courses": [
+            {
+                "name": "Técnicas de Aplicação de Gesso",
+                "institution": "SENAI Paraná",
+                "year": "2019",
+                "icon": "mdi:school-outline"
+            },
+            {
+                "name": "Instalação de Drywall ABNT",
+                "institution": "ABRAGESSO",
+                "year": "2021",
+                "icon": "mdi:certificate-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/l1/600/400",
+            "https://picsum.photos/seed/l2/600/400",
+            "https://picsum.photos/seed/l3/600/400"
+        ]
+    },
+    {
+        "id": "thiago-barbosa",
+        "name": "Thiago Barbosa",
+        "title": "Energia Solar",
+        "bio": "Instalador certificado de energia solar com 6 anos de experiência. Dimensiono e instalo sistemas fotovoltaicos residenciais e comerciais com homologação junto à concessionária.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=57",
+        "phoneNumber": "5545999990009",
+        "locationText": "Atende Foz do Iguaçu e Região",
+        "responseTimeText": "Responde em até 2 horas",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 6,
+        "jobsCompleted": 85,
+        "satisfactionRate": 99,
+        "rating": 4.9,
+        "reviewCount": 72,
+        "isTopRated": true,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Energia Solar Residencial",
+            "Energia Solar Comercial",
+            "Homologação ANEEL",
+            "Manutenção de Painéis"
+        ],
+        "courses": [
+            {
+                "name": "Instalação de Sistemas Fotovoltaicos",
+                "institution": "SENAI Paraná",
+                "year": "2021",
+                "icon": "mdi:school-outline"
+            },
+            {
+                "name": "NR-35 - Trabalho em Altura",
+                "institution": "Instituto de Segurança do Trabalho",
+                "year": "2022",
+                "icon": "mdi:shield-check-outline"
+            },
+            {
+                "name": "Dimensionamento de Sistemas Off-Grid",
+                "institution": "ABSOLAR",
+                "year": "2023",
+                "icon": "mdi:certificate-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/t1/600/400",
+            "https://picsum.photos/seed/t2/600/400",
+            "https://picsum.photos/seed/t3/600/400",
+            "https://picsum.photos/seed/t4/600/400"
+        ]
+    },
+    {
+        "id": "fernando-lima",
+        "name": "Fernando Lima",
+        "title": "Serralheiro e Metalúrgico",
+        "bio": "Serralheiro com 14 anos de experiência em grades, portões, escadas e estruturas metálicas. Trabalho com ferro, alumínio e aço inox, do projeto à instalação.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=70",
+        "phoneNumber": "5545999990010",
+        "locationText": "Atende Foz do Iguaçu e Região",
+        "responseTimeText": "Responde em até 3 horas",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 14,
+        "jobsCompleted": 380,
+        "satisfactionRate": 95,
+        "rating": 4.6,
+        "reviewCount": 201,
+        "isTopRated": false,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Grades e Portões",
+            "Escadas Metálicas",
+            "Estruturas em Aço Inox",
+            "Cobertura Metálica",
+            "Corrimões"
+        ],
+        "courses": [
+            {
+                "name": "Soldagem MIG/TIG",
+                "institution": "SENAI Paraná",
+                "year": "2018",
+                "icon": "mdi:school-outline"
+            },
+            {
+                "name": "NR-12 - Segurança em Máquinas",
+                "institution": "Instituto de Segurança do Trabalho",
+                "year": "2020",
+                "icon": "mdi:shield-check-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/f1/600/400",
+            "https://picsum.photos/seed/f2/600/400",
+            "https://picsum.photos/seed/f3/600/400"
+        ]
+    },
+    {
+        "id": "paulo-xavier",
+        "name": "Paulo Xavier",
+        "title": "Construtor de Piscinas",
+        "bio": "Especialista em construção e reforma de piscinas com 11 anos de experiência. Construo piscinas de alvenaria e fibra com projeto completo, hidráulica e acabamento.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=65",
+        "phoneNumber": "5545999990011",
+        "locationText": "Atende Foz do Iguaçu e Região",
+        "responseTimeText": "Responde em até 2 horas",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 11,
+        "jobsCompleted": 130,
+        "satisfactionRate": 98,
+        "rating": 4.8,
+        "reviewCount": 88,
+        "isTopRated": true,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Piscinas de Alvenaria",
+            "Piscinas de Fibra",
+            "Reforma de Piscinas",
+            "Hidráulica de Piscinas"
+        ],
+        "courses": [
+            {
+                "name": "Construção e Manutenção de Piscinas",
+                "institution": "SENAC Paraná",
+                "year": "2019",
+                "icon": "mdi:school-outline"
+            },
+            {
+                "name": "Tratamento de Água e Química de Piscinas",
+                "institution": "ABNT",
+                "year": "2022",
+                "icon": "mdi:certificate-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/px1/600/400",
+            "https://picsum.photos/seed/px2/600/400",
+            "https://picsum.photos/seed/px3/600/400",
+            "https://picsum.photos/seed/px4/600/400"
+        ]
+    },
+    {
+        "id": "rafael-nunes",
+        "name": "Rafael Nunes",
+        "title": "Vidraceiro",
+        "bio": "Vidraceiro especializado em box, espelhos, fachadas de vidro e películas. Atendo residências e comércios com agilidade, segurança e acabamento de alto padrão.",
+        "avatarUrl": "https://i.pravatar.cc/300?img=22",
+        "phoneNumber": "5545999990012",
+        "locationText": "Atende Foz do Iguaçu",
+        "responseTimeText": "Responde em até 2 horas",
+        "availabilityText": "Disponível esta semana",
+        "yearsExperience": 8,
+        "jobsCompleted": 210,
+        "satisfactionRate": 97,
+        "rating": 4.7,
+        "reviewCount": 143,
+        "isTopRated": false,
+        "verifications": [
+            {
+                "text": "Profissional Verificado SOS",
+                "type": "success"
+            },
+            {
+                "text": "Garantia Integral da Obra",
+                "type": "warning"
+            }
+        ],
+        "specialties": [
+            "Box de Banheiro",
+            "Espelhos",
+            "Fachadas de Vidro",
+            "Películas",
+            "Janelas de Vidro Temperado"
+        ],
+        "courses": [
+            {
+                "name": "Técnicas em Vidros e Espelhos",
+                "institution": "SENAI Paraná",
+                "year": "2020",
+                "icon": "mdi:school-outline"
+            }
+        ],
+        "portfolioUrls": [
+            "https://picsum.photos/seed/rn1/600/400",
+            "https://picsum.photos/seed/rn2/600/400",
+            "https://picsum.photos/seed/rn3/600/400"
+        ]
+    }
+]
