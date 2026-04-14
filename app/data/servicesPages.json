@@ -2833,38 +2833,6 @@
         "description": "Criamos espaços de lazer que unem design inovador, resistência e total conformidade com as normas de segurança. O playground perfeito para seu condomínio ou escola.",
         "image": "/images/services/playground/hero.webp"
       },
-      "partner": {
-        "partnerName": "Urssus Play",
-        "logo": "/images/services/playground/urssusplay/logo.jpg",
-        "coverImage": "/images/services/playground/urssusplay/cover.jpeg  ",
-        "description": "Parceria estratégica com a Urssus Play (Linha Strongfer), referência nacional em mobiliário recreativo de alta performance. Oferecemos playgrounds com padrão de exportação, projetados para uso intenso em condomínios, escolas e praças, unindo diversão lúdica com a máxima segurança normativa.",
-        "tags": [
-          {
-            "icon": "shield-star-outline",
-            "text": "Padrão Industrial: Projetado para uso público intenso"
-          },
-          {
-            "icon": "check-decagram-outline",
-            "text": "Segurança Certificada: Total conformidade com normas ABNT"
-          },
-          {
-            "icon": "vibrate",
-            "text": "Materiais de Alta Resistência: Madeira plástica, metal e polietileno"
-          },
-          {
-            "icon": "toy-brick-plus-outline",
-            "text": "Módulos Expansíveis: O playground que cresce com o seu espaço"
-          }
-        ],
-        "cta": {
-          "text": "Ver Linha Urssus Play",
-          "link": ""
-        },
-        "footerInfo": {
-          "usage": "Equipamentos presentes em prefeituras, clubes e parques nacionais",
-          "guarantee": "Garantia de fábrica Strongfer e instalação técnica SOS"
-        }
-      },
       "workGallery": {
         "filters": [
           {

@@ -5,7 +5,7 @@
         "title": "Areia Branca (Carga c/ 6mt3)",
         "description": "Areia branca de alta pureza entregue em carga fechada de 6m³. Ideal para reboco e acabamentos.",
         "category": "areia",
-        "price": 1050.00,
+        "price": 1050.0,
         "priceUnit": "/mt³",
         "image": "/images/products/areia/areia-branca.webp",
         "featured": false
@@ -16,7 +16,7 @@
         "title": "Areia Branca (Carga c/ 12mt3)",
         "description": "Areia branca de alta pureza entregue em carga fechada de 12m³. Melhor custo-benefício para grandes obras.",
         "category": "areia",
-        "price": 1800.00,
+        "price": 1800.0,
         "priceUnit": "/mt³",
         "image": "/images/products/areia/areia-branca.webp",
         "featured": false
@@ -27,7 +27,7 @@
         "title": "Areia Branca de alta Qualidade (Avulsa)",
         "description": "Areia branca selecionada vendida por metro cúbico avulso.",
         "category": "areia",
-        "price": 200.00,
+        "price": 200.0,
         "priceUnit": "/mt³",
         "image": "/images/products/areia/areia-branca.webp",
         "featured": false
@@ -38,7 +38,7 @@
         "title": "Granilha / Pó de Pedra (carga c/ 6mt3)",
         "description": "Pó de pedra de alta qualidade para calçamentos e fabricação de artefatos de cimento.",
         "category": "pedras",
-        "price": 660.00,
+        "price": 660.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/po-de-pedra.webp",
         "featured": false
@@ -49,7 +49,7 @@
         "title": "Granilha / Pó de Pedra (carga c/ 12mt3)",
         "description": "Pó de pedra para uso industrial e construção civil em carga de 12m³.",
         "category": "pedras",
-        "price": 1200.00,
+        "price": 1200.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/po-de-pedra.webp",
         "featured": false
@@ -60,7 +60,7 @@
         "title": "Granilha / Pó de Pedra (Metro Avulso)",
         "description": "Pó de pedra por metro cúbico avulso para pequenos reparos e ajustes.",
         "category": "pedras",
-        "price": 140.00,
+        "price": 140.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/po-de-pedra.webp",
         "featured": false
@@ -71,7 +71,7 @@
         "title": "Pedrisco (Carga c/ 6mt3)",
         "description": "Pedra britada tipo 0 (pedrisco) para concreto fino e lajes.",
         "category": "pedras",
-        "price": 660.00,
+        "price": 660.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/pedrisco.webp",
         "featured": false
@@ -82,7 +82,7 @@
         "title": "Pedrisco (Carga c/ 12mt3)",
         "description": "Pedrisco limpo e selecionado em carga de 12m³.",
         "category": "pedras",
-        "price": 1200.00,
+        "price": 1200.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/pedrisco.webp",
         "featured": false
@@ -93,7 +93,7 @@
         "title": "Pedrisco (Metro Avulso)",
         "description": "Metro avulso de pedrisco para diversas aplicações na construção.",
         "category": "pedras",
-        "price": 140.00,
+        "price": 140.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/pedrisco.webp",
         "featured": false
@@ -104,7 +104,7 @@
         "title": "Brita No 1 ¾ (Carga c/ 6mt3)",
         "description": "Brita número 1, a mais utilizada em colunas, vigas e fundações.",
         "category": "pedras",
-        "price": 660.00,
+        "price": 660.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/brita-n1.webp",
         "featured": false
@@ -115,7 +115,7 @@
         "title": "Brita No 1 ¾ (Carga c/ 12mt3)",
         "description": "Brita 1 de alta resistência em volume de 12m³.",
         "category": "pedras",
-        "price": 1200.00,
+        "price": 1200.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/brita-n1.webp",
         "featured": false
@@ -126,7 +126,7 @@
         "title": "Brita Nº 1 ¾ (Metro Avulso)",
         "description": "Brita 1 por metro para pequenas concretagens.",
         "category": "pedras",
-        "price": 140.00,
+        "price": 140.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/brita-n1.webp",
         "featured": false
@@ -137,7 +137,7 @@
         "title": "Graduação Fina (Carga c/ 6mt3)",
         "description": "Brita graduada fina para acabamento de base e sub-base.",
         "category": "pedras",
-        "price": 870.00,
+        "price": 870.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/graduacao.webp",
         "featured": false
@@ -148,7 +148,7 @@
         "title": "Graduação Fina (Carga c/ 12mt3)",
         "description": "Lote fechado de graduação fina para compactação de solos.",
         "category": "pedras",
-        "price": 1620.00,
+        "price": 1620.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/graduacao.webp",
         "featured": false
@@ -159,7 +159,7 @@
         "title": "Graduação Fina (Metro Avulso)",
         "description": "Graduação fina vendida por metro.",
         "category": "pedras",
-        "price": 160.00,
+        "price": 160.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/graduacao.webp",
         "featured": false
@@ -170,7 +170,7 @@
         "title": "Graduação Grossa (Carga c/ 6mt3)",
         "description": "Material de graduação grossa para reforço de base.",
         "category": "pedras",
-        "price": 870.00,
+        "price": 870.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/graduacao.webp",
         "featured": false
@@ -181,7 +181,7 @@
         "title": "Graduação Grossa (Metro avulso)",
         "description": "Metro avulso de graduação grossa.",
         "category": "pedras",
-        "price": 160.00,
+        "price": 160.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/graduacao.webp",
         "featured": false
@@ -192,7 +192,7 @@
         "title": "Rachão Britado (Carga c/ 12mt3)",
         "description": "Carga de 12m³ de rachão britado para grandes obras de infraestrutura.",
         "category": "pedras",
-        "price": 1200.00,
+        "price": 1200.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/rachao.webp",
         "featured": false
@@ -203,7 +203,7 @@
         "title": "Rachão Britado (Metro Avulso)",
         "description": "Metro avulso de rachão para aplicações pontuais.",
         "category": "pedras",
-        "price": 140.00,
+        "price": 140.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/rachao.webp",
         "featured": false
@@ -214,7 +214,7 @@
         "title": "Rachão Britado (Carga c/ 6mt3)",
         "description": "Pedra de mão (rachão) ideal para drenagens e contenções.",
         "category": "pedras",
-        "price": 660.00,
+        "price": 660.0,
         "priceUnit": "/mt³",
         "image": "/images/products/pedras/rachao.webp",
         "featured": false
@@ -225,7 +225,7 @@
         "title": "Paver 4 x 10 x 20 cm – Natural",
         "description": "Pavimento intertravado de concreto natural com 4cm de espessura. Ideal para calçadas residenciais e áreas de pedestres.",
         "category": "paver",
-        "price": 45.00,
+        "price": 45.0,
         "priceUnit": "/m²",
         "image": "/images/products/paver/paver.webp",
         "featured": false
@@ -236,7 +236,7 @@
         "title": "Paver 6 x 10 x 20 cm – Natural",
         "description": "Pavimento intertravado de concreto natural com 6cm de espessura. Indicado para garagens e tráfego leve de veículos.",
         "category": "paver",
-        "price": 50.00,
+        "price": 50.0,
         "priceUnit": "/m²",
         "image": "/images/products/paver/paver.webp",
         "featured": false
@@ -247,7 +247,7 @@
         "title": "Paver 8 x 10 x 20 cm – Natural",
         "description": "Pavimento intertravado de concreto natural com 8cm de espessura. Alta resistência para tráfego pesado e comercial.",
         "category": "paver",
-        "price": 60.00,
+        "price": 60.0,
         "priceUnit": "/m²",
         "image": "/images/products/paver/paver.webp",
         "featured": false
@@ -258,7 +258,7 @@
         "title": "Paver 4 x 10 x 20 cm – Colorido",
         "description": "Pavimento intertravado colorido com 4cm de espessura. Design e estética para áreas externas e passeios.",
         "category": "paver",
-        "price": 55.00,
+        "price": 55.0,
         "priceUnit": "/m²",
         "image": "/images/products/paver/paver-colorido.webp",
         "featured": false
@@ -269,7 +269,7 @@
         "title": "Paver 6 x 10 x 20 cm – Colorido",
         "description": "Pavimento intertravado colorido com 6cm de espessura. Combina resistência com acabamento personalizado.",
         "category": "paver",
-        "price": 60.00,
+        "price": 60.0,
         "priceUnit": "/m²",
         "image": "/images/products/paver/paver-colorido.webp",
         "featured": false
@@ -280,7 +280,7 @@
         "title": "Paver 8 x 10 x 20 cm – Colorido",
         "description": "Pavimento intertravado colorido com 8cm de espessura. Máxima durabilidade com pigmentação de alta qualidade.",
         "category": "paver",
-        "price": 70.00,
+        "price": 70.0,
         "priceUnit": "/m²",
         "image": "/images/products/paver/paver-colorido.webp",
         "featured": false
@@ -291,7 +291,7 @@
         "title": "Vigas p/ Forro até 4,00 mts",
         "description": "Viga de concreto pré-moldado indicada para estruturação de forros com vão livre de até 4 metros.",
         "category": "pre-moldados",
-        "price": 60.00,
+        "price": 60.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-forro.webp",
         "featured": false
@@ -302,7 +302,7 @@
         "title": "Vigas p/ Forro até 4,50 mts",
         "description": "Viga de concreto pré-moldado para forros com vão de até 4,50 metros.",
         "category": "pre-moldados",
-        "price": 60.00,
+        "price": 60.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-forro.webp",
         "featured": false
@@ -313,7 +313,7 @@
         "title": "Vigas p/ Forro até 5,00 mts",
         "description": "Viga de concreto pré-moldado para forros com vão de até 5,00 metros.",
         "category": "pre-moldados",
-        "price": 60.00,
+        "price": 60.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-forro.webp",
         "featured": false
@@ -324,7 +324,7 @@
         "title": "Vigas p/ Forro até 5,50 mts",
         "description": "Viga de concreto pré-moldado para forros com vão de até 5,50 metros.",
         "category": "pre-moldados",
-        "price": 60.00,
+        "price": 60.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-forro.webp",
         "featured": false
@@ -335,7 +335,7 @@
         "title": "Vigas p/ Forro até 6,00 mts",
         "description": "Viga de concreto pré-moldado para forros com vão de até 6,00 metros.",
         "category": "pre-moldados",
-        "price": 60.00,
+        "price": 60.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-forro.webp",
         "featured": false
@@ -346,7 +346,7 @@
         "title": "Vigas p/ Piso até 4,00 mts",
         "description": "Viga reforçada de concreto pré-moldado indicada para lajes de piso com vão de até 4 metros.",
         "category": "pre-moldados",
-        "price": 95.00,
+        "price": 95.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-piso.webp",
         "featured": false
@@ -357,7 +357,7 @@
         "title": "Vigas p/ Piso até 4,50 mts",
         "description": "Viga reforçada de concreto pré-moldado para lajes de piso com vão de até 4,50 metros.",
         "category": "pre-moldados",
-        "price": 95.00,
+        "price": 95.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-piso.webp",
         "featured": false
@@ -368,7 +368,7 @@
         "title": "Vigas p/ Piso até 5,00 mts",
         "description": "Viga reforçada de concreto pré-moldado para lajes de piso com vão de até 5,00 metros.",
         "category": "pre-moldados",
-        "price": 95.00,
+        "price": 95.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-piso.webp",
         "featured": false
@@ -379,7 +379,7 @@
         "title": "Vigas p/ Piso até 5,50 mts",
         "description": "Viga reforçada de concreto pré-moldado para lajes de piso com vão de até 5,50 metros.",
         "category": "pre-moldados",
-        "price": 95.00,
+        "price": 95.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-piso.webp",
         "featured": false
@@ -390,7 +390,7 @@
         "title": "Vigas p/ Piso até 6,00 mts",
         "description": "Viga reforçada de concreto pré-moldado para lajes de piso com vão de até 6,00 metros.",
         "category": "pre-moldados",
-        "price": 95.00,
+        "price": 95.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/vigas-piso.webp",
         "featured": false
@@ -401,7 +401,7 @@
         "title": "Meio Fio de Alta Qualidade 9 x 25 x 0,80 cm",
         "description": "Meio fio de concreto para delimitação de calçadas e jardins.",
         "category": "pre-moldados",
-        "price": 28.00,
+        "price": 28.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/meio-fio.webp",
         "featured": false
@@ -412,7 +412,7 @@
         "title": "Meio Fio Guia Industrial 1,00 x 30 x 10 cm",
         "description": "Guia industrial de concreto de alta resistência para pavimentação de ruas e pátios.",
         "category": "pre-moldados",
-        "price": 60.00,
+        "price": 60.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/meio-fio.webp",
         "featured": false
@@ -423,7 +423,7 @@
         "title": "Meio Fio Sargeta 0,80 x 25 x 23 cm",
         "description": "Meio fio com sarjeta conjugada para drenagem pluvial eficiente.",
         "category": "pre-moldados",
-        "price": 45.00,
+        "price": 45.0,
         "priceUnit": "/m²",
         "image": "/images/products/pre-moldados/meio-fio-sarjeta.webp",
         "featured": false
@@ -1702,6 +1702,105 @@
         "brand": "Hipermassa",
         "brandSlug": "hipermassa",
         "image": "/images/products/argamassas/concreto-pronto.webp",
+        "featured": false
+    },
+    {
+        "id": 180,
+        "slug": "passagem-circular-circuito-pet",
+        "title": "Passagem Circular",
+        "description": "Obstáculo em formato de aro que estimula o cão a pular e atravessar com agilidade, ajudando no desenvolvimento da coordenação motora, obediência e confiança durante as atividades no circuito.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/passagem-circular.webp",
+        "featured": false
+    },
+    {
+        "id": 181,
+        "slug": "slalom-circuito-pet",
+        "title": "Slalom",
+        "description": "Conjunto de postes em madeira plástica dispostos em linha para o cão desviar alternadamente, promovendo agilidade, equilíbrio, coordenação e foco, além de estimular o vínculo entre pet e tutor durante o treino.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/slalom.webp",
+        "featured": false
+    },
+    {
+        "id": 182,
+        "slug": "torre-de-passagem-circuito-pet",
+        "title": "Torre de Passagem",
+        "description": "Estrutura elevada projetada para estimular o cão a subir por uma rampa, atravessar a plataforma superior e descer pelo lado oposto. Trabalha força muscular, equilíbrio, coordenação motora e confiança em diferentes níveis de altura, além de promover estímulo mental e ajudar o pet a superar desafios.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/torre-de-passagem.webp",
+        "featured": false
+    },
+    {
+        "id": 183,
+        "slug": "mesa-circuito-pet",
+        "title": "Mesa",
+        "description": "Plataforma plana e elevada onde o cão deve subir e permanecer por alguns segundos. Desenvolve obediência, autocontrole, equilíbrio e confiança, além de proporcionar pausas estratégicas durante o circuito pet. Ideal para reforçar comandos e fortalecer o vínculo entre pet e tutor.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/mesa.webp",
+        "featured": false
+    },
+    {
+        "id": 184,
+        "slug": "tunel-curvado-circuito-pet",
+        "title": "Túnel Curvado",
+        "description": "Estrutura em formato de tubo com leve curvatura que incentiva o cão a atravessar sem visão direta da saída, estimulando coragem, confiança e instinto explorador. Desenvolve coordenação, foco e obediência, tornando o circuito pet mais desafiador e envolvente.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/tunel-curvado.webp",
+        "featured": false
+    },
+    {
+        "id": 185,
+        "slug": "tunel-90-circuito-pet",
+        "title": "Túnel 90°",
+        "description": "Estrutura tubular com curva em 90°, projetada para desafiar o cão a atravessar sem visão direta da saída. Estimula coragem, confiança, coordenação motora e raciocínio, tornando o circuito pet mais dinâmico e divertido.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/tunel-90.webp",
+        "featured": false
+    },
+    {
+        "id": 186,
+        "slug": "torre-dinamica-circuito-pet",
+        "title": "Torre Dinâmica",
+        "description": "Estrutura multifuncional que combina rampas, tubo e escorregador, oferecendo um desafio completo para o pet. Estimula força, equilíbrio, coordenação e agilidade, além de promover diversão e estímulo mental. Ideal para cães ativos que buscam superar diferentes obstáculos em um único equipamento.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/torre-dinamica.webp",
+        "featured": false
+    },
+    {
+        "id": 187,
+        "slug": "prancha-circuito-pet",
+        "title": "Prancha",
+        "description": "Equipamento móvel que balança enquanto o cão caminha sobre ele, estimulando equilíbrio, coordenação motora e concentração. Desafia o pet a controlar seus movimentos, desenvolvendo confiança e agilidade de forma divertida e segura dentro do circuito pet.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/prancha.webp",
+        "featured": false
+    },
+    {
+        "id": 188,
+        "slug": "salto-arco-circuito-pet",
+        "title": "Salto Arco",
+        "description": "Sequência de arcos com altura regulável, permitindo ajustar o desafio para cães de diversos tamanhos e níveis de habilidade. Desenvolve agilidade, coordenação e potência muscular, tornando o treino dinâmico, seguro e adaptável às necessidades de cada pet.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/salto-arco.webp",
+        "featured": false
+    },
+    {
+        "id": 189,
+        "slug": "kid-play-circuito-pet",
+        "title": "Kid Play",
+        "description": "Circuito completo e divertido que reúne rampas de tacos, obstáculos variados, slalom, obstáculos de correntes e salto arco com altura ajustável. Estimula coordenação, agilidade, força e equilíbrio, promovendo exercícios físicos variados e desafios progressivos com diversão e aprendizado em cada etapa do treino.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/kid-play.webp",
+        "featured": false
+    },
+    {
+        "id": 190,
+        "slug": "passarela-circuito-pet",
+        "title": "Passarela",
+        "description": "Estrutura elevada e reta que permite ao cão caminhar sobre ela, desenvolvendo equilíbrio, coordenação e confiança. Ideal para estimular a concentração e a segurança do pet ao transitar por superfícies estreitas e altas dentro do circuito pet.",
+        "category": "playground",
+        "image": "/images/products/playground/circuito-pet/passarela.webp",
         "featured": false
     }
 ]
