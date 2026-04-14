@@ -34,15 +34,6 @@
             "description": "Parceria com a Galvanox, referência em Foz do Iguaçu desde 1998. Especialistas em serralheria fina e estruturas metálicas, entregando soluções sob medida em ferro e inox com a precisão artesanal e a resistência que seu projeto exige."
         },
         {
-            "id": 5,
-            "name": "Urssus Play",
-            "slug": "urssus-play",
-            "category": "playground",
-            "logo": "/images/services/playground/urssusplay/logo.jpg",
-            "coverImage": "/images/services/playground/urssusplay/cover.jpeg",
-            "description": "Parceria estratégica com a Urssus Play (Linha Strongfer), referência nacional em mobiliário recreativo de alta performance. Oferecemos playgrounds com padrão de exportação, projetados para uso intenso em condomínios, escolas e praças, unindo diversão lúdica com a máxima segurança normativa."
-        },
-        {
             "id": 6,
             "name": "Tekila Estofados",
             "slug": "tekila",

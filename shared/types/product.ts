@@ -13,6 +13,7 @@ export type ProductCategory =
   | 'paisagismo'
   | 'lajes'
   | 'argamassas'
+  | 'playground'
 
 export interface ProductBrand {
   name: string

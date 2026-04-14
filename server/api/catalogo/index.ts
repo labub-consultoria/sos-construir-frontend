@@ -17,6 +17,7 @@ const validCategories = new Set<string>([
   'paisagismo',
   'lajes',
   'argamassas',
+  'playground'
 ])
 
 const categoryNames: Record<ProductCategory, string> = {
@@ -34,6 +35,7 @@ const categoryNames: Record<ProductCategory, string> = {
   paisagismo: 'Paisagismo',
   lajes: 'Lajes',
   argamassas: 'Argamassas',
+  playground: 'Playground',
 }
 
 const sortableFields = ['relevance', 'price-asc', 'price-desc', 'rating'] as const
