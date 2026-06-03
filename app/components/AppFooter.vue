@@ -20,90 +20,106 @@ defineProps<{
   phoneNumber: string
   email: string
 }>()
+
+// Estilo compartilhado dos títulos de coluna (uppercase + tracking)
+const headingClass =
+  'text-sm font-bold uppercase tracking-[0.12em] text-white mb-5'
 </script>
 
 <template>
-  <UFooter class="bg-blue-500 text-white" :ui="{
-    top: 'p-2 lg:py-2',
-    left: 'align-center pb-3'
+  <UFooter class="bg-[#0b2258] text-white" :ui="{
+    container: 'border-t border-white/10',
   }">
     <template #top>
-      <UContainer class="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-8 lg:py-20">
+      <UContainer class="">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-0 ">
 
-        <div class="flex flex-col gap-4">
-          <div class="flex items-center gap-2 max-h-20 max-w-44">
-            <AppLogo color2='white' />
+          <!-- Logo + sobre + redes -->
+          <div class="flex flex-col lg:pr-10">
+            <div class="flex items-center gap-2 max-h-20 max-w-44 mb-5">
+              <AppLogo color2='white' />
+            </div>
+            <p class="text-sm text-[#CBD5E1] leading-relaxed mb-8">
+              Mais de 10 anos transformando obras em realidade.
+            </p>
+            <div class="flex gap-2">
+              <UButton icon="i-simple-icons-instagram" variant="soft" to="https://instagram.com/sos_construir"
+                class="text-white rounded-full bg-white/10 p-3" target="_blank" aria-label="Instagram" />
+              <UButton icon="i-simple-icons-facebook" size="lg" variant="ghost" to="https://facebook.com/sosconstruir"
+                class="text-white rounded-full bg-white/10 p-3" target="_blank" aria-label="Facebook" />
+            </div>
+
+            <div class="flex flex-col gap-3 pt-6 mt-8 border-t border-white/10">
+              <span :class="headingClass" class="!mb-0">Trabalhe conosco</span>
+              <ULink to="/faca-parte"
+                class="inline-flex items-center gap-1.5 w-fit text-sm font-semibold text-primary hover:text-primary/80 transition-colors">
+                Faça parte da nossa rede
+                <UIcon name="mdi:arrow-right" class="w-4 h-4" />
+              </ULink>
+            </div>
           </div>
-          <p class="text-sm text-">
-            Mais de 10 anos transformando obras em realidade.
-          </p>
-          <div class="flex gap-2">
-            <UButton icon="i-simple-icons-instagram" variant="soft" to="https://instagram.com/sos_construir"
-              class="text-white rounded-full bg-white/10 p-3" target="_blank" aria-label="Instagram" />
-            <UButton icon="i-simple-icons-facebook" size="lg" variant="ghost" to="https://facebook.com/sosconstruir"
-              class="text-white rounded-full bg-white/10 p-3" target="_blank" aria-label="Facebook" />
+
+          <!-- Navegação -->
+          <div class="flex flex-col lg:px-10  lg:border-white/10">
+            <h3 :class="headingClass">Navegação</h3>
+            <ul class="flex flex-col">
+              <li v-for="link in navigationLinks" :key="link.label">
+                <ULink :to="link.to" class="block py-1 text-sm text-[#CBD5E1] hover:text-primary transition-colors">
+                  {{ link.label }}
+                </ULink>
+              </li>
+            </ul>
           </div>
-        </div>
 
-        <div class="flex flex-col gap-4">
-          <h3 class="font-bold uppercase text-">Navegação</h3>
-          <ul class="flex flex-col gap-2">
-            <li v-for="link in navigationLinks" :key="link.label">
-              <ULink :to="link.to" class="text-sm text-[#CBD5E1] hover:text-primary transition-colors">
-                {{ link.label }}
-              </ULink>
-            </li>
-          </ul>
-        </div>
+          <!-- Serviços em destaque -->
+          <div class="flex flex-col lg:px-10">
+            <h3 :class="headingClass">Serviços em destaque</h3>
+            <ul class="flex flex-col">
+              <li v-for="service in services" :key="service.slug">
+                <ULink :to="'/servicos/' + service.slug"
+                  class="block py-1 text-sm text-[#CBD5E1] hover:text-primary transition-colors">
+                  {{ service.name }}
+                </ULink>
+              </li>
+            </ul>
+          </div>
 
-        <div class="flex flex-col gap-4">
-          <h3 class="font-bold uppercase text-">Serviços em Destaque</h3>
-          <ul class="flex flex-col gap-2">
-            <li v-for="service in services" :key="service.slug">
-              <ULink :to="'/servicos/' + service.slug"
-                class="text-sm text-[#CBD5E1] hover:text-primary transition-colors">
-                {{ service.name }}
-              </ULink>
-            </li>
-          </ul>
-        </div>
-
-        <div class="flex flex-col gap-4">
-          <h3 class="font-bold uppercase text-">Contato</h3>
-          <ul class="flex flex-col gap-5 text-sm ">
-            <li class="flex items-start gap-2">
-              <UIcon name="mdi:map-marker" class="w-5 h-5 shrink-0 mt-0.5" />
-              <ULink to="https://maps.google.com/?q=Rua+Exemplo,123,Centro,Cidade,Estado" target="_blank"
-                class="hover:text-primary transition-colors text-[#CBD5E1]">
-                R. dos Eucalíptos, 597 - JARDIM BOURBON,<br>
-                Foz do Iguaçu - PR, 85854-610
-              </ULink>
-            </li>
-            <li class="flex items-center gap-2">
-              <UIcon name="mdi:phone" class="w-5 h-5 shrink-0 " />
-              <ULink :to="'tel:+' + phoneNumber" class="text-[#CBD5E1] hover:text-primary transition-colors">
-                {{ formatPhoneBR(phoneNumber) }}
-              </ULink>
-            </li>
-            <li class="flex items-center gap-2">
-              <UIcon name="mdi:email" class="w-5 h-5 shrink-0 mt-0.5" />
-              <ULink :to="'mailto:' + email" class="text-[#CBD5E1] hover:text-primary transition-colors">
-                {{ email }}
-              </ULink>
-            </li>
-          </ul>
+          <!-- Contato -->
+          <div class="flex flex-col lg:pl-10  lg:border-white/10">
+            <h3 :class="headingClass">Contato</h3>
+            <ul class="flex flex-col gap-4 text-sm">
+              <li class="flex items-start gap-3">
+                <UIcon name="mdi:map-marker" class="w-4 h-4 shrink-0 mt-0.5 text-white" />
+                <ULink
+                  to="https://www.google.com/maps/search/?api=1&query=R.+dos+Eucaliptos,+597+-+Jardim+Bourbon,+Foz+do+Iguaçu+-+PR,+85854-610"
+                  target="_blank" rel="noopener"
+                  class="leading-relaxed text-[#CBD5E1] hover:text-primary transition-colors">
+                  R. dos Eucalíptos, 597 - JD. BOURBON,
+                  Foz do Iguaçu - PR, 85854-610
+                </ULink>
+              </li>
+              <li class="flex items-start gap-3">
+                <UIcon name="mdi:phone" class="w-4 h-4 shrink-0 mt-0.5 text-white" />
+                <ULink :to="'tel:+' + phoneNumber" class="text-[#CBD5E1] hover:text-primary transition-colors">
+                  {{ formatPhoneBR(phoneNumber) }}
+                </ULink>
+              </li>
+              <li class="flex items-start gap-3">
+                <UIcon name="mdi:email" class="w-4 h-4 shrink-0 mt-0.5 text-white" />
+                <ULink :to="'mailto:' + email" class="text-[#CBD5E1] hover:text-primary transition-colors">
+                  {{ email }}
+                </ULink>
+              </li>
+            </ul>
+          </div>
         </div>
       </UContainer>
-      <USeparator decorative type="solid" :ui="{
-        border: 'border-t-[2px] border-white/10',
-      }" />
-
     </template>
+
     <template #left>
       <p class="text-sm">
         © {{ new Date().getFullYear() }} SOS Construir. Todos os direitos reservados.
       </p>
     </template>
-
   </UFooter>
 </template>

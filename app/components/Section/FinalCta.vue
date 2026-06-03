@@ -19,7 +19,7 @@ const section = computed(() => ({
 </script>
 
 <template>
-  <section class="bg-blue-500 py-5 md:py-13 w-full text-center">
+  <section class="bg-blue-500 py-16 w-full text-center">
     <div class="container mx-auto px-4 flex flex-col items-center">
       <h2 class="title-section text-3xl md:text-4xl font-bold text-white">
         {{ section.title }}

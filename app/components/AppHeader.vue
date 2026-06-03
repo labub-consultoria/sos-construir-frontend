@@ -56,8 +56,12 @@ defineProps<{
     }" />
 
     <template #right>
-      <UButton color="primary" size="md" :to="ctaLink"
-        class="font-semibold shadow-sm hover:shadow-md transition-all hidden lg:flex py-3 px-6">
+      <UButton color="primary" variant="outline" size="md" to="/faca-parte"
+        class="font-semibold hidden lg:flex py-2 px-6">
+        Faça Parte
+      </UButton>
+      <UButton color="primary" variant="solid" size="md" :to="ctaLink"
+        class="font-semibold transition-all hidden lg:flex py-2 px-6">
         {{ ctaText }}
       </UButton>
     </template>
@@ -68,7 +72,11 @@ defineProps<{
         linkLabel: 'text-blue-500 hover:text-blue-600 text-base',
       }" />
 
-      <UButton color="primary" size="lg" block class="mt-6 font-semibold" :to="ctaLink">
+      <UButton color="primary" variant="outline" size="lg" block class="mt-6 font-semibold" to="/faca-parte">
+        Faça Parte
+      </UButton>
+
+      <UButton color="primary" size="lg" block class="mt-3 font-semibold" :to="ctaLink">
         {{ ctaText }}
       </UButton>
     </template>
