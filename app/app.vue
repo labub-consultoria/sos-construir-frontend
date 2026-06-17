@@ -8,9 +8,9 @@ useSchemaOrg([
     description:
       'Empresa especializada em construção, reforma e acabamento em Foz do Iguaçu.',
     url: 'https://sosconstruir.com.br',
-    logo: 'https://sosconstruir.com.br/logo.png',
+    logo: 'https://sosconstruir.com.br/logo.svg',
     image: 'https://sosconstruir.com.br/og-image.jpg',
-    telephone: '+554599976544',
+    telephone: '+5545999976544',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'R. dos Eucaliptos, 597',
@@ -56,7 +56,6 @@ useHead({
   },
   link: [
     { rel: 'icon', href: '/favicon.ico' },
-    { rel: 'canonical', href: 'https://sosconstruir.com.br' },
   ],
 })
 
@@ -85,7 +84,6 @@ useSeoMeta({
   ogDescription: meta.description,
   ogImage: meta.ogImage,
   ogImageAlt: 'SOS Construir - Construção e Reforma em Foz do Iguaçu',
-  ogUrl: 'https://sosconstruir.com.br',
 
   // Twitter / X
   twitterSite: '@sosconstruir',
