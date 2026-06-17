@@ -31,12 +31,10 @@ const items: BreadcrumbItem[] = [
 
 const seoTitle = 'Profissionais de Construção e Reforma em Foz do Iguaçu'
 const seoDescription = 'Encontre pintores, eletricistas, pedreiros, encanadores e muito mais. Profissionais verificados, com garantia integral e histórico real de obras em Foz do Iguaçu e região.'
-const seoKeywords = 'profissionais de construção Foz do Iguaçu, pedreiro Foz do Iguaçu, pintor Foz do Iguaçu, eletricista Foz do Iguaçu, encanador Foz do Iguaçu, reforma residencial, mão de obra qualificada, profissionais verificados, SOS Construir'
 
 useSeoMeta({
   title: seoTitle,
   description: seoDescription,
-  keywords: seoKeywords,
   ogTitle: seoTitle,
   ogDescription: seoDescription,
   ogImage: '/images/og-profissionais.jpg',
