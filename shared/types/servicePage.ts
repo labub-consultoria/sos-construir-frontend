@@ -25,6 +25,19 @@ export interface ServiceHeroSection extends BaseSection {
   features?: Feature[]
 }
 
+export interface OverviewStat {
+  icon: string
+  value: string
+  label: string
+}
+
+export interface OverviewSection extends BaseSection {
+  images?: string[]
+  imageAlt?: string
+  paragraphs: string[]
+  stats?: OverviewStat[]
+}
+
 export interface PartnerSection extends BaseSection {
   partnerName: string
   logo: string
@@ -48,6 +61,7 @@ export interface ServicePartnerSection extends BaseSection {
 
 export interface ServiceSections {
   hero: ServiceHeroSection
+  overview?: OverviewSection
   partner?: PartnerSection
   workGallery: WorkGallerySection
   process: ProcessSection
