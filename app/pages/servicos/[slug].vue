@@ -85,7 +85,7 @@ useSchemaOrg([
         ?? pageContent.value?.meta.description
         ?? service.value?.baseService.description,
       serviceType: service.value?.baseService.category,
-      provider: { '@id': 'https://sosconstruir.com.br/#identity' },
+      provider: { '@id': 'https://www.sosconstruir.com.br/#identity' },
       areaServed: { '@type': 'City', name: 'Foz do Iguaçu' }
     }
   })

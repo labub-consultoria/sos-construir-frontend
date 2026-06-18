@@ -39,7 +39,7 @@ export default defineSitemapEventHandler(async () => {
         images: project.imageUrl
           ? [
               {
-                loc: `https://sosconstruir.com.br${project.imageUrl}`,
+                loc: `https://www.sosconstruir.com.br${project.imageUrl}`,
                 title: `${project.title} - SOS Construir`,
               },
             ]
@@ -57,7 +57,7 @@ export default defineSitemapEventHandler(async () => {
         images: service.image
           ? [
               {
-                loc: `https://sosconstruir.com.br${service.image}`,
+                loc: `https://www.sosconstruir.com.br${service.image}`,
                 title: `${service.name} - SOS Construir`,
               },
             ]
@@ -75,7 +75,7 @@ export default defineSitemapEventHandler(async () => {
         images: product.image
           ? [
               {
-                loc: `https://sosconstruir.com.br${product.image}`,
+                loc: `https://www.sosconstruir.com.br${product.image}`,
                 title: `${product.title} - SOS Construir`,
               },
             ]
@@ -93,7 +93,7 @@ export default defineSitemapEventHandler(async () => {
         images: p.coverImage
           ? [
               {
-                loc: `https://sosconstruir.com.br${p.coverImage}`,
+                loc: `https://www.sosconstruir.com.br${p.coverImage}`,
                 title: `${p.title} - SOS Construir`,
               },
             ]

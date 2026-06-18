@@ -4,13 +4,13 @@ import { useWindowScroll } from '@vueuse/core';
 useSchemaOrg([
   defineLocalBusiness({
     '@type': 'HomeAndConstructionBusiness',
-    '@id': 'https://sosconstruir.com.br/#identity',
+    '@id': 'https://www.sosconstruir.com.br/#identity',
     name: 'SOS Construir',
     description:
       'Empresa especializada em construção, reforma e acabamento em Foz do Iguaçu.',
-    url: 'https://sosconstruir.com.br',
-    logo: 'https://sosconstruir.com.br/logo.svg',
-    image: 'https://sosconstruir.com.br/og-image.jpg',
+    url: 'https://www.sosconstruir.com.br',
+    logo: 'https://www.sosconstruir.com.br/logo.svg',
+    image: 'https://www.sosconstruir.com.br/og-image.jpg',
     telephone: '+5545999976544',
     address: {
       '@type': 'PostalAddress',

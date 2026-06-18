@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
-  site: { url: 'https://sosconstruir.com.br', name: 'SOS Construir' },
+  site: { url: 'https://www.sosconstruir.com.br', name: 'SOS Construir' },
   ui: {
     colorMode: false,
   },
