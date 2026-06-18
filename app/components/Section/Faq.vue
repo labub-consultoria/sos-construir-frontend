@@ -12,17 +12,27 @@ const toggle = (index: number) => {
   openIndex.value = openIndex.value === index ? null : index
 }
 
+// FAQ como nó FAQPage próprio (@id #faq), desacoplado da WebPage da rota.
+// Evita sobrescrever name/@type/mainEntity da página (que é ItemPage + Service).
+// FAQPage não gera rich result para site comercial; mantido pelo valor de citação por IA/LLM.
+const route = useRoute()
+const siteConfig = useSiteConfig()
+
 useSchemaOrg([
-  defineWebPage({
+  {
     '@type': 'FAQPage',
-    name: () => props.section.title
-  }),
-  ...props.section.questions.map(faq =>
-    defineQuestion({
+    '@id': `${siteConfig.url}${route.path}#faq`,
+    inLanguage: 'pt-BR',
+    name: props.section.title,
+    mainEntity: props.section.questions.map(faq => ({
+      '@type': 'Question',
       name: faq.question,
-      acceptedAnswer: faq.answer
-    })
-  )
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer
+      }
+    }))
+  }
 ])
 </script>
 

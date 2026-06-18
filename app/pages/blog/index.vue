@@ -27,6 +27,8 @@ const breadcrumbItems: BreadcrumbItem[] = [
   { label: 'Blog' },
 ]
 
+useBreadcrumbSchema(breadcrumbItems)
+
 useSeoMeta({
   title: 'Blog | Dicas de Construção e Reforma',
   description: 'Acompanhe nossos artigos com dicas, guias e tendências sobre construção civil, reformas, materiais e planejamento de obras.',

@@ -13,6 +13,36 @@
         "description": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
         "image": "/images/services/pintor/hero.webp"
       },
+      "overview": {
+        "kicker": "Acabamento de alto padrão, sem dor de cabeça",
+        "title": "Pintura residencial e comercial em Foz do Iguaçu",
+        "images": [
+          "/images/services/pintor/cover.jpg"
+        ],
+        "imageAlt": "Pintura residencial executada pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços de pintura."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz pintura residencial e comercial em Foz do Iguaçu, nas modalidades interna, externa e decorativa, para casas, apartamentos e empresas, com acabamento de alto padrão e a obra entregue limpa.",
+          "Preparamos cada superfície com lixamento e selagem e aplicamos tintas premium com profissionais verificados. O resultado é uma cobertura uniforme, sem respingos e sem marcas de rolo.",
+          "Você trata apenas com a SOS, que coordena tudo do planejamento ao acabamento final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "partner": {
         "partnerName": "Arte Tintas",
         "logo": "/images/services/pintor/artetintas/logo.webp",
@@ -146,6 +176,11 @@
             "answer": "Sim, nossos pintores são treinados para trabalhar tanto em ambientes internos quanto externos, oferecendo soluções abrangentes para suas necessidades de pintura."
           }
         ]
+      },
+      "finalCta": {
+        "title": "Pronto para dar vida nova ao seu espaço?",
+        "description": "De um único cômodo à fachada inteira, pintura interna ou externa. Peça seu orçamento com quem é especialista em acabamento.",
+        "ctaText": "Solicitar Orçamento de Pintura"
       }
     }
   },
@@ -162,6 +197,36 @@
         "title": "Metalúrgica Profissional Sem Dor de Cabeça",
         "description": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
         "image": "/images/services/metalurgico/hero.webp"
+      },
+      "overview": {
+        "kicker": "Aço e ferro sob medida, sem dor de cabeça",
+        "title": "Metalúrgica e serralheria em Foz do Iguaçu",
+        "images": [
+          "/images/services/metalurgico/cover.jpg"
+        ],
+        "imageAlt": "Trabalho de serralheria em aço executado pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz serviços de metalúrgica e serralheria em Foz do Iguaçu: portões, grades, estruturas metálicas e coberturas, projetados sob medida para a sua obra.",
+          "Trabalhamos com solda profissional e tratamento anticorrosivo em cada peça, garantindo estruturas resistentes, com precisão milimétrica e acabamento durável.",
+          "Você trata apenas com a SOS, do projeto à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "partner": {
         "partnerName": "Galvanox Serralheria",
@@ -296,6 +361,11 @@
             "answer": "Sim, nossa equipe realiza manutenção preventiva e corretiva, como troca de roldanas, reforço de soldas quebradas e alinhamento de trilhos."
           }
         ]
+      },
+      "finalCta": {
+        "title": "Pronto para tirar seu projeto em aço do papel?",
+        "description": "De portões e grades a estruturas e coberturas metálicas. Peça seu orçamento com quem solda com precisão e cuida do acabamento.",
+        "ctaText": "Solicitar Orçamento de Serralheria"
       }
     }
   },
@@ -312,6 +382,36 @@
         "title": "Pavimentação Inteligente Sem Dor de Cabeça",
         "description": "Transforme sua área externa com a beleza e resistência do paver. Instalação rápida, drenagem eficiente e zero manutenção complicada.",
         "image": "/images/services/paver/hero.webp"
+      },
+      "overview": {
+        "kicker": "Pavimentação resistente e com boa drenagem",
+        "title": "Instalação de paver em Foz do Iguaçu",
+        "images": [
+          "/images/services/paver/cover.jpg"
+        ],
+        "imageAlt": "Pavimentação com paver executada pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz instalação de paver em Foz do Iguaçu para calçadas, pátios e áreas externas, com pavimentação resistente e drenagem eficiente.",
+          "Preparamos a base do terreno e assentamos os blocos com nivelamento preciso, garantindo conforto térmico, acesso fácil e alta durabilidade.",
+          "Você trata apenas com a SOS, do preparo do solo ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "partner": {
         "partnerName": "Blocos Fort",
@@ -463,6 +563,36 @@
         "description": "Transforme seus ambientes com a sofisticação das portas Rohden e a instalação impecável da SOS Construir. Rapidez, limpeza e precisão técnica.",
         "image": "/images/services/instalacao-de-portas/hero.webp"
       },
+      "overview": {
+        "kicker": "Portas instaladas com acabamento impecável",
+        "title": "Instalação de portas em Foz do Iguaçu",
+        "images": [
+          "/images/services/instalacao-de-portas/cover.jpg"
+        ],
+        "imageAlt": "Instalação de portas residenciais pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz instalação de portas em Foz do Iguaçu, com especialidade no Kit Porta Pronta Rohden, para deixar seus ambientes prontos e bem acabados.",
+          "Fazemos a medição e a montagem com precisão, sem retrabalho, entregando portas alinhadas, com bom isolamento acústico e estética premium.",
+          "Você trata apenas com a SOS, da escolha à instalação final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "partner": {
         "partnerName": "Rohden Portas",
         "logo": "/images/services/instalacao-de-portas/rohden/logo.png",
@@ -613,6 +743,36 @@
         "description": "Reduza sua conta de energia em até 90% com um sistema solar de alta performance. Pagamento facilitado onde a parcela cabe na sua economia.",
         "image": "/images/services/energia-solar/hero.webp"
       },
+      "overview": {
+        "kicker": "Energia solar que reduz sua conta de luz",
+        "title": "Energia solar em Foz do Iguaçu",
+        "images": [
+          "/images/services/energia-solar/cover.jpg"
+        ],
+        "imageAlt": "Instalação de energia solar fotovoltaica pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz instalação de energia solar em Foz do Iguaçu, com projetos completos que podem reduzir a sua conta de luz em até 90%.",
+          "Cuidamos do dimensionamento, da instalação e da homologação na Copel, com sistema de alta performance, manutenção mínima e pagamento facilitado.",
+          "Você trata apenas com a SOS, do projeto à ligação final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -730,6 +890,36 @@
         "title": "A Base Sólida que Sua Obra Começa Aqui",
         "description": "Preparação de terreno com precisão técnica e agilidade. Locação de equipamentos modernos com operadores experientes para garantir o nível perfeito do seu projeto.",
         "image": "/images/services/terraplanagem-e-locacao/hero.webp"
+      },
+      "overview": {
+        "kicker": "A base sólida onde sua obra começa",
+        "title": "Terraplanagem e locação de máquinas em Foz do Iguaçu",
+        "images": [
+          "/images/services/terraplanagem-e-locacao/cover.jpg"
+        ],
+        "imageAlt": "Serviço de terraplanagem e preparação de terreno pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz terraplanagem e locação de máquinas em Foz do Iguaçu, preparando o terreno da sua obra com precisão técnica e agilidade.",
+          "Disponibilizamos retroescavadeira, Bobcat e caminhão caçamba com operadores experientes, para limpeza de terreno e movimentação de solo sem atrasos.",
+          "Você trata apenas com a SOS, do nivelamento à liberação do terreno. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "workGallery": {
         "filters": [
@@ -849,6 +1039,36 @@
         "description": "Não espere a próxima chuva para agir. Reformamos seu telhado com agilidade, materiais de primeira e a garantia de quem entende de construção há mais de 10 anos.",
         "image": "/images/services/reforma-de-telhado/hero.webp"
       },
+      "overview": {
+        "kicker": "Telhado sem goteiras, com avaliação gratuita",
+        "title": "Reforma de telhado em Foz do Iguaçu",
+        "images": [
+          "/images/services/reforma-de-telhado/cover.jpeg"
+        ],
+        "imageAlt": "Reforma de telhado residencial pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz reforma de telhado em Foz do Iguaçu: reparo de vazamentos, troca de telhas e reforço estrutural, com materiais de primeira.",
+          "Começamos por uma avaliação gratuita e resolvemos o problema com agilidade, melhorando o conforto térmico e cumprindo os prazos combinados.",
+          "Você trata apenas com a SOS, do diagnóstico ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -966,6 +1186,36 @@
         "title": "Design e Agilidade para Transformar Seus Ambientes",
         "description": "Crie espaços modernos com forros personalizados, iluminação embutida e divisórias inteligentes. O acabamento que sua obra merece com a rapidez que você precisa.",
         "image": "/images/services/gesso-e-drywall/hero.webp"
+      },
+      "overview": {
+        "kicker": "Forros e divisórias com obra limpa e rápida",
+        "title": "Gesso e drywall em Foz do Iguaçu",
+        "images": [
+          "/images/services/gesso-e-drywall/cover.jpg"
+        ],
+        "imageAlt": "Instalação de forro de gesso e drywall pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz forros de gesso, divisórias de drywall e sancas decorativas em Foz do Iguaçu, para deixar seus ambientes modernos e bem acabados.",
+          "A instalação é rápida e limpa, com iluminação embutida e isolamento inteligente, dando flexibilidade total para o seu projeto.",
+          "Você trata apenas com a SOS, do desenho do forro ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "workGallery": {
         "filters": [
@@ -1085,6 +1335,36 @@
         "description": "Garanta o abastecimento contínuo e reduza drasticamente seus custos com água. Projetos completos de perfuração e manutenção com total segurança técnica.",
         "image": "/images/services/poco-artesiano/hero.webp"
       },
+      "overview": {
+        "kicker": "Água própria e mais economia",
+        "title": "Perfuração de poço artesiano em Foz do Iguaçu",
+        "images": [
+          "/images/services/poco-artesiano/cover.jpg"
+        ],
+        "imageAlt": "Perfuração de poço artesiano pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz perfuração de poços artesianos e semi-artesianos em Foz do Iguaçu, garantindo autonomia de água e redução de custos na sua propriedade.",
+          "Cuidamos do projeto completo de perfuração, com água de qualidade, abastecimento contínuo e valorização do seu terreno.",
+          "Você trata apenas com a SOS, do estudo à entrega do poço. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -1202,6 +1482,36 @@
         "title": "Transparência, Elegância e Segurança para seu Espaço",
         "description": "Do box do banheiro ao fechamento da sacada. Projetos personalizados em vidro temperado e esquadrias de alumínio que transformam a iluminação e o design do seu imóvel.",
         "image": "/images/services/vidracaria/hero.webp"
+      },
+      "overview": {
+        "kicker": "Vidro temperado e esquadrias sob medida",
+        "title": "Vidraçaria e esquadrias em Foz do Iguaçu",
+        "images": [
+          "/images/services/vidracaria/cover.jpg"
+        ],
+        "imageAlt": "Serviço de vidraçaria e esquadrias de alumínio pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz vidraçaria e esquadrias em Foz do Iguaçu: box para banheiro, espelhos sob medida, fechamento de sacadas e estruturas em alumínio.",
+          "Os projetos são personalizados em vidro temperado e alumínio, unindo segurança, iluminação natural, durabilidade e estilo.",
+          "Você trata apenas com a SOS, da medição à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "workGallery": {
         "filters": [
@@ -1321,6 +1631,36 @@
         "description": "Projetos e execuções de redes de gás seguindo rigorosamente as normas ABNT. Proteja seu patrimônio com técnicos especializados e testes de segurança certificados.",
         "image": "/images/services/instalacao-de-gas/hero.webp"
       },
+      "overview": {
+        "kicker": "Instalação de gás dentro das normas",
+        "title": "Instalação de gás em Foz do Iguaçu",
+        "images": [
+          "/images/services/instalacao-de-gas/cover.jpg"
+        ],
+        "imageAlt": "Instalação de rede de gás pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz instalação de gás residencial, comercial e industrial em Foz do Iguaçu, seguindo rigorosamente as normas ABNT.",
+          "Executamos a rede com técnicos qualificados, testes de estanqueidade e detecção de vazamentos, protegendo o seu patrimônio com segurança.",
+          "Você trata apenas com a SOS, do projeto à liberação do sistema. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -1438,6 +1778,36 @@
         "title": "A Beleza Natural que Transforma seu Ambiente",
         "description": "Eleve o nível do seu projeto com texturas e cores que só a natureza oferece. Instalação artesanal de pedras decorativas para interiores, fachadas e paisagismo.",
         "image": "/images/services/pedras-decorativas/hero.webp"
+      },
+      "overview": {
+        "kicker": "Revestimentos naturais que valorizam o ambiente",
+        "title": "Pedras decorativas em Foz do Iguaçu",
+        "images": [
+          "/images/services/pedras-decorativas/cover.jpg"
+        ],
+        "imageAlt": "Revestimento com pedras decorativas pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz revestimento com pedras decorativas em Foz do Iguaçu para paredes, pisos e jardins, trazendo a beleza natural para o seu ambiente.",
+          "A instalação é artesanal, com texturas e cores que criam ambientes únicos, com durabilidade e valorização do imóvel.",
+          "Você trata apenas com a SOS, da escolha da pedra ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "partner": {
         "partnerName": "Roca Design Pedras",
@@ -1589,6 +1959,36 @@
         "description": "Lagos artificiais que unem beleza, tecnologia de filtragem biológica e harmonia. O som relaxante da água e a vida ornamental integrados ao seu paisagismo.",
         "image": "/images/services/lago-artificial/hero.webp"
       },
+      "overview": {
+        "kicker": "Um refúgio natural no seu quintal",
+        "title": "Lagos artificiais e ornamentais em Foz do Iguaçu",
+        "images": [
+          "/images/services/lago-artificial/cover.jpg"
+        ],
+        "imageAlt": "Lago artificial ornamental construído pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir constrói lagos artificiais e ornamentais em Foz do Iguaçu, com projetos personalizados, filtragem biológica e peixes ornamentais.",
+          "Unimos beleza e tecnologia para manter a água cristalina, reduzir a temperatura do ambiente e integrar o lago ao seu jardim.",
+          "Você trata apenas com a SOS, do projeto à manutenção. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -1706,6 +2106,36 @@
         "title": "A Natureza Planejada para o seu Bem-Estar",
         "description": "Transforme sua área externa em um cenário de cinema. Do plantio da grama perfeita ao design de jardins verticais, cuidamos de cada detalhe para seu jardim florescer o ano todo.",
         "image": "/images/services/jardinagem-e-paisagismo/hero.webp"
+      },
+      "overview": {
+        "kicker": "Áreas verdes planejadas para o seu bem-estar",
+        "title": "Jardinagem e paisagismo em Foz do Iguaçu",
+        "images": [
+          "/images/services/jardinagem-e-paisagismo/cover.jpg"
+        ],
+        "imageAlt": "Serviço de paisagismo e jardinagem pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz jardinagem e paisagismo em Foz do Iguaçu: plantio de grama, jardins verticais, podas especializadas e manutenção de áreas verdes.",
+          "Planejamos cada espaço com soluções de ponta a ponta, otimizando a área, cuidando da saúde ambiental e transformando a sua área externa.",
+          "Você trata apenas com a SOS, do projeto à manutenção do jardim. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "workGallery": {
         "filters": [
@@ -1825,6 +2255,36 @@
         "description": "Vazamentos, entupimentos ou novas instalações? Nossa equipe utiliza tecnologia de ponta para diagnosticar e reparar problemas hidráulicos com máxima eficiência e limpeza.",
         "image": "/images/services/encanador/hero.webp"
       },
+      "overview": {
+        "kicker": "Hidráulica resolvida, sem vazamentos",
+        "title": "Encanador profissional em Foz do Iguaçu",
+        "images": [
+          "/images/services/encanador/cover..jpg"
+        ],
+        "imageAlt": "Serviço hidráulico de encanador pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz serviços hidráulicos completos em Foz do Iguaçu: detecção de vazamentos, desentupimento, manutenção de tubulações e reparos de emergência.",
+          "Usamos tecnologia caça-vazamento para diagnosticar com precisão, com atendimento de emergência e garantia de estanqueidade em cada reparo.",
+          "Você trata apenas com a SOS, do diagnóstico ao conserto. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -1942,6 +2402,36 @@
         "title": "Energia Segura e Instalações Dentro das Normas",
         "description": "Evite curto-circuitos e prejuízos. Conte com eletricistas certificados para projetos residenciais, prediais e adequação total ao Padrão Copel.",
         "image": "/images/services/eletricista/hero.webp"
+      },
+      "overview": {
+        "kicker": "Instalações elétricas seguras e no padrão Copel",
+        "title": "Eletricista profissional em Foz do Iguaçu",
+        "images": [
+          "/images/services/eletricista/cover.jpg"
+        ],
+        "imageAlt": "Serviço de eletricista no padrão Copel pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz serviços elétricos residenciais, prediais e industriais em Foz do Iguaçu, com especialidade em padrão Copel.",
+          "Contamos com eletricistas certificados para instalações e manutenção preventiva, evitando curto-circuitos e ajudando a economizar energia.",
+          "Você trata apenas com a SOS, do projeto à ligação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "partner": {
         "partnerName": "Ande Materiais Elétricos",
@@ -2093,6 +2583,36 @@
         "description": "Transforme seus ambientes com a elegância do porcelanato e a versatilidade da cerâmica. Unimos mão de obra de elite e materiais premium para um resultado duradouro e sofisticado.",
         "image": "/images/services/ceramica-e-porcelanato/hero.webp"
       },
+      "overview": {
+        "kicker": "Assentamento com acabamento impecável",
+        "title": "Assentamento de cerâmica e porcelanato em Foz do Iguaçu",
+        "images": [
+          "/images/services/ceramica-e-porcelanato/cover.jpg"
+        ],
+        "imageAlt": "Assentamento de porcelanato pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz assentamento de cerâmica e porcelanato em Foz do Iguaçu, com nivelamento perfeito e acabamento impecável em pisos e paredes.",
+          "Unimos mão de obra qualificada e venda de materiais, com precisão milimétrica, recortes certos e durabilidade garantida.",
+          "Você trata apenas com a SOS, da escolha do revestimento à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -2210,6 +2730,36 @@
         "title": "A Força do Concreto com o Brilho do Alto Padrão",
         "description": "Transforme pisos comuns em superfícies espelhadas, densas e altamente resistentes. A solução definitiva para quem busca durabilidade extrema sem abrir mão da elegância.",
         "image": "/images/services/concreto-polido/hero.webp"
+      },
+      "overview": {
+        "kicker": "Pisos resistentes e de baixa manutenção",
+        "title": "Piso de concreto polido em Foz do Iguaçu",
+        "images": [
+          "/images/services/concreto-polido/cover.jpg"
+        ],
+        "imageAlt": "Execução de piso de concreto polido pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz piso de concreto polido em Foz do Iguaçu para indústrias, comércios e residências, com pisos brilhantes e resistentes.",
+          "O resultado é um piso de baixa manutenção, que reflete a luz do ambiente e oferece durabilidade com boa relação de custo.",
+          "Você trata apenas com a SOS, do preparo ao polimento final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "workGallery": {
         "filters": [
@@ -2329,6 +2879,36 @@
         "description": "Chega de atrasos e serviços mal executados. Conte com pedreiros verificados pela SOS Construir para uma obra limpa, rápida e com acabamento de alto padrão.",
         "image": "/images/services/pedreiro/hero.webp"
       },
+      "overview": {
+        "kicker": "Mão de obra de elite para a sua obra",
+        "title": "Pedreiro profissional em Foz do Iguaçu",
+        "images": [
+          "/images/services/pedreiro/cover.jpg"
+        ],
+        "imageAlt": "Serviço de pedreiro e alvenaria pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir conecta você a pedreiros experientes em Foz do Iguaçu para construção, reforma, reboco e estruturas, com qualidade garantida.",
+          "Trabalhamos com versatilidade técnica e foco na entrega, sem surpresas no meio do caminho e com garantia no resultado final.",
+          "Você trata apenas com a SOS, do início ao acabamento da obra. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -2447,6 +3027,36 @@
         "description": "Projetamos e construímos sua piscina do zero, unindo design moderno, tecnologia de filtragem e acabamento premium. Sua diversão sem dor de cabeça.",
         "image": "/images/services/construcao-de-piscinas/hero.webp"
       },
+      "overview": {
+        "kicker": "A área de lazer dos seus sonhos",
+        "title": "Construção de piscinas em Foz do Iguaçu",
+        "images": [
+          "/images/services/construcao-de-piscinas/cover.jpg"
+        ],
+        "imageAlt": "Construção de piscina residencial pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz construção de piscinas em Foz do Iguaçu, em alvenaria, vinil e fibra, com projetos personalizados e segurança total.",
+          "Cuidamos de cada etapa, com tecnologia de filtragem, personalização completa e valorização do seu imóvel.",
+          "Você trata apenas com a SOS, do projeto ao primeiro mergulho. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -2564,6 +3174,36 @@
         "title": "Conforto e Estilo Planejados para o Seu Espaço",
         "description": "Não adapte sua sala ao sofá; nós criamos o sofá perfeito para sua sala. Design exclusivo, tecidos premium e ergonomia sob medida para o seu descanso.",
         "image": "/images/services/sofa-sob-medida/hero.webp"
+      },
+      "overview": {
+        "kicker": "Conforto e estilo planejados para o seu espaço",
+        "title": "Sofá sob medida em Foz do Iguaçu",
+        "images": [
+          "/images/services/sofa-sob-medida/cover.jpg"
+        ],
+        "imageAlt": "Sofá sob medida produzido pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz criação e reforma de sofás sob medida em Foz do Iguaçu, com design personalizado e materiais premium para a sua sala.",
+          "Projetamos com ergonomia adaptada, bom aproveitamento de espaço e tecidos de alta performance, para um conforto que dura.",
+          "Você trata apenas com a SOS, do desenho à entrega do estofado. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "partner": {
         "partnerName": "Tekila Estofados",
@@ -2715,6 +3355,36 @@
         "description": "Sua obra entregue no prazo, com custo otimizado e qualidade superior. Assumimos a responsabilidade integral do seu projeto, da fundação à entrega das chaves.",
         "image": "/images/services/reforma-e-construcao/hero.webp"
       },
+      "overview": {
+        "kicker": "Sua obra completa, do início ao fim",
+        "title": "Reforma e construção em Foz do Iguaçu",
+        "images": [
+          "/images/services/reforma-e-construcao/cover.jpg"
+        ],
+        "imageAlt": "Gestão de reforma e construção pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz reforma e construção civil residencial e comercial em Foz do Iguaçu, da fundação ao acabamento, com prazo e qualidade garantidos.",
+          "Assumimos a responsabilidade única da obra, com transparência financeira e tecnologia no acompanhamento de cada etapa.",
+          "Você trata apenas com a SOS, do planejamento à entrega das chaves. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
+      },
       "workGallery": {
         "filters": [
           {
@@ -2832,6 +3502,36 @@
         "title": "Diversão e Segurança para Crianças",
         "description": "Criamos espaços de lazer que unem design inovador, resistência e total conformidade com as normas de segurança. O playground perfeito para seu condomínio ou escola.",
         "image": "/images/services/playground/hero.webp"
+      },
+      "overview": {
+        "kicker": "Diversão e segurança para as crianças",
+        "title": "Fabricação e instalação de playgrounds em Foz do Iguaçu",
+        "images": [
+          "/images/services/playground/cover.jpg"
+        ],
+        "imageAlt": "Playground fabricado e instalado pela SOS Construir em Foz do Iguaçu",
+        "stats": [
+          {
+            "icon": "mdi:calendar-blank-outline",
+            "value": "10+ anos",
+            "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+          },
+          {
+            "icon": "mdi:account-group-outline",
+            "value": "100+",
+            "label": "profissionais e parceiros verificados, prontos para cada etapa."
+          },
+          {
+            "icon": "mdi:shield-check-outline",
+            "value": "Garantia",
+            "label": "integral e suporte pós-obra em todos os serviços."
+          }
+        ],
+        "paragraphs": [
+          "A SOS Construir faz fabricação e instalação de playgrounds em Foz do Iguaçu, sob medida em madeira, plástico ou metal, para condomínios, escolas e residências.",
+          "Priorizamos a segurança e a alta durabilidade, com projetos que estimulam o desenvolvimento infantil e exigem baixa manutenção.",
+          "Você trata apenas com a SOS, do projeto à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+        ]
       },
       "workGallery": {
         "filters": [

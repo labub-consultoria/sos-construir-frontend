@@ -25,6 +25,8 @@ const breadcrumbItems = computed<BreadcrumbItem[]>(() => [
   { label: project.value.title ?? `Projeto #${id}` },
 ])
 
+useBreadcrumbSchema(breadcrumbItems)
+
 const projectDetails = computed(() => {
   if (!project.value) return []
 

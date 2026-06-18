@@ -7,15 +7,12 @@ const meta: Meta = {
   title: 'Construção e Reforma em Foz do Iguaçu',
   description:
     'Mais de 10 anos resolvendo obras e reformas em Foz do Iguaçu. Eletricista, encanador, pedreiro, energia solar e mais de 20 serviços com garantia, materiais de qualidade e zero dor de cabeça.',
-  keywords:
-    'construção Foz do Iguaçu, reforma Foz do Iguaçu, empresa de reforma, empresa de construção, eletricista, encanador, pedreiro, pintor, energia solar, serviços residenciais, mão de obra, orçamento de obra, reforma com garantia, SOS Construir',
   ogImage: '/og-image.jpg',
   breadcrumbLabel: 'Início',
 }
 useSeoMeta({
   title: meta.title,
   description: meta.description,
-  keywords: meta.keywords,
 
   ogTitle: meta.title,
   ogDescription: meta.description,

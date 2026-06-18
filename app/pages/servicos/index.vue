@@ -31,14 +31,11 @@ const meta: Meta = {
   title: 'Serviços de Construção e Reforma em Foz do Iguaçu',
   description:
     'Eletricista, encanador, pintor, pedreiro, energia solar e muito mais. A SOS Construir conecta você aos melhores especialistas de Foz do Iguaçu com garantia, sem dor de cabeça. Peça seu orçamento.',
-  keywords:
-    'serviços de construção Foz do Iguaçu, reforma residencial Foz do Iguaçu, eletricista Foz do Iguaçu, encanador Foz do Iguaçu, pintor Foz do Iguaçu, pedreiro Foz do Iguaçu, empresa de reforma, construção civil, mão de obra qualificada, orçamento de obra, empresa de construção Foz do Iguaçu, SOS Construir',
 }
 
 useSeoMeta({
   title: meta.title,
   description: meta.description,
-  keywords: meta.keywords,
   ogTitle: meta.title,
   ogDescription: meta.description,
   twitterTitle: meta.title,
@@ -47,7 +44,9 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-const items = ref<BreadcrumbItem[]>([{ label: 'Home', to: '/' }, { label: 'Serviços' }])
+const items: BreadcrumbItem[] = [{ label: 'Home', to: '/' }, { label: 'Serviços' }]
+
+useBreadcrumbSchema(items)
 
 const mappedCards = computed<ServiceCard[]>(() => {
   return visibleServices.value.map((s): ServiceCard => {

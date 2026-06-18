@@ -38,6 +38,8 @@ const breadcrumbItems = computed<BreadcrumbItem[]>(() => [
   { label: product.value?.title },
 ])
 
+useBreadcrumbSchema(breadcrumbItems)
+
 const ctaText = computed(() =>
   WHATSAPP_MESSAGE + ' Com o Produto: ' + product.value?.title
 )
