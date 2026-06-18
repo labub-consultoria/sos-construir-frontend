@@ -44,7 +44,9 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 })
 
-const items = ref<BreadcrumbItem[]>([{ label: 'Home', to: '/' }, { label: 'Serviços' }])
+const items: BreadcrumbItem[] = [{ label: 'Home', to: '/' }, { label: 'Serviços' }]
+
+useBreadcrumbSchema(items)
 
 const mappedCards = computed<ServiceCard[]>(() => {
   return visibleServices.value.map((s): ServiceCard => {

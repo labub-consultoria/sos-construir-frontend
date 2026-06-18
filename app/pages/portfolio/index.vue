@@ -22,6 +22,8 @@ const breadcrumbItems: BreadcrumbItem[] = [
   { label: 'Portfolio' },
 ]
 
+useBreadcrumbSchema(breadcrumbItems)
+
 const activeCardId = ref<number | string | null>(null)
 
 useSeoMeta({

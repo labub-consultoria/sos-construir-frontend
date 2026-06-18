@@ -10,6 +10,7 @@ import {
   SectionFinalCta,
   SectionWhyChooseUs,
 } from '#components'
+import type { BreadcrumbItem } from '@nuxt/ui'
 
 const route = useRoute()
 
@@ -55,13 +56,19 @@ useSeoMeta({
   title: () => `${pageContent.value?.meta.title}`,
   description: () => pageContent.value?.meta.description,
   ogTitle: () => pageContent.value?.meta.title,
-  ogImage: () => pageContent.value?.meta.ogImage,
   ogDescription: () => pageContent.value?.meta.description,
+})
+
+// OG image dinâmico por serviço (card de marca). Assume og:image/twitter:image.
+defineOgImage('SosConstruir', {
+  label: 'Serviço',
+  title: pageContent.value?.meta.title ?? service.value?.baseService.name
 })
 
 useSchemaOrg([
   defineWebPage({
     '@type': ['WebPage', 'ItemPage'],
+    name: pageContent.value?.meta.title ?? service.value?.baseService.name,
     mainEntity: {
       '@type': 'Service',
       name: pageContent.value?.meta.title ?? service.value?.baseService.name,
@@ -73,6 +80,14 @@ useSchemaOrg([
     }
   })
 ])
+
+const breadcrumbItems = computed<BreadcrumbItem[]>(() => [
+  { label: 'Home', to: '/' },
+  { label: 'Serviços', to: '/servicos' },
+  { label: pageContent.value?.meta.title ?? service.value?.baseService.name }
+])
+
+useBreadcrumbSchema(breadcrumbItems)
 
 const sections = computed(() => {
   if (!pageContent.value) return []

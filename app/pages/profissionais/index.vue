@@ -29,6 +29,8 @@ const items: BreadcrumbItem[] = [
   { label: 'Profissionais' },
 ]
 
+useBreadcrumbSchema(items)
+
 const seoTitle = 'Profissionais de Construção e Reforma em Foz do Iguaçu'
 const seoDescription = 'Encontre pintores, eletricistas, pedreiros, encanadores e muito mais. Profissionais verificados, com garantia integral e histórico real de obras em Foz do Iguaçu e região.'
 
@@ -37,10 +39,16 @@ useSeoMeta({
   description: seoDescription,
   ogTitle: seoTitle,
   ogDescription: seoDescription,
-  ogImage: '/images/og-profissionais.jpg',
   twitterTitle: seoTitle,
   twitterDescription: seoDescription,
   twitterCard: 'summary_large_image',
+})
+
+// OG dinâmico (substitui o /images/og-profissionais.jpg, que não existia em public/
+// e quebrava o preview). Assume og:image/twitter:image.
+defineOgImage('SosConstruir', {
+  label: 'Profissionais',
+  title: seoTitle
 })
 
 useSchemaOrg([

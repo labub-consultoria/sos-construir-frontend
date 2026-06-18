@@ -7,6 +7,8 @@ const breadcrumbItems: BreadcrumbItem[] = [
   { label: 'Faça parte' },
 ]
 
+useBreadcrumbSchema(breadcrumbItems)
+
 useSeoMeta({
   title: 'Trabalhe conosco na SOS Construir — faça parte da nossa rede',
   description:

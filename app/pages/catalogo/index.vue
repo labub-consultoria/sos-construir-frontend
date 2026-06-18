@@ -31,6 +31,8 @@ const breadcrumbItems: BreadcrumbItem[] = [
   { label: 'Catálogo' },
 ]
 
+useBreadcrumbSchema(breadcrumbItems)
+
 useSeoMeta({
   title: 'Catálogo de Materiais',
   description:

@@ -26,6 +26,8 @@ const breadcrumbItems = computed<BreadcrumbItem[]>(() => [
   { label: post.value?.title ?? '' },
 ])
 
+useBreadcrumbSchema(breadcrumbItems)
+
 const scrollToContent = () => {
   postContent.value?.scrollIntoView({ behavior: 'smooth' })
 }

@@ -23,6 +23,8 @@ const breadcrumbItems = computed<BreadcrumbItem[]>(() => [
   { label: professional.value?.name },
 ])
 
+useBreadcrumbSchema(breadcrumbItems)
+
 // lightbox
 const isAvatarLightboxOpen = ref(false)
 const avatarGallery = computed(() => [
