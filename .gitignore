@@ -24,3 +24,7 @@ logs
 !.env.example
 
 #TEST DEPLOYMENT CD
+.code-review-graph/
+
+# Documentação interna (não versionada)
+.docs/

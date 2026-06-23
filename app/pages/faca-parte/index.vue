@@ -12,7 +12,7 @@ useBreadcrumbSchema(breadcrumbItems)
 useSeoMeta({
   title: 'Trabalhe conosco na SOS Construir — faça parte da nossa rede',
   description:
-    'Seja um parceiro ou prestador de serviço da SOS Construir em Foz do Iguaçu. Forneça materiais, patrocine páginas de serviço ou entre na nossa rede de profissionais e receba obras para executar.',
+    'Seja um parceiro ou profissional da SOS Construir em Foz do Iguaçu. Forneça materiais, patrocine páginas de serviço ou entre na nossa rede de profissionais e receba obras para executar.',
   ogTitle: 'Faça parte da SOS Construir',
   ogDescription:
     'Empresas, fornecedores e profissionais: escolha como você quer fazer parte da SOS Construir.',
@@ -32,6 +32,7 @@ interface JoinPath {
   bullets: string[]
   ctaText: string
   ctaLink: string
+  external: boolean
 }
 
 const paths: JoinPath[] = [
@@ -47,12 +48,13 @@ const paths: JoinPath[] = [
       'Visibilidade da sua marca',
     ],
     ctaText: 'Quero ser parceiro',
-    ctaLink: FORM_EMPRESA_LINK,
+    ctaLink: '/faca-parte/empresa',
+    external: true,
   },
   {
     icon: 'mdi:hard-hat',
     overline: 'Para profissionais',
-    title: 'Cadastro de prestador de serviço',
+    title: 'Cadastro de profissional',
     description:
       'É pintor, eletricista, encanador ou de outra área da construção? Entre para a nossa rede de profissionais e atenda clientes que já confiam na gente.',
     bullets: [
@@ -61,7 +63,8 @@ const paths: JoinPath[] = [
       '+10 anos de marca consolidada',
     ],
     ctaText: 'Quero me cadastrar',
-    ctaLink: FORM_PRESTADOR_LINK,
+    ctaLink: '/faca-parte/profissional',
+    external: false,
   },
 ]
 
@@ -112,7 +115,8 @@ const finalCta: FinalCtaSection = {
     <!-- Caminhos -->
     <section class="w-full pb-16">
       <div class="container max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-        <div v-for="path in paths" :key="path.title"
+        <div
+v-for="path in paths" :key="path.title"
           class="flex flex-col h-full min-h-[32rem] bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow p-6 md:p-8">
           <div class="w-12 h-12 rounded-xl bg-orange-50 flex items-center justify-center mb-6">
             <Icon :name="path.icon" class="text-orange-500 text-2xl" />
@@ -121,15 +125,20 @@ const finalCta: FinalCtaSection = {
           <h2 class="text-2xl font-bold text-blue-500 mb-4">{{ path.title }}</h2>
           <p class="text-slate-600 leading-relaxed mb-6">{{ path.description }}</p>
           <ul class="flex flex-col gap-3 mb-8">
-            <li v-for="bullet in path.bullets" :key="bullet"
+            <li
+v-for="bullet in path.bullets" :key="bullet"
               class="flex items-start gap-3 text-blue-500 font-medium">
               <Icon name="mdi:check-circle-outline" class="text-orange-500 text-xl shrink-0 mt-0.5" />
               <span class="leading-relaxed text-sm">{{ bullet }}</span>
             </li>
           </ul>
-          <UButton :to="path.ctaLink" target="_blank" rel="noopener" color="primary" variant="solid"
-            size="xl" trailing-icon="mdi:open-in-new" :ui="{ trailingIcon: 'w-5 h-5' }"
-            class="w-full justify-center py-3 mt-auto font-semibold rounded-lg" :aria-label="path.ctaText + ' (abre em nova aba)'">
+          <UButton
+:to="path.ctaLink" :target="path.external ? '_blank' : undefined"
+            :rel="path.external ? 'noopener' : undefined" color="primary" variant="solid"
+            size="xl" :trailing-icon="path.external ? 'mdi:open-in-new' : 'mdi:arrow-right'"
+            :ui="{ trailingIcon: 'w-5 h-5' }"
+            class="w-full justify-center py-3 mt-auto font-semibold rounded-lg"
+            :aria-label="path.external ? path.ctaText + ' (abre em nova aba)' : path.ctaText">
             {{ path.ctaText }}
           </UButton>
         </div>
