@@ -24,7 +24,8 @@ const stepTitles: Record<number, string> = {
   1: 'Dados pessoais',
   2: 'Endereço',
   3: 'Foto e categorias',
-  4: 'Revisão final'
+  4: 'Sobre o trabalho',
+  5: 'Revisão final'
 }
 
 const currentTitle = computed(() => stepTitles[store.currentStep] ?? '')
@@ -70,19 +71,23 @@ function goEdit(step: number) {
 }
 
 // ── Navegação pelo stepper (mesmas regras do Zod/“Avançar”) ────────────────────
-const { personalSchema, addressSchema, profileCategoriesSchema } = useProfessionalSchemas()
+const { personalSchema, addressSchema, profileCategoriesSchema, workProfileSchema } = useProfessionalSchemas()
 
 function isStepValid(step: number): boolean {
   if (step === 1) return personalSchema.safeParse(store.dadosPessoais).success
   if (step === 2) return addressSchema.safeParse(store.endereco).success
   if (step === 3) return profileCategoriesSchema.safeParse({ categorias: store.categorias }).success
+  if (step === 4) return workProfileSchema.safeParse({ bio: store.bio, cursos: store.cursos }).success
   return true // revisão não tem schema próprio
 }
 
-// Todos os passos obrigatórios (1–3) válidos. Gate do botão "Finalizar" no
-// Passo 4 (§6 da spec): não dá pra reusar `reachableStep` porque ele é forçado
-// ao `currentStep`, que no passo 4 é sempre 4 mesmo se um passo ficou inválido.
-const allRequiredStepsValid = computed(() => isStepValid(1) && isStepValid(2) && isStepValid(3))
+// Todos os passos obrigatórios (1–4) válidos. Gate do botão "Finalizar" no
+// Passo 5 (a bio do passo 4 é obrigatória): não dá pra reusar `reachableStep`
+// porque ele é forçado ao `currentStep`, que na revisão é sempre o último mesmo
+// se um passo ficou inválido.
+const allRequiredStepsValid = computed(
+  () => isStepValid(1) && isStepValid(2) && isStepValid(3) && isStepValid(4)
+)
 
 // Até onde dá pra navegar: para trás é livre; para frente só até o primeiro passo
 // inválido (não dá pra pular um passo não preenchido). Nunca abaixo do atual.
@@ -187,7 +192,8 @@ async function onSubmitted() {
             <ProfessionalFormStep1Personal v-if="store.currentStep === 1" @next="goNext" />
             <ProfessionalFormStep2Address v-else-if="store.currentStep === 2" @next="goNext" @prev="goPrev" />
             <ProfessionalFormStep3ProfileCategories v-else-if="store.currentStep === 3" @next="goNext" @prev="goPrev" />
-            <ProfessionalFormStep4Review v-else-if="store.currentStep === 4" :can-submit="allRequiredStepsValid" @edit="goEdit" @submitted="onSubmitted" />
+            <ProfessionalFormStep4WorkProfile v-else-if="store.currentStep === 4" @next="goNext" @prev="goPrev" />
+            <ProfessionalFormStep5Review v-else-if="store.currentStep === 5" :can-submit="allRequiredStepsValid" @edit="goEdit" @submitted="onSubmitted" />
           </div>
         </template>
       </div>

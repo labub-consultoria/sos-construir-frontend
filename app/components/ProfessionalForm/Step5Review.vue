@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useProfessionalFormStore, categoriaKey } from '~/stores/professionalForm'
+import { useProfessionalFormStore, categoriaKey, type CursoForm } from '~/stores/professionalForm'
 import { useProfessionalSubmit } from '~/composables/useProfessionalSubmit'
 
 const props = defineProps<{ canSubmit: boolean }>()
@@ -22,6 +22,15 @@ const enderecoLinha = computed(() => {
 const categoriasOrdenadas = computed(() =>
   [...store.categorias].sort((a, b) => a.ordem_exibicao - b.ordem_exibicao)
 )
+
+const cursosPreenchidos = computed(() => store.cursos.filter((c) => c.nome.trim()))
+
+function cursoPeriodo(curso: CursoForm): string {
+  if (curso.inicio && curso.conclusao) return `${curso.inicio} – ${curso.conclusao}`
+  if (curso.conclusao) return curso.conclusao
+  if (curso.inicio) return `Desde ${curso.inicio} (em andamento)`
+  return ''
+}
 
 const acceptedTerms = ref(false)
 
@@ -111,6 +120,49 @@ watch(error, (val) => {
       </p>
     </section>
 
+    <!-- Sobre o trabalho -->
+    <section class="rounded-xl border border-gray-200 p-5">
+      <div class="flex items-center justify-between mb-3">
+        <h3 class="font-bold text-blue-500">Sobre o trabalho</h3>
+        <UButton type="button" color="primary" variant="link" size="sm" class="font-semibold" @click="emit('edit', 4)">
+          Editar
+        </UButton>
+      </div>
+
+      <dl>
+        <dt class="text-slate-500 text-sm">Bio</dt>
+        <dd class="text-sm font-medium text-slate-900 whitespace-pre-line mb-4">{{ store.bio || '—' }}</dd>
+
+        <template v-if="store.portfolioPreviews.length">
+          <dt class="text-slate-500 text-sm mb-2">Fotos do trabalho</dt>
+          <dd>
+            <ul class="flex flex-wrap gap-2 mb-4">
+              <li
+                v-for="(url, index) in store.portfolioPreviews"
+                :key="url"
+                class="w-16 h-16 rounded-lg overflow-hidden border border-gray-200"
+              >
+                <img :src="url" :alt="`Foto de trabalho ${index + 1}`" class="w-full h-full object-cover">
+              </li>
+            </ul>
+          </dd>
+        </template>
+
+        <template v-if="cursosPreenchidos.length">
+          <dt class="text-slate-500 text-sm mb-2">Cursos e certificações</dt>
+          <dd>
+            <ul class="flex flex-col gap-1.5">
+              <li v-for="(curso, index) in cursosPreenchidos" :key="index" class="text-sm text-slate-900">
+                <span class="font-medium">{{ curso.nome }}</span>
+                <span v-if="curso.instituicao" class="text-slate-500"> · {{ curso.instituicao }}</span>
+                <span v-if="cursoPeriodo(curso)" class="text-slate-400"> · {{ cursoPeriodo(curso) }}</span>
+              </li>
+            </ul>
+          </dd>
+        </template>
+      </dl>
+    </section>
+
     <div v-if="error" ref="errorRef" tabindex="-1" role="alert" class="outline-none scroll-mt-24">
       <UAlert
         color="error"
@@ -136,7 +188,7 @@ watch(error, (val) => {
     </p>
 
     <div class="flex items-center justify-between pt-2">
-      <UButton type="button" color="neutral" variant="ghost" size="lg" icon="mdi:arrow-left" class="font-semibold" @click="emit('edit', 3)">
+      <UButton type="button" color="neutral" variant="ghost" size="lg" icon="mdi:arrow-left" class="font-semibold" @click="emit('edit', 4)">
         Voltar
       </UButton>
       <UButton

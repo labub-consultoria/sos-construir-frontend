@@ -47,6 +47,17 @@ export interface ConsentimentoDTO {
   versao: string
 }
 
+/**
+ * Curso / certificação informado pelo profissional (etapa "Sobre o trabalho").
+ * `conclusao` vazia = curso em andamento. Anos como string (granularidade de ano).
+ */
+export interface CursoDTO {
+  nome: string
+  instituicao?: string
+  inicio?: string
+  conclusao?: string
+}
+
 /** Payload final enviado ao backend (snake_case, dígitos crus). */
 export interface PrestadorRequestDTO {
   nome: string
@@ -57,6 +68,9 @@ export interface PrestadorRequestDTO {
   foto_url: string
   endereco: EnderecoDTO
   categorias: CategoriaVinculo[]
+  bio: string
+  portfolio: string[]
+  cursos: CursoDTO[]
   consentimento: ConsentimentoDTO
 }
 
