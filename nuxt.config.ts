@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxtjs/seo', '@nuxt/image'],
+  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxtjs/seo', '@nuxt/image', '@pinia/nuxt'],
   devtools: {
     enabled: true,
   },
@@ -36,5 +36,9 @@ export default defineNuxtConfig({
   },
   sitemap: {
     sources: ['/api/__sitemap__/urls'],
+    // Telas utilitárias do cadastro (§12 da spec): noindex e fora do sitemap.
+    // O `@nuxtjs/sitemap` auto-descobre rotas do app, então excluímos explicitamente
+    // em vez de confiar na detecção do `noindex` dinâmico.
+    exclude: ['/faca-parte/profissional', '/faca-parte/profissional/**', '/faca-parte/empresa'],
   },
 })

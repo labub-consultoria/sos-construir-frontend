@@ -32,7 +32,7 @@ const headingClass =
   }">
     <template #top>
       <UContainer class="">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-0 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-0 ">
 
           <!-- Logo + sobre + redes -->
           <div class="flex flex-col lg:pr-10">
@@ -47,15 +47,6 @@ const headingClass =
                 class="text-white rounded-full bg-white/10 p-3" target="_blank" aria-label="Instagram" />
               <UButton icon="i-simple-icons-facebook" size="lg" variant="ghost" to="https://facebook.com/sosconstruir"
                 class="text-white rounded-full bg-white/10 p-3" target="_blank" aria-label="Facebook" />
-            </div>
-
-            <div class="flex flex-col gap-3 pt-6 mt-8 border-t border-white/10">
-              <span :class="headingClass" class="!mb-0">Trabalhe conosco</span>
-              <ULink to="/faca-parte"
-                class="inline-flex items-center gap-1.5 w-fit text-sm font-semibold text-primary hover:text-primary/80 transition-colors">
-                Faça parte da nossa rede
-                <UIcon name="mdi:arrow-right" class="w-4 h-4" />
-              </ULink>
             </div>
           </div>
 
@@ -79,6 +70,23 @@ const headingClass =
                 <ULink :to="'/servicos/' + service.slug"
                   class="block py-1 text-sm text-[#CBD5E1] hover:text-primary transition-colors">
                   {{ service.name }}
+                </ULink>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Trabalhe conosco -->
+          <div class="flex flex-col lg:px-10">
+            <h3 :class="headingClass">Trabalhe conosco</h3>
+            <ul class="flex flex-col">
+              <li>
+                <ULink to="/faca-parte/profissional" class="block py-1 text-sm text-[#CBD5E1] hover:text-primary transition-colors">
+                  Sou profissional
+                </ULink>
+              </li>
+              <li>
+                <ULink to="/faca-parte/empresa" class="block py-1 text-sm text-[#CBD5E1] hover:text-primary transition-colors">
+                  Sou empresa
                 </ULink>
               </li>
             </ul>
@@ -120,6 +128,17 @@ const headingClass =
       <p class="text-sm">
         © {{ new Date().getFullYear() }} SOS Construir. Todos os direitos reservados.
       </p>
+    </template>
+
+    <template #right>
+      <nav aria-label="Links legais" class="flex items-center gap-x-5 gap-y-1 flex-wrap text-sm">
+        <ULink to="/termos-de-uso" class="text-[#CBD5E1] hover:text-primary transition-colors">
+          Termos de Uso
+        </ULink>
+        <ULink to="/politica-de-privacidade" class="text-[#CBD5E1] hover:text-primary transition-colors">
+          Política de Privacidade
+        </ULink>
+      </nav>
     </template>
   </UFooter>
 </template>
