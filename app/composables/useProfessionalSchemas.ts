@@ -108,7 +108,25 @@ export function useProfessionalSchemas() {
       )
   })
 
-  return { personalSchema, addressSchema, profileCategoriesSchema }
+  // Etapa "Sobre o trabalho": bio obrigatória; cursos opcionais (cada linha com
+  // `nome`). O portfólio (File[]) é validado na UI (tipo/tamanho/quantidade).
+  const cursoSchema = z.object({
+    nome: z.string().trim().min(1, 'Informe o nome do curso'),
+    instituicao: z.string().trim().optional().or(z.literal('')),
+    inicio: z.string().trim().optional().or(z.literal('')),
+    conclusao: z.string().trim().optional().or(z.literal(''))
+  })
+
+  const workProfileSchema = z.object({
+    bio: z
+      .string()
+      .trim()
+      .min(20, 'Conte um pouco sobre seu trabalho (mín. 20 caracteres)')
+      .max(600, 'Máximo de 600 caracteres'),
+    cursos: z.array(cursoSchema).max(10, 'Você pode adicionar no máximo 10 cursos')
+  })
+
+  return { personalSchema, addressSchema, profileCategoriesSchema, workProfileSchema }
 }
 
 export type PersonalSchema = z.output<ReturnType<typeof useProfessionalSchemas>['personalSchema']>

@@ -19,7 +19,8 @@ const steps: StepMeta[] = [
   { step: 1, title: 'Dados pessoais', icon: 'mdi:account-outline' },
   { step: 2, title: 'Endereço', icon: 'mdi:map-marker-outline' },
   { step: 3, title: 'Foto e categorias', icon: 'mdi:hard-hat' },
-  { step: 4, title: 'Revisão', icon: 'mdi:clipboard-check-outline' }
+  { step: 4, title: 'Sobre o trabalho', icon: 'mdi:briefcase-outline' },
+  { step: 5, title: 'Revisão', icon: 'mdi:clipboard-check-outline' }
 ]
 
 const currentTitle = computed(

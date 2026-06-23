@@ -38,8 +38,18 @@ export interface EnderecoForm {
   estado: string
 }
 
+// Curso / certificação (etapa "Sobre o trabalho"). `conclusao` vazia = em andamento.
+export interface CursoForm {
+  nome: string
+  instituicao: string
+  inicio: string
+  conclusao: string
+}
+
+export const emptyCurso = (): CursoForm => ({ nome: '', instituicao: '', inicio: '', conclusao: '' })
+
 const STORAGE_KEY = 'sos:Professional-draft'
-export const TOTAL_STEPS = 4
+export const TOTAL_STEPS = 5
 
 const emptyDadosPessoais = (): DadosPessoais => ({
   nome: '',
@@ -63,6 +73,8 @@ interface PersistedDraft {
   dadosPessoais: DadosPessoais
   endereco: EnderecoForm
   categorias: SelectedCategoria[]
+  bio: string
+  cursos: CursoForm[]
   currentStep: number
   completedSteps: number[]
 }
@@ -71,6 +83,13 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
   const dadosPessoais = reactive<DadosPessoais>(emptyDadosPessoais())
   const endereco = reactive<EnderecoForm>(emptyEndereco())
   const categorias = ref<SelectedCategoria[]>([])
+
+  // Etapa "Sobre o trabalho". `bio` e `cursos` são serializáveis (persistem no
+  // rascunho); o portfólio são `File`s, só em memória (como a foto de perfil).
+  const bio = ref('')
+  const cursos = ref<CursoForm[]>([])
+  const portfolio = ref<File[]>([])
+  const portfolioPreviews = ref<string[]>([])
 
   // A foto fica só em memória (File não é serializável). Após reload, o
   // usuário precisa reselecionar — a UI avisa.
@@ -110,11 +129,34 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
     }
   }
 
+  function addPortfolio(files: File[]) {
+    files.forEach((file) => {
+      portfolio.value.push(file)
+      portfolioPreviews.value.push(URL.createObjectURL(file))
+    })
+  }
+
+  function removePortfolio(index: number) {
+    const url = portfolioPreviews.value[index]
+    if (url) URL.revokeObjectURL(url)
+    portfolio.value.splice(index, 1)
+    portfolioPreviews.value.splice(index, 1)
+  }
+
+  function clearPortfolio() {
+    portfolioPreviews.value.forEach((url) => URL.revokeObjectURL(url))
+    portfolio.value = []
+    portfolioPreviews.value = []
+  }
+
   function reset() {
     Object.assign(dadosPessoais, emptyDadosPessoais())
     Object.assign(endereco, emptyEndereco())
     categorias.value = []
+    bio.value = ''
+    cursos.value = []
     setFoto(null)
+    clearPortfolio()
     currentStep.value = 1
     completedSteps.value = []
     pendingDraft = null
@@ -145,6 +187,7 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
       dp?.nome || dp?.cpf || dp?.telefone || dp?.email || dp?.data_de_nascimento
       || e?.cep || e?.rua || e?.bairro || e?.cidade
       || (d.categorias?.length ?? 0) > 0
+      || d.bio || (d.cursos?.length ?? 0) > 0
     )
   }
 
@@ -175,17 +218,21 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
   }
 
   // "Continuar": aplica o rascunho salvo aos campos, volta à última etapa em
-  // que o usuário estava e liga a persistência. Limita ao penúltimo passo (foto
-  // e categorias): a foto não é persistida (File não serializa), então retomar
-  // direto na revisão deixaria o usuário sem foto sem perceber — forçamos ele a
-  // passar de novo pela seleção de foto.
+  // que o usuário estava e liga a persistência. Limita ao passo 3 (foto de
+  // perfil): nem a foto nem o portfólio são persistidos (File não serializa),
+  // então retomar adiante deixaria o usuário sem essas imagens sem perceber —
+  // forçamos ele a repassar pelas etapas de foto (perfil = 3, portfólio = 4).
+  const RESUME_MAX_STEP = 3
+
   function resumeDraft() {
     if (pendingDraft) {
       Object.assign(dadosPessoais, pendingDraft.dadosPessoais)
       Object.assign(endereco, pendingDraft.endereco)
       categorias.value = pendingDraft.categorias ?? []
+      bio.value = pendingDraft.bio ?? ''
+      cursos.value = pendingDraft.cursos ?? []
       completedSteps.value = pendingDraft.completedSteps ?? []
-      setStep(Math.min(pendingDraft.currentStep ?? 1, TOTAL_STEPS - 1))
+      setStep(Math.min(pendingDraft.currentStep ?? 1, RESUME_MAX_STEP))
       pendingDraft = null
     }
     ready.value = true
@@ -204,6 +251,8 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
         dadosPessoais: { ...dadosPessoais },
         endereco: { ...endereco },
         categorias: categorias.value,
+        bio: bio.value,
+        cursos: cursos.value,
         currentStep: currentStep.value,
         completedSteps: completedSteps.value
       }),
@@ -219,6 +268,10 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
     dadosPessoais,
     endereco,
     categorias,
+    bio,
+    cursos,
+    portfolio,
+    portfolioPreviews,
     foto,
     fotoPreviewUrl,
     currentStep,
@@ -228,6 +281,8 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
     next,
     prev,
     setFoto,
+    addPortfolio,
+    removePortfolio,
     reset,
     peekDraft,
     resumeDraft,

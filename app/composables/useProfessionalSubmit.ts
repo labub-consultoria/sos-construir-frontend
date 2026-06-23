@@ -19,7 +19,20 @@ export function useProfessionalSubmit() {
     return url
   }
 
-  function buildPayload(fotoUrl: string, consentimento: ConsentimentoDTO): PrestadorRequestDTO {
+  // Sobe as fotos do portfólio (sequencial) e devolve as URLs. Reaproveita o
+  // mesmo endpoint da foto de perfil (uma chamada por imagem).
+  function uploadPortfolio(files: File[]): Promise<string[]> {
+    return files.reduce<Promise<string[]>>(
+      async (acc, file) => [...(await acc), await uploadFoto(file)],
+      Promise.resolve([])
+    )
+  }
+
+  function buildPayload(
+    fotoUrl: string,
+    portfolio: string[],
+    consentimento: ConsentimentoDTO
+  ): PrestadorRequestDTO {
     const sorted = [...store.categorias].sort((a, b) => a.ordem_exibicao - b.ordem_exibicao)
     return {
       nome: store.dadosPessoais.nome.trim(),
@@ -43,6 +56,17 @@ export function useProfessionalSubmit() {
           ? { ...base, id_profissao: c.id_profissao }
           : { ...base, texto: c.texto }
       }),
+      bio: store.bio.trim(),
+      portfolio,
+      // Descarta linhas sem nome e normaliza os campos opcionais.
+      cursos: store.cursos
+        .filter((c) => c.nome.trim())
+        .map((c) => ({
+          nome: c.nome.trim(),
+          instituicao: c.instituicao.trim(),
+          inicio: c.inicio.trim(),
+          conclusao: c.conclusao.trim()
+        })),
       consentimento
     }
   }
@@ -55,17 +79,17 @@ export function useProfessionalSubmit() {
 
     try {
       let fotoUrl = ''
-      if (store.foto) {
-        try {
-          fotoUrl = await uploadFoto(store.foto)
-        } catch {
-          error.value =
-            'Não foi possível enviar sua foto. Tente novamente ou prossiga sem foto.'
-          return null
-        }
+      let portfolioUrls: string[] = []
+      try {
+        if (store.foto) fotoUrl = await uploadFoto(store.foto)
+        if (store.portfolio.length) portfolioUrls = await uploadPortfolio(store.portfolio)
+      } catch {
+        error.value =
+          'Não foi possível enviar suas fotos. Tente novamente ou remova as imagens para prosseguir.'
+        return null
       }
 
-      const payload = buildPayload(fotoUrl, consentimento)
+      const payload = buildPayload(fotoUrl, portfolioUrls, consentimento)
       return await $fetch<PrestadorResponse>('/api/profissionais', {
         method: 'POST',
         body: payload

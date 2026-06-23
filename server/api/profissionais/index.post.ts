@@ -27,6 +27,14 @@ const categoriaSchema = z
     message: 'Categoria precisa de id_profissao ou texto'
   })
 
+// Curso / certificação (etapa "Sobre o trabalho"). Anos opcionais (string).
+const cursoSchema = z.object({
+  nome: z.string().trim().min(1),
+  instituicao: z.string().optional(),
+  inicio: z.string().optional(),
+  conclusao: z.string().optional()
+})
+
 // Aceite dos termos (LGPD): precisa ter sido marcado, com data e versão.
 const consentimentoSchema = z.object({
   aceite: z.literal(true),
@@ -47,6 +55,9 @@ const prestadorSchema = z.object({
     .min(1)
     .max(5)
     .refine((c) => c.filter((x) => x.destaque).length === 1, 'Exatamente 1 categoria principal'),
+  bio: z.string().trim().min(20).max(600),
+  portfolio: z.array(z.string()).max(6),
+  cursos: z.array(cursoSchema).max(10),
   consentimento: consentimentoSchema
 })
 
