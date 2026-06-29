@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Metalúrgica e Serralheria em Foz do Iguaçu",
+    "description": "Projetos em aço e ferro sob medida em Foz do Iguaçu. Portões, grades, estruturas metálicas e coberturas com solda profissional e alta durabilidade.",
+    "keywords": "metalúrgica foz do iguaçu, serralheria foz, portões de ferro, estruturas metálicas pr, grades e coberturas",
+    "ogImage": "/images/services/metalurgica/hero.webp",
+    "breadcrumbLabel": "Metalúrgica"
+  },
+  "sections": {
+    "hero": {
+      "title": "Metalúrgica Profissional Sem Dor de Cabeça",
+      "description": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
+      "image": "/images/services/metalurgico/hero.webp"
+    },
+    "overview": {
+      "kicker": "Aço e ferro sob medida, sem dor de cabeça",
+      "title": "Metalúrgica e serralheria em Foz do Iguaçu",
+      "images": [
+        "/images/services/metalurgico/cover.jpg"
+      ],
+      "imageAlt": "Trabalho de serralheria em aço executado pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz serviços de metalúrgica e serralheria em Foz do Iguaçu: portões, grades, estruturas metálicas e coberturas, projetados sob medida para a sua obra.",
+        "Trabalhamos com solda profissional e tratamento anticorrosivo em cada peça, garantindo estruturas resistentes, com precisão milimétrica e acabamento durável.",
+        "Você trata apenas com a SOS, do projeto à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "partner": {
+      "partnerName": "Galvanox Serralheria",
+      "logo": "/images/services/metalurgico/galvanox/logo.webp",
+      "coverImage": "/images/services/metalurgico/galvanox/cover.jpg",
+      "description": "Parceria com a Galvanox, referência em Foz do Iguaçu desde 1998. Especialistas em serralheria fina e estruturas metálicas, entregando soluções sob medida em ferro e inox com a precisão artesanal e a resistência que seu projeto exige.",
+      "tags": [
+        {
+          "icon": "anvil",
+          "text": "Soluções sob medida em ferro e aço inox"
+        },
+        {
+          "icon": "shield-lock-outline",
+          "text": "Portões, grades e esquadrias de alta segurança"
+        },
+        {
+          "icon": "history",
+          "text": "Tradição em Foz do Iguaçu há mais de 25 anos"
+        },
+        {
+          "icon": "crane",
+          "text": "Estruturas metálicas para galpões e coberturas"
+        }
+      ],
+      "cta": {
+        "text": "Solicitar Orçamento Galvanox",
+        "link": "https://www.galvanox.com.br"
+      },
+      "footerInfo": {
+        "usage": "Especialista em acabamentos residenciais e industriais",
+        "guarantee": "Garantia de fabricação e durabilidade SOS"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Por que a SOS é Referência em Metalurgia?",
+      "reasons": [
+        {
+          "title": "Solda de Alta Fusão",
+          "description": "Utilizamos técnicas avançadas de soldagem que garantem uniões indestrutíveis e acabamento sem rebarbas.",
+          "icon": "vlc"
+        },
+        {
+          "title": "Tratamento Anticorrosivo",
+          "description": "Todas as peças recebem fundo preparador de alta aderência, essencial para o clima úmido de Foz do Iguaçu.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "Precisão Milimétrica",
+          "description": "Projetos executados com rigor técnico, garantindo que portões e esquadrias funcionem com leveza e silêncio.",
+          "icon": "ruler-square"
+        },
+        {
+          "title": "Soluções em Inox",
+          "description": "Domínio técnico para trabalhar com aço inox, oferecendo sofisticação e durabilidade vitalícia em corrimãos e detalhes.",
+          "icon": "medal-outline"
+        }
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Portões e Grades",
+          "slug": "portoes-e-grades",
+          "count": 0
+        },
+        {
+          "label": "Estruturas Metálicas",
+          "slug": "estruturas-metalicas",
+          "count": 0
+        },
+        {
+          "label": "Coberturas",
+          "slug": "coberturas",
+          "count": 0
+        },
+        {
+          "label": "Projetos Especiais",
+          "slug": "projetos-especiais",
+          "count": 0
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Contato e Orçamento",
+          "description": "Você nos conta o que precisa e nós cuidamos de todo o planejamento e orçamento.",
+          "icon": "phone-in-talk-outline"
+        },
+        {
+          "step": 2,
+          "title": "Projeto e Aprovação",
+          "description": "Desenvolvemos projeto detalhado. Apresentamos opções de materiais e design antes de fabricar.",
+          "icon": "hammer"
+        },
+        {
+          "step": 3,
+          "title": "Fabricação em Oficina",
+          "description": "Profissionais certificados fabricam com precisão. Solda de qualidade, acabamento profissional, cada peça perfeita.",
+          "icon": "factory"
+        },
+        {
+          "step": 4,
+          "title": "Satisfação Garantida",
+          "description": "Instalação profissional completa. Inspeção rigorosa e garantia integral em mãos. Pronto para aproveitar!",
+          "icon": "creation"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Metalúrgicos Profissionais Verificados",
+      "description": "Escolha um Metalúrgico certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
+    },
+    "faq": {
+      "title": "Dúvidas Frequentes sobre Metalurgia",
+      "questions": [
+        {
+          "question": "Vocês fabricam estruturas para telhados e coberturas?",
+          "answer": "Sim! Fabricamos e instalamos tesouras, treliças e estruturas metálicas completas para telhados de residências e galpões."
+        },
+        {
+          "question": "Os portões já vêm com motor e automação?",
+          "answer": "Fabricamos o portão já preparado e balanceado para receber o motor. Podemos incluir a instalação da automação no seu orçamento, se desejar."
+        },
+        {
+          "question": "Como funciona o processo de pintura das peças?",
+          "answer": "Nossas estruturas são entregues com tratamento antiferrugem e fundo preparador (zarcão). A pintura final com cor também pode ser orçada à parte, incluindo opções de pintura epóxi."
+        },
+        {
+          "question": "Fazem consertos em grades e portões de terceiros?",
+          "answer": "Sim, nossa equipe realiza manutenção preventiva e corretiva, como troca de roldanas, reforço de soldas quebradas e alinhamento de trilhos."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para tirar seu projeto em aço do papel?",
+      "description": "De portões e grades a estruturas e coberturas metálicas. Peça seu orçamento com quem solda com precisão e cuida do acabamento.",
+      "ctaText": "Solicitar Orçamento de Serralheria"
+    }
+  }
+}

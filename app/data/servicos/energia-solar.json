@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Energia Solar em Foz do Iguaçu | Economize até 90%",
+    "description": "Instalação de energia solar em Foz do Iguaçu. Reduza sua conta de luz em até 90%. Projetos completos, homologação na Copel e financiamento facilitado.",
+    "keywords": "energia solar foz do iguaçu, painel solar, energia fotovoltaica, kit energia solar, instalador energia solar",
+    "ogImage": "/images/services/energia-solar/hero.webp",
+    "breadcrumbLabel": "Energia Solar"
+  },
+  "sections": {
+    "hero": {
+      "title": "Transforme o Sol de Foz em Economia no seu Bolso",
+      "description": "Reduza sua conta de energia em até 90% com um sistema solar de alta performance. Pagamento facilitado onde a parcela cabe na sua economia.",
+      "image": "/images/services/energia-solar/hero.webp"
+    },
+    "overview": {
+      "kicker": "Energia solar que reduz sua conta de luz",
+      "title": "Energia solar em Foz do Iguaçu",
+      "images": [
+        "/images/services/energia-solar/cover.jpg"
+      ],
+      "imageAlt": "Instalação de energia solar fotovoltaica pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz instalação de energia solar em Foz do Iguaçu, com projetos completos que podem reduzir a sua conta de luz em até 90%.",
+        "Cuidamos do dimensionamento, da instalação e da homologação na Copel, com sistema de alta performance, manutenção mínima e pagamento facilitado.",
+        "Você trata apenas com a SOS, do projeto à ligação final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 120
+        },
+        {
+          "label": "Residencial",
+          "slug": "residencial",
+          "count": 85
+        },
+        {
+          "label": "Comercial",
+          "slug": "comercial",
+          "count": 25
+        },
+        {
+          "label": "Industrial/Rural",
+          "slug": "rural",
+          "count": 10
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Análise de Consumo",
+          "description": "Analisamos seu histórico de energia para projetar o sistema ideal para sua necessidade real.",
+          "icon": "chart-line"
+        },
+        {
+          "step": 2,
+          "title": "Projeto e Engenharia",
+          "description": "Nossos engenheiros eletricistas criam o projeto técnico e cuidam de toda a burocracia com a Copel.",
+          "icon": "file-document-edit"
+        },
+        {
+          "step": 3,
+          "title": "Instalação Segura",
+          "description": "Equipe especializada instala os painéis e o inversor com máxima segurança e rapidez.",
+          "icon": "solar-panel"
+        },
+        {
+          "step": 4,
+          "title": "Ativação e Monitoramento",
+          "description": "Troca do medidor pela Copel e ativação do sistema. Você acompanha a geração pelo celular!",
+          "icon": "cellphone-check"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Engenharia Solar Especializada",
+      "description": "Diferente de instalações amadoras, a SOS Construir conta com engenheiros eletricistas responsáveis. Isso garante que seu telhado não terá infiltrações e seu sistema elétrico estará 100% seguro contra sobrecargas."
+    },
+    "whyChooseUs": {
+      "title": "Vantagens da Energia Solar SOS",
+      "reasons": [
+        {
+          "title": "Valorização Imediata",
+          "description": "Um imóvel com energia solar é vendido até 10% mais rápido e por um valor maior.",
+          "icon": "trending-up"
+        },
+        {
+          "title": "Manutenção Mínima",
+          "description": "O sistema exige apenas limpezas periódicas simples para manter a eficiência.",
+          "icon": "broom"
+        },
+        {
+          "title": "Independência",
+          "description": "Proteja-se contra os constantes aumentos e bandeiras tarifárias da conta de luz.",
+          "icon": "leaf"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Energia Solar",
+      "questions": [
+        {
+          "question": "Os painéis funcionam em dias nublados ou com chuva?",
+          "answer": "Sim, eles continuam gerando energia através da radiação difusa, embora em menor quantidade do que em um dia de sol pleno."
+        },
+        {
+          "question": "Quanto tempo demora para o sistema 'se pagar'?",
+          "answer": "O Retorno sobre o Investimento (Payback) geralmente ocorre entre 3 a 5 anos. Depois disso, a energia é praticamente de graça."
+        },
+        {
+          "question": "O que acontece com o excesso de energia que eu não usar?",
+          "answer": "O excesso é enviado para a rede da Copel e vira créditos que você pode usar à noite ou em meses com menos sol. Os créditos valem por 60 meses."
+        },
+        {
+          "question": "Preciso furar meu telhado?",
+          "answer": "A instalação utiliza estruturas de fixação específicas para cada tipo de telha, garantindo a vedação total e evitando vazamentos."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pare de pagar caro na conta de luz",
+      "description": "Peça seu orçamento e veja como a parcela do financiamento pode ser menor do que você paga hoje para a Copel.",
+      "ctaText": "Solicitar Estudo Gratuito"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Instalação de Paver em Foz do Iguaçu",
+    "description": "Especialistas em pavimentação com paver em Foz do Iguaçu. Calçadas, pátios e áreas externas com drenagem eficiente e alta durabilidade. +4.000 projetos.",
+    "keywords": "paver foz do iguaçu, piso intertravado, calçada de paver, pavimentação sustentável, colocação de paver",
+    "ogImage": "/images/services/paver/hero.webp",
+    "breadcrumbLabel": "Paver"
+  },
+  "sections": {
+    "hero": {
+      "title": "Pavimentação Inteligente Sem Dor de Cabeça",
+      "description": "Transforme sua área externa com a beleza e resistência do paver. Instalação rápida, drenagem eficiente e zero manutenção complicada.",
+      "image": "/images/services/paver/hero.webp"
+    },
+    "overview": {
+      "kicker": "Pavimentação resistente e com boa drenagem",
+      "title": "Instalação de paver em Foz do Iguaçu",
+      "images": [
+        "/images/services/paver/cover.jpg"
+      ],
+      "imageAlt": "Pavimentação com paver executada pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz instalação de paver em Foz do Iguaçu para calçadas, pátios e áreas externas, com pavimentação resistente e drenagem eficiente.",
+        "Preparamos a base do terreno e assentamos os blocos com nivelamento preciso, garantindo conforto térmico, acesso fácil e alta durabilidade.",
+        "Você trata apenas com a SOS, do preparo do solo ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "partner": {
+      "partnerName": "Blocos Fort",
+      "logo": "/images/services/paver/blocosfort/logo.jpg",
+      "coverImage": "/images/services/paver/blocosfort/cover.webp",
+      "description": "Parceria com a Blocos Fort, especialista em artefatos de concreto com padrão industrial rigoroso. Utilizamos pavers de 60mm e 80mm com precisão dimensional, garantindo calçadas e pátios com encaixe perfeito, alta resistência e preço direto de fábrica.",
+      "tags": [
+        {
+          "icon": "ruler-square",
+          "text": "Precisão dimensional: peças que se encaixam perfeitamente"
+        },
+        {
+          "icon": "truck-delivery",
+          "text": "Entrega garantida com frota própria para sua obra"
+        },
+        {
+          "icon": "factory",
+          "text": "Preço direto da fábrica, sem intermediários"
+        },
+        {
+          "icon": "shield-check",
+          "text": "Pavers de 60mm e 80mm para diferentes níveis de tráfego"
+        }
+      ],
+      "cta": {
+        "text": "Ver Artefatos Blocos Fort",
+        "link": " https://www.instagram.com/blocos_fort/"
+      },
+      "footerInfo": {
+        "usage": "Peças de 16 lados e retangulares de alta durabilidade",
+        "guarantee": "Garantia de resistência real e padrão industrial"
+      }
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 4000
+        },
+        {
+          "label": "Residencial",
+          "slug": "residencial",
+          "count": 2500
+        },
+        {
+          "label": "Comercial/Industrial",
+          "slug": "comercial",
+          "count": 1200
+        },
+        {
+          "label": "Público/Praças",
+          "slug": "publico",
+          "count": 300
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Visita e Nivelamento",
+          "description": "Analisamos o terreno e preparamos a base para garantir que o paver nunca afunde.",
+          "icon": "ruler-square"
+        },
+        {
+          "step": 2,
+          "title": "Compactação de Base",
+          "description": "Aplicação de camada de areia ou pó de brita com compactação mecanizada profissional.",
+          "icon": "hard-hat"
+        },
+        {
+          "step": 3,
+          "title": "Assentamento Técnico",
+          "description": "Colocação peça por peça com encaixe intertravado perfeito para máxima estabilidade.",
+          "icon": "grid-large"
+        },
+        {
+          "step": 4,
+          "title": "Acabamento e Limpeza",
+          "description": "Preenchimento das juntas e limpeza final. Sua calçada pronta para uso imediato!",
+          "icon": "sparkles"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Mestres em Pavimentação",
+      "description": "Nossa equipe é especialista em pisos intertravados. Diferente de pedreiros comuns, nossos profissionais dominam a técnica de drenagem e travamento que evita manutenções futuras."
+    },
+    "whyChooseUs": {
+      "title": "Por que escolher nosso Paver?",
+      "reasons": [
+        {
+          "title": "Conforto Térmico",
+          "description": "Retém menos calor que o asfalto ou concreto maciço.",
+          "icon": "thermometer-minus"
+        },
+        {
+          "title": "Acesso Fácil",
+          "description": "Precisa consertar um cano? Basta remover as peças e colocar de volta. Sem quebra-quebra.",
+          "icon": "hammer-wrench"
+        },
+        {
+          "title": "Segurança",
+          "description": "Superfície naturalmente antiderrapante, ideal para rampas e calçadas.",
+          "icon": "walk"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Paver",
+      "questions": [
+        {
+          "question": "O paver pode ser usado em garagens com carros pesados?",
+          "answer": "Sim! O paver é extremamente resistente e suporta tráfego de veículos leves e pesados, desde que a base seja preparada corretamente pela nossa equipe."
+        },
+        {
+          "question": "O que acontece se uma peça quebrar?",
+          "answer": "Essa é a grande vantagem! Você pode substituir apenas a peça danificada individualmente, mantendo a estética do piso sem remendos aparentes."
+        },
+        {
+          "question": "Quanto tempo demora a instalação?",
+          "answer": "A instalação é muito mais rápida que o concreto convencional, pois não exige tempo de cura. Uma vez assentado, você já pode pisar ou passar com o carro."
+        },
+        {
+          "question": "O mato cresce entre as peças?",
+          "answer": "Se a instalação for feita com o selamento correto das juntas (areia fina ou pó de pedra) e a manutenção básica for mantida, o crescimento de vegetação é minimizado."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para valorizar seu imóvel?",
+      "description": "Junte-se aos mais de 4.000 clientes satisfeitos em Foz do Iguaçu. Peça seu orçamento gratuito hoje!",
+      "ctaText": "Falar com Especialista"
+    }
+  }
+}

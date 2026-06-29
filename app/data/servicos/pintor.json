@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Pintura Residencial e Comercial em Foz do Iguaçu",
+    "description": "Transforme seu ambiente com pintores profissionais em Foz do Iguaçu. Pintura interna, externa e decorativa com acabamento premium e limpeza garantida.",
+    "keywords": "pintor foz do iguaçu, pintura de casas, empresa de pintura foz, acabamento de pintura, pintor profissional pr",
+    "ogImage": "/images/services/pintor/hero.webp",
+    "breadcrumbLabel": "Pintura"
+  },
+  "sections": {
+    "hero": {
+      "title": "Pintura Profissional Sem Dor de Cabeça",
+      "description": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
+      "image": "/images/services/pintor/hero.webp"
+    },
+    "overview": {
+      "kicker": "Acabamento de alto padrão, sem dor de cabeça",
+      "title": "Pintura residencial e comercial em Foz do Iguaçu",
+      "images": [
+        "/images/services/pintor/cover.jpg"
+      ],
+      "imageAlt": "Pintura residencial executada pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços de pintura."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz pintura residencial e comercial em Foz do Iguaçu, nas modalidades interna, externa e decorativa, para casas, apartamentos e empresas, com acabamento de alto padrão e a obra entregue limpa.",
+        "Preparamos cada superfície com lixamento e selagem e aplicamos tintas premium com profissionais verificados. O resultado é uma cobertura uniforme, sem respingos e sem marcas de rolo.",
+        "Você trata apenas com a SOS, que coordena tudo do planejamento ao acabamento final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "partner": {
+      "partnerName": "Arte Tintas",
+      "logo": "/images/services/pintor/artetintas/logo.webp",
+      "coverImage": "/images/services/pintor/artetintas/cover.webp",
+      "description": "Trabalhamos com a Arte Tintas, referência em qualidade há mais de 30 anos. Tintas imobiliárias, consultoria de cores e o melhor atendimento para o seu projeto, com entrega rápida e o melhor custo-benefício da região.",
+      "tags": [
+        {
+          "icon": "format-paint",
+          "text": "Tintas premium com durabilidade garantida"
+        },
+        {
+          "icon": "package-variant-closed",
+          "text": "Entrega rápida e rastreada"
+        },
+        {
+          "icon": "currency-usd",
+          "text": "Preço direto da fábrica, sem intermediários"
+        },
+        {
+          "icon": "check",
+          "text": "Consultoria de cores gratuita para o seu projeto"
+        }
+      ],
+      "cta": {
+        "text": "Conhecer a Arte Tintas",
+        "link": "https://www.artetintas.com.br"
+      },
+      "footerInfo": {
+        "usage": "Usado em 500+ projetos na região",
+        "guarantee": "Garantia oficial Arte Tintas"
+      }
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos os Projetos",
+          "slug": "todos",
+          "count": 360
+        },
+        {
+          "label": "Trabalho Interno",
+          "slug": "interno",
+          "count": 180
+        },
+        {
+          "label": "Trabalho externo",
+          "slug": "externo",
+          "count": 120
+        },
+        {
+          "label": "Ampla diversidade",
+          "slug": "diversidade",
+          "count": 60
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Contato e Orçamento",
+          "description": "Você nos conta o que precisa e nós cuidamos de todo o planejamento e orçamento.",
+          "icon": "phone-in-talk-outline"
+        },
+        {
+          "step": 2,
+          "title": "Cuidado e Proteção",
+          "description": "Nossa equipe protege seus móveis e prepara as paredes com perfeição.",
+          "icon": "shield-alert"
+        },
+        {
+          "step": 3,
+          "title": "Execução Premium",
+          "description": "Profissionais verificados aplicam as melhores tintas do mercado.",
+          "icon": "format-paint"
+        },
+        {
+          "step": 4,
+          "title": "Satisfação Garantida",
+          "description": "Entregamos tudo limpo e no lugar. Zero estresse para você!",
+          "icon": "creation"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Pintores Profissionais Verificados",
+      "description": "Escolha um pintor certificado com avaliação real de clientes. Todos os profissionais passam por nossa verificação rigorosa e garantem qualidade SOS."
+    },
+    "whyChooseUs": {
+      "title": "Por que a SOS é a Melhor Escolha para sua Pintura?",
+      "reasons": [
+        {
+          "title": "Proteção Total do Ambiente",
+          "description": "Ninguém gosta de respingos. Forramos pisos, móveis e rodapés com materiais específicos para garantir uma obra limpa.",
+          "icon": "shield-home-outline"
+        },
+        {
+          "title": "Preparo Técnico de Superfície",
+          "description": "Pintura de verdade começa no lixamento e selagem. Corrigimos imperfeições para a tinta aderir e durar muito mais.",
+          "icon": "texture-box"
+        },
+        {
+          "title": "Acabamento de Alto Padrão",
+          "description": "Recortes precisos e cobertura uniforme sem marcas de rolo, utilizando as melhores ferramentas e as tintas da Arte Tintas.",
+          "icon": "brush-variant"
+        },
+        {
+          "title": "Consultoria de Cores",
+          "description": "Dúvida no tom? Nossos especialistas ajudam você a escolher a cor ideal que harmoniza com a iluminação do seu espaço.",
+          "icon": "palette-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas Frequentes sobre Pintura",
+      "questions": [
+        {
+          "question": "Vocês realizam reparos em paredes antes da pintura?",
+          "answer": "Sim! Fazemos preenchimento de rachaduras, nivelamento e todas as correções necessárias antes de iniciar a pintura."
+        },
+        {
+          "question": "Quanto tempo dura a pintura feita pela SOS Construir?",
+          "answer": "A durabilidade da pintura depende de vários fatores, incluindo a preparação adequada das superfícies e a qualidade dos materiais. Nossos profissionais garantem resultados duradouros."
+        },
+        {
+          "question": "Posso usar minha própria tinta?",
+          "answer": "Sim, você tem a opção de fornecer sua própria tinta. Embora normalmente forneçamos tanto a tinta quanto o material necessário, se preferir contratar apenas o serviço e fornecer seu próprio material, ficaremos felizes em discutir essa alternativa."
+        },
+        {
+          "question": "Vocês fazem Pintura Exterior?",
+          "answer": "Sim, nossos pintores são treinados para trabalhar tanto em ambientes internos quanto externos, oferecendo soluções abrangentes para suas necessidades de pintura."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para dar vida nova ao seu espaço?",
+      "description": "De um único cômodo à fachada inteira, pintura interna ou externa. Peça seu orçamento com quem é especialista em acabamento.",
+      "ctaText": "Solicitar Orçamento de Pintura"
+    }
+  }
+}

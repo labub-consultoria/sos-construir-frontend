@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Assentamento de Cerâmica e Porcelanato em Foz do Iguaçu",
+    "description": "Especialistas em colocação de porcelanato e cerâmica em Foz do Iguaçu. Acabamento impecável, nivelamento perfeito e venda de materiais de alta qualidade.",
+    "keywords": "porcelanato foz do iguaçu, assentamento de piso, azulejista foz, colocar cerâmica, piso retificado, revestimento de parede",
+    "ogImage": "/images/services/ceramica-e-porcelanato/hero.webp",
+    "breadcrumbLabel": "Cerâmica e Porcelanato"
+  },
+  "sections": {
+    "hero": {
+      "title": "O Piso dos Seus Sonhos com Acabamento Impecável",
+      "description": "Transforme seus ambientes com a elegância do porcelanato e a versatilidade da cerâmica. Unimos mão de obra de elite e materiais premium para um resultado duradouro e sofisticado.",
+      "image": "/images/services/ceramica-e-porcelanato/hero.webp"
+    },
+    "overview": {
+      "kicker": "Assentamento com acabamento impecável",
+      "title": "Assentamento de cerâmica e porcelanato em Foz do Iguaçu",
+      "images": [
+        "/images/services/ceramica-e-porcelanato/cover.jpg"
+      ],
+      "imageAlt": "Assentamento de porcelanato pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz assentamento de cerâmica e porcelanato em Foz do Iguaçu, com nivelamento perfeito e acabamento impecável em pisos e paredes.",
+        "Unimos mão de obra qualificada e venda de materiais, com precisão milimétrica, recortes certos e durabilidade garantida.",
+        "Você trata apenas com a SOS, da escolha do revestimento à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 380
+        },
+        {
+          "label": "Porcelanato Grandes Formatos",
+          "slug": "grandes-formatos",
+          "count": 150
+        },
+        {
+          "label": "Revestimentos de Banheiro",
+          "slug": "banheiros",
+          "count": 120
+        },
+        {
+          "label": "Áreas Externas",
+          "slug": "externas",
+          "count": 110
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Preparação do Contrapiso",
+          "description": "Verificamos o nível e a cura da base para evitar que as peças soltem ou fiquem com som 'oco'.",
+          "icon": "format-horizontal-align-center"
+        },
+        {
+          "step": 2,
+          "title": "Paginação Estratégica",
+          "description": "Planejamos o início do assentamento para minimizar recortes e valorizar a estética do ambiente.",
+          "icon": "grid-large"
+        },
+        {
+          "step": 3,
+          "title": "Assentamento com Niveladores",
+          "description": "Uso de cunhas e niveladores profissionais para garantir um piso perfeitamente liso, sem 'dentes'.",
+          "icon": "unfold-more-horizontal"
+        },
+        {
+          "step": 4,
+          "title": "Rejuntamento Técnico",
+          "description": "Aplicação de rejunte (epóxi ou acrílico) com acabamento fino para facilitar a limpeza e evitar mofo.",
+          "icon": "brush-variant"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Azulejistas Especialistas",
+      "description": "Assentar porcelanato de grandes formatos exige técnica e ferramentas específicas. Nossa equipe é treinada para lidar com peças retificadas e juntas mínimas, entregando um visual de peça única e sofisticação extrema."
+    },
+    "whyChooseUs": {
+      "title": "Por que a SOS é líder em Revestimentos?",
+      "reasons": [
+        {
+          "title": "Solução Completa",
+          "description": "Nós vendemos o material e entregamos instalado. Uma única responsabilidade para sua tranquilidade.",
+          "icon": "cart-check"
+        },
+        {
+          "title": "Precisão Milimétrica",
+          "description": "Cortes em 45 graus (meia esquadria) perfeitos para nichos e quinas de alto padrão.",
+          "icon": "angle-acute"
+        },
+        {
+          "title": "Durabilidade Garantida",
+          "description": "Técnica de dupla colagem em peças grandes, seguindo as normas da ABNT para evitar descolamentos.",
+          "icon": "shield-lock-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Pisos e Revestimentos",
+      "questions": [
+        {
+          "question": "Qual a diferença real entre cerâmica e porcelanato?",
+          "answer": "O porcelanato é cozido a temperaturas mais altas, sendo mais denso, resistente e com absorção de água quase zero. É ideal para áreas de alto tráfego e elegância."
+        },
+        {
+          "question": "O que é um piso retificado?",
+          "answer": "São peças com bordas cortadas perfeitamente retas. Isso permite o uso de juntas mínimas (1mm ou 1,5mm), dando uma sensação de continuidade e amplitude ao ambiente."
+        },
+        {
+          "question": "Quanto tempo demora para poder pisar após o assentamento?",
+          "answer": "Geralmente recomendamos aguardar 72 horas para tráfego pesado, mas após 24 horas já é possível realizar o rejuntamento com cuidado."
+        },
+        {
+          "question": "Vocês fazem a instalação sobre um piso antigo (Piso sobre Piso)?",
+          "answer": "Sim, desde que o piso antigo esteja bem aderido. Usamos argamassas especiais (AC3) para garantir que a nova camada fique perfeitamente firme."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para transformar seu ambiente?",
+      "description": "Seja uma reforma de banheiro ou o piso de toda a sua casa. Peça seu orçamento com quem é especialista em detalhes.",
+      "ctaText": "Solicitar Orçamento de Revestimento"
+    }
+  }
+}

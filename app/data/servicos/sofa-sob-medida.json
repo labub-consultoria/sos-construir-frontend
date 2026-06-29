@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Sofá Sob Medida em Foz do Iguaçu | Estofados SOS Construir",
+    "description": "Criação e reforma de sofás sob medida em Foz do Iguaçu. Conforto exclusivo, design personalizado e materiais premium para sua sala. Peça seu orçamento.",
+    "keywords": "sofá sob medida foz do iguaçu, estofados personalizados, reforma de sofá, sofá retrátil sob medida, fabricação de sofás foz",
+    "ogImage": "/images/services/sofa-sob-medida/hero.webp",
+    "breadcrumbLabel": "Sofá Sob Medida"
+  },
+  "sections": {
+    "hero": {
+      "title": "Conforto e Estilo Planejados para o Seu Espaço",
+      "description": "Não adapte sua sala ao sofá; nós criamos o sofá perfeito para sua sala. Design exclusivo, tecidos premium e ergonomia sob medida para o seu descanso.",
+      "image": "/images/services/sofa-sob-medida/hero.webp"
+    },
+    "overview": {
+      "kicker": "Conforto e estilo planejados para o seu espaço",
+      "title": "Sofá sob medida em Foz do Iguaçu",
+      "images": [
+        "/images/services/sofa-sob-medida/cover.jpg"
+      ],
+      "imageAlt": "Sofá sob medida produzido pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz criação e reforma de sofás sob medida em Foz do Iguaçu, com design personalizado e materiais premium para a sua sala.",
+        "Projetamos com ergonomia adaptada, bom aproveitamento de espaço e tecidos de alta performance, para um conforto que dura.",
+        "Você trata apenas com a SOS, do desenho à entrega do estofado. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "partner": {
+      "partnerName": "Tekila Estofados",
+      "logo": "/images/services/sofa-sob-medida/tekila/logo.webp",
+      "coverImage": "/images/services/sofa-sob-medida/tekila/cover.jpg",
+      "description": "Parceria exclusiva com a Tekila Estofados, fábrica regional com tradição desde 1998. Unimos a consultoria de design da SOS Construir à fabricação artesanal da Tekila, entregando estofados com estrutura reforçada, espumas de alta densidade e acabamento personalizado direto da fábrica.",
+      "tags": [
+        {
+          "icon": "sofa-outline",
+          "text": "Fabricação própria: do projeto à costura final"
+        },
+        {
+          "icon": "fountain-pen-tip",
+          "text": "Personalização total de tecidos, cores e medidas"
+        },
+        {
+          "icon": "account-group-outline",
+          "text": "Atendimento familiar e cuidadoso em cada detalhe"
+        },
+        {
+          "icon": "factory",
+          "text": "Preço de fábrica para projetos sob medida"
+        }
+      ],
+      "cta": {
+        "text": "Ver Mostruário Tekila",
+        "link": "https://www.instagram.com/estofados_tekila/"
+      },
+      "footerInfo": {
+        "usage": "Especialista em sofás, poltronas e colchoaria premium",
+        "guarantee": "Garantia de estrutura e suporte regional ágil"
+      }
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos os Modelos",
+          "slug": "todos",
+          "count": 120
+        },
+        {
+          "label": "Sofás Retráteis",
+          "slug": "retrateis",
+          "count": 55
+        },
+        {
+          "label": "Modelos em L/Canto",
+          "slug": "canto",
+          "count": 40
+        },
+        {
+          "label": "Reformas de Estofados",
+          "slug": "reformas",
+          "count": 25
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Medição e Consultoria",
+          "description": "Visitamos seu espaço para definir as dimensões exatas e entender seu estilo de uso (TV, recepção ou relaxamento).",
+          "icon": "ruler-square"
+        },
+        {
+          "step": 2,
+          "title": "Escolha de Materiais",
+          "description": "Seleção entre centenas de tecidos (Linho, Veludo, Couro) e densidades de espuma para o conforto ideal.",
+          "icon": "palette-swatch"
+        },
+        {
+          "step": 3,
+          "title": "Produção Artesanal",
+          "description": "Fabricação com estrutura reforçada e costura de precisão por mestres estofadores.",
+          "icon": "needle"
+        },
+        {
+          "step": 4,
+          "title": "Entrega e Montagem",
+          "description": "Levamos seu novo sofá até sua casa com cuidado total, garantindo o ajuste perfeito no ambiente.",
+          "icon": "truck-delivery-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Mestres Estofadores",
+      "description": "Contamos com artesãos que dominam a tapeçaria fina. Da estrutura de madeira tratada ao acabamento da costura, cada detalhe é revisado para garantir um móvel que não deforma e mantém a beleza por anos."
+    },
+    "whyChooseUs": {
+      "title": "Por que escolher um sofá da SOS?",
+      "reasons": [
+        {
+          "title": "Ergonomia Adaptada",
+          "description": "Defina a altura do encosto e a profundidade do assento de acordo com sua altura para o máximo conforto.",
+          "icon": "seat-recline-normal"
+        },
+        {
+          "title": "Aproveitamento de Espaço",
+          "description": "Ideal para apartamentos compactos ou salas com ângulos difíceis onde sofás prontos não cabem.",
+          "icon": "arrow-expand-horizontal"
+        },
+        {
+          "title": "Tecidos de Alta Performance",
+          "description": "Opções com proteção contra líquidos e pets, unindo sofisticação e praticidade no dia a dia.",
+          "icon": "shield-check-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Sofás Personalizados",
+      "questions": [
+        {
+          "question": "Qual a vantagem do sofá sob medida sobre o de loja?",
+          "answer": "A principal vantagem é a personalização total: você escolhe o tamanho exato, o tecido que combina com sua decoração e a densidade da espuma, além de garantir uma estrutura muito mais resistente."
+        },
+        {
+          "question": "Vocês também fazem a reforma de sofás antigos?",
+          "answer": "Sim! Nosso serviço de estofados sob medida permite renovar seu móvel favorito, trocando o tecido, reforçando a estrutura e renovando o conforto das espumas."
+        },
+        {
+          "question": "Quanto tempo demora para meu sofá ficar pronto?",
+          "answer": "O prazo médio de produção é de 20 a 40 dias úteis, dependendo da complexidade do design e da disponibilidade do tecido escolhido."
+        },
+        {
+          "question": "Quais tipos de tecidos são mais indicados para quem tem pets?",
+          "answer": "Recomendamos tecidos de trama fechada ou tecidos náuticos e tecnológicos que resistem melhor a arranhões e facilitam a remoção de pelos e limpeza."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "O sofá perfeito para a sua família está aqui",
+      "description": "Transforme sua sala em um cinema particular ou em um lounge sofisticado. Agende sua consultoria de estofados hoje.",
+      "ctaText": "Solicitar Orçamento de Sofá"
+    }
+  }
+}

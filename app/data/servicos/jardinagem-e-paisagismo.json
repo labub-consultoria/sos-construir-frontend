@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Jardinagem e Paisagismo em Foz do Iguaçu",
+    "description": "Serviços profissionais de jardinagem e paisagismo em Foz do Iguaçu. Plantio de grama, jardins verticais, podas especializadas e manutenção completa de áreas verdes.",
+    "keywords": "jardinagem foz do iguaçu, paisagismo residencial, plantio de grama, jardim vertical, manutenção de jardim, poda de árvores",
+    "ogImage": "/images/services/jardinagem-e-paisagismo/hero.webp",
+    "breadcrumbLabel": "Jardinagem e Paisagismo"
+  },
+  "sections": {
+    "hero": {
+      "title": "A Natureza Planejada para o seu Bem-Estar",
+      "description": "Transforme sua área externa em um cenário de cinema. Do plantio da grama perfeita ao design de jardins verticais, cuidamos de cada detalhe para seu jardim florescer o ano todo.",
+      "image": "/images/services/jardinagem-e-paisagismo/hero.webp"
+    },
+    "overview": {
+      "kicker": "Áreas verdes planejadas para o seu bem-estar",
+      "title": "Jardinagem e paisagismo em Foz do Iguaçu",
+      "images": [
+        "/images/services/jardinagem-e-paisagismo/cover.jpg"
+      ],
+      "imageAlt": "Serviço de paisagismo e jardinagem pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz jardinagem e paisagismo em Foz do Iguaçu: plantio de grama, jardins verticais, podas especializadas e manutenção de áreas verdes.",
+        "Planejamos cada espaço com soluções de ponta a ponta, otimizando a área, cuidando da saúde ambiental e transformando a sua área externa.",
+        "Você trata apenas com a SOS, do projeto à manutenção do jardim. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 420
+        },
+        {
+          "label": "Paisagismo Residencial",
+          "slug": "residencial",
+          "count": 210
+        },
+        {
+          "label": "Jardins Verticais",
+          "slug": "verticais",
+          "count": 85
+        },
+        {
+          "label": "Manutenção Corporativa",
+          "slug": "corporativo",
+          "count": 125
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Consultoria e Layout",
+          "description": "Analisamos a incidência de sol e o tipo de solo para escolher as espécies que melhor se adaptam ao seu espaço.",
+          "icon": "flower-tulip-outline"
+        },
+        {
+          "step": 2,
+          "title": "Preparo do Solo",
+          "description": "Adubação técnica e nivelamento para garantir que a grama e as plantas cresçam saudáveis e sem pragas.",
+          "icon": "sprout-outline"
+        },
+        {
+          "step": 3,
+          "title": "Plantio e Execução",
+          "description": "Instalação de tapetes de grama, mudas e estruturas de jardins verticais com acabamento profissional.",
+          "icon": "tree-outline"
+        },
+        {
+          "step": 4,
+          "title": "Manutenção Vitalícia",
+          "description": "Cronograma de podas, regas e nutrição para manter seu jardim sempre impecável e valorizado.",
+          "icon": "water-pump"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Jardineiros e Paisagistas Experientes",
+      "description": "Nossa equipe não apenas corta grama; nós projetamos vida. Com profissionais treinados em botânica e design de exteriores, garantimos que seu investimento em verde cresça com saúde e harmonia estética."
+    },
+    "whyChooseUs": {
+      "title": "Vantagens do Paisagismo SOS",
+      "reasons": [
+        {
+          "title": "Otimização de Espaço",
+          "description": "Com jardins verticais, levamos a natureza até para os menores apartamentos e varandas.",
+          "icon": "arrow-expand-vertical"
+        },
+        {
+          "title": "Saúde Ambiental",
+          "description": "Plantas selecionadas que melhoram a qualidade do ar e reduzem a temperatura ao redor da sua casa.",
+          "icon": "leaf-circle-outline"
+        },
+        {
+          "title": "Solução de Ponta a Ponta",
+          "description": "Da roçada mecanizada inicial à instalação de sistemas de irrigação automatizados.",
+          "icon": "all-inclusive"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Jardinagem e Gramados",
+      "questions": [
+        {
+          "question": "Qual a melhor época para plantar grama em Foz do Iguaçu?",
+          "answer": "Embora a primavera e o outono sejam ideais, com o preparo de solo e a irrigação correta da SOS, podemos realizar o plantio em qualquer época do ano."
+        },
+        {
+          "question": "Como funciona a manutenção de um jardim vertical?",
+          "answer": "Utilizamos sistemas de irrigação gota-a-gota e vasos autoirrigáveis que facilitam o cuidado, exigindo apenas podas leves e adubação periódica."
+        },
+        {
+          "question": "Vocês fazem a remoção dos resíduos (galhos e grama)?",
+          "answer": "Sim! Oferecemos a solução completa, incluindo a coleta e o descarte correto de resíduos verdes e entulhos através de caçambas próprias."
+        },
+        {
+          "question": "Como escolher entre os tipos de grama (Esmeralda, São Carlos, etc)?",
+          "answer": "Nossa consultoria avalia se a área terá muito pisoteio (lazer) ou se é uma área de sombra, indicando a espécie com melhor custo-benefício para sua necessidade."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Dê vida ao seu espaço exterior",
+      "description": "Um jardim bem cuidado valoriza seu imóvel em até 15%. Peça seu orçamento de paisagismo personalizado hoje mesmo.",
+      "ctaText": "Solicitar Orçamento de Jardinagem"
+    }
+  }
+}

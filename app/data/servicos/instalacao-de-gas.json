@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Instalação de Gás em Foz do Iguaçu",
+    "description": "Serviços especializados de instalação de gás em Foz do Iguaçu. Residencial, comercial e industrial. Testes de estanqueidade e conversão de fogões com segurança total.",
+    "keywords": "instalação de gás foz do iguaçu, gás encanado, teste de estanqueidade, conversão de fogão, manutenção de rede de gás",
+    "ogImage": "/images/services/instalacao-de-gas/hero.webp",
+    "breadcrumbLabel": "Instalação de Gás"
+  },
+  "sections": {
+    "hero": {
+      "title": "Instalação de gás feita com segurança",
+      "description": "Projetos e execuções de redes de gás seguindo rigorosamente as normas ABNT. Proteja seu patrimônio com técnicos especializados e testes de segurança certificados.",
+      "image": "/images/services/instalacao-de-gas/hero.webp"
+    },
+    "overview": {
+      "kicker": "Instalação de gás dentro das normas",
+      "title": "Instalação de gás em Foz do Iguaçu",
+      "images": [
+        "/images/services/instalacao-de-gas/cover.jpg"
+      ],
+      "imageAlt": "Instalação de rede de gás pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz instalação de gás residencial, comercial e industrial em Foz do Iguaçu, seguindo rigorosamente as normas ABNT.",
+        "Executamos a rede com técnicos qualificados, testes de estanqueidade e detecção de vazamentos, protegendo o seu patrimônio com segurança.",
+        "Você trata apenas com a SOS, do projeto à liberação do sistema. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 110
+        },
+        {
+          "label": "Residencial",
+          "slug": "residencial",
+          "count": 75
+        },
+        {
+          "label": "Comercial/Restaurantes",
+          "slug": "comercial",
+          "count": 25
+        },
+        {
+          "label": "Industrial",
+          "slug": "industrial",
+          "count": 10
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Visita e Dimensionamento",
+          "description": "Analisamos a demanda de consumo para definir o diâmetro da tubulação e a pressão ideal do sistema.",
+          "icon": "pipe-disconnected"
+        },
+        {
+          "step": 2,
+          "title": "Execução da Rede",
+          "description": "Instalação de tubulações em cobre ou multicamada, registros e pontos de consumo conforme o projeto.",
+          "icon": "tools"
+        },
+        {
+          "step": 3,
+          "title": "Teste de Estanqueidade",
+          "description": "Realizamos o teste de pressão para garantir que não existam microvazamentos em nenhuma conexão.",
+          "icon": "gauge"
+        },
+        {
+          "step": 4,
+          "title": "Entrega e Laudo",
+          "description": "Conexão dos aparelhos (fogão, aquecedor) e entrega do sistema testado e pronto para uso seguro.",
+          "icon": "shield-check"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Técnicos de Gás Certificados",
+      "description": "Gás não permite amadorismo. Nossos técnicos são treinados para lidar com alta e baixa pressão, realizando conversões e manutenções que seguem os mais altos padrões de segurança nacional."
+    },
+    "whyChooseUs": {
+      "title": "Por que confiar na SOS para seu Gás?",
+      "reasons": [
+        {
+          "title": "Normas ABNT",
+          "description": "Toda instalação é feita seguindo à risca as normas de segurança vigentes.",
+          "icon": "book-check-outline"
+        },
+        {
+          "title": "Detecção de Vazamentos",
+          "description": "Equipamentos de alta precisão para identificar vazamentos invisíveis a olho nu.",
+          "icon": "leak"
+        },
+        {
+          "title": "Soluções Completas",
+          "description": "Da conversão do fogão à instalação de aquecedores e churrasqueiras a gás.",
+          "icon": "stove"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Gás Encanado",
+      "questions": [
+        {
+          "question": "O que é o teste de estanqueidade?",
+          "answer": "É um teste de pressão realizado na rede de gás para verificar se o sistema é hermético (sem vazamentos). É obrigatório em inspeções e reformas."
+        },
+        {
+          "question": "Posso converter meu fogão de botijão para gás encanado?",
+          "answer": "Sim! Realizamos a troca dos bicos injetores e ajustes necessários para que seu fogão de GLP funcione perfeitamente com Gás Natural (ou vice-versa)."
+        },
+        {
+          "question": "Com que frequência devo fazer manutenção na rede de gás?",
+          "answer": "Recomenda-se uma inspeção preventiva a cada 12 meses para verificar o estado das mangueiras, válvulas e a integridade das conexões."
+        },
+        {
+          "question": "Senti cheiro de gás, o que devo fazer?",
+          "answer": "Feche o registro geral imediatamente, abra todas as janelas para ventilação e não acione interruptores de luz. Entre em contato conosco para uma detecção urgente."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Não corra riscos desnecessários",
+      "description": "Seja para uma nova instalação ou para adequar sua rede antiga, conte com a perícia da SOS Construir.",
+      "ctaText": "Agendar Visita Técnica de Gás"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Reforma de Telhado em Foz do Iguaçu",
+    "description": "Especialistas em reforma de telhados em Foz do Iguaçu. Reparos de vazamentos, troca de telhas e reforço estrutural com garantia integral e inspeção detalhada.",
+    "keywords": "reforma de telhado foz do iguaçu, conserto de telhado, troca de telhas, vazamento telhado, calhas e rufos",
+    "ogImage": "/images/services/reforma-de-telhado/hero.webp",
+    "breadcrumbLabel": "Reforma de Telhado"
+  },
+  "sections": {
+    "hero": {
+      "title": "Reforme seu Telhado Sem Dor de Cabeça",
+      "description": "Não espere a próxima chuva para agir. Reformamos seu telhado com agilidade, materiais de primeira e a garantia de quem entende de construção há mais de 10 anos.",
+      "image": "/images/services/reforma-de-telhado/hero.webp"
+    },
+    "overview": {
+      "kicker": "Telhado sem goteiras, com avaliação gratuita",
+      "title": "Reforma de telhado em Foz do Iguaçu",
+      "images": [
+        "/images/services/reforma-de-telhado/cover.jpeg"
+      ],
+      "imageAlt": "Reforma de telhado residencial pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz reforma de telhado em Foz do Iguaçu: reparo de vazamentos, troca de telhas e reforço estrutural, com materiais de primeira.",
+        "Começamos por uma avaliação gratuita e resolvemos o problema com agilidade, melhorando o conforto térmico e cumprindo os prazos combinados.",
+        "Você trata apenas com a SOS, do diagnóstico ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 5000
+        },
+        {
+          "label": "Residencial",
+          "slug": "residencial",
+          "count": 3200
+        },
+        {
+          "label": "Industrial/Galpões",
+          "slug": "industrial",
+          "count": 1200
+        },
+        {
+          "label": "Telhados Shingle/Elegance",
+          "slug": "premium",
+          "count": 600
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Inspeção Detalhada",
+          "description": "Subimos no telhado para identificar fissuras, telhas porosas e falhas em rufos ou calhas.",
+          "icon": "magnify-scan"
+        },
+        {
+          "step": 2,
+          "title": "Análise Estrutural",
+          "description": "Verificamos se o madeiramento ou estrutura metálica suporta o peso e se há sinais de cupim ou ferrugem.",
+          "icon": "format-paint"
+        },
+        {
+          "step": 3,
+          "title": "Execução Limpa",
+          "description": "Substituição e reparos realizados por equipe treinada em altura, com foco em segurança e vedação.",
+          "icon": "stairs-up"
+        },
+        {
+          "step": 4,
+          "title": "Teste de Estanqueidade",
+          "description": "Validamos a reforma para garantir que seu imóvel esteja 100% protegido contra qualquer tempestade.",
+          "icon": "water-check"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Telhadistas Especializados",
+      "description": "Nossa equipe não faz 'remendos'. Nossos profissionais são treinados para entender a dinâmica de escoamento de água, evitando que um conserto hoje vire um novo vazamento amanhã."
+    },
+    "whyChooseUs": {
+      "title": "Por que reformar com a SOS?",
+      "reasons": [
+        {
+          "title": "Avaliação Gratuita",
+          "description": "Diagnosticamos o problema real antes de você gastar um centavo.",
+          "icon": "clipboard-check-outline"
+        },
+        {
+          "title": "Conforto Térmico",
+          "description": "Aproveite a reforma para reduzir o calor interno em até 5°C com telhas e mantas térmicas.",
+          "icon": "thermometer-chevron-down"
+        },
+        {
+          "title": "Prazos Cumpridos",
+          "description": "Sabemos que sua casa não pode ficar descoberta. Rapidez máxima na execução.",
+          "icon": "calendar-check"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Reforma de Telhado",
+      "questions": [
+        {
+          "question": "É melhor consertar ou trocar todo o telhado?",
+          "answer": "Depende da porosidade das telhas e do estado da estrutura. Se mais de 30% do telhado estiver comprometido, a substituição costuma ser mais econômica a longo prazo."
+        },
+        {
+          "question": "Quanto tempo dura uma reforma comum?",
+          "answer": "Reparos pontuais podem levar 1 ou 2 dias. Reformas completas variam de 5 a 15 dias, dependendo da metragem e complexidade."
+        },
+        {
+          "question": "A SOS cuida também das calhas e rufos?",
+          "answer": "Sim! A reforma completa inclui a revisão de todo o sistema de escoamento, garantindo que a água saia do telhado sem causar infiltrações nas paredes."
+        },
+        {
+          "question": "Posso trocar meu telhado de cerâmica por aluzinco?",
+          "answer": "Sim. Analisamos a estrutura atual e fazemos as adaptações necessárias para que você tenha um telhado mais leve e extremamente durável."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Proteja seu patrimônio hoje mesmo",
+      "description": "Um pequeno vazamento pode destruir móveis, gesso e fiação elétrica. Agende sua inspeção gratuita com a SOS.",
+      "ctaText": "Agendar Avaliação de Telhado"
+    }
+  }
+}

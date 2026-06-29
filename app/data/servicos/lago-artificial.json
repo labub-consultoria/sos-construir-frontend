@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Lagos Artificiais e Ornamentais em Foz do Iguaçu",
+    "description": "Transforme seu jardim com um lago artificial em Foz do Iguaçu. Projetos personalizados com filtragem biológica, peixes ornamentais e rochas naturais. Peça seu orçamento.",
+    "keywords": "lago artificial foz do iguaçu, lago ornamental, carpas kói, cascata residencial, jardim com lago, geomembrana",
+    "ogImage": "/images/services/lago-artificial/hero.webp",
+    "breadcrumbLabel": "Lago Artificial"
+  },
+  "sections": {
+    "hero": {
+      "title": "Tenha um Refúgio Natural Particular no seu Quintal",
+      "description": "Lagos artificiais que unem beleza, tecnologia de filtragem biológica e harmonia. O som relaxante da água e a vida ornamental integrados ao seu paisagismo.",
+      "image": "/images/services/lago-artificial/hero.webp"
+    },
+    "overview": {
+      "kicker": "Um refúgio natural no seu quintal",
+      "title": "Lagos artificiais e ornamentais em Foz do Iguaçu",
+      "images": [
+        "/images/services/lago-artificial/cover.jpg"
+      ],
+      "imageAlt": "Lago artificial ornamental construído pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir constrói lagos artificiais e ornamentais em Foz do Iguaçu, com projetos personalizados, filtragem biológica e peixes ornamentais.",
+        "Unimos beleza e tecnologia para manter a água cristalina, reduzir a temperatura do ambiente e integrar o lago ao seu jardim.",
+        "Você trata apenas com a SOS, do projeto à manutenção. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 45
+        },
+        {
+          "label": "Lagos Ornamentais",
+          "slug": "ornamentais",
+          "count": 25
+        },
+        {
+          "label": "Espelhos d'Água",
+          "slug": "espelhos",
+          "count": 12
+        },
+        {
+          "label": "Cascatas e Pedras",
+          "slug": "cascatas",
+          "count": 8
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Design e Escavação",
+          "description": "Planejamento das profundidades e áreas de filtragem, seguido de escavação precisa conforme o layout.",
+          "icon": "water-outline"
+        },
+        {
+          "step": 2,
+          "title": "Impermeabilização",
+          "description": "Aplicação de manta geomembrana de alta resistência para garantir estanqueidade total e duradoura.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "step": 3,
+          "title": "Filtragem e Bombas",
+          "description": "Instalação de sistemas biológicos e UV para manter a água sempre cristalina e saudável para os peixes.",
+          "icon": "filter-variant"
+        },
+        {
+          "step": 4,
+          "title": "Acabamento e Paisagismo",
+          "description": "Composição com rochas naturais, plantas aquáticas e introdução dos peixes para dar vida ao lago.",
+          "icon": "fishbowl-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Especialistas em Ecossistemas Aquáticos",
+      "description": "Construir um lago é diferente de uma piscina. Nossa equipe entende de biologia e hidráulica, garantindo um sistema que se equilibra sozinho, sem gerar água verde ou odores desagradáveis."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial da SOS Construir",
+      "reasons": [
+        {
+          "title": "Água Cristalina",
+          "description": "Sistemas de filtragem avançados que garantem transparência total e baixa manutenção.",
+          "icon": "shimmer"
+        },
+        {
+          "title": "Redução de Temperatura",
+          "description": "Lagos ajudam a refrescar o microclima local, ideal para o calor de Foz do Iguaçu.",
+          "icon": "thermometer-minus"
+        },
+        {
+          "title": "Integração Total",
+          "description": "Harmonizamos o lago com seu jardim, criando uma transição perfeita entre o natural e o construído.",
+          "icon": "nature"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Lagos Artificiais",
+      "questions": [
+        {
+          "question": "O lago artificial gera muitos mosquitos?",
+          "answer": "Não. Como a água está em constante circulação e os peixes (como carpas) se alimentam de larvas, o lago impede a proliferação de insetos."
+        },
+        {
+          "question": "Dá muito trabalho manter um lago limpo?",
+          "answer": "Com nosso sistema de filtragem biológica e UV, a manutenção é simples: limpeza de filtros a cada 15 ou 30 dias e alimentação dos peixes."
+        },
+        {
+          "question": "Qual o tamanho mínimo para ter um lago com peixes?",
+          "answer": "Podemos criar mini lagos a partir de 2m², mas para carpas maiores, recomendamos profundidades de pelo menos 60cm a 1 metro."
+        },
+        {
+          "question": "O lago gasta muita energia elétrica?",
+          "answer": "Utilizamos bombas de alta eficiência e baixo consumo, projetadas para funcionar 24h por dia com impacto mínimo na sua fatura."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Transforme seu jardim em um oásis particular",
+      "description": "Valorize seu imóvel e ganhe um espaço de relaxamento único. Solicite um projeto personalizado hoje mesmo.",
+      "ctaText": "Solicitar Orçamento de Lago"
+    }
+  }
+}

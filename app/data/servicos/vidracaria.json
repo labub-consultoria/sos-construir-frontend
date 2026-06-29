@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Vidraçaria e Esquadrias em Foz do Iguaçu",
+    "description": "Serviços especializados de vidraçaria em Foz do Iguaçu. Box para banheiro, espelhos sob medida, fechamento de sacadas e esquadrias de alumínio com segurança e elegância.",
+    "keywords": "vidraçaria foz do iguaçu, box de vidro, espelhos sob medida, fechamento de sacada, vidro temperado foz",
+    "ogImage": "/images/services/vidracaria/hero.webp",
+    "breadcrumbLabel": "Vidraçaria"
+  },
+  "sections": {
+    "hero": {
+      "title": "Transparência, Elegância e Segurança para seu Espaço",
+      "description": "Do box do banheiro ao fechamento da sacada. Projetos personalizados em vidro temperado e esquadrias de alumínio que transformam a iluminação e o design do seu imóvel.",
+      "image": "/images/services/vidracaria/hero.webp"
+    },
+    "overview": {
+      "kicker": "Vidro temperado e esquadrias sob medida",
+      "title": "Vidraçaria e esquadrias em Foz do Iguaçu",
+      "images": [
+        "/images/services/vidracaria/cover.jpg"
+      ],
+      "imageAlt": "Serviço de vidraçaria e esquadrias de alumínio pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz vidraçaria e esquadrias em Foz do Iguaçu: box para banheiro, espelhos sob medida, fechamento de sacadas e estruturas em alumínio.",
+        "Os projetos são personalizados em vidro temperado e alumínio, unindo segurança, iluminação natural, durabilidade e estilo.",
+        "Você trata apenas com a SOS, da medição à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 320
+        },
+        {
+          "label": "Box e Banheiros",
+          "slug": "box",
+          "count": 140
+        },
+        {
+          "label": "Sacadas e Fachadas",
+          "slug": "fachadas",
+          "count": 85
+        },
+        {
+          "label": "Espelhos e Decoração",
+          "slug": "decoracao",
+          "count": 95
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Medição Técnica",
+          "description": "Realizamos a medição precisa no local para garantir que cada peça de vidro se encaixe com perfeição absoluta.",
+          "icon": "ruler-square-compass"
+        },
+        {
+          "step": 2,
+          "title": "Escolha do Vidro",
+          "description": "Orientamos sobre a melhor opção: temperado para resistência ou laminado para segurança máxima e acústica.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "step": 3,
+          "title": "Instalação Especializada",
+          "description": "Equipe treinada para manipulação e fixação segura, utilizando ferragens e vedações de alta qualidade.",
+          "icon": "tools"
+        },
+        {
+          "step": 4,
+          "title": "Acabamento e Brilho",
+          "description": "Limpeza final e revisão de todos os ajustes de portas e janelas para um funcionamento suave.",
+          "icon": "sparkles"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Vidraceiros com Foco em Segurança",
+      "description": "Trabalhar com vidro exige responsabilidade. Nossos profissionais seguem rigorosamente as normas técnicas (ABNT) de instalação, garantindo que seu box, espelho ou sacada ofereça beleza sem nenhum risco para sua família."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial da Vidraçaria SOS",
+      "reasons": [
+        {
+          "title": "Projetos Sob Medida",
+          "description": "Não trabalhamos com padrões limitados. Criamos soluções que se moldam exatamente ao seu design.",
+          "icon": "pencil-ruler"
+        },
+        {
+          "title": "Iluminação Natural",
+          "description": "Nossas soluções de vidro ampliam ambientes e aproveitam 100% da luz externa.",
+          "icon": "white-balance-sunny"
+        },
+        {
+          "title": "Durabilidade e Estilo",
+          "description": "Vidros que não mancham e esquadrias de alumínio que resistem ao tempo sem oxidar.",
+          "icon": "medal-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas Frequentes sobre Vidraçaria",
+      "questions": [
+        {
+          "question": "Qual a diferença entre vidro temperado e laminado?",
+          "answer": "O temperado é 5x mais resistente que o comum e se quebra em pequenos pedaços cegos. O laminado possui uma película interna que segura os estilhaços em caso de quebra, sendo ideal para coberturas e guarda-corpos."
+        },
+        {
+          "question": "Como escolher o box ideal para banheiro pequeno?",
+          "answer": "Para espaços reduzidos, recomendamos boxes de canto ou com portas de correr que otimizam a área de circulação, sempre em vidro temperado de 8mm."
+        },
+        {
+          "question": "Os espelhos da SOS mancham com o tempo?",
+          "answer": "Não. Utilizamos espelhos de primeira linha com fundo protetor contra umidade, ideais para banheiros e áreas com maresia ou vapor constante."
+        },
+        {
+          "question": "Vocês fazem fechamento de sacada (Sistema Reiki)?",
+          "answer": "Sim! Realizamos o fechamento completo de sacadas que permitem a abertura total dos vidros, proporcionando proteção contra chuva e vento sem perder a vista."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Transforme sua casa com transparência e estilo",
+      "description": "Seja para um espelho decorativo ou uma fachada completa em vidro. Peça seu orçamento personalizado hoje.",
+      "ctaText": "Solicitar Orçamento de Vidraçaria"
+    }
+  }
+}
