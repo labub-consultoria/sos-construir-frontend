@@ -6,7 +6,7 @@ const props = defineProps<{ canSubmit: boolean }>()
 const emit = defineEmits<{ edit: [step: number]; submitted: [] }>()
 
 const store = useProfessionalFormStore()
-const { submit, submitting, error } = useProfessionalSubmit()
+const { submit, submitting, error, cooldown, errorAction, blocked } = useProfessionalSubmit()
 
 const dp = store.dadosPessoais
 
@@ -19,9 +19,8 @@ const enderecoLinha = computed(() => {
   return `${e.rua}, ${numero}${complemento} — ${e.bairro}, ${e.cidade}/${e.estado} — CEP ${e.cep}`
 })
 
-const categoriasOrdenadas = computed(() =>
-  [...store.categorias].sort((a, b) => a.ordem_exibicao - b.ordem_exibicao)
-)
+// A ordem do array já reflete a exibição (a principal fica no topo — Step3).
+const categoriasOrdenadas = computed(() => store.categorias)
 
 const cursosPreenchidos = computed(() => store.cursos.filter((c) => c.nome.trim()))
 
@@ -35,7 +34,7 @@ function cursoPeriodo(curso: CursoForm): string {
 const acceptedTerms = ref(false)
 
 async function onSubmit() {
-  if (!acceptedTerms.value || !props.canSubmit || submitting.value) return
+  if (!acceptedTerms.value || !props.canSubmit || submitting.value || cooldown.value || blocked.value) return
   // Registra o aceite (LGPD): data/hora + versão dos termos vão no payload.
   const response = await submit({ aceite: true, data: new Date().toISOString(), versao: TERMS_VERSION })
   if (response) {
@@ -52,6 +51,18 @@ watch(error, (val) => {
     errorRef.value?.scrollIntoView({ behavior: 'smooth', block: 'center' })
     errorRef.value?.focus()
   })
+})
+
+// Ação do alerta conforme o tipo de erro: 'retry' oferece reenviar; 'fix-personal'
+// (CPF/e-mail duplicado) manda corrigir no passo 1; 'none' só mostra a mensagem.
+const errorActions = computed(() => {
+  if (errorAction.value === 'fix-personal') {
+    return [{ label: 'Revisar dados pessoais', color: 'error' as const, variant: 'outline' as const, onClick: () => emit('edit', 1) }]
+  }
+  if (errorAction.value === 'retry') {
+    return [{ label: 'Tentar de novo', color: 'error' as const, variant: 'outline' as const, loading: submitting.value, disabled: submitting.value || cooldown.value, onClick: onSubmit }]
+  }
+  return []
 })
 </script>
 
@@ -107,11 +118,11 @@ watch(error, (val) => {
             v-for="cat in categoriasOrdenadas"
             :key="categoriaKey(cat)"
             class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium"
-            :class="cat.destaque ? 'bg-orange-500 text-white' : 'bg-gray-100 text-slate-700'"
+            :class="cat.principal ? 'bg-orange-500 text-white' : 'bg-gray-100 text-slate-700'"
           >
             <Icon :name="cat.icone || 'mdi:hammer-wrench'" class="text-base" aria-hidden="true" />
             {{ cat.nome_profissao }}
-            <span v-if="cat.destaque" class="text-xs opacity-90">(principal)</span>
+            <span v-if="cat.principal" class="text-xs opacity-90">(principal)</span>
           </li>
         </ul>
       </div>
@@ -131,7 +142,7 @@ watch(error, (val) => {
 
       <dl>
         <dt class="text-slate-500 text-sm">Bio</dt>
-        <dd class="text-sm font-medium text-slate-900 whitespace-pre-line mb-4">{{ store.bio || '—' }}</dd>
+        <dd class="text-sm font-medium text-slate-900 whitespace-pre-line break-words mb-4">{{ store.bio || '—' }}</dd>
 
         <template v-if="store.portfolioPreviews.length">
           <dt class="text-slate-500 text-sm mb-2">Fotos do trabalho</dt>
@@ -152,7 +163,7 @@ watch(error, (val) => {
           <dt class="text-slate-500 text-sm mb-2">Cursos e certificações</dt>
           <dd>
             <ul class="flex flex-col gap-1.5">
-              <li v-for="(curso, index) in cursosPreenchidos" :key="index" class="text-sm text-slate-900">
+              <li v-for="(curso, index) in cursosPreenchidos" :key="index" class="text-sm text-slate-900 break-words">
                 <span class="font-medium">{{ curso.nome }}</span>
                 <span v-if="curso.instituicao" class="text-slate-500"> · {{ curso.instituicao }}</span>
                 <span v-if="cursoPeriodo(curso)" class="text-slate-400"> · {{ cursoPeriodo(curso) }}</span>
@@ -169,7 +180,7 @@ watch(error, (val) => {
         variant="soft"
         icon="mdi:alert-circle-outline"
         :title="error"
-        :actions="[{ label: 'Tentar de novo', color: 'error', variant: 'outline', loading: submitting, disabled: submitting, onClick: onSubmit }]"
+        :actions="errorActions"
       />
     </div>
 
@@ -198,7 +209,7 @@ watch(error, (val) => {
         size="xl"
         icon="mdi:check-circle-outline"
         :loading="submitting"
-        :disabled="submitting || !acceptedTerms || !canSubmit"
+        :disabled="submitting || cooldown || blocked || !acceptedTerms || !canSubmit"
         class="font-semibold rounded-lg px-8"
         @click="onSubmit"
       >

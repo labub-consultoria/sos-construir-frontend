@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useProfessionalFormStore, categoriaKey, type SelectedCategoria } from '~/stores/professionalForm'
 import { useProfessionalSchemas } from '~/composables/useProfessionalSchemas'
+import { scrollToFirstInvalid } from '~/utils/scrollToError'
 import type { Profissao } from '~~/shared/types/prestador'
 
 const emit = defineEmits<{ next: []; prev: [] }>()
@@ -9,6 +10,7 @@ const store = useProfessionalFormStore()
 const { profileCategoriesSchema } = useProfessionalSchemas()
 
 const MAX_FOTO_BYTES = 5 * 1024 * 1024
+const TIPOS_IMAGEM = ['image/jpeg', 'image/png']
 const MAX_CATEGORIAS = 5
 const fotoError = ref<string | null>(null)
 const categoriaError = ref<string | null>(null)
@@ -16,14 +18,16 @@ const categoriaError = ref<string | null>(null)
 // `lazy` mantém o componente síncrono (sem Suspense): evita que a troca de passo
 // desmonte o passo anterior — com seu USelect teleportado — durante a suspensão,
 // o que quebrava o patch do DOM (reka-ui Popper).
-const { data: profissoes } = useFetch<Profissao[]>('/api/profissoes', {
+const { public: { apiBase } } = useRuntimeConfig()
+
+const { data: profissoes } = useFetch<Profissao[]>(`${apiBase}/profissoes`, {
   default: () => [],
   lazy: true
 })
 
 const profissaoItems = computed(() =>
   (profissoes.value ?? []).map((p) => ({
-    label: p.nome_profissao,
+    label: p.nome,
     value: p.id_profissao,
     slug: p.slug,
     icon: p.icone_nome
@@ -44,18 +48,17 @@ const availableItems = computed(() =>
 // Remonta o input após cada adição (limpa texto digitado e seleção).
 const adderKey = ref(0)
 
-function pushCategoria(cat: Omit<SelectedCategoria, 'ordem_exibicao'>) {
+function pushCategoria(cat: SelectedCategoria) {
   if (store.categorias.length >= MAX_CATEGORIAS) return
-  store.categorias.push({ ...cat, ordem_exibicao: store.categorias.length + 1 })
-  ensureSingleDestaque()
-  reindex()
+  store.categorias.push(cat)
+  ensureSinglePrincipal()
   adderKey.value++
 }
 
 // Item escolhido da lista → vira categoria com `id_profissao`.
 function onPickItem(item: ProfissaoItem | undefined) {
   if (!item) return
-  pushCategoria({ id_profissao: item.value, nome_profissao: item.label, slug: item.slug, icone: item.icon, destaque: false })
+  pushCategoria({ id_profissao: item.value, nome_profissao: item.label, slug: item.slug, icone: item.icon, principal: false })
 }
 
 // Texto livre (não casou com a lista) → categoria com `texto`; o admin classifica
@@ -69,37 +72,29 @@ function onCreateFreeText(texto: string) {
     adderKey.value++
     return
   }
-  pushCategoria({ texto: t, nome_profissao: t, destaque: false })
+  pushCategoria({ texto: t, nome_profissao: t, principal: false })
 }
 
-function ensureSingleDestaque() {
-  const destaques = store.categorias.filter((c) => c.destaque)
-  if (store.categorias.length > 0 && destaques.length === 0) {
-    store.categorias[0]!.destaque = true
+function ensureSinglePrincipal() {
+  const principais = store.categorias.filter((c) => c.principal)
+  if (store.categorias.length > 0 && principais.length === 0) {
+    store.categorias[0]!.principal = true
   }
-}
-
-function reindex() {
-  store.categorias.forEach((c, i) => {
-    c.ordem_exibicao = i + 1
-  })
 }
 
 function setPrincipal(cat: SelectedCategoria) {
   const key = categoriaKey(cat)
-  // A principal sobe para o topo (ordem_exibicao = 1).
+  // A principal sobe para o topo (a ordem do array é a enviada ao backend).
   const i = store.categorias.findIndex((c) => categoriaKey(c) === key)
   if (i > 0) store.categorias.unshift(store.categorias.splice(i, 1)[0]!)
   store.categorias.forEach((c) => {
-    c.destaque = categoriaKey(c) === key
+    c.principal = categoriaKey(c) === key
   })
-  reindex()
 }
 
 function removeCategoria(index: number) {
   store.categorias.splice(index, 1)
-  ensureSingleDestaque()
-  reindex()
+  ensureSinglePrincipal()
 }
 
 // ── Foto ──────────────────────────────────────────────────────────────────────
@@ -110,8 +105,8 @@ function onFotoChange(value: File | File[] | null | undefined) {
     store.setFoto(null)
     return
   }
-  if (!file.type.startsWith('image/')) {
-    fotoError.value = 'O arquivo precisa ser uma imagem.'
+  if (!TIPOS_IMAGEM.includes(file.type)) {
+    fotoError.value = 'Envie uma imagem JPG ou PNG.'
     return
   }
   if (file.size > MAX_FOTO_BYTES) {
@@ -162,6 +157,7 @@ function onSubmit() {
   if (!result.success) {
     categoriaError.value =
       result.error.issues[0]?.message ?? 'Revise as categorias selecionadas.'
+    scrollToFirstInvalid()
     return
   }
   emit('next')
@@ -235,7 +231,7 @@ function onSubmit() {
       <input
         ref="fileInput"
         type="file"
-        accept="image/*"
+        accept="image/jpeg,image/png"
         class="sr-only"
         aria-hidden="true"
         tabindex="-1"
@@ -244,7 +240,7 @@ function onSubmit() {
       <input
         ref="cameraInput"
         type="file"
-        accept="image/*"
+        accept="image/jpeg,image/png"
         capture="user"
         class="sr-only"
         aria-hidden="true"
@@ -316,17 +312,17 @@ function onSubmit() {
 
           <button
             type="button"
-            :aria-pressed="cat.destaque"
+            :aria-pressed="cat.principal"
             :aria-label="`Definir ${cat.nome_profissao} como categoria principal`"
             class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-semibold cursor-pointer transition-colors"
             :class="
-              cat.destaque
+              cat.principal
                 ? 'bg-orange-500 text-white'
                 : 'bg-orange-50 text-orange-600 hover:bg-orange-100'
             "
             @click="setPrincipal(cat)"
           >
-            <Icon :name="cat.destaque ? 'mdi:star' : 'mdi:star-outline'" class="text-base" />
+            <Icon :name="cat.principal ? 'mdi:star' : 'mdi:star-outline'" class="text-base" />
             Principal
           </button>
 

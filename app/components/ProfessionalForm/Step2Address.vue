@@ -3,6 +3,7 @@ import { useProfessionalFormStore } from '~/stores/professionalForm'
 import { useProfessionalSchemas, UF_OPTIONS } from '~/composables/useProfessionalSchemas'
 import { useCep } from '~/composables/useCep'
 import { maskCep, onlyDigits } from '~/utils/masks'
+import { scrollToFirstInvalid } from '~/utils/scrollToError'
 
 const emit = defineEmits<{ next: []; prev: [] }>()
 
@@ -32,7 +33,7 @@ async function fillFromCep() {
 </script>
 
 <template>
-  <UForm :schema="addressSchema" :state="state" class="flex flex-col gap-5" @submit="emit('next')">
+  <UForm :schema="addressSchema" :state="state" class="flex flex-col gap-5" @submit="emit('next')" @error="scrollToFirstInvalid">
     <UFormField label="CEP" name="cep" required>
       <div class="flex items-center gap-3">
         <UInput

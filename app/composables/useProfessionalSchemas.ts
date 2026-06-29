@@ -90,8 +90,7 @@ export function useProfessionalSchemas() {
     .object({
       id_profissao: z.number().optional(),
       texto: z.string().trim().min(1).optional(),
-      destaque: z.boolean(),
-      ordem_exibicao: z.number()
+      principal: z.boolean()
     })
     .refine((c) => c.id_profissao != null || (c.texto?.length ?? 0) > 0, {
       message: 'Categoria inválida'
@@ -103,18 +102,25 @@ export function useProfessionalSchemas() {
       .min(1, 'Selecione pelo menos uma categoria')
       .max(5, 'Você pode escolher no máximo 5 profissões')
       .refine(
-        (cats) => cats.filter((c) => c.destaque).length === 1,
+        (cats) => cats.filter((c) => c.principal).length === 1,
         'Escolha exatamente uma categoria principal'
       )
   })
 
   // Etapa "Sobre o trabalho": bio obrigatória; cursos opcionais (cada linha com
   // `nome`). O portfólio (File[]) é validado na UI (tipo/tamanho/quantidade).
+  // Ano opcional: vazio é aceito; se preenchido, precisa ser 4 dígitos (sem letras).
+  const anoCurso = z
+    .string()
+    .trim()
+    .regex(/^\d{4}$/, 'Use um ano com 4 dígitos (ex.: 2020)')
+    .or(z.literal(''))
+
   const cursoSchema = z.object({
     nome: z.string().trim().min(1, 'Informe o nome do curso'),
     instituicao: z.string().trim().optional().or(z.literal('')),
-    inicio: z.string().trim().optional().or(z.literal('')),
-    conclusao: z.string().trim().optional().or(z.literal(''))
+    inicio: anoCurso,
+    conclusao: anoCurso
   })
 
   const workProfileSchema = z.object({
@@ -122,7 +128,7 @@ export function useProfessionalSchemas() {
       .string()
       .trim()
       .min(20, 'Conte um pouco sobre seu trabalho (mín. 20 caracteres)')
-      .max(600, 'Máximo de 600 caracteres'),
+      .max(400, 'Máximo de 400 caracteres'),
     cursos: z.array(cursoSchema).max(10, 'Você pode adicionar no máximo 10 cursos')
   })
 

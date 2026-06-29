@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useProfessionalFormStore, emptyCurso } from '~/stores/professionalForm'
 import { useProfessionalSchemas } from '~/composables/useProfessionalSchemas'
+import { scrollToFirstInvalid } from '~/utils/scrollToError'
 
 const emit = defineEmits<{ next: []; prev: [] }>()
 
@@ -9,9 +10,11 @@ const { workProfileSchema } = useProfessionalSchemas()
 
 const MAX_PORTFOLIO = 6
 const MAX_FOTO_BYTES = 5 * 1024 * 1024
-const BIO_MAX = 600
+const BIO_MAX = 400
 const portfolioError = ref<string | null>(null)
 const bioError = ref<string | null>(null)
+// Erros de curso por campo, chaveados por `${index}.${campo}` (ex.: `0.inicio`).
+const cursoErrors = ref<Record<string, string>>({})
 
 const bioCount = computed(() => store.bio.trim().length)
 
@@ -38,8 +41,8 @@ function onFilesPicked(event: Event) {
   }
 
   const valid = picked.slice(0, Math.max(room, 0)).filter((file) => {
-    if (!file.type.startsWith('image/')) {
-      portfolioError.value = 'Os arquivos precisam ser imagens.'
+    if (!['image/jpeg', 'image/png'].includes(file.type)) {
+      portfolioError.value = 'Os arquivos precisam ser imagens JPG ou PNG.'
       return false
     }
     if (file.size > MAX_FOTO_BYTES) {
@@ -65,15 +68,24 @@ function removeCurso(index: number) {
 // ── Submit do passo ───────────────────────────────────────────────────────────
 function onSubmit() {
   bioError.value = null
+  cursoErrors.value = {}
   store.bio = store.bio.trim()
-  // Descarta linhas de curso sem nome antes de validar/avançar.
-  store.cursos = store.cursos.filter((c) => c.nome.trim())
+  // Descarta só as linhas de curso totalmente vazias. Uma linha com qualquer
+  // campo preenchido (ex.: só o ano) é mantida e validada — assim ano inválido
+  // ou nome faltando viram erro em vez de a linha sumir silenciosamente.
+  store.cursos = store.cursos.filter(
+    (c) => c.nome.trim() || c.instituicao.trim() || c.inicio.trim() || c.conclusao.trim()
+  )
   const result = workProfileSchema.safeParse({ bio: store.bio, cursos: store.cursos })
   if (!result.success) {
-    bioError.value =
-      result.error.issues.find((i) => i.path[0] === 'bio')?.message
-      ?? result.error.issues[0]?.message
-      ?? 'Revise os campos.'
+    for (const issue of result.error.issues) {
+      if (issue.path[0] === 'bio') {
+        bioError.value = issue.message
+      } else if (issue.path[0] === 'cursos' && typeof issue.path[1] === 'number') {
+        cursoErrors.value[`${issue.path[1]}.${String(issue.path[2])}`] = issue.message
+      }
+    }
+    scrollToFirstInvalid()
     return
   }
   emit('next')
@@ -97,6 +109,7 @@ function onSubmit() {
           placeholder="Ex.: Eletricista com 12 anos de experiência em instalações residenciais e comerciais. Trabalho dentro das normas, com laudo técnico e total segurança."
           size="lg"
           class="w-full"
+          :ui="{ base: 'resize-y min-h-28 max-h-80' }"
         />
       </UFormField>
       <p class="text-xs text-slate-400 mt-1.5 text-right">{{ bioCount }}/{{ BIO_MAX }}</p>
@@ -149,7 +162,7 @@ function onSubmit() {
       <input
         ref="fileInput"
         type="file"
-        accept="image/*"
+        accept="image/jpeg,image/png"
         multiple
         class="sr-only"
         aria-hidden="true"
@@ -175,18 +188,18 @@ function onSubmit() {
         >
           <div class="flex items-start gap-3">
             <div class="flex-1 flex flex-col gap-3">
-              <UFormField :name="`cursos.${index}.nome`" label="Nome do curso" :ui="{ label: 'text-xs' }">
+              <UFormField :name="`cursos.${index}.nome`" label="Nome do curso" :ui="{ label: 'text-xs' }" :error="cursoErrors[`${index}.nome`]">
                 <UInput v-model="curso.nome" placeholder="Ex.: NR-10 — Segurança em Instalações Elétricas" size="md" class="w-full" />
               </UFormField>
               <UFormField label="Instituição" :ui="{ label: 'text-xs' }">
                 <UInput v-model="curso.instituicao" placeholder="Ex.: SENAI Paraná" size="md" class="w-full" />
               </UFormField>
               <div class="grid grid-cols-2 gap-3">
-                <UFormField label="Início" :ui="{ label: 'text-xs' }">
-                  <UInput v-model="curso.inicio" placeholder="Ano (ex.: 2020)" inputmode="numeric" size="md" class="w-full" />
+                <UFormField label="Ano de início" :ui="{ label: 'text-xs' }" :error="cursoErrors[`${index}.inicio`]">
+                  <UInput v-model="curso.inicio" placeholder="Ex.: 2020" inputmode="numeric" size="md" class="w-full" />
                 </UFormField>
-                <UFormField label="Conclusão" :ui="{ label: 'text-xs' }">
-                  <UInput v-model="curso.conclusao" placeholder="Ano ou em branco" inputmode="numeric" size="md" class="w-full" />
+                <UFormField label="Ano de conclusão" :ui="{ label: 'text-xs' }" :error="cursoErrors[`${index}.conclusao`]">
+                  <UInput v-model="curso.conclusao" placeholder="Ex.: 2022 (ou em branco)" inputmode="numeric" size="md" class="w-full" />
                 </UFormField>
               </div>
             </div>

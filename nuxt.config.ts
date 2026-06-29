@@ -10,6 +10,13 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
   },
+  // Base URL do backend Spring (Cadastro de Profissional). Override por ambiente
+  // via NUXT_PUBLIC_API_BASE (ver .env.example). `public` → exposto no client.
+  runtimeConfig: {
+    public: {
+      apiBase: 'http://localhost:8080'
+    }
+  },
   routeRules: {
     '/': { prerender: true },
     // Remove logos/fachadas de parceiros do Google Imagens. Cobre toda a pasta

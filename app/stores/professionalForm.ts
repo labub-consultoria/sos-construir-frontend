@@ -4,15 +4,16 @@ import { defineStore } from 'pinia'
 // - Item da lista: tem `id_profissao` (+ `slug` p/ read → página de serviço).
 // - Texto livre: tem `texto` (sem id; o admin classifica na análise).
 // `nome_profissao` é o rótulo exibido nos chips/revisão (nome da lista ou o texto).
-// O payload (useProfessionalSubmit) envia `id_profissao` OU `texto`, nunca os dois.
+// `principal` marca a categoria de destaque (exatamente uma). A ordem é a do
+// array — a principal fica no topo. O payload (useProfessionalSubmit) envia
+// `id_profissao` OU `texto`, nunca os dois.
 export interface SelectedCategoria {
   id_profissao?: number
   texto?: string
   nome_profissao: string
   slug?: string
   icone?: string
-  destaque: boolean
-  ordem_exibicao: number
+  principal: boolean
 }
 
 // Chave estável p/ `:key` e dedupe (itens livres não têm id).
@@ -96,6 +97,10 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
   const foto = ref<File | null>(null)
   const fotoPreviewUrl = ref<string | null>(null)
 
+  // Honeypot anti-bot: um campo escondido que humanos nunca preenchem. Vai no
+  // payload; se vier preenchido, o backend recusa (422). Não é persistido.
+  const site = ref('')
+
   const currentStep = ref(1)
   const completedSteps = ref<number[]>([])
 
@@ -155,6 +160,7 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
     categorias.value = []
     bio.value = ''
     cursos.value = []
+    site.value = ''
     setFoto(null)
     clearPortfolio()
     currentStep.value = 1
@@ -274,6 +280,7 @@ export const useProfessionalFormStore = defineStore('ProfessionalForm', () => {
     portfolioPreviews,
     foto,
     fotoPreviewUrl,
+    site,
     currentStep,
     completedSteps,
     setStep,
