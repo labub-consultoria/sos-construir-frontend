@@ -7,6 +7,7 @@ const fuse = new Fuse(services, {
   keys: [
     { name: 'name', weight: 0.5 },
     { name: 'keywords', weight: 0.3 },
+    { name: 'aliases', weight: 0.3 },
     { name: 'description', weight: 0.2 },
   ],
   threshold: 0.3,
@@ -26,6 +27,7 @@ export default defineEventHandler((event) => {
   const sortBy = sortableFields.includes(requestedSort) ? requestedSort : 'popularity'
 
   const order = query.order === 'asc' ? 'asc' : 'desc'
+  const type = query.type as string | undefined
   const category = query.category as string | undefined
   const search = query.search as string | undefined
 
@@ -35,6 +37,11 @@ export default defineEventHandler((event) => {
     filtered = fuse.search(search).map((r) => r.item)
   } else {
     filtered = services
+  }
+
+  // type (trilho) e category (grupo) aplicam em conjunto; ambos opcionais
+  if (type) {
+    filtered = filtered.filter((s) => s.type === type)
   }
 
   if (category) {
