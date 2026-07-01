@@ -28,3 +28,6 @@ logs
 
 # Documentação interna (não versionada)
 .docs/
+
+# Imagens geradas por IA (revisão local — fonte de verdade é o bucket)
+scripts/generated/
