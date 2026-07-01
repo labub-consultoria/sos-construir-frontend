@@ -3,21 +3,16 @@
     "title": "Energia Solar em Foz do Iguaçu | Economize até 90%",
     "description": "Instalação de energia solar em Foz do Iguaçu. Reduza sua conta de luz em até 90%. Projetos completos, homologação na Copel e financiamento facilitado.",
     "keywords": "energia solar foz do iguaçu, painel solar, energia fotovoltaica, kit energia solar, instalador energia solar",
-    "ogImage": "/images/services/energia-solar/hero.webp",
     "breadcrumbLabel": "Energia Solar"
   },
   "sections": {
     "hero": {
       "title": "Transforme o Sol de Foz em Economia no seu Bolso",
-      "description": "Reduza sua conta de energia em até 90% com um sistema solar de alta performance. Pagamento facilitado onde a parcela cabe na sua economia.",
-      "image": "/images/services/energia-solar/hero.webp"
+      "description": "Reduza sua conta de energia em até 90% com um sistema solar de alta performance. Pagamento facilitado onde a parcela cabe na sua economia."
     },
     "overview": {
       "kicker": "Energia solar que reduz sua conta de luz",
       "title": "Energia solar em Foz do Iguaçu",
-      "images": [
-        "/images/services/energia-solar/cover.jpg"
-      ],
       "imageAlt": "Instalação de energia solar fotovoltaica pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

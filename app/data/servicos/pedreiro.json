@@ -3,21 +3,16 @@
     "title": "Pedreiro Profissional em Foz do Iguaçu",
     "description": "Encontre pedreiros experientes e confiáveis em Foz do Iguaçu. Construção, reforma, reboco e estruturas com garantia de qualidade e zero dor de cabeça.",
     "keywords": "pedreiro foz do iguaçu, mestre de obras, pedreiro para reforma, construção civil foz, reboco e alvenaria",
-    "ogImage": "/images/services/pedreiro/hero.webp",
     "breadcrumbLabel": "Pedreiro"
   },
   "sections": {
     "hero": {
       "title": "Mão de Obra de Elite para Construir Seus Sonhos",
-      "description": "Chega de atrasos e serviços mal executados. Conte com pedreiros verificados pela SOS Construir para uma obra limpa, rápida e com acabamento de alto padrão.",
-      "image": "/images/services/pedreiro/hero.webp"
+      "description": "Chega de atrasos e serviços mal executados. Conte com pedreiros verificados pela SOS Construir para uma obra limpa, rápida e com acabamento de alto padrão."
     },
     "overview": {
       "kicker": "Mão de obra de elite para a sua obra",
       "title": "Pedreiro profissional em Foz do Iguaçu",
-      "images": [
-        "/images/services/pedreiro/cover.jpg"
-      ],
       "imageAlt": "Serviço de pedreiro e alvenaria pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

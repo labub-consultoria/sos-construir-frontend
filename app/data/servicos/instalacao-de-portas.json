@@ -3,21 +3,16 @@
     "title": "Instalação de Portas em Foz do Iguaçu",
     "description": "Instalação profissional de portas em Foz do Iguaçu. Especialistas em Kit Porta Pronta Rohden. Acabamento premium, isolamento acústico e agilidade na obra.",
     "keywords": "instalação de portas foz do iguaçu, portas rohden, kit porta pronta, instalador de portas, portas de madeira",
-    "ogImage": "/images/services/instalacao-de-portas/hero.webp",
     "breadcrumbLabel": "Instalação de Portas"
   },
   "sections": {
     "hero": {
       "title": "Instalação de Portas Sem Dor de Cabeça",
-      "description": "Transforme seus ambientes com a sofisticação das portas Rohden e a instalação impecável da SOS Construir. Rapidez, limpeza e precisão técnica.",
-      "image": "/images/services/instalacao-de-portas/hero.webp"
+      "description": "Transforme seus ambientes com a sofisticação das portas Rohden e a instalação impecável da SOS Construir. Rapidez, limpeza e precisão técnica."
     },
     "overview": {
       "kicker": "Portas instaladas com acabamento impecável",
       "title": "Instalação de portas em Foz do Iguaçu",
-      "images": [
-        "/images/services/instalacao-de-portas/cover.jpg"
-      ],
       "imageAlt": "Instalação de portas residenciais pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

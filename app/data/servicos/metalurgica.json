@@ -3,21 +3,16 @@
     "title": "Metalúrgica e Serralheria em Foz do Iguaçu",
     "description": "Projetos em aço e ferro sob medida em Foz do Iguaçu. Portões, grades, estruturas metálicas e coberturas com solda profissional e alta durabilidade.",
     "keywords": "metalúrgica foz do iguaçu, serralheria foz, portões de ferro, estruturas metálicas pr, grades e coberturas",
-    "ogImage": "/images/services/metalurgica/hero.webp",
     "breadcrumbLabel": "Metalúrgica"
   },
   "sections": {
     "hero": {
       "title": "Metalúrgica Profissional Sem Dor de Cabeça",
-      "description": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
-      "image": "/images/services/metalurgico/hero.webp"
+      "description": "Escolha um metalúrgico entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo."
     },
     "overview": {
       "kicker": "Aço e ferro sob medida, sem dor de cabeça",
       "title": "Metalúrgica e serralheria em Foz do Iguaçu",
-      "images": [
-        "/images/services/metalurgico/cover.jpg"
-      ],
       "imageAlt": "Trabalho de serralheria em aço executado pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

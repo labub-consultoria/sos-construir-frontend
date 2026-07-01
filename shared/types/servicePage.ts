@@ -19,7 +19,7 @@ interface Feature {
   icon: string
 }
 export interface ServiceHeroSection extends BaseSection {
-  image: string
+  image?: string // explícito (ex.: /sobre); nas páginas de serviço é derivado do slug
   primaryCta?: Cta
   secondaryCta?: Cta
   features?: Feature[]
@@ -32,7 +32,6 @@ export interface OverviewStat {
 }
 
 export interface OverviewSection extends BaseSection {
-  images?: string[]
   imageAlt?: string
   paragraphs: string[]
   stats?: OverviewStat[]

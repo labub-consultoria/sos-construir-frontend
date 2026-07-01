@@ -14,7 +14,12 @@ export default defineNuxtConfig({
   // via NUXT_PUBLIC_API_BASE (ver .env.example). `public` → exposto no client.
   runtimeConfig: {
     public: {
-      apiBase: 'http://localhost:8080'
+      apiBase: 'http://localhost:8080',
+      // Supabase Storage das imagens de serviço (mesma convenção do backend: URL + BUCKET).
+      // Override via NUXT_PUBLIC_SUPABASE_URL / NUXT_PUBLIC_SUPABASE_BUCKET.
+      // Vazio = usa /images local (transição). A URL pública é derivada em serviceImageUrl().
+      supabaseUrl: '',
+      supabaseBucket: ''
     }
   },
   routeRules: {

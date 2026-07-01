@@ -16,7 +16,6 @@ export interface Service {
   category: string
   size?: 'medium' | 'large' | string
   icon: string
-  image: string
   description: string
   keywords: string[]
   aliases?: string[] // sinônimos canônicos p/ a busca (ex.: "bombeiro hidráulico")

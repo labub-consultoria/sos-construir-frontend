@@ -2,9 +2,14 @@
 import { Icon } from '#components'
 import type { ServiceCard } from '~~/shared/types/sections'
 
-defineProps<{
+const props = defineProps<{
   card: ServiceCard
 }>()
+
+// Cover resolvido por convenção do slug (Supabase). Sem imagem → fundo branco.
+const cfg = useRuntimeConfig().public
+const coverFailed = ref(false)
+const cover = computed(() => serviceImageUrl(cfg.supabaseUrl, cfg.supabaseBucket, props.card.slug, 'cover'))
 </script>
 
 <template>
@@ -14,6 +19,7 @@ defineProps<{
       card.type === 'image'
         ? 'h-[280px] md:h-[240px]'
         : 'h-full md:min-h-[240px] bg-white border border-gray-100 shadow-sm hover:shadow-md',
+      coverFailed && 'ring-1 ring-gray-300',
     ]">
 
     <template v-if="card.type === 'standard'">
@@ -42,21 +48,25 @@ defineProps<{
     </template>
     <template v-else>
       <UCard class="flex flex-col justify-between h-full">
-        <NuxtImg :src="card.image" :alt="card.name" loading="lazy"
+        <div v-if="coverFailed" class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-orange-50/60">
+          <Icon :name="card.icon" class="absolute -right-6 -bottom-6 text-[9rem] text-blue-500/[0.06]" />
+        </div>
+        <NuxtImg v-else :src="cover" :alt="card.name" loading="lazy" @error="coverFailed = true"
           class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-95" />
-        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent z-10" />
+        <div v-if="!coverFailed" class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent z-10" />
         <template #header>
           <div
-            class="absolute z-20 w-12 h-12 rounded-xl flex items-center justify-center mb-6 transition-colors bg-black/30 backdrop-blur-md">
+            class="absolute z-20 w-12 h-12 rounded-xl flex items-center justify-center mb-6 transition-colors"
+            :class="coverFailed ? 'bg-orange-50' : 'bg-black/30 backdrop-blur-md'">
             <Icon :name="card.icon" class="text-orange-500 text-2xl" />
           </div>
         </template>
         <template #footer>
           <div class="absolute bottom-10 z-20 p-2 md:p-0 flex flex-col">
-            <h3 class="text-lg md:text-xl lg:text-2xl font-bold text-white mb-3">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-bold mb-3" :class="coverFailed ? 'text-blue-500' : 'text-white'">
               {{ card.name }}
             </h3>
-            <p class="text-section-subname text-sm text-white/80 leading-relaxed">
+            <p class="text-section-subname text-sm leading-relaxed" :class="coverFailed ? 'text-blue-500/60' : 'text-white/80'">
               {{ card.description }}
             </p>
             <span class="text-orange-500 flex items-center pt-2">

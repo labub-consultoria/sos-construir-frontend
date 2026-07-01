@@ -3,21 +3,16 @@
     "title": "Piso de Concreto Polido em Foz do Iguaçu",
     "description": "Especialistas em concreto polido em Foz do Iguaçu. Pisos brilhantes, resistentes e de baixa manutenção para indústrias, comércios e residências modernas.",
     "keywords": "concreto polido foz do iguaçu, piso industrial, cimento queimado polido, polimento de concreto, piso para galpão",
-    "ogImage": "/images/services/concreto-polido/hero.webp",
     "breadcrumbLabel": "Concreto Polido"
   },
   "sections": {
     "hero": {
       "title": "A Força do Concreto com o Brilho do Alto Padrão",
-      "description": "Transforme pisos comuns em superfícies espelhadas, densas e altamente resistentes. A solução definitiva para quem busca durabilidade extrema sem abrir mão da elegância.",
-      "image": "/images/services/concreto-polido/hero.webp"
+      "description": "Transforme pisos comuns em superfícies espelhadas, densas e altamente resistentes. A solução definitiva para quem busca durabilidade extrema sem abrir mão da elegância."
     },
     "overview": {
       "kicker": "Pisos resistentes e de baixa manutenção",
       "title": "Piso de concreto polido em Foz do Iguaçu",
-      "images": [
-        "/images/services/concreto-polido/cover.jpg"
-      ],
       "imageAlt": "Execução de piso de concreto polido pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

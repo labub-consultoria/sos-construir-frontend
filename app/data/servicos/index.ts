@@ -22,6 +22,7 @@ import p_construcao_de_piscinas from './construcao-de-piscinas.json'
 import p_sofa_sob_medida from './sofa-sob-medida.json'
 import p_reforma_e_construcao from './reforma-e-construcao.json'
 import p_playground from './playground.json'
+import p_ar_condicionado from './ar-condicionado.json'
 
 // Mapa slug -> conteúdo da página. Um arquivo por serviço (autoria isolada);
 // adicionar serviço = criar o .json e incluí-lo aqui.
@@ -49,4 +50,5 @@ export const servicePages: Record<string, ServicePage> = {
   'sofa-sob-medida': p_sofa_sob_medida,
   'reforma-e-construcao': p_reforma_e_construcao,
   'playground': p_playground,
+  'ar-condicionado': p_ar_condicionado,
 }

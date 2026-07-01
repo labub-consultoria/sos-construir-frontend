@@ -3,21 +3,16 @@
     "title": "Instalação de Paver em Foz do Iguaçu",
     "description": "Especialistas em pavimentação com paver em Foz do Iguaçu. Calçadas, pátios e áreas externas com drenagem eficiente e alta durabilidade. +4.000 projetos.",
     "keywords": "paver foz do iguaçu, piso intertravado, calçada de paver, pavimentação sustentável, colocação de paver",
-    "ogImage": "/images/services/paver/hero.webp",
     "breadcrumbLabel": "Paver"
   },
   "sections": {
     "hero": {
       "title": "Pavimentação Inteligente Sem Dor de Cabeça",
-      "description": "Transforme sua área externa com a beleza e resistência do paver. Instalação rápida, drenagem eficiente e zero manutenção complicada.",
-      "image": "/images/services/paver/hero.webp"
+      "description": "Transforme sua área externa com a beleza e resistência do paver. Instalação rápida, drenagem eficiente e zero manutenção complicada."
     },
     "overview": {
       "kicker": "Pavimentação resistente e com boa drenagem",
       "title": "Instalação de paver em Foz do Iguaçu",
-      "images": [
-        "/images/services/paver/cover.jpg"
-      ],
       "imageAlt": "Pavimentação com paver executada pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

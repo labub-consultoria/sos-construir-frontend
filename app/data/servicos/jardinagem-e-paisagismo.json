@@ -3,21 +3,16 @@
     "title": "Jardinagem e Paisagismo em Foz do Iguaçu",
     "description": "Serviços profissionais de jardinagem e paisagismo em Foz do Iguaçu. Plantio de grama, jardins verticais, podas especializadas e manutenção completa de áreas verdes.",
     "keywords": "jardinagem foz do iguaçu, paisagismo residencial, plantio de grama, jardim vertical, manutenção de jardim, poda de árvores",
-    "ogImage": "/images/services/jardinagem-e-paisagismo/hero.webp",
     "breadcrumbLabel": "Jardinagem e Paisagismo"
   },
   "sections": {
     "hero": {
       "title": "A Natureza Planejada para o seu Bem-Estar",
-      "description": "Transforme sua área externa em um cenário de cinema. Do plantio da grama perfeita ao design de jardins verticais, cuidamos de cada detalhe para seu jardim florescer o ano todo.",
-      "image": "/images/services/jardinagem-e-paisagismo/hero.webp"
+      "description": "Transforme sua área externa em um cenário de cinema. Do plantio da grama perfeita ao design de jardins verticais, cuidamos de cada detalhe para seu jardim florescer o ano todo."
     },
     "overview": {
       "kicker": "Áreas verdes planejadas para o seu bem-estar",
       "title": "Jardinagem e paisagismo em Foz do Iguaçu",
-      "images": [
-        "/images/services/jardinagem-e-paisagismo/cover.jpg"
-      ],
       "imageAlt": "Serviço de paisagismo e jardinagem pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

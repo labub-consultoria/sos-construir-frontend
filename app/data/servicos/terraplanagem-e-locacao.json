@@ -3,21 +3,16 @@
     "title": "Terraplanagem e Locação de Máquinas em Foz do Iguaçu",
     "description": "Serviços de terraplanagem, limpeza de terreno e locação de máquinas em Foz do Iguaçu. Retroescavadeira, Bobcat e caminhão caçamba. Base sólida para sua obra.",
     "keywords": "terraplanagem foz do iguaçu, aluguel de retroescavadeira, locação de bobcat, limpeza de terreno, escavação foz",
-    "ogImage": "/images/services/terraplanagem-e-locacao/hero.webp",
     "breadcrumbLabel": "Terraplanagem e Locação"
   },
   "sections": {
     "hero": {
       "title": "A Base Sólida que Sua Obra Começa Aqui",
-      "description": "Preparação de terreno com precisão técnica e agilidade. Locação de equipamentos modernos com operadores experientes para garantir o nível perfeito do seu projeto.",
-      "image": "/images/services/terraplanagem-e-locacao/hero.webp"
+      "description": "Preparação de terreno com precisão técnica e agilidade. Locação de equipamentos modernos com operadores experientes para garantir o nível perfeito do seu projeto."
     },
     "overview": {
       "kicker": "A base sólida onde sua obra começa",
       "title": "Terraplanagem e locação de máquinas em Foz do Iguaçu",
-      "images": [
-        "/images/services/terraplanagem-e-locacao/cover.jpg"
-      ],
       "imageAlt": "Serviço de terraplanagem e preparação de terreno pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

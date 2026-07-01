@@ -3,21 +3,16 @@
     "title": "Poço Artesiano em Foz do Iguaçu",
     "description": "Perfuração de poços artesianos e semi-artesianos em Foz do Iguaçu. Garanta autonomia, água de qualidade e redução de custos para sua residência ou empresa.",
     "keywords": "poço artesiano foz do iguaçu, perfuração de poços, bomba submersa, manutenção de poços, outorga de água",
-    "ogImage": "/images/services/poco-artesiano/hero.webp",
     "breadcrumbLabel": "Poço Artesiano"
   },
   "sections": {
     "hero": {
       "title": "Independência e Água de Qualidade na sua Propriedade",
-      "description": "Garanta o abastecimento contínuo e reduza drasticamente seus custos com água. Projetos completos de perfuração e manutenção com total segurança técnica.",
-      "image": "/images/services/poco-artesiano/hero.webp"
+      "description": "Garanta o abastecimento contínuo e reduza drasticamente seus custos com água. Projetos completos de perfuração e manutenção com total segurança técnica."
     },
     "overview": {
       "kicker": "Água própria e mais economia",
       "title": "Perfuração de poço artesiano em Foz do Iguaçu",
-      "images": [
-        "/images/services/poco-artesiano/cover.jpg"
-      ],
       "imageAlt": "Perfuração de poço artesiano pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

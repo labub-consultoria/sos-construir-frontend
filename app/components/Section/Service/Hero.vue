@@ -27,8 +27,7 @@ const defaultSection: ServiceHeroSection = {
       text: 'Sem taxa escondida',
       icon: 'mdi:check'
     }
-  ],
-  image: ''
+  ]
 }
 
 const props = defineProps<{
@@ -41,6 +40,12 @@ const section = computed(() => ({
 }))
 
 const route = useRoute()
+
+// Imagem explícita (ex.: /sobre) tem prioridade; senão resolve o hero do serviço
+// por convenção do slug (Supabase). Sem imagem → hero branco (sem <img>).
+const cfg = useRuntimeConfig().public
+const heroFailed = ref(false)
+const heroUrl = computed(() => section.value.image || serviceImageUrl(cfg.supabaseUrl, cfg.supabaseBucket, String(route.params.slug ?? ''), 'hero'))
 
 // Lógica para montar o Breadcrumb baseado na URL
 const breadcrumbItems = computed<BreadcrumbItem[]>(() => {
@@ -78,7 +83,7 @@ const formattedTitle = computed(() => {
     <!-- hero img desktop -->
     <!-- img mobile -->
     <div class="absolute inset-0 z-0 justify-end hidden md:flex">
-      <NuxtImg v-if="props.section" :src="props.section.image" alt="Profissional trabalhando"
+      <NuxtImg v-if="!heroFailed" :src="heroUrl" alt="Profissional trabalhando" @error="heroFailed = true"
         class=" w-full md:w-3/4 lg:w-2/3 h-full object-cover object-right" />
       <div
         class="absolute inset-0 z-0 bg-gradient-to-r from-white via-white to-white/50 xl:from-20% xl:via-50% xl:to-70% md:to-transparent" />
@@ -94,8 +99,8 @@ const formattedTitle = computed(() => {
         <p class="text-section-subtitle text-lg mb-2 max-w-lg">
           {{ section.description }}
         </p>
-        <div class="w-full h-[250px] sm:h-[450px] md:hidden">
-          <NuxtImg v-if="section.image" :src="section.image" alt="Profissional trabalhando"
+        <div v-if="!heroFailed" class="w-full h-[250px] sm:h-[450px] md:hidden">
+          <NuxtImg :src="heroUrl" alt="Profissional trabalhando" @error="heroFailed = true"
             class="w-full h-full object-cover object-center rounded-xl" />
         </div>
 

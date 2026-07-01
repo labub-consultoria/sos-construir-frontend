@@ -3,21 +3,16 @@
     "title": "Fabricação e Instalação de Playgrounds em Foz do Iguaçu",
     "description": "Playgrounds seguros e criativos em Foz do Iguaçu. Fabricação sob medida em madeira, plástico ou metal para condomínios, escolas e parques. Normas ABNT.",
     "keywords": "playground foz do iguaçu, parquinho infantil, brinquedos de madeira para condomínio, playground de plástico, instalação de parquinho",
-    "ogImage": "/images/services/playground/hero.webp",
     "breadcrumbLabel": "Playground"
   },
   "sections": {
     "hero": {
       "title": "Diversão e Segurança para Crianças",
-      "description": "Criamos espaços de lazer que unem design inovador, resistência e total conformidade com as normas de segurança. O playground perfeito para seu condomínio ou escola.",
-      "image": "/images/services/playground/hero.webp"
+      "description": "Criamos espaços de lazer que unem design inovador, resistência e total conformidade com as normas de segurança. O playground perfeito para seu condomínio ou escola."
     },
     "overview": {
       "kicker": "Diversão e segurança para as crianças",
       "title": "Fabricação e instalação de playgrounds em Foz do Iguaçu",
-      "images": [
-        "/images/services/playground/cover.jpg"
-      ],
       "imageAlt": "Playground fabricado e instalado pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

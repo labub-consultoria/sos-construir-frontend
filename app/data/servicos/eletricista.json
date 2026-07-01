@@ -3,21 +3,16 @@
     "title": "Eletricista Profissional em Foz do Iguaçu | Padrão Copel",
     "description": "Serviços elétricos residenciais, prediais e industriais em Foz do Iguaçu. Especialistas em Padrão Copel, manutenção preventiva e instalações seguras.",
     "keywords": "eletricista foz do iguaçu, padrão copel foz, instalação elétrica residencial, manutenção elétrica, eletricista 24h foz",
-    "ogImage": "/images/services/eletricista/hero.webp",
     "breadcrumbLabel": "Eletricista"
   },
   "sections": {
     "hero": {
       "title": "Energia Segura e Instalações Dentro das Normas",
-      "description": "Evite curto-circuitos e prejuízos. Conte com eletricistas certificados para projetos residenciais, prediais e adequação total ao Padrão Copel.",
-      "image": "/images/services/eletricista/hero.webp"
+      "description": "Evite curto-circuitos e prejuízos. Conte com eletricistas certificados para projetos residenciais, prediais e adequação total ao Padrão Copel."
     },
     "overview": {
       "kicker": "Instalações elétricas seguras e no padrão Copel",
       "title": "Eletricista profissional em Foz do Iguaçu",
-      "images": [
-        "/images/services/eletricista/cover.jpg"
-      ],
       "imageAlt": "Serviço de eletricista no padrão Copel pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

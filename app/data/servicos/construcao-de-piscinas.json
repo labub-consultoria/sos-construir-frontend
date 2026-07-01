@@ -3,21 +3,16 @@
     "title": "Construção de Piscinas em Foz do Iguaçu",
     "description": "Transforme seu quintal em um oásis. Especialistas em construção de piscinas de alvenaria, vinil e fibra em Foz do Iguaçu. Projetos personalizados com garantia.",
     "keywords": "construção de piscinas foz do iguaçu, piscina de alvenaria, piscina de fibra, piscina de vinil, reforma de piscina, cascata e iluminação led",
-    "ogImage": "/images/services/construcao-de-piscinas/hero.webp",
     "breadcrumbLabel": "Construção de Piscinas"
   },
   "sections": {
     "hero": {
       "title": "A Área de Lazer dos Seus Sonhos com Segurança Total",
-      "description": "Projetamos e construímos sua piscina do zero, unindo design moderno, tecnologia de filtragem e acabamento premium. Sua diversão sem dor de cabeça.",
-      "image": "/images/services/construcao-de-piscinas/hero.webp"
+      "description": "Projetamos e construímos sua piscina do zero, unindo design moderno, tecnologia de filtragem e acabamento premium. Sua diversão sem dor de cabeça."
     },
     "overview": {
       "kicker": "A área de lazer dos seus sonhos",
       "title": "Construção de piscinas em Foz do Iguaçu",
-      "images": [
-        "/images/services/construcao-de-piscinas/cover.jpg"
-      ],
       "imageAlt": "Construção de piscina residencial pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

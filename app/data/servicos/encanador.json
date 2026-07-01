@@ -3,21 +3,16 @@
     "title": "Encanador Profissional em Foz do Iguaçu",
     "description": "Serviços hidráulicos completos em Foz do Iguaçu. Detecção de vazamentos, desentupimento, manutenção de tubulações e reparos de emergência 24h.",
     "keywords": "encanador foz do iguaçu, caça vazamento, desentupidora foz, encanador 24h, conserto de descarga, reparo hidráulico",
-    "ogImage": "/images/services/encanador/hero.webp",
     "breadcrumbLabel": "Encanador"
   },
   "sections": {
     "hero": {
       "title": "Encanadores Profissionais sem Dor de Cabeça",
-      "description": "Vazamentos, entupimentos ou novas instalações? Nossa equipe utiliza tecnologia de ponta para diagnosticar e reparar problemas hidráulicos com máxima eficiência e limpeza.",
-      "image": "/images/services/encanador/hero.webp"
+      "description": "Vazamentos, entupimentos ou novas instalações? Nossa equipe utiliza tecnologia de ponta para diagnosticar e reparar problemas hidráulicos com máxima eficiência e limpeza."
     },
     "overview": {
       "kicker": "Hidráulica resolvida, sem vazamentos",
       "title": "Encanador profissional em Foz do Iguaçu",
-      "images": [
-        "/images/services/encanador/cover..jpg"
-      ],
       "imageAlt": "Serviço hidráulico de encanador pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

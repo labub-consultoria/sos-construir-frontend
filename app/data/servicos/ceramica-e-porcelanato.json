@@ -3,21 +3,16 @@
     "title": "Assentamento de Cerâmica e Porcelanato em Foz do Iguaçu",
     "description": "Especialistas em colocação de porcelanato e cerâmica em Foz do Iguaçu. Acabamento impecável, nivelamento perfeito e venda de materiais de alta qualidade.",
     "keywords": "porcelanato foz do iguaçu, assentamento de piso, azulejista foz, colocar cerâmica, piso retificado, revestimento de parede",
-    "ogImage": "/images/services/ceramica-e-porcelanato/hero.webp",
     "breadcrumbLabel": "Cerâmica e Porcelanato"
   },
   "sections": {
     "hero": {
       "title": "O Piso dos Seus Sonhos com Acabamento Impecável",
-      "description": "Transforme seus ambientes com a elegância do porcelanato e a versatilidade da cerâmica. Unimos mão de obra de elite e materiais premium para um resultado duradouro e sofisticado.",
-      "image": "/images/services/ceramica-e-porcelanato/hero.webp"
+      "description": "Transforme seus ambientes com a elegância do porcelanato e a versatilidade da cerâmica. Unimos mão de obra de elite e materiais premium para um resultado duradouro e sofisticado."
     },
     "overview": {
       "kicker": "Assentamento com acabamento impecável",
       "title": "Assentamento de cerâmica e porcelanato em Foz do Iguaçu",
-      "images": [
-        "/images/services/ceramica-e-porcelanato/cover.jpg"
-      ],
       "imageAlt": "Assentamento de porcelanato pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

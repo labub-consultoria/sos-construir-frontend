@@ -3,21 +3,16 @@
     "title": "Pedras Decorativas em Foz do Iguaçu | Revestimentos SOS Construir",
     "description": "Transforme seus ambientes com pedras decorativas em Foz do Iguaçu. Revestimentos naturais para paredes, pisos e jardins com instalação precisa e design exclusivo.",
     "keywords": "pedras decorativas foz do iguaçu, revestimento de pedra, pedra canjiquinha, pedra ferro, filete de pedra, pedras para jardim",
-    "ogImage": "/images/services/pedras-decorativas/hero.webp",
     "breadcrumbLabel": "Pedras Decorativas"
   },
   "sections": {
     "hero": {
       "title": "A Beleza Natural que Transforma seu Ambiente",
-      "description": "Eleve o nível do seu projeto com texturas e cores que só a natureza oferece. Instalação artesanal de pedras decorativas para interiores, fachadas e paisagismo.",
-      "image": "/images/services/pedras-decorativas/hero.webp"
+      "description": "Eleve o nível do seu projeto com texturas e cores que só a natureza oferece. Instalação artesanal de pedras decorativas para interiores, fachadas e paisagismo."
     },
     "overview": {
       "kicker": "Revestimentos naturais que valorizam o ambiente",
       "title": "Pedras decorativas em Foz do Iguaçu",
-      "images": [
-        "/images/services/pedras-decorativas/cover.jpg"
-      ],
       "imageAlt": "Revestimento com pedras decorativas pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

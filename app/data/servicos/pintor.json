@@ -3,21 +3,16 @@
     "title": "Pintura Residencial e Comercial em Foz do Iguaçu",
     "description": "Transforme seu ambiente com pintores profissionais em Foz do Iguaçu. Pintura interna, externa e decorativa com acabamento premium e limpeza garantida.",
     "keywords": "pintor foz do iguaçu, pintura de casas, empresa de pintura foz, acabamento de pintura, pintor profissional pr",
-    "ogImage": "/images/services/pintor/hero.webp",
     "breadcrumbLabel": "Pintura"
   },
   "sections": {
     "hero": {
       "title": "Pintura Profissional Sem Dor de Cabeça",
-      "description": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo.",
-      "image": "/images/services/pintor/hero.webp"
+      "description": "Escolha seu pintor entre os melhores profissionais da região. Qualidade garantida, com prazos cumpridos e preço justo."
     },
     "overview": {
       "kicker": "Acabamento de alto padrão, sem dor de cabeça",
       "title": "Pintura residencial e comercial em Foz do Iguaçu",
-      "images": [
-        "/images/services/pintor/cover.jpg"
-      ],
       "imageAlt": "Pintura residencial executada pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

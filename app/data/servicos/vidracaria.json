@@ -3,21 +3,16 @@
     "title": "Vidraçaria e Esquadrias em Foz do Iguaçu",
     "description": "Serviços especializados de vidraçaria em Foz do Iguaçu. Box para banheiro, espelhos sob medida, fechamento de sacadas e esquadrias de alumínio com segurança e elegância.",
     "keywords": "vidraçaria foz do iguaçu, box de vidro, espelhos sob medida, fechamento de sacada, vidro temperado foz",
-    "ogImage": "/images/services/vidracaria/hero.webp",
     "breadcrumbLabel": "Vidraçaria"
   },
   "sections": {
     "hero": {
       "title": "Transparência, Elegância e Segurança para seu Espaço",
-      "description": "Do box do banheiro ao fechamento da sacada. Projetos personalizados em vidro temperado e esquadrias de alumínio que transformam a iluminação e o design do seu imóvel.",
-      "image": "/images/services/vidracaria/hero.webp"
+      "description": "Do box do banheiro ao fechamento da sacada. Projetos personalizados em vidro temperado e esquadrias de alumínio que transformam a iluminação e o design do seu imóvel."
     },
     "overview": {
       "kicker": "Vidro temperado e esquadrias sob medida",
       "title": "Vidraçaria e esquadrias em Foz do Iguaçu",
-      "images": [
-        "/images/services/vidracaria/cover.jpg"
-      ],
       "imageAlt": "Serviço de vidraçaria e esquadrias de alumínio pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

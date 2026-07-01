@@ -3,21 +3,16 @@
     "title": "Reforma de Telhado em Foz do Iguaçu",
     "description": "Especialistas em reforma de telhados em Foz do Iguaçu. Reparos de vazamentos, troca de telhas e reforço estrutural com garantia integral e inspeção detalhada.",
     "keywords": "reforma de telhado foz do iguaçu, conserto de telhado, troca de telhas, vazamento telhado, calhas e rufos",
-    "ogImage": "/images/services/reforma-de-telhado/hero.webp",
     "breadcrumbLabel": "Reforma de Telhado"
   },
   "sections": {
     "hero": {
       "title": "Reforme seu Telhado Sem Dor de Cabeça",
-      "description": "Não espere a próxima chuva para agir. Reformamos seu telhado com agilidade, materiais de primeira e a garantia de quem entende de construção há mais de 10 anos.",
-      "image": "/images/services/reforma-de-telhado/hero.webp"
+      "description": "Não espere a próxima chuva para agir. Reformamos seu telhado com agilidade, materiais de primeira e a garantia de quem entende de construção há mais de 10 anos."
     },
     "overview": {
       "kicker": "Telhado sem goteiras, com avaliação gratuita",
       "title": "Reforma de telhado em Foz do Iguaçu",
-      "images": [
-        "/images/services/reforma-de-telhado/cover.jpeg"
-      ],
       "imageAlt": "Reforma de telhado residencial pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

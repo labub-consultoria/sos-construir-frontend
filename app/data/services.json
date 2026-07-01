@@ -8,7 +8,6 @@
       "category": "pintura-e-acabamento",
       "size": "medium",
       "icon": "mdi-floor-plan",
-      "image": "/images/services/ceramica-e-porcelanato/cover.jpg",
       "description": "Instalação profissional de cerâmica e porcelanato para pisos e paredes.",
       "keywords": [
         "porcelanato",
@@ -42,7 +41,6 @@
       "category": "pintura-e-acabamento",
       "size": "medium",
       "icon": "mdi-texture-box",
-      "image": "/images/services/concreto-polido/cover.jpg",
       "description": "Aplicação de concreto polido moderno para pisos residenciais e comerciais.",
       "keywords": [
         "concreto polido",
@@ -74,7 +72,6 @@
       "category": "jardim-e-area-externa",
       "size": "medium",
       "icon": "mdi-pool",
-      "image": "/images/services/construcao-de-piscinas/cover.jpg",
       "description": "Construção de piscinas personalizadas com acabamento profissional.",
       "keywords": [
         "construção de piscina",
@@ -107,7 +104,6 @@
       "category": "eletrica-e-energia-solar",
       "size": "medium",
       "icon": "mdi-lightning-bolt",
-      "image": "/images/services/eletricista/cover.jpg",
       "description": "Instalações elétricas, manutenção e reparos residenciais e comerciais.",
       "keywords": [
         "eletricista",
@@ -144,7 +140,6 @@
       "category": "encanador-e-vazamentos",
       "size": "medium",
       "icon": "mdi-pipe-wrench",
-      "image": "/images/services/encanador/cover..jpg",
       "description": "Reparos hidráulicos, vazamentos e instalação de encanamento.",
       "keywords": [
         "encanador",
@@ -184,7 +179,6 @@
       "category": "eletrica-e-energia-solar",
       "size": "medium",
       "icon": "mdi-solar-power",
-      "image": "/images/services/energia-solar/cover.jpg",
       "description": "Instalação de sistemas de energia solar para economia e sustentabilidade.",
       "keywords": [
         "energia solar",
@@ -218,7 +212,6 @@
       "category": "pintura-e-acabamento",
       "size": "medium",
       "icon": "mdi-wall",
-      "image": "/images/services/gesso-e-drywall/cover.jpg",
       "description": "Instalação de forros, paredes e sancas em gesso e drywall.",
       "keywords": [
         "drywall",
@@ -253,7 +246,6 @@
       "category": "ar-condicionado-e-gas",
       "size": "medium",
       "icon": "mdi-gas-cylinder",
-      "image": "/images/services/instalacao-de-gas/cover.jpg",
       "description": "Instalação segura de sistemas de gás residencial e comercial.",
       "keywords": [
         "gás encanado",
@@ -287,7 +279,6 @@
       "category": "jardim-e-area-externa",
       "size": "medium",
       "icon": "mdi-flower",
-      "image": "/images/services/jardinagem-e-paisagismo/cover.jpg",
       "description": "Criação e manutenção de jardins e projetos paisagísticos.",
       "keywords": [
         "jardinagem",
@@ -323,7 +314,6 @@
       "category": "jardim-e-area-externa",
       "size": "medium",
       "icon": "mdi-water",
-      "image": "/images/services/lago-artificial/cover.jpg",
       "description": "Construção de lagos artificiais decorativos para jardins.",
       "keywords": [
         "lago artificial",
@@ -357,7 +347,6 @@
       "category": "serralheria-e-metalurgica",
       "size": "medium",
       "icon": "mdi-anvil",
-      "image": "/images/services/metalurgico/cover.jpg",
       "description": "Fabricação e instalação de estruturas metálicas sob medida.",
       "keywords": [
         "metalúrgica",
@@ -396,7 +385,6 @@
       "category": "jardim-e-area-externa",
       "size": "medium",
       "icon": "mdi-grid",
-      "image": "/images/services/paver/cover.jpg",
       "description": "Instalação de paver para calçadas, garagens e áreas externas.",
       "keywords": [
         "paver",
@@ -430,7 +418,6 @@
       "category": "pintura-e-acabamento",
       "size": "medium",
       "icon": "mdi-diamond-stone",
-      "image": "images/services/pedras-decorativas/cover.jpg",
       "description": "Revestimento com pedras naturais para decoração interna e externa.",
       "keywords": [
         "pedra decorativa",
@@ -466,7 +453,6 @@
       "category": "pedreiro-e-obra",
       "size": "medium",
       "icon": "mdi-hammer",
-      "image": "/images/services/pedreiro/cover.jpg",
       "description": "Serviços gerais de alvenaria para obras e reformas.",
       "keywords": [
         "pedreiro",
@@ -506,7 +492,6 @@
       "category": "pintura-e-acabamento",
       "size": "medium",
       "icon": "mdi-format-paint",
-      "image": "/images/services/pintor/cover.jpg",
       "description": "Pintura profissional residencial e comercial.",
       "keywords": [
         "pintor",
@@ -545,7 +530,6 @@
       "category": "jardim-e-area-externa",
       "size": "medium",
       "icon": "mdi-slide",
-      "image": "/images/services/playground/cover.jpg",
       "description": "Instalação de playgrounds para condomínios e áreas de lazer.",
       "keywords": [
         "playground",
@@ -578,7 +562,6 @@
       "category": "encanador-e-vazamentos",
       "size": "medium",
       "icon": "mdi-water-pump",
-      "image": "/images/services/poco-artesiano/cover.jpg",
       "description": "Perfuração e instalação de poços artesianos.",
       "keywords": [
         "poço artesiano",
@@ -613,7 +596,6 @@
       "category": "pintura-e-acabamento",
       "size": "medium",
       "icon": "mdi-door",
-      "image": "/images/services/instalacao-de-portas/cover.jpg",
       "description": "Instalação e ajuste de portas internas e externas.",
       "keywords": [
         "instalação de portas",
@@ -653,7 +635,6 @@
       "category": "reformas-e-telhado",
       "size": "medium",
       "icon": "mdi-home-roof",
-      "image": "/images/services/reforma-de-telhado/cover.jpeg",
       "description": "Manutenção, troca de telhas e reforma completa de telhados.",
       "keywords": [
         "reforma de telhado",
@@ -695,7 +676,6 @@
       "category": "reformas-e-telhado",
       "size": "medium",
       "icon": "mdi-home-edit",
-      "image": "/images/services/reforma-e-construcao/cover.jpg",
       "description": "Serviços completos de construção e reforma residencial.",
       "keywords": [
         "reforma",
@@ -731,7 +711,6 @@
       "category": "moveis-e-marcenaria",
       "size": "medium",
       "icon": "mdi-sofa",
-      "image": "/images/services/sofa-sob-medida/cover.jpg",
       "description": "Fabricação de sofás personalizados sob medida.",
       "keywords": [
         "sofa",
@@ -768,7 +747,6 @@
       "category": "jardim-e-area-externa",
       "size": "medium",
       "icon": "mdi-bulldozer",
-      "image": "/images/services/terraplanagem-e-locacao/cover.jpg",
       "description": "Serviços de terraplanagem e locação de máquinas pesadas.",
       "keywords": [
         "terraplanagem",
@@ -804,7 +782,6 @@
       "category": "pintura-e-acabamento",
       "size": "medium",
       "icon": "mdi-window-closed-variant",
-      "image": "/images/services/vidracaria/cover.jpg",
       "description": "Instalação de vidros, box de banheiro e fachadas.",
       "keywords": [
         "vidraçaria",
@@ -833,6 +810,34 @@
         "cobogó de vidro"
       ],
       "popularity": 91
+    },
+    {
+      "id": 24,
+      "name": "Ar-Condicionado",
+      "slug": "ar-condicionado",
+      "type": "execucao",
+      "category": "ar-condicionado-e-gas",
+      "size": "medium",
+      "icon": "mdi-air-conditioner",
+      "description": "Instalação, manutenção, limpeza e recarga de gás de ar-condicionado split.",
+      "keywords": [
+        "ar condicionado",
+        "instalação de ar condicionado",
+        "instalar ar condicionado",
+        "limpeza de ar condicionado",
+        "higienização de ar condicionado",
+        "recarga de gás",
+        "manutenção de ar condicionado",
+        "ar condicionado split",
+        "ar condicionado inverter",
+        "multi split",
+        "ar condicionado não gela",
+        "conserto de ar condicionado",
+        "técnico de ar condicionado",
+        "climatização",
+        "instalação de split"
+      ],
+      "popularity": 90
     }
   ]
 }

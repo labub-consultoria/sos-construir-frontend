@@ -3,21 +3,16 @@
     "title": "Sofá Sob Medida em Foz do Iguaçu | Estofados SOS Construir",
     "description": "Criação e reforma de sofás sob medida em Foz do Iguaçu. Conforto exclusivo, design personalizado e materiais premium para sua sala. Peça seu orçamento.",
     "keywords": "sofá sob medida foz do iguaçu, estofados personalizados, reforma de sofá, sofá retrátil sob medida, fabricação de sofás foz",
-    "ogImage": "/images/services/sofa-sob-medida/hero.webp",
     "breadcrumbLabel": "Sofá Sob Medida"
   },
   "sections": {
     "hero": {
       "title": "Conforto e Estilo Planejados para o Seu Espaço",
-      "description": "Não adapte sua sala ao sofá; nós criamos o sofá perfeito para sua sala. Design exclusivo, tecidos premium e ergonomia sob medida para o seu descanso.",
-      "image": "/images/services/sofa-sob-medida/hero.webp"
+      "description": "Não adapte sua sala ao sofá; nós criamos o sofá perfeito para sua sala. Design exclusivo, tecidos premium e ergonomia sob medida para o seu descanso."
     },
     "overview": {
       "kicker": "Conforto e estilo planejados para o seu espaço",
       "title": "Sofá sob medida em Foz do Iguaçu",
-      "images": [
-        "/images/services/sofa-sob-medida/cover.jpg"
-      ],
       "imageAlt": "Sofá sob medida produzido pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

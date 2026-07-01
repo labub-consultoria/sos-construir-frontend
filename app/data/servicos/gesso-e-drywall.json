@@ -3,21 +3,16 @@
     "title": "Gesso e Drywall em Foz do Iguaçu",
     "description": "Especialistas em forros de gesso, divisórias de drywall e sancas decorativas em Foz do Iguaçu. Instalação rápida, limpa e com acabamento impecável.",
     "keywords": "gesso foz do iguaçu, drywall foz, forro de gesso, divisória drywall, sancas de gesso, gesso acartonado",
-    "ogImage": "/images/services/gesso-e-drywall/hero.webp",
     "breadcrumbLabel": "Gesso e Drywall"
   },
   "sections": {
     "hero": {
       "title": "Design e Agilidade para Transformar Seus Ambientes",
-      "description": "Crie espaços modernos com forros personalizados, iluminação embutida e divisórias inteligentes. O acabamento que sua obra merece com a rapidez que você precisa.",
-      "image": "/images/services/gesso-e-drywall/hero.webp"
+      "description": "Crie espaços modernos com forros personalizados, iluminação embutida e divisórias inteligentes. O acabamento que sua obra merece com a rapidez que você precisa."
     },
     "overview": {
       "kicker": "Forros e divisórias com obra limpa e rápida",
       "title": "Gesso e drywall em Foz do Iguaçu",
-      "images": [
-        "/images/services/gesso-e-drywall/cover.jpg"
-      ],
       "imageAlt": "Instalação de forro de gesso e drywall pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

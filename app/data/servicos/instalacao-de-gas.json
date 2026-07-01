@@ -3,21 +3,16 @@
     "title": "Instalação de Gás em Foz do Iguaçu",
     "description": "Serviços especializados de instalação de gás em Foz do Iguaçu. Residencial, comercial e industrial. Testes de estanqueidade e conversão de fogões com segurança total.",
     "keywords": "instalação de gás foz do iguaçu, gás encanado, teste de estanqueidade, conversão de fogão, manutenção de rede de gás",
-    "ogImage": "/images/services/instalacao-de-gas/hero.webp",
     "breadcrumbLabel": "Instalação de Gás"
   },
   "sections": {
     "hero": {
       "title": "Instalação de gás feita com segurança",
-      "description": "Projetos e execuções de redes de gás seguindo rigorosamente as normas ABNT. Proteja seu patrimônio com técnicos especializados e testes de segurança certificados.",
-      "image": "/images/services/instalacao-de-gas/hero.webp"
+      "description": "Projetos e execuções de redes de gás seguindo rigorosamente as normas ABNT. Proteja seu patrimônio com técnicos especializados e testes de segurança certificados."
     },
     "overview": {
       "kicker": "Instalação de gás dentro das normas",
       "title": "Instalação de gás em Foz do Iguaçu",
-      "images": [
-        "/images/services/instalacao-de-gas/cover.jpg"
-      ],
       "imageAlt": "Instalação de rede de gás pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

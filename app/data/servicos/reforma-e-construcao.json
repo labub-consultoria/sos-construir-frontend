@@ -3,21 +3,16 @@
     "title": "Reforma e Construção em Foz do Iguaçu",
     "description": "Sua solução completa em construção civil residencial e comercial em Foz do Iguaçu. Da fundação ao acabamento, garantimos prazos, qualidade e zero dor de cabeça.",
     "keywords": "reforma residencial foz, construção civil foz do iguaçu, construtora foz, reforma comercial, gerenciamento de obras",
-    "ogImage": "/images/services/reforma-e-construcao/hero.webp",
     "breadcrumbLabel": "Reforma e Construção"
   },
   "sections": {
     "hero": {
       "title": "Sua Escolha de Confiança para Reformas e Construção",
-      "description": "Sua obra entregue no prazo, com custo otimizado e qualidade superior. Assumimos a responsabilidade integral do seu projeto, da fundação à entrega das chaves.",
-      "image": "/images/services/reforma-e-construcao/hero.webp"
+      "description": "Sua obra entregue no prazo, com custo otimizado e qualidade superior. Assumimos a responsabilidade integral do seu projeto, da fundação à entrega das chaves."
     },
     "overview": {
       "kicker": "Sua obra completa, do início ao fim",
       "title": "Reforma e construção em Foz do Iguaçu",
-      "images": [
-        "/images/services/reforma-e-construcao/cover.jpg"
-      ],
       "imageAlt": "Gestão de reforma e construção pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {

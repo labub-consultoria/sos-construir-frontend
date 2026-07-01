@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Ar-Condicionado em Foz do Iguaçu | Instalação e Limpeza",
+    "description": "Instalação, manutenção e limpeza de ar-condicionado split em Foz do Iguaçu. Técnicos verificados, recarga de gás, higienização e atendimento rápido com garantia.",
+    "keywords": "ar condicionado foz do iguaçu, instalação de ar condicionado, limpeza de ar condicionado, recarga de gás, manutenção de split, higienização de ar condicionado",
+    "breadcrumbLabel": "Ar-Condicionado"
+  },
+  "sections": {
+    "hero": {
+      "title": "O Clima Perfeito para sua Casa e Empresa",
+      "description": "Calor insuportável ou aquele split que parou de gelar? Instalamos, higienizamos e mantemos seu ar-condicionado com técnicos verificados, limpeza no ambiente e agilidade no atendimento."
+    },
+    "overview": {
+      "kicker": "Climatização que gela de verdade",
+      "title": "Instalação e manutenção de ar-condicionado em Foz do Iguaçu",
+      "imageAlt": "Instalação de ar-condicionado split em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz instalação, manutenção e limpeza de ar-condicionado em Foz do Iguaçu: split hi-wall, multi-split, recarga de gás e higienização completa.",
+        "Dimensionamos a potência (BTUs) certa para cada ambiente e instalamos com vácuo na tubulação para preservar o compressor, com higienização que elimina fungos e mau cheiro.",
+        "Você trata apenas com a SOS, da escolha do aparelho à manutenção. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos"
+        },
+        {
+          "label": "Instalação",
+          "slug": "instalacao"
+        },
+        {
+          "label": "Limpeza e Higienização",
+          "slug": "higienizacao"
+        },
+        {
+          "label": "Manutenção e Recarga",
+          "slug": "manutencao"
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Visita e Dimensionamento",
+          "description": "Avaliamos o ambiente e a incidência de sol para calcular os BTUs corretos e o melhor ponto de instalação do aparelho.",
+          "icon": "home-search-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Apresentamos o aparelho indicado, o material da instalação e a metragem de tubulação antes de iniciar o serviço.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Instalação Especializada",
+          "description": "Fixação nivelada, tubulação de cobre isolada e vácuo no sistema para garantir rendimento e durabilidade do compressor.",
+          "icon": "air-conditioner"
+        },
+        {
+          "step": 4,
+          "title": "Teste e Higienização",
+          "description": "Verificamos a carga de gás, medimos a temperatura de saída e entregamos o aparelho higienizado e gelando.",
+          "icon": "spray-bottle"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Técnicos de Refrigeração Verificados",
+      "description": "Nossos profissionais são treinados para instalar e manter desde um split residencial até sistemas multi-split comerciais. Técnica que evita queima de compressor, vazamento de gás e gasto desnecessário de energia."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Climatização da SOS",
+      "reasons": [
+        {
+          "title": "Dimensionamento Correto de BTUs",
+          "description": "Indicamos a potência certa para o ambiente, para o aparelho gelar sem desperdiçar energia nem ficar sobrecarregado.",
+          "icon": "calculator-variant-outline"
+        },
+        {
+          "title": "Instalação com Vácuo",
+          "description": "Fazemos vácuo na tubulação para remover umidade e impurezas, o que protege o compressor e prolonga a vida útil do aparelho.",
+          "icon": "air-filter"
+        },
+        {
+          "title": "Higienização que Elimina Fungos",
+          "description": "Limpeza profunda do evaporador e filtros que acaba com o mau cheiro e melhora a qualidade do ar que você respira.",
+          "icon": "spray-bottle-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Ar-Condicionado",
+      "questions": [
+        {
+          "question": "Qual a potência (BTUs) ideal para o meu ambiente?",
+          "answer": "Depende do tamanho do cômodo, do número de pessoas e da incidência de sol. Na visita técnica calculamos os BTUs certos para o aparelho gelar bem sem gastar energia à toa."
+        },
+        {
+          "question": "Com que frequência preciso fazer a limpeza do ar-condicionado?",
+          "answer": "Recomendamos a higienização a cada 6 meses em uso residencial. Ambientes comerciais ou com muito uso pedem limpezas mais frequentes para manter a eficiência e a qualidade do ar."
+        },
+        {
+          "question": "Vocês fazem recarga de gás e identificam vazamentos?",
+          "answer": "Sim. Localizamos o ponto de vazamento, fazemos o reparo e a recarga com o gás correto para o seu modelo, devolvendo o aparelho à capacidade total de refrigeração."
+        },
+        {
+          "question": "Instalam qualquer marca e modelo, inclusive inverter e multi-split?",
+          "answer": "Sim. Trabalhamos com as principais marcas do mercado e com modelos convencionais, inverter e sistemas multi-split, seguindo as especificações de cada fabricante."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "O conforto que a sua casa merece está a um clique",
+      "description": "Não encare mais um dia de calor ou um aparelho ineficiente. Instale ou revise seu ar-condicionado com quem entende de refrigeração.",
+      "ctaText": "Solicitar Instalação Agora"
+    }
+  }
+}
