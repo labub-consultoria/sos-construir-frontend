@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Papel de Parede em Foz do Iguaçu | Instalação",
+    "description": "Instalação de papel de parede em Foz do Iguaçu: aplicação alinhada, sem bolhas nem emendas aparentes, para salas, quartos e comércios. Preparo de parede incluso.",
+    "keywords": "papel de parede foz do iguaçu, instalação de papel de parede, aplicar papel de parede, papel de parede 3d, painel decorativo, revestimento de parede, decoração de parede",
+    "breadcrumbLabel": "Papel de Parede"
+  },
+  "sections": {
+    "hero": {
+      "title": "Transforme um Ambiente em uma Tarde",
+      "description": "Aplicamos papel de parede com alinhamento perfeito, sem bolhas nem emendas aparentes. Preparo da parede, corte preciso e acabamento que valoriza qualquer ambiente."
+    },
+    "overview": {
+      "kicker": "Estilo novo sem obra",
+      "title": "Aplicação de papel de parede em Foz do Iguaçu",
+      "imageAlt": "Aplicação de papel de parede em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala papel de parede em Foz do Iguaçu: aplicação em salas, quartos, home office e comércios, com preparo da parede e acabamento alinhado.",
+        "Preparamos a superfície, medimos e cortamos com precisão para casar o desenho, eliminando bolhas e deixando as emendas imperceptíveis.",
+        "Você trata apenas com a SOS, do preparo ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Preparo da Parede",
+          "description": "Corrigimos imperfeições e preparamos a superfície para o papel aderir liso e durar mais.",
+          "icon": "wall"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Calculamos a metragem e o material com valor fechado antes de aplicar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Aplicação Alinhada",
+          "description": "Aplicamos casando o desenho e removendo bolhas, com emendas imperceptíveis.",
+          "icon": "wallpaper"
+        },
+        {
+          "step": 4,
+          "title": "Acabamento e Revisão",
+          "description": "Revisamos cantos, tomadas e rodapés para um acabamento impecável em todo o ambiente.",
+          "icon": "check-decagram-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Instaladores de Papel de Parede",
+      "description": "Nossos instaladores aplicam desde uma parede de destaque até um ambiente inteiro, incluindo painéis e 3D. Precisão que casa o desenho e esconde as emendas."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Papel de Parede da SOS",
+      "reasons": [
+        {
+          "title": "Emendas Imperceptíveis",
+          "description": "Corte e alinhamento que casam o desenho e escondem as junções entre as tiras.",
+          "icon": "vector-combine"
+        },
+        {
+          "title": "Sem Bolhas nem Descolamento",
+          "description": "Preparo e aplicação corretos para o papel ficar liso e durar sem soltar nas pontas.",
+          "icon": "checkbox-marked-circle-outline"
+        },
+        {
+          "title": "Rápido e sem Bagunça",
+          "description": "Ambiente renovado em pouco tempo, sem a sujeira e o transtorno de uma obra.",
+          "icon": "clock-fast"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Papel de Parede",
+      "questions": [
+        {
+          "question": "Papel de parede descola com o tempo?",
+          "answer": "Com preparo de parede e aplicação corretos, não. O descolamento costuma vir de umidade ou parede mal preparada — pontos que tratamos antes de aplicar."
+        },
+        {
+          "question": "Posso aplicar em qualquer parede, como banheiro e cozinha?",
+          "answer": "Depende do papel. Áreas úmidas pedem materiais laváveis e resistentes à umidade. Indicamos o tipo certo para cada ambiente na hora do orçamento."
+        },
+        {
+          "question": "Preciso preparar a parede antes?",
+          "answer": "Sim, e isso já está incluso. Corrigimos imperfeições, buracos e descascados para o papel aderir liso — é o que garante um acabamento sem bolhas."
+        },
+        {
+          "question": "Quanto tempo leva a aplicação?",
+          "answer": "Um ambiente costuma ficar pronto no mesmo dia. O prazo depende da metragem, do preparo necessário e do tipo de papel (liso, texturizado ou painel)."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Um ambiente novo antes do fim do dia",
+      "description": "Renove a sua parede sem quebra-quebra. Aplicação alinhada, sem bolhas e com acabamento profissional.",
+      "ctaText": "Solicitar Papel de Parede"
+    }
+  }
+}

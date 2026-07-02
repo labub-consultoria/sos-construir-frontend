@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Fossa Séptica em Foz do Iguaçu | Instalação e Limpeza",
+    "description": "Instalação e limpeza de fossa séptica em Foz do Iguaçu: fossa e sumidouro ou filtro biológico, para imóveis sem rede de esgoto, com dimensionamento e destinação correta.",
+    "keywords": "fossa séptica foz do iguaçu, instalação de fossa, fossa e sumidouro, filtro biológico, limpa fossa, esgoto sem rede, sumidouro, tratamento de esgoto residencial",
+    "breadcrumbLabel": "Fossa Séptica"
+  },
+  "sections": {
+    "hero": {
+      "title": "Esgoto Tratado Certo, sem Cheiro nem Contaminação",
+      "description": "Instalamos e limpamos fossa séptica, sumidouro e filtro biológico para imóveis sem rede de esgoto. Dimensionamento correto e destinação adequada, sem mau cheiro nem transbordo."
+    },
+    "overview": {
+      "kicker": "Saneamento feito do jeito certo",
+      "title": "Fossa séptica em Foz do Iguaçu",
+      "imageAlt": "Instalação de fossa séptica em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala e limpa fossa séptica em Foz do Iguaçu: conjunto fossa, filtro biológico e sumidouro, para casas, chácaras e imóveis sem rede pública de esgoto.",
+        "Dimensionamos o sistema pelo número de moradores e pelo solo, instalamos com selagem e ventilação corretas e fazemos a limpeza com sucção e destinação adequada dos resíduos.",
+        "Você trata apenas com a SOS, do dimensionamento à limpeza. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Dimensionamento", "description": "Calculamos o tamanho do sistema pelo número de moradores e pela absorção do solo.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos o tipo de fossa, o sumidouro e o serviço com valor fechado antes de executar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Instalação Selada", "description": "Instalamos fossa, filtro e sumidouro com selagem e ventilação corretas, sem vazamento nem cheiro.", "icon": "pipe" },
+        { "step": 4, "title": "Limpeza e Manutenção", "description": "Fazemos a limpeza com sucção e destinação adequada, mantendo o sistema funcionando sem transbordo.", "icon": "water-pump" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Saneamento", "description": "Nossa equipe instala e limpa fossa com dimensionamento e selagem corretos, o que evita mau cheiro, contaminação do lençol e transbordo. Saneamento feito dentro das normas." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Fossa da SOS",
+      "reasons": [
+        { "title": "Dimensionamento Correto", "description": "Sistema no tamanho certo para o número de moradores, sem encher rápido nem transbordar.", "icon": "ruler-square" },
+        { "title": "Sem Cheiro nem Contaminação", "description": "Selagem e ventilação corretas que evitam mau cheiro e a contaminação do solo e da água.", "icon": "water-check" },
+        { "title": "Limpeza com Destino Certo", "description": "Sucção e descarte dos resíduos de forma adequada, sem despejo irregular.", "icon": "dump-truck" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Fossa Séptica",
+      "questions": [
+        { "question": "Qual a diferença entre fossa séptica e fossa rudimentar (negra)?", "answer": "A fossa séptica trata o esgoto em etapas (fossa, filtro e sumidouro), sem contaminar o solo. A fossa negra apenas infiltra o esgoto bruto, o que polui o lençol freático e é irregular." },
+        { "question": "De quanto em quanto tempo preciso limpar a fossa?", "answer": "Depende do tamanho e do uso, mas em geral a cada um a dois anos. Sinais como escoamento lento, retorno ou cheiro indicam que a limpeza deve ser antecipada." },
+        { "question": "Serve para imóvel sem rede de esgoto?", "answer": "Sim, é exatamente a solução para casas, chácaras e sítios sem rede pública. Dimensionamos o conjunto conforme os moradores e a absorção do solo." },
+        { "question": "Vocês fazem só a limpeza (limpa-fossa)?", "answer": "Sim. Fazemos a limpeza com sucção e destinação correta dos resíduos, tanto de sistemas instalados por nós quanto de fossas já existentes." }
+      ]
+    },
+    "finalCta": { "title": "Resolva o esgoto sem improviso nem contaminação", "description": "Fossa mal feita gera cheiro, transbordo e risco à saúde. Instale ou limpe o seu sistema com quem faz dentro das normas.", "ctaText": "Solicitar Fossa Séptica" }
+  }
+}

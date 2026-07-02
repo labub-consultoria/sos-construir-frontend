@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Irrigação Automatizada em Foz do Iguaçu",
+    "description": "Instalação de irrigação automatizada em Foz do Iguaçu: aspersores, gotejamento e temporizador para jardins e gramados, com projeto que economiza água e mão de obra.",
+    "keywords": "irrigação automatizada foz do iguaçu, sistema de irrigação, aspersor, gotejamento, irrigação de jardim, timer de irrigação, rega automática, irrigação de gramado",
+    "breadcrumbLabel": "Irrigação Automatizada"
+  },
+  "sections": {
+    "hero": {
+      "title": "Seu Jardim Regado na Hora Certa, sem Você Lembrar",
+      "description": "Instalamos sistemas de irrigação automatizada com aspersores, gotejamento e temporizador. Projeto que cobre todo o jardim, economiza água e dispensa a rega manual."
+    },
+    "overview": {
+      "kicker": "Rega certa, sem desperdício",
+      "title": "Irrigação automatizada em Foz do Iguaçu",
+      "imageAlt": "Instalação de irrigação automatizada em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala irrigação automatizada em Foz do Iguaçu: aspersores, microaspersão e gotejamento com temporizador, para gramados, jardins, hortas e vasos.",
+        "Projetamos os pontos para cobrir toda a área sem falha nem desperdício, instalamos a tubulação e programamos o temporizador para regar na hora e na medida certas.",
+        "Você trata apenas com a SOS, do projeto à programação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Projeto dos Pontos", "description": "Avaliamos a área e a pressão da água para posicionar os pontos e cobrir tudo sem falha.", "icon": "clipboard-search-outline" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos aspersores, tubulação e temporizador com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Instalação da Rede", "description": "Passamos a tubulação e instalamos aspersores e gotejadores no ponto e na altura certos.", "icon": "sprinkler-variant" },
+        { "step": 4, "title": "Programação e Teste", "description": "Programamos o temporizador e testamos cada setor para regar na hora e na medida ideais.", "icon": "timer-cog-outline" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Irrigação", "description": "Nossa equipe projeta a irrigação para a sua área e o seu tipo de planta. Cobertura uniforme e programação que economiza água e mantém o verde sempre saudável." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Irrigação da SOS",
+      "reasons": [
+        { "title": "Cobertura sem Falha", "description": "Pontos projetados pela pressão e pela área para molhar tudo, sem cantos secos nem encharcados.", "icon": "target" },
+        { "title": "Economia de Água", "description": "Gotejamento e programação que regam na medida certa, sem desperdício nem conta alta.", "icon": "water-percent" },
+        { "title": "Praticidade Total", "description": "O jardim se rega sozinho na hora ideal, mesmo com você fora ou de viagem.", "icon": "timer-outline" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Irrigação Automatizada",
+      "questions": [
+        { "question": "A irrigação automática economiza água?", "answer": "Sim. Regar na hora certa (cedo ou à noite) e na medida exata, com gotejamento onde cabe, evita o desperdício da mangueira e reduz a conta de água." },
+        { "question": "Funciona para horta e vasos também?", "answer": "Sim. Para hortas e vasos usamos gotejamento e microaspersão, que levam água direto à raiz, ideais para plantas que não gostam de folha molhada." },
+        { "question": "Preciso de uma torneira ou caixa d'água dedicada?", "answer": "Avaliamos a fonte de água e a pressão disponíveis. Na maioria dos casos aproveitamos a rede existente; quando necessário, indicamos uma bomba ou reservatório." },
+        { "question": "E se faltar água ou energia?", "answer": "O sistema retoma a programação assim que a água ou a energia voltam. Também é possível acionar manualmente quando precisar de uma rega extra." }
+      ]
+    },
+    "finalCta": { "title": "Deixe o jardim se cuidar sozinho", "description": "Chega de arrastar mangueira e esquecer de regar. Um sistema automatizado mantém o verde saudável e economiza água.", "ctaText": "Solicitar Irrigação Automatizada" }
+  }
+}

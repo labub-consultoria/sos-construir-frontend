@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Corrimão e Guarda-Corpo em Foz do Iguaçu",
+    "description": "Fabricação e instalação de corrimão e guarda-corpo em Foz do Iguaçu: aço, inox e vidro para escadas, sacadas e mezaninos, sob medida, com segurança e acabamento.",
+    "keywords": "corrimão foz do iguaçu, guarda-corpo, guarda-corpo de vidro, corrimão de inox, corrimão de escada, guarda-corpo de sacada, corrimão de ferro, gradil, serralheria",
+    "breadcrumbLabel": "Corrimão e Guarda-Corpo"
+  },
+  "sections": {
+    "hero": {
+      "title": "Segurança com Acabamento que Valoriza",
+      "description": "Fabricamos e instalamos corrimão e guarda-corpo em aço, inox e vidro para escadas, sacadas e mezaninos. Sob medida, dentro das normas de segurança e com acabamento fino."
+    },
+    "overview": {
+      "kicker": "Proteção que combina com o projeto",
+      "title": "Corrimão e guarda-corpo em Foz do Iguaçu",
+      "imageAlt": "Instalação de guarda-corpo de vidro em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir fabrica e instala corrimão e guarda-corpo em Foz do Iguaçu: aço, inox e vidro para escadas, rampas, sacadas, mezaninos e áreas externas, sob medida.",
+        "Medimos no local, produzimos a peça com solda e acabamento cuidadosos e instalamos com fixação reforçada, seguindo a altura e o espaçamento das normas de segurança.",
+        "Você trata apenas com a SOS, da medição à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Medição no Local", "description": "Medimos a escada ou sacada com precisão para a peça encaixar firme e sem folga.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos material, modelo e prazo com valor fechado antes de fabricar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Fabricação sob Medida", "description": "Produzimos com solda, corte e acabamento cuidadosos, no material escolhido.", "icon": "hammer-wrench" },
+        { "step": 4, "title": "Instalação Segura", "description": "Instalamos com fixação reforçada, na altura e no espaçamento corretos das normas.", "icon": "shield-check-outline" }
+      ]
+    },
+    "professionals": { "title": "Serralheiros Especializados", "description": "Nossos serralheiros trabalham aço, inox e vidro com solda e acabamento de qualidade. Peças sob medida que unem segurança, resistência e um visual que valoriza o ambiente." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Serralheria da SOS",
+      "reasons": [
+        { "title": "Dentro das Normas", "description": "Altura, espaçamento e resistência conforme as normas de segurança, protegendo de verdade.", "icon": "shield-check-outline" },
+        { "title": "Fixação Reforçada", "description": "Ancoragem firme que não afrouxa nem balança, essencial para guarda-corpo e corrimão.", "icon": "wall" },
+        { "title": "Acabamento Fino", "description": "Solda bem feita, sem rebarba, e acabamento que combina com o estilo do seu projeto.", "icon": "diamond-stone" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Corrimão e Guarda-Corpo",
+      "questions": [
+        { "question": "Qual a diferença entre corrimão e guarda-corpo?", "answer": "O guarda-corpo é a barreira de proteção contra quedas em escadas, sacadas e mezaninos; o corrimão é o apoio para as mãos ao subir e descer. Muitas vezes trabalham juntos." },
+        { "question": "Guarda-corpo de vidro é seguro?", "answer": "Sim. Usamos vidro temperado ou laminado com espessura e fixação adequadas às normas, que suportam impacto e carga com total segurança." },
+        { "question": "Vocês fazem sob medida?", "answer": "Sim. Medimos no local e fabricamos a peça exata para a sua escada ou sacada, no material e modelo que você escolher." },
+        { "question": "Inox ou ferro pintado: qual escolher?", "answer": "O inox não enferruja e tem visual moderno; o ferro pintado é econômico e versátil. Indicamos conforme o ambiente, a exposição ao tempo e o orçamento." }
+      ]
+    },
+    "finalCta": { "title": "Proteja quem sobe e desce com segurança", "description": "Escada, sacada ou mezanino sem proteção é risco real. Instale corrimão e guarda-corpo dentro das normas, com acabamento à altura do seu projeto.", "ctaText": "Solicitar Corrimão ou Guarda-Corpo" }
+  }
+}

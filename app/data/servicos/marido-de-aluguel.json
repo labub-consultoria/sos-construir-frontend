@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Marido de Aluguel em Foz do Iguaçu | Reparos",
+    "description": "Marido de aluguel em Foz do Iguaçu: pequenos reparos, instalações e montagens em casa e escritório, de elétrica e hidráulica a prateleiras e suportes, com hora marcada.",
+    "keywords": "marido de aluguel foz do iguaçu, pequenos reparos, instalação de prateleira, suporte de tv, montagem de móveis, reparos elétricos, reparos hidráulicos, serviços gerais",
+    "breadcrumbLabel": "Marido de Aluguel"
+  },
+  "sections": {
+    "hero": {
+      "title": "Aquela Lista de Pequenos Reparos, Resolvida",
+      "description": "Cuidamos dos pequenos reparos e instalações da casa: prateleiras, suportes de TV, torneiras, tomadas, fechaduras e montagens. Um profissional só, com hora marcada, para tudo."
+    },
+    "overview": {
+      "kicker": "A lista da casa em dia",
+      "title": "Marido de aluguel em Foz do Iguaçu",
+      "imageAlt": "Serviço de marido de aluguel fazendo reparos em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir tem marido de aluguel em Foz do Iguaçu: pequenos reparos e instalações elétricas e hidráulicas, fixação de prateleiras e quadros, suporte de TV, troca de fechaduras e montagens.",
+        "Enviamos um profissional verificado, com as ferramentas certas, que resolve vários itens da sua lista numa visita só, com hora marcada e sem enrolação.",
+        "Você trata apenas com a SOS, do primeiro item ao último da lista. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Sua Lista de Serviços", "description": "Você passa a lista do que precisa; a gente organiza tudo para resolver numa visita.", "icon": "clipboard-list-outline" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos os serviços e o valor antes de começar, sem surpresa no final.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Execução com Ferramenta Certa", "description": "Fazemos cada reparo com a ferramenta e a técnica corretas, sem gambiarra.", "icon": "hammer-screwdriver" },
+        { "step": 4, "title": "Conferência e Limpeza", "description": "Conferimos cada item da lista com você e deixamos o ambiente limpo.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Profissionais Multitarefa", "description": "Nosso marido de aluguel resolve um pouco de tudo: elétrica, hidráulica, fixação e montagem. Profissional verificado e de confiança para a lista de reparos da sua casa." },
+    "whyChooseUs": {
+      "title": "O Diferencial do Marido de Aluguel da SOS",
+      "reasons": [
+        { "title": "Vários Serviços numa Visita", "description": "Resolvemos a lista inteira de uma vez, economizando o seu tempo e o deslocamento.", "icon": "clipboard-check-outline" },
+        { "title": "Profissional Verificado", "description": "Alguém de confiança na sua casa, com histórico e recomendação, não um desconhecido.", "icon": "shield-account-outline" },
+        { "title": "Sem Gambiarra", "description": "Reparo bem-feito, com ferramenta e material certos, que não volta a dar problema.", "icon": "hammer-screwdriver" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Marido de Aluguel",
+      "questions": [
+        { "question": "Que tipo de serviço o marido de aluguel faz?", "answer": "Pequenos reparos e instalações em geral: trocar tomada e chuveiro, consertar vazamento simples, fixar prateleira, quadro e suporte de TV, trocar fechadura, montar móveis e mais." },
+        { "question": "Dá para resolver vários problemas na mesma visita?", "answer": "Sim, é a ideia. Você passa a lista e organizamos para resolver o máximo possível numa visita só, economizando o seu tempo e o custo de deslocamento." },
+        { "question": "Vocês trazem as ferramentas e materiais?", "answer": "Levamos as ferramentas. Materiais específicos (como uma torneira nova ou o suporte de TV) podem ser comprados por você ou orçados por nós antes da visita." },
+        { "question": "Atendem escritórios e comércios?", "answer": "Sim. Além de residências, atendemos escritórios, lojas e comércios com pequenos reparos e manutenções gerais." }
+      ]
+    },
+    "finalCta": { "title": "Tire a lista de reparos da geladeira e resolva de vez", "description": "Chega de adiar aquele conserto. Um profissional verificado resolve a lista inteira com hora marcada.", "ctaText": "Chamar Marido de Aluguel" }
+  }
+}

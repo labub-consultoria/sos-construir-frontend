@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Comunicação Visual em Foz do Iguaçu | Fachadas",
+    "description": "Comunicação visual em Foz do Iguaçu: fachadas, letreiros, luminosos, adesivos e placas em ACM e lona, com projeto e instalação para destacar o seu comércio.",
+    "keywords": "comunicação visual foz do iguaçu, fachada de loja, letreiro, luminoso, letra caixa, adesivo, placa, acm, envelopamento, fachada em acm, banner, identidade visual",
+    "breadcrumbLabel": "Comunicação Visual"
+  },
+  "sections": {
+    "hero": {
+      "title": "Uma Fachada que o seu Cliente Não Ignora",
+      "description": "Criamos e instalamos fachadas, letreiros, luminosos, adesivos e placas em ACM e lona. Projeto que valoriza a marca e destaca o seu comércio, com acabamento profissional."
+    },
+    "overview": {
+      "kicker": "Sua marca em destaque",
+      "title": "Comunicação visual em Foz do Iguaçu",
+      "imageAlt": "Instalação de fachada e letreiro em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz comunicação visual em Foz do Iguaçu: fachadas em ACM, letreiros e luminosos, letras caixa, adesivos, placas, banners e envelopamento, para comércios e empresas.",
+        "Do projeto à instalação, produzimos com material resistente ao tempo e acabamento profissional, destacando a sua marca e mantendo a identidade visual do negócio.",
+        "Você trata apenas com a SOS, do projeto à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Projeto Visual", "description": "Desenvolvemos o projeto da fachada ou peça alinhado à identidade e ao espaço do seu negócio.", "icon": "palette-outline" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos material, medidas e prazo com valor fechado antes de produzir.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Produção", "description": "Produzimos em ACM, lona, acrílico ou adesivo com material resistente e acabamento profissional.", "icon": "printer-outline" },
+        { "step": 4, "title": "Instalação", "description": "Instalamos com fixação firme e alinhada, deixando a fachada pronta e destacada.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Comunicação Visual", "description": "Nossa equipe cria e instala fachadas e letreiros que valorizam a marca, com material resistente e acabamento profissional. Um comércio que se destaca e passa seriedade." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Comunicação Visual da SOS",
+      "reasons": [
+        { "title": "Projeto que Valoriza a Marca", "description": "Peça alinhada à sua identidade visual, que comunica e atrai, não só informa.", "icon": "palette-outline" },
+        { "title": "Material que Resiste ao Tempo", "description": "ACM, lona e tintas adequados que aguentam sol e chuva sem desbotar rápido.", "icon": "weather-sunny" },
+        { "title": "Acabamento Profissional", "description": "Corte, alinhamento e instalação firmes que passam seriedade ao cliente.", "icon": "diamond-stone" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Comunicação Visual",
+      "questions": [
+        { "question": "Vocês fazem o projeto da fachada?", "answer": "Sim. Desenvolvemos o projeto visual alinhado à sua marca e ao espaço, apresentando como a fachada ou a peça vai ficar antes de produzir." },
+        { "question": "Trabalham com letreiro luminoso e letra caixa?", "answer": "Sim. Produzimos e instalamos letreiros luminosos, letras caixa (com ou sem LED), fachadas em ACM e outros formatos, conforme o seu projeto e orçamento." },
+        { "question": "Fazem envelopamento e adesivos?", "answer": "Sim. Fazemos adesivação de vitrines, paredes, veículos e envelopamento, além de placas, banners e sinalização interna." },
+        { "question": "O material aguenta sol e chuva?", "answer": "Sim. Para áreas externas usamos ACM, lonas e tintas próprios para intempéries, que mantêm cor e acabamento por muito mais tempo." }
+      ]
+    },
+    "finalCta": { "title": "Faça o seu comércio ser visto de longe", "description": "Uma boa fachada atrai cliente e valoriza a marca. Fale com quem projeta e instala com acabamento profissional.", "ctaText": "Solicitar Comunicação Visual" }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Limpeza de Caixa d'Água em Foz do Iguaçu",
+    "description": "Limpeza e higienização de caixa d'água em Foz do Iguaçu: remoção de sedimentos, desinfecção e laudo, para água potável e segura. Atendimento residencial e comercial.",
+    "keywords": "limpeza de caixa d'água foz do iguaçu, higienização de caixa d'água, limpeza de reservatório, desinfecção de água, laudo de limpeza, caixa d'água suja, água potável",
+    "breadcrumbLabel": "Limpeza de Caixa d'Água"
+  },
+  "sections": {
+    "hero": {
+      "title": "Água Limpa e Segura Saindo da sua Torneira",
+      "description": "Higienizamos sua caixa d'água com remoção de sedimentos, desinfecção e laudo de limpeza. Processo rápido, com pouco desperdício de água e a segurança que a sua família merece."
+    },
+    "overview": {
+      "kicker": "Água potável de verdade",
+      "title": "Limpeza de caixa d'água em Foz do Iguaçu",
+      "imageAlt": "Limpeza e higienização de caixa d'água em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz limpeza e higienização de caixa d'água em Foz do Iguaçu: remoção de lodo e sedimentos, desinfecção e laudo, para residências, condomínios e comércios.",
+        "Esvaziamos com aproveitamento da água, esfregamos as paredes sem produtos que contaminam e desinfetamos o reservatório, com registro fotográfico e laudo que comprova o serviço.",
+        "Você trata apenas com a SOS, do agendamento ao laudo. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Esvaziamento Controlado",
+          "description": "Aproveitamos a água ao máximo e esvaziamos a caixa sem desperdício antes da limpeza.",
+          "icon": "water-percent"
+        },
+        {
+          "step": 2,
+          "title": "Limpeza das Paredes",
+          "description": "Removemos lodo, sedimentos e biofilme das paredes e do fundo, sem produtos que contaminem a água.",
+          "icon": "broom"
+        },
+        {
+          "step": 3,
+          "title": "Desinfecção",
+          "description": "Aplicamos a desinfecção correta que elimina bactérias e deixa o reservatório pronto para uso.",
+          "icon": "spray-bottle"
+        },
+        {
+          "step": 4,
+          "title": "Laudo e Registro",
+          "description": "Entregamos registro fotográfico e laudo de limpeza, comprovando a higienização para você ou o condomínio.",
+          "icon": "file-document-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Equipe de Higienização",
+      "description": "Nossa equipe higieniza reservatórios residenciais e de grande porte com método seguro. Limpeza que remove o que contamina a água sem deixar resíduo tóxico no lugar."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Higienização da SOS",
+      "reasons": [
+        {
+          "title": "Sem Contaminar a Água",
+          "description": "Produtos e método corretos que higienizam sem deixar resíduo tóxico no reservatório.",
+          "icon": "water-check"
+        },
+        {
+          "title": "Laudo que Comprova",
+          "description": "Registro fotográfico e laudo de limpeza, exigido em condomínios e estabelecimentos.",
+          "icon": "clipboard-check-outline"
+        },
+        {
+          "title": "Pouco Desperdício de Água",
+          "description": "Processo que reaproveita a água ao máximo e repõe o reservatório rapidamente.",
+          "icon": "water-sync"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Limpeza de Caixa d'Água",
+      "questions": [
+        {
+          "question": "De quanto em quanto tempo devo limpar a caixa d'água?",
+          "answer": "O recomendado é a cada 6 meses. Água com gosto ou cheiro estranho, sujeira no fundo ou casos de doença na casa indicam que a limpeza deve ser antecipada."
+        },
+        {
+          "question": "Vocês fornecem laudo de limpeza?",
+          "answer": "Sim. Entregamos registro fotográfico e laudo de higienização, documento exigido em condomínios, escolas, restaurantes e outros estabelecimentos."
+        },
+        {
+          "question": "A água fica sem uso por muito tempo?",
+          "answer": "Não. O processo é rápido: esvaziamos, limpamos, desinfetamos e repomos. Em geral o abastecimento volta ao normal no mesmo dia do serviço."
+        },
+        {
+          "question": "Qual produto vocês usam para desinfetar?",
+          "answer": "Usamos produtos apropriados para água potável, na dosagem correta, que eliminam bactérias sem deixar resíduo tóxico nem alterar a qualidade da água."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Não beba do que você não limpou",
+      "description": "A caixa d'água acumula lodo e sedimentos que afetam a saúde da família. Higienize com quem entrega laudo e faz certo.",
+      "ctaText": "Agendar Limpeza da Caixa"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Desentupidora em Foz do Iguaçu | Atendimento 24h",
+    "description": "Desentupidora em Foz do Iguaçu: desentupimento de pia, vaso, ralo e esgoto com hidrojateamento, limpeza de fossa e caixa de gordura. Atendimento rápido, sem quebrar.",
+    "keywords": "desentupidora foz do iguaçu, desentupimento, desentupir esgoto, desentupir vaso, hidrojateamento, limpeza de fossa, caixa de gordura, desentupidora 24h",
+    "breadcrumbLabel": "Desentupidora"
+  },
+  "sections": {
+    "hero": {
+      "title": "Entupimento Resolvido Rápido, sem Quebradeira",
+      "description": "Desentupimos pias, vasos, ralos e redes de esgoto com hidrojateamento, sem quebrar piso nem parede. Limpeza de fossa e caixa de gordura com atendimento de emergência."
+    },
+    "overview": {
+      "kicker": "Esgoto fluindo de novo, sem bagunça",
+      "title": "Desentupidora em Foz do Iguaçu",
+      "imageAlt": "Serviço de desentupimento com hidrojateamento em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir tem serviço de desentupidora em Foz do Iguaçu: desentupimento de pias, vasos, ralos, colunas e redes de esgoto, além de limpeza de fossa e caixa de gordura.",
+        "Usamos hidrojateamento de alta pressão e molas rotativas que limpam a tubulação por dentro, sem quebrar piso ou parede, com atendimento de emergência quando o esgoto transborda.",
+        "Você trata apenas com a SOS, do diagnóstico à limpeza final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Localização do Entupimento",
+          "description": "Identificamos onde está a obstrução na rede para agir no ponto certo, sem quebrar à toa.",
+          "icon": "map-marker-radius-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Explicamos o método e o valor antes de começar, sem cobrança surpresa por 'hora extra'.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Desentupimento",
+          "description": "Aplicamos hidrojateamento ou mola rotativa que desobstrói e limpa a parede interna do cano.",
+          "icon": "water-pump"
+        },
+        {
+          "step": 4,
+          "title": "Limpeza e Orientação",
+          "description": "Deixamos a área limpa e orientamos como evitar novos entupimentos, como gordura, lenços e raízes.",
+          "icon": "broom"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Equipe de Desentupimento Ágil",
+      "description": "Nossa equipe resolve desde uma pia lenta até uma coluna de esgoto obstruída. Técnica e equipamento certo que desobstroem de verdade, sem empurrar o problema para frente."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Desentupimento da SOS",
+      "reasons": [
+        {
+          "title": "Sem Quebrar Piso ou Parede",
+          "description": "Hidrojateamento e rotativas resolvem por dentro da tubulação, preservando o seu acabamento.",
+          "icon": "hammer-wrench"
+        },
+        {
+          "title": "Atendimento de Emergência",
+          "description": "Esgoto transbordando não espera — equipe pronta para chegar rápido e conter o estrago.",
+          "icon": "alert-decagram-outline"
+        },
+        {
+          "title": "Limpeza que Previne Recaída",
+          "description": "Limpamos a parede interna do cano, não só empurramos o entupimento alguns metros à frente.",
+          "icon": "pipe"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Desentupimento",
+      "questions": [
+        {
+          "question": "Vocês desentopem sem quebrar o piso?",
+          "answer": "Sim. Na grande maioria dos casos o hidrojateamento e as molas rotativas resolvem por dentro da tubulação, sem precisar quebrar piso ou parede."
+        },
+        {
+          "question": "O que é hidrojateamento?",
+          "answer": "É a limpeza da tubulação com água em alta pressão, que rompe a obstrução e remove a incrustação da parede interna do cano, deixando o fluxo totalmente livre."
+        },
+        {
+          "question": "Vocês fazem limpeza de fossa e caixa de gordura?",
+          "answer": "Sim. Fazemos a sucção e limpeza de fossas e caixas de gordura, com descarte adequado, mantendo o sistema de esgoto funcionando sem retorno nem mau cheiro."
+        },
+        {
+          "question": "Como evitar que entupa de novo?",
+          "answer": "Evite jogar gordura, restos de comida, fio de cabelo e lenços na rede. Em cozinhas, a limpeza periódica da caixa de gordura previne a maioria dos entupimentos."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Não deixe o entupimento parar a sua casa",
+      "description": "Esgoto parado é transtorno e risco de saúde. Chame quem resolve rápido e sem destruir o seu acabamento.",
+      "ctaText": "Chamar Desentupidora Agora"
+    }
+  }
+}

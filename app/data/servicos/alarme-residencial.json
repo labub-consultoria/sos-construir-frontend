@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Alarme Residencial em Foz do Iguaçu | Instalação",
+    "description": "Instalação de alarme residencial e comercial em Foz do Iguaçu: sensores, sirene e central com aviso no celular, contra invasão. Projeto sem ponto cego e reparo.",
+    "keywords": "alarme residencial foz do iguaçu, instalação de alarme, alarme comercial, sensor de presença, central de alarme, sirene, alarme com aviso no celular, alarme contra invasão",
+    "breadcrumbLabel": "Alarme"
+  },
+  "sections": {
+    "hero": {
+      "title": "O Aviso que Afasta o Invasor a Tempo",
+      "description": "Instalamos alarmes com sensores de presença e abertura, sirene e central que avisa no seu celular. Projeto que cobre os pontos de entrada, sem ponto cego, com reparo garantido."
+    },
+    "overview": {
+      "kicker": "Proteção que avisa na hora",
+      "title": "Alarme residencial e comercial em Foz do Iguaçu",
+      "imageAlt": "Instalação de alarme residencial em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala alarme em Foz do Iguaçu: sensores de presença e de abertura, sirene, central e aviso por aplicativo, para residências, condomínios e comércios.",
+        "Projetamos os sensores para cobrir portas, janelas e áreas de circulação sem ponto cego, instalamos a central e a sirene e configuramos os avisos no seu celular.",
+        "Você trata apenas com a SOS, da vistoria à configuração no celular. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Vistoria dos Acessos", "description": "Mapeamos portas, janelas e pontos de passagem para posicionar sensores onde importa.", "icon": "clipboard-search-outline" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos sensores, central e sirene com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Instalação e Sensores", "description": "Instalamos a central, os sensores e a sirene com fixação firme e sem ponto cego.", "icon": "cog" },
+        { "step": 4, "title": "Configuração e Teste", "description": "Configuramos os avisos no celular e testamos cada sensor e o disparo da sirene.", "icon": "cellphone-check" }
+      ]
+    },
+    "professionals": { "title": "Técnicos em Alarme", "description": "Nossos técnicos projetam a cobertura sem ponto cego e configuram o aviso no celular. Alarme que dispara na hora certa, com menos alarme falso e proteção de verdade." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Alarme da SOS",
+      "reasons": [
+        { "title": "Cobertura sem Ponto Cego", "description": "Sensores posicionados para cobrir todas as entradas, sem brecha para o invasor passar.", "icon": "shield-home-outline" },
+        { "title": "Aviso no seu Celular", "description": "Disparo e alertas em tempo real no aplicativo, esteja você em casa ou fora.", "icon": "cellphone-check" },
+        { "title": "Menos Alarme Falso", "description": "Sensores e ajustes corretos que reduzem disparo à toa por pet, vento ou inseto.", "icon": "bell-check-outline" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Alarme Residencial",
+      "questions": [
+        { "question": "O alarme avisa no meu celular?", "answer": "Sim. Configuramos a central para enviar o disparo e os alertas ao seu aplicativo, permitindo acompanhar e agir de qualquer lugar." },
+        { "question": "Funciona na falta de energia?", "answer": "Sim. A central tem bateria de backup que mantém o alarme ativo durante quedas de energia, sem deixar o imóvel desprotegido." },
+        { "question": "Dispara à toa com meu cachorro?", "answer": "Usamos sensores e ajustes adequados a ambientes com pets, que reduzem bastante os disparos falsos por movimento de animais." },
+        { "question": "Dá para integrar com câmeras?", "answer": "Sim. O alarme pode trabalhar em conjunto com o sistema de câmeras (CFTV), permitindo verificar a imagem quando um sensor dispara." }
+      ]
+    },
+    "finalCta": { "title": "Um alarme avisa antes que seja tarde", "description": "Proteja sua família e seu patrimônio com um alarme bem projetado, que cobre tudo e avisa no seu celular.", "ctaText": "Solicitar Alarme" }
+  }
+}

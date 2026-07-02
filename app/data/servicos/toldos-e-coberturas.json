@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Toldos e Coberturas em Foz do Iguaçu | Sob Medida",
+    "description": "Toldos e coberturas sob medida em Foz do Iguaçu: policarbonato, lona e estrutura metálica para varandas, garagens e áreas de lazer, com projeto e instalação própria.",
+    "keywords": "toldos foz do iguaçu, coberturas, cobertura de policarbonato, toldo de lona, cobertura de garagem, cobertura para área de lazer, estrutura metálica, toldo retrátil",
+    "breadcrumbLabel": "Toldos e Coberturas"
+  },
+  "sections": {
+    "hero": {
+      "title": "Aproveite sua Área Externa em Qualquer Clima",
+      "description": "Projetamos e instalamos toldos e coberturas sob medida em policarbonato, lona ou estrutura metálica. Proteção contra sol e chuva com acabamento resistente e sem infiltração."
+    },
+    "overview": {
+      "kicker": "Sombra e proteção o ano todo",
+      "title": "Toldos e coberturas em Foz do Iguaçu",
+      "imageAlt": "Instalação de cobertura de policarbonato em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir projeta e instala toldos e coberturas em Foz do Iguaçu: policarbonato, lona, vidro e estrutura metálica para varandas, garagens, áreas de lazer e comércios.",
+        "Dimensionamos a estrutura para o vão e a carga de vento, com fixação reforçada e caimento correto que escoa a água e evita infiltração e barulho de chuva.",
+        "Você trata apenas com a SOS, do projeto à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Medição e Projeto",
+          "description": "Medimos o vão, avaliamos a fixação e definimos o material e o modelo ideais para o seu espaço.",
+          "icon": "ruler-square"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Apresentamos estrutura, material e prazo com valor fechado antes de instalar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Fabricação e Instalação",
+          "description": "Produzimos a estrutura sob medida e instalamos com fixação reforçada e caimento correto.",
+          "icon": "hammer-wrench"
+        },
+        {
+          "step": 4,
+          "title": "Vedação e Acabamento",
+          "description": "Vedamos as emendas e finalizamos o acabamento para garantir proteção total contra chuva.",
+          "icon": "shield-check-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Especialistas em Toldos e Coberturas",
+      "description": "Nossa equipe instala desde uma cobertura simples de garagem até estruturas amplas para áreas de lazer. Montagem firme e bem vedada, que protege sem balançar nem infiltrar."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Coberturas da SOS",
+      "reasons": [
+        {
+          "title": "Estrutura Dimensionada",
+          "description": "Cálculo de vão e carga de vento para uma cobertura firme, que não balança nem cede.",
+          "icon": "vector-square"
+        },
+        {
+          "title": "Vedação sem Infiltração",
+          "description": "Caimento e vedação corretos que escoam a água e mantêm a área seca.",
+          "icon": "water-off-outline"
+        },
+        {
+          "title": "Material Resistente ao Tempo",
+          "description": "Policarbonato, lona e metais tratados que aguentam sol forte e chuva sem desbotar.",
+          "icon": "weather-sunny"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Toldos e Coberturas",
+      "questions": [
+        {
+          "question": "Qual material é melhor: policarbonato, lona ou vidro?",
+          "answer": "Depende do uso e do visual. O policarbonato ilumina e protege do sol; a lona é versátil e econômica; o vidro é sofisticado. Indicamos o ideal para o seu espaço e clima."
+        },
+        {
+          "question": "A cobertura aguenta chuva forte e vento?",
+          "answer": "Sim. Dimensionamos a estrutura pela carga de vento e o vão, com fixação reforçada e caimento correto para escoar a água mesmo em temporais."
+        },
+        {
+          "question": "Vocês fazem toldo retrátil?",
+          "answer": "Fazemos. O toldo retrátil permite abrir e fechar a sombra conforme a necessidade, ideal para varandas e áreas gourmet. Avaliamos o melhor mecanismo para o local."
+        },
+        {
+          "question": "A cobertura precisa de manutenção?",
+          "answer": "A manutenção é simples: limpeza periódica e conferência da fixação. Materiais e estrutura tratados reduzem bastante a necessidade de intervenções."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Sua área externa protegida em qualquer estação",
+      "description": "Sol forte ou chuva não precisam atrapalhar o seu espaço. Cubra a sua área com estrutura firme e bem vedada.",
+      "ctaText": "Solicitar Orçamento de Cobertura"
+    }
+  }
+}

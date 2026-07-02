@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Limpeza Pós-Obra em Foz do Iguaçu",
+    "description": "Limpeza pós-obra em Foz do Iguaçu: remoção de respingos de tinta, cimento e poeira fina, limpeza de vidros, pisos e box, deixando o imóvel pronto para morar.",
+    "keywords": "limpeza pós-obra foz do iguaçu, limpeza pesada, limpeza de vidros, remoção de respingo de tinta, limpeza de piso, faxina pós-reforma, limpeza fina, limpeza de fachada",
+    "breadcrumbLabel": "Limpeza Pós-Obra"
+  },
+  "sections": {
+    "hero": {
+      "title": "Da Bagunça da Obra ao Imóvel Pronto para Morar",
+      "description": "Fazemos a limpeza pesada pós-obra: respingos de tinta e cimento, poeira fina, vidros, pisos e box. Entregamos o imóvel limpo, sem resíduo de obra e pronto para a mudança."
+    },
+    "overview": {
+      "kicker": "Obra entregue, casa limpa",
+      "title": "Limpeza pós-obra em Foz do Iguaçu",
+      "imageAlt": "Serviço de limpeza pós-obra em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz limpeza pós-obra em Foz do Iguaçu: remoção de respingos de tinta, cimento e rejunte, poeira fina, limpeza de vidros, esquadrias, pisos e box, para casas e comércios.",
+        "Usamos produtos e técnicas próprios para resíduo de obra, que a faxina comum não remove, deixando cada superfície limpa e o imóvel pronto para morar ou inaugurar.",
+        "Você trata apenas com a SOS, da avaliação à revisão final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Avaliação do Imóvel", "description": "Verificamos o tipo de resíduo e as superfícies para definir produtos e método sem danificar acabamento.", "icon": "magnify-scan" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos escopo, equipe e prazo com valor fechado antes de começar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Limpeza Pesada", "description": "Removemos respingos, poeira fina e sujeira de obra de pisos, vidros, esquadrias e box.", "icon": "broom" },
+        { "step": 4, "title": "Revisão Final", "description": "Revisamos cada ambiente para entregar o imóvel limpo e pronto para a mudança.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Equipe de Limpeza Pós-Obra", "description": "Nossa equipe remove o que a faxina comum não tira: respingo de tinta, cimento e poeira fina, sem riscar acabamento novo. Imóvel entregue limpo e pronto para morar." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Limpeza Pós-Obra da SOS",
+      "reasons": [
+        { "title": "Remove Resíduo de Obra", "description": "Respingo de tinta, cimento e rejunte que a faxina comum não tira, sem riscar o acabamento.", "icon": "spray-bottle" },
+        { "title": "Sem Danificar Acabamento", "description": "Produto e técnica certos para cada superfície, protegendo piso, vidro e metais novos.", "icon": "shield-check-outline" },
+        { "title": "Pronto para Morar", "description": "Imóvel entregue limpo de verdade, sem aquela poeira fina que volta depois.", "icon": "home-heart-outline" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Limpeza Pós-Obra",
+      "questions": [
+        { "question": "Qual a diferença da limpeza pós-obra para a faxina comum?", "answer": "A pós-obra remove resíduos que a faxina não tira: respingo de tinta e cimento, poeira fina impregnada, cola e rejunte, com produtos e técnicas específicos e sem danificar o acabamento novo." },
+        { "question": "Vocês removem respingo de tinta e cimento do piso e do vidro?", "answer": "Sim. Removemos respingos de tinta, cimento, gesso e rejunte de pisos, vidros, esquadrias e louças, usando o método adequado a cada superfície para não riscar." },
+        { "question": "Trazem os produtos e equipamentos?", "answer": "Sim. Levamos os produtos e equipamentos próprios para limpeza pesada pós-obra. Você não precisa providenciar nada além do acesso ao imóvel e à água." },
+        { "question": "Quanto tempo leva?", "answer": "Depende do tamanho do imóvel e do volume de resíduo. Avaliamos e passamos o prazo no orçamento, geralmente concluindo em um ou poucos dias." }
+      ]
+    },
+    "finalCta": { "title": "Termine a obra do jeito certo: impecável", "description": "Depois de tanto esforço, entregue o imóvel realmente limpo. Deixe a limpeza pesada com quem tem produto e técnica certos.", "ctaText": "Solicitar Limpeza Pós-Obra" }
+  }
+}

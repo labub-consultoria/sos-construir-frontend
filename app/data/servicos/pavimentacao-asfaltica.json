@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Pavimentação Asfáltica em Foz do Iguaçu",
+    "description": "Pavimentação asfáltica em Foz do Iguaçu: ruas, condomínios, estacionamentos e pátios, com preparo da base, drenagem e asfalto compactado. Recapeamento e tapa-buraco.",
+    "keywords": "pavimentação asfáltica foz do iguaçu, asfalto, recapeamento, tapa-buraco, pavimentação de condomínio, estacionamento, pátio, asfalto para acesso, base compactada",
+    "breadcrumbLabel": "Pavimentação Asfáltica"
+  },
+  "sections": {
+    "hero": {
+      "title": "Piso Asfáltico Firme, Nivelado e Durável",
+      "description": "Executamos pavimentação asfáltica de ruas, condomínios, estacionamentos e pátios, com base bem preparada e drenagem. Asfalto compactado que aguenta tráfego sem afundar."
+    },
+    "overview": {
+      "kicker": "Base firme, asfalto que dura",
+      "title": "Pavimentação asfáltica em Foz do Iguaçu",
+      "imageAlt": "Serviço de pavimentação asfáltica em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz pavimentação asfáltica em Foz do Iguaçu: ruas, acessos, condomínios, estacionamentos e pátios, além de recapeamento e tapa-buraco, para áreas privadas e coletivas.",
+        "Preparamos e compactamos a base, cuidamos da drenagem e do caimento e aplicamos o asfalto compactado na espessura certa, para um piso que aguenta o tráfego sem afundar nem trincar.",
+        "Você trata apenas com a SOS, da base à aplicação do asfalto. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Análise e Base", "description": "Avaliamos o solo e o tráfego para preparar a base e a drenagem adequadas à carga.", "icon": "magnify-scan" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos escopo, espessura e prazo com valor fechado antes de executar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Base e Compactação", "description": "Preparamos e compactamos a sub-base e a base, garantindo firmeza e caimento para a água.", "icon": "road-variant" },
+        { "step": 4, "title": "Aplicação do Asfalto", "description": "Aplicamos e compactamos o asfalto na espessura certa, para um piso nivelado e durável.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Equipe de Pavimentação", "description": "Nossa equipe prepara e compacta a base direito, o segredo de um asfalto que não afunda. Pavimentação nivelada e drenada que aguenta o vaivém de veículos." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Pavimentação da SOS",
+      "reasons": [
+        { "title": "Base Bem Compactada", "description": "A firmeza do asfalto vem da base; compactação correta evita afundamento e trinca.", "icon": "shield-check-outline" },
+        { "title": "Drenagem e Caimento", "description": "Caimento e escoamento corretos que evitam poça e o desgaste precoce do pavimento.", "icon": "water-off-outline" },
+        { "title": "Aguenta o Tráfego", "description": "Espessura dimensionada pela carga, para o piso resistir ao vaivém de veículos.", "icon": "car-outline" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Pavimentação Asfáltica",
+      "questions": [
+        { "question": "Vocês fazem pavimentação em condomínio e estacionamento?", "answer": "Sim. Executamos a pavimentação de ruas internas, acessos, estacionamentos e pátios de condomínios, empresas e áreas particulares, dimensionando pela carga de tráfego." },
+        { "question": "Fazem recapeamento e tapa-buraco?", "answer": "Sim. Fazemos o recapeamento de áreas desgastadas e o reparo pontual de buracos, recuperando o piso e prolongando a vida útil do pavimento." },
+        { "question": "Quanto tempo até poder passar carro?", "answer": "Após a compactação, o asfalto libera o tráfego em poucas horas, conforme o tipo e a espessura aplicados. Passamos a orientação exata no serviço." },
+        { "question": "Como evitam que o asfalto afunde?", "answer": "O segredo está na base: preparamos e compactamos a sub-base e a base corretamente e cuidamos da drenagem. Base firme e bem drenada é o que evita afundamento e trinca." }
+      ]
+    },
+    "finalCta": { "title": "Um piso asfáltico que aguenta o vaivém", "description": "Rua, acesso ou estacionamento pedem base firme e asfalto bem aplicado. Fale com quem prepara a base direito.", "ctaText": "Solicitar Pavimentação" }
+  }
+}

@@ -28,8 +28,8 @@ function loadEnv(keys) {
 // Fórmula da spec (§5): estilo/técnico constantes + humanização calibrada (§5.1: polished —
 // luz natural, enquadramento levemente descentralizado, textura real; sem "selfie de celular").
 const STYLE = 'Professional commercial photography, photorealistic, shot on a DSLR, clean and bright color grading, natural soft light, slightly off-center candid framing, real skin and material textures, a real work environment, focused on the task, not looking at the camera'
-const TECH = 'High resolution, sharp focus, natural depth of field, correctly proportioned hands'
-const AVOID = 'Avoid: text, watermark, logo, brand emblems or patches on clothing, any text on clothing, brand names on tools or equipment, deformed hands, extra fingers, blurry, cartoon, illustration, 3d render, distorted tools, unsafe practices, cluttered background'
+const TECH = 'High resolution, sharp focus, natural depth of field, correctly proportioned hands and natural body proportions'
+const AVOID = 'Avoid: text, watermark, logo, brand emblems or patches on clothing, any text on clothing, brand names on tools or equipment, deformed hands, extra fingers, extra arms, extra limbs, malformed anatomy, duplicated body parts, blurry, cartoon, illustration, 3d render, distorted tools, unsafe practices, cluttered background'
 // Regra do sujeito (global): homem + uniforme liso sem logo (§8 — evita marca inventada).
 const WORKER = 'The professional is a man wearing a plain solid-color uniform with no visible logos, patches, or text.'
 // Hero: sujeito na DIREITA (o layout renderiza object-right e o texto ocupa a esquerda).
@@ -38,8 +38,17 @@ const ASPECT = { hero: '16:9', cover: '4:3' }
 const FORMAT = { hero: 'webp', cover: 'jpeg' }
 const lightPhrase = (l) => (l === 'externo' ? 'Bright natural sunlight, clear blue sky' : 'Soft, professional indoor lighting')
 
-const buildPrompt = (p, kind) =>
-  `${FRAME[kind]} of ${p.subject}, wearing ${p.attire}, in ${p.scene}. ${WORKER} ${lightPhrase(p.light)}. ${STYLE}. ${TECH}. ${AVOID}.`
+// Cada serviço pode definir hero/cover com facetas diferentes do ofício (subject/scene/luz
+// próprios). Sem isso, usa os campos no nível do serviço para os dois lados.
+const resolve = (p, kind) => p[kind] ?? p
+// Contexto local descrito de forma concreta: evita imagem "gringa" e também o estereótipo
+// que a IA associa a só "brazilian" — os detalhes BR de verdade vêm no subject/scene de cada
+// serviço (ex.: caixa d'água azul de polietileno, 500L, padrão brasileiro).
+const CONTEXT = 'The setting is a real, modern middle-class home in Brazil, with authentic contemporary Brazilian details and no caricature or stereotype'
+const buildPrompt = (p, kind) => {
+  const f = resolve(p, kind)
+  return `${FRAME[kind]} of ${f.subject}, wearing ${f.attire}, in ${f.scene}. ${WORKER} ${lightPhrase(f.light)}. ${CONTEXT}. ${STYLE}. ${TECH}. ${AVOID}.`
+}
 
 function detectExt(buf) {
   if (buf[0] === 0x89 && buf[1] === 0x50) return 'png'

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Forro de PVC em Foz do Iguaçu | Instalação",
+    "description": "Instalação de forro de PVC em Foz do Iguaçu: forro lavável, resistente à umidade, com acabamento em réguas e roda-forro, para casas, comércios e áreas molhadas.",
+    "keywords": "forro de pvc foz do iguaçu, instalação de forro, forro pvc, forro lavável, roda-forro, forro para banheiro, forro para garagem, forro de teto, troca de forro",
+    "breadcrumbLabel": "Forro de PVC"
+  },
+  "sections": {
+    "hero": {
+      "title": "Um Teto Novo, Limpo e sem Manutenção",
+      "description": "Instalamos forro de PVC lavável e resistente à umidade, com réguas alinhadas e acabamento em roda-forro. Rápido, limpo e ideal para áreas molhadas e cobertas."
+    },
+    "overview": {
+      "kicker": "Teto renovado sem obra",
+      "title": "Forro de PVC em Foz do Iguaçu",
+      "imageAlt": "Instalação de forro de PVC em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala forro de PVC em Foz do Iguaçu: forro liso ou frisado para tetos, varandas, garagens, banheiros e comércios, com acabamento e estrutura própria.",
+        "Montamos a estrutura de sustentação nivelada, encaixamos as réguas alinhadas e finalizamos com roda-forro, deixando um teto lavável e resistente à umidade.",
+        "Você trata apenas com a SOS, da estrutura ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Medição e Nível", "description": "Medimos o ambiente e definimos o nível do forro para um teto reto, sem barriga nem desalinhamento.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Calculamos a metragem, o tipo de régua e o roda-forro com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Estrutura e Réguas", "description": "Montamos a estrutura de sustentação e encaixamos as réguas alinhadas, com recortes para luminárias.", "icon": "view-grid-outline" },
+        { "step": 4, "title": "Acabamento", "description": "Instalamos o roda-forro e conferimos emendas e cantos para um acabamento limpo.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Instaladores de Forro", "description": "Nossos instaladores montam forro de PVC nivelado, com estrutura firme e réguas bem encaixadas. Teto lavável e durável, com acabamento que valoriza o ambiente." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Forro da SOS",
+      "reasons": [
+        { "title": "Resistente à Umidade", "description": "PVC lavável, ideal para banheiro, cozinha, varanda e garagem, sem mofar nem empenar.", "icon": "water-off-outline" },
+        { "title": "Estrutura Nivelada", "description": "Sustentação firme e no nível para o forro não ceder nem formar barriga com o tempo.", "icon": "ruler-square" },
+        { "title": "Instalação Rápida e Limpa", "description": "Montagem a seco que renova o teto sem quebra-quebra e sem sujeira de obra.", "icon": "clock-fast" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Forro de PVC",
+      "questions": [
+        { "question": "Forro de PVC pode ser usado em banheiro e área externa coberta?", "answer": "Sim. O PVC é lavável e resistente à umidade, o que o torna ideal para banheiros, cozinhas, varandas e garagens cobertas, onde o gesso sofreria com a água." },
+        { "question": "Dá para embutir luminárias e spots?", "answer": "Sim. Fazemos os recortes para spots, luminárias e sancas de luz, planejando os pontos junto com você antes de fechar o forro." },
+        { "question": "O forro de PVC amarela com o tempo?", "answer": "Forros de qualidade têm proteção contra o amarelamento. Trabalhamos com material adequado e, em áreas de muito sol, indicamos o tipo mais resistente." },
+        { "question": "Quanto tempo leva a instalação?", "answer": "Por ser montagem a seco, é rápida: um ambiente costuma ficar pronto no mesmo dia, dependendo da metragem e da estrutura necessária." }
+      ]
+    },
+    "finalCta": { "title": "Renove o seu teto de forma rápida e limpa", "description": "Troque um teto manchado ou um gesso danificado por um forro de PVC lavável e durável, instalado sem bagunça.", "ctaText": "Solicitar Forro de PVC" }
+  }
+}

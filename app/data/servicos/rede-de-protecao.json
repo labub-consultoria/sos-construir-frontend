@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Rede de Proteção em Foz do Iguaçu | Instalação",
+    "description": "Instalação de rede de proteção em Foz do Iguaçu: janelas, sacadas, escadas e quadras, para crianças, pets e prevenção de quedas, com fixação firme e material resistente.",
+    "keywords": "rede de proteção foz do iguaçu, tela de proteção, rede para janela, rede para sacada, rede para pet, proteção infantil, rede para escada, tela para gato",
+    "breadcrumbLabel": "Rede de Proteção"
+  },
+  "sections": {
+    "hero": {
+      "title": "Tranquilidade para Crianças e Pets em Casa",
+      "description": "Instalamos rede de proteção em janelas, sacadas e escadas, para prevenir quedas de crianças e pets. Material resistente, fixação firme e acabamento discreto."
+    },
+    "overview": {
+      "kicker": "Proteção que dá paz de espírito",
+      "title": "Rede de proteção em Foz do Iguaçu",
+      "imageAlt": "Instalação de rede de proteção em janela em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala rede de proteção em Foz do Iguaçu: janelas, sacadas, varandas, escadas, mezaninos e quadras, para a segurança de crianças, idosos e pets.",
+        "Usamos rede com proteção UV e fixação em pontos firmes, com tensionamento e espaçamento corretos, garantindo proteção sem comprometer a ventilação nem a vista.",
+        "Você trata apenas com a SOS, da medição à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Medição e Avaliação", "description": "Medimos os vãos e avaliamos os pontos de fixação firmes para uma instalação segura.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos o tipo de rede, a cor e o serviço com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Fixação Firme", "description": "Fixamos os suportes em pontos resistentes e tensionamos a rede sem deixar folga.", "icon": "grid" },
+        { "step": 4, "title": "Conferência de Segurança", "description": "Conferimos tensionamento, espaçamento e cantos para garantir proteção total.", "icon": "shield-check-outline" }
+      ]
+    },
+    "professionals": { "title": "Instaladores de Rede de Proteção", "description": "Nossa equipe instala rede em pontos firmes, com tensionamento correto, o que garante a proteção de verdade. Acabamento discreto que protege sem tapar a vista." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Rede de Proteção da SOS",
+      "reasons": [
+        { "title": "Fixação que Segura", "description": "Suportes em pontos firmes e tensionamento correto que não afrouxam com o tempo.", "icon": "wall" },
+        { "title": "Material Resistente ao Sol", "description": "Rede com proteção UV que não resseca nem se rompe com a exposição ao tempo.", "icon": "weather-sunny" },
+        { "title": "Protege sem Fechar", "description": "Segurança que mantém a ventilação e a vista, sem o ambiente virar uma gaiola.", "icon": "eye-outline" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Rede de Proteção",
+      "questions": [
+        { "question": "A rede de proteção aguenta o peso de uma pessoa?", "answer": "Instalada corretamente, com fixação em pontos firmes e tensionamento certo, a rede resiste a impacto e peso, cumprindo a função de prevenir quedas." },
+        { "question": "A rede atrapalha a ventilação ou a vista?", "answer": "Não. A malha é fina e discreta, permitindo passar ar e luz e mantendo a vista, sem a sensação de ambiente fechado." },
+        { "question": "Serve para gato e cachorro?", "answer": "Sim. Para pets usamos redes mais resistentes, com malha e fixação adequadas a unhas e mordidas, protegendo janelas e sacadas." },
+        { "question": "Quanto tempo dura a rede?", "answer": "Com proteção UV e boa instalação, dura vários anos. Fazemos manutenção e retensionamento quando necessário para manter a segurança." }
+      ]
+    },
+    "finalCta": { "title": "Proteja quem você ama de uma queda", "description": "Janela e sacada sem proteção são risco real para crianças e pets. Instale rede de proteção com fixação firme e material resistente.", "ctaText": "Solicitar Rede de Proteção" }
+  }
+}

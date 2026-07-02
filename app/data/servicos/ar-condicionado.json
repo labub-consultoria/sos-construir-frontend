@@ -8,7 +8,7 @@
   "sections": {
     "hero": {
       "title": "O Clima Perfeito para sua Casa e Empresa",
-      "description": "Calor insuportável ou aquele split que parou de gelar? Instalamos, higienizamos e mantemos seu ar-condicionado com técnicos verificados, limpeza no ambiente e agilidade no atendimento."
+      "description": "Instalamos, higienizamos e mantemos seu ar-condicionado com o dimensionamento correto de BTUs. Técnicos verificados, instalação limpa e atendimento ágil para o clima ideal."
     },
     "overview": {
       "kicker": "Climatização que gela de verdade",
@@ -38,24 +38,7 @@
       ]
     },
     "workGallery": {
-      "filters": [
-        {
-          "label": "Todos",
-          "slug": "todos"
-        },
-        {
-          "label": "Instalação",
-          "slug": "instalacao"
-        },
-        {
-          "label": "Limpeza e Higienização",
-          "slug": "higienizacao"
-        },
-        {
-          "label": "Manutenção e Recarga",
-          "slug": "manutencao"
-        }
-      ]
+      "filters": [{ "label": "Todos", "slug": "todos" }]
     },
     "process": {
       "steps": [

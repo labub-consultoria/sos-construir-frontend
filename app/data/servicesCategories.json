@@ -44,6 +44,11 @@
       "name": "Móveis e Marcenaria",
       "slug": "moveis-e-marcenaria",
       "examples": "Sofá sob medida, móveis planejados, montagem"
+    },
+    {
+      "name": "Limpeza e Dedetização",
+      "slug": "limpeza-e-dedetizacao",
+      "examples": "Limpeza pós-obra, dedetização, controle de pragas"
     }
   ]
 }

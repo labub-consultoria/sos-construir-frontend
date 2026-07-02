@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Reforma de Estofados em Foz do Iguaçu | Sofás",
+    "description": "Reforma de estofados em Foz do Iguaçu: troca de tecido, espuma e molas de sofás, poltronas e cadeiras, com acabamento de fábrica e busca e entrega. Deixe seu móvel novo.",
+    "keywords": "reforma de estofados foz do iguaçu, reforma de sofá, trocar tecido de sofá, tapeçaria, reforma de poltrona, troca de espuma, conserto de sofá, reestofamento",
+    "breadcrumbLabel": "Reforma de Estofados"
+  },
+  "sections": {
+    "hero": {
+      "title": "Seu Sofá Favorito de Volta ao Novo",
+      "description": "Reformamos sofás, poltronas e cadeiras com troca de tecido, espuma e molas. Acabamento de fábrica que devolve o conforto e o visual, por uma fração do preço de um novo."
+    },
+    "overview": {
+      "kicker": "Conforto e visual renovados",
+      "title": "Reforma de estofados em Foz do Iguaçu",
+      "imageAlt": "Reforma de estofado de sofá em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir reforma estofados em Foz do Iguaçu: sofás, poltronas, cadeiras, cabeceiras e bancos, com troca de tecido, espuma, percintas e molas, residenciais e comerciais.",
+        "Avaliamos a estrutura, recuperamos o que precisa, trocamos a espuma pelo conforto certo e revestimos com o tecido escolhido, entregando um acabamento de fábrica.",
+        "Você trata apenas com a SOS, da retirada à entrega. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Avaliação do Estofado", "description": "Verificamos estrutura, espuma e molas para indicar o que recuperar e o melhor tecido.", "icon": "magnify-scan" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos tecido, espuma e serviço com valor fechado antes de iniciar a reforma.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Recuperação e Espuma", "description": "Reforçamos a estrutura, trocamos percintas e molas e ajustamos a espuma para o conforto certo.", "icon": "sofa-outline" },
+        { "step": 4, "title": "Revestimento e Acabamento", "description": "Revestimos com o tecido escolhido e finalizamos com costura e acabamento de fábrica.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Tapeceiros Experientes", "description": "Nossos tapeceiros recuperam a estrutura e o conforto, não só o tecido. Costura caprichada e acabamento que faz o estofado parecer, e sentir, novo de novo." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Reforma de Estofados da SOS",
+      "reasons": [
+        { "title": "Custa Menos que um Novo", "description": "Recuperar o seu sofá sai por uma fração do preço de comprar outro do mesmo padrão.", "icon": "cash-multiple" },
+        { "title": "Conforto de Volta", "description": "Troca de espuma, molas e percintas que devolve a firmeza e acaba com o afundado.", "icon": "sofa-single-outline" },
+        { "title": "Acabamento de Fábrica", "description": "Costura e revestimento bem-feitos, com o mesmo capricho de um estofado novo.", "icon": "diamond-stone" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Reforma de Estofados",
+      "questions": [
+        { "question": "Vale a pena reformar ou é melhor comprar novo?", "answer": "Se a estrutura de madeira está boa, quase sempre vale reformar: sai bem mais barato que um sofá novo de qualidade equivalente e você mantém o modelo de que gosta." },
+        { "question": "Dá para mudar a cor e o tipo de tecido?", "answer": "Sim. Você escolhe o novo tecido entre diversas opções de cor, textura e resistência (inclusive impermeável e antimanchas), renovando totalmente o visual." },
+        { "question": "Vocês buscam e entregam o móvel?", "answer": "Sim. Fazemos a retirada e a entrega do estofado, combinando o prazo com você. Para peças fixas, avaliamos a reforma no local quando possível." },
+        { "question": "Quanto tempo leva a reforma?", "answer": "Depende do tamanho e do estado da peça, mas em geral são alguns dias. Passamos o prazo exato no orçamento, já contando estrutura, espuma e revestimento." }
+      ]
+    },
+    "finalCta": { "title": "Não troque seu sofá, devolva a vida a ele", "description": "Aquele estofado confortável pode ficar novo de novo por muito menos. Fale com quem recupera estrutura, espuma e tecido.", "ctaText": "Solicitar Reforma de Estofado" }
+  }
+}

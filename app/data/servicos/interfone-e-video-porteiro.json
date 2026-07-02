@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Interfone e Vídeo Porteiro em Foz do Iguaçu",
+    "description": "Instalação e conserto de interfone e vídeo porteiro em Foz do Iguaçu: residências, prédios e condomínios, com imagem, abertura de portão e integração ao celular.",
+    "keywords": "interfone foz do iguaçu, vídeo porteiro, instalação de interfone, porteiro eletrônico, interfone de condomínio, conserto de interfone, abertura de portão, campainha com câmera",
+    "breadcrumbLabel": "Interfone e Vídeo Porteiro"
+  },
+  "sections": {
+    "hero": {
+      "title": "Veja e Fale com Quem Chega, sem Abrir a Porta",
+      "description": "Instalamos e consertamos interfone e vídeo porteiro para casas, prédios e condomínios. Imagem nítida, abertura de portão pelo aparelho e integração com o celular."
+    },
+    "overview": {
+      "kicker": "Segurança na porta de entrada",
+      "title": "Interfone e vídeo porteiro em Foz do Iguaçu",
+      "imageAlt": "Instalação de vídeo porteiro em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala e conserta interfone e vídeo porteiro em Foz do Iguaçu: residências, prédios e condomínios, com abertura de portão, câmera e integração ao celular.",
+        "Passamos a fiação com organização, instalamos a central e os monitores e configuramos a abertura do portão e o atendimento pelo aparelho ou pelo aplicativo.",
+        "Você trata apenas com a SOS, da instalação ao conserto. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Avaliação da Instalação", "description": "Verificamos a fiação existente e os pontos de atendimento para indicar o melhor equipamento.", "icon": "clipboard-search-outline" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos aparelho, fiação e serviço com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Instalação e Fiação", "description": "Passamos os cabos com organização, instalamos a central e os monitores e ligamos ao portão.", "icon": "cog" },
+        { "step": 4, "title": "Configuração e Teste", "description": "Configuramos a abertura do portão e a integração ao celular e testamos imagem e áudio.", "icon": "cellphone-check" }
+      ]
+    },
+    "professionals": { "title": "Técnicos em Interfonia", "description": "Nossos técnicos instalam e consertam interfones e vídeo porteiros de diversas marcas, do residencial ao condomínio. Fiação organizada e atendimento que funciona sempre." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Interfonia da SOS",
+      "reasons": [
+        { "title": "Imagem e Áudio Nítidos", "description": "Você vê e ouve com clareza quem chega, antes de abrir o portão para qualquer pessoa.", "icon": "video-outline" },
+        { "title": "Abre o Portão de Onde Estiver", "description": "Integração ao celular que permite atender e abrir o portão mesmo fora de casa.", "icon": "cellphone-check" },
+        { "title": "Conserto de Qualquer Marca", "description": "Consertamos interfones sem imagem, mudos ou que não abrem o portão, com diagnóstico honesto.", "icon": "wrench-outline" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Interfone e Vídeo Porteiro",
+      "questions": [
+        { "question": "Dá para trocar o interfone antigo por um vídeo porteiro aproveitando a fiação?", "answer": "Na maioria dos casos sim. Muitos vídeo porteiros usam a fiação existente do interfone; avaliamos a instalação para confirmar e indicar o modelo compatível." },
+        { "question": "Consigo atender pelo celular?", "answer": "Sim. Há modelos com integração ao aplicativo que permitem ver, falar e abrir o portão pelo celular, de qualquer lugar." },
+        { "question": "Vocês instalam em prédio e condomínio?", "answer": "Sim. Instalamos e mantemos sistemas de interfonia coletiva, com central, ramais nos apartamentos e integração com portões e portaria." },
+        { "question": "Meu interfone não abre o portão, tem conserto?", "answer": "Geralmente sim. A falha costuma estar na fiação, na fonte ou na placa. Diagnosticamos e resolvemos, indicando reparo ou troca com transparência." }
+      ]
+    },
+    "finalCta": { "title": "Saiba quem está na porta antes de abrir", "description": "Um vídeo porteiro traz segurança e comodidade para a entrada da sua casa ou condomínio. Instale ou conserte com quem entende de fiação.", "ctaText": "Solicitar Interfone ou Vídeo Porteiro" }
+  }
+}

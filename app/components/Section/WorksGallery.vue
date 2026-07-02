@@ -36,7 +36,7 @@ const projectStats = [
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
 
         <!-- ESQUERDA -->
-        <div class="lg:col-span-4 flex flex-col justify-between">
+        <div class="lg:col-span-4 flex flex-col">
           <div>
             <h2 class="text-4xl lg:text-5xl font-bold text-blue-500 mb-6 leading-tight tracking-tight">
               {{ section.title }}
@@ -70,15 +70,15 @@ const projectStats = [
                 <span class="text-blue-500 font-bold text-sm">{{ stat.text }}</span>
               </div>
             </div>
-          </div>
 
-          <UButton variant="outline" size="lg" :to="section.ctaLink"
-            class="hidden lg:flex w-full justify-center text-orange-500 border-orange-200 hover:bg-orange-50 py-3 rounded-lg font-bold">
-            {{ section.ctaText }}
-            <template #trailing>
-              <Icon name="mdi:arrow-right" class="text-xl" />
-            </template>
-          </UButton>
+            <UButton variant="outline" size="lg" :to="section.ctaLink"
+              class="hidden lg:flex w-full justify-center text-orange-500 border-orange-200 hover:bg-orange-50 py-3 rounded-lg font-bold">
+              {{ section.ctaText }}
+              <template #trailing>
+                <Icon name="mdi:arrow-right" class="text-xl" />
+              </template>
+            </UButton>
+          </div>
         </div>
 
         <!-- DIREITA: Carrosséis -->

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Aterramento e SPDA em Foz do Iguaçu | Para-raios",
+    "description": "Aterramento e SPDA (para-raios) em Foz do Iguaçu: proteção contra descargas atmosféricas e surtos, com projeto, medição de resistência e laudo, conforme as normas.",
+    "keywords": "aterramento foz do iguaçu, spda, para-raios, proteção contra raios, aterramento elétrico, laudo de aterramento, medição de resistência, surto elétrico, descarga atmosférica",
+    "breadcrumbLabel": "Aterramento e SPDA"
+  },
+  "sections": {
+    "hero": {
+      "title": "Proteção contra Raios e Surtos, com Laudo",
+      "description": "Instalamos aterramento e SPDA (para-raios) para proteger pessoas e equipamentos de descargas e surtos elétricos. Projeto, medição de resistência e laudo conforme as normas."
+    },
+    "overview": {
+      "kicker": "Segurança elétrica que não se vê",
+      "title": "Aterramento e SPDA em Foz do Iguaçu",
+      "imageAlt": "Instalação de aterramento e para-raios em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz aterramento e SPDA em Foz do Iguaçu: sistema de proteção contra descargas atmosféricas (para-raios) e aterramento elétrico para residências, prédios e comércios.",
+        "Projetamos e instalamos hastes, cabos e captores conforme as normas, medimos a resistência de aterramento e entregamos laudo, protegendo pessoas, eletrônicos e a instalação.",
+        "Você trata apenas com a SOS, do projeto ao laudo. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Análise e Projeto", "description": "Avaliamos a edificação e a instalação para dimensionar o aterramento e o SPDA conforme as normas.", "icon": "clipboard-search-outline" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos material, escopo e prazo com valor fechado antes de executar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Instalação Normatizada", "description": "Instalamos hastes, cabos, captores e o barramento de equipotencialização com técnica e segurança.", "icon": "lightning-bolt" },
+        { "step": 4, "title": "Medição e Laudo", "description": "Medimos a resistência de aterramento e emitimos o laudo que comprova a conformidade.", "icon": "file-certificate-outline" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em SPDA", "description": "Nossa equipe projeta e instala aterramento e para-raios dentro das normas, com medição e laudo. Proteção que evita choque, queima de eletrônicos e risco de incêndio." },
+    "whyChooseUs": {
+      "title": "O Diferencial em SPDA da SOS",
+      "reasons": [
+        { "title": "Dentro das Normas", "description": "Dimensionamento e instalação conforme as normas técnicas, com laudo que comprova a proteção.", "icon": "file-certificate-outline" },
+        { "title": "Protege Equipamentos", "description": "Aterramento correto que evita a queima de eletrônicos por surto e descarga elétrica.", "icon": "shield-check-outline" },
+        { "title": "Medição Comprovada", "description": "Medimos a resistência de aterramento para garantir que o sistema realmente funciona.", "icon": "gauge" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Aterramento e SPDA",
+      "questions": [
+        { "question": "Qual a diferença entre aterramento e para-raios?", "answer": "O aterramento escoa correntes de fuga e surtos com segurança, protegendo pessoas e equipamentos; o SPDA (para-raios) capta e conduz a descarga de um raio para o solo. Muitas vezes trabalham juntos." },
+        { "question": "Minha casa precisa de para-raios?", "answer": "Depende da altura, da localização e da exposição da edificação. Fazemos a análise de risco conforme a norma para indicar a necessidade e o tipo de proteção." },
+        { "question": "Vocês entregam laudo?", "answer": "Sim. Emitimos o laudo com a medição da resistência de aterramento, documento importante para seguros, vistorias e conformidade da instalação." },
+        { "question": "Aterramento resolve a queima de eletrônicos?", "answer": "Um bom aterramento reduz muito o risco de queima por surto e fuga de corrente. Combinado a dispositivos de proteção (DPS), aumenta bastante a segurança dos equipamentos." }
+      ]
+    },
+    "finalCta": { "title": "Proteja sua casa antes do próximo temporal", "description": "Raios e surtos queimam equipamentos e colocam vidas em risco. Instale aterramento e SPDA dentro das normas, com laudo.", "ctaText": "Solicitar Aterramento ou SPDA" }
+  }
+}

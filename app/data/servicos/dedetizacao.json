@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Dedetização em Foz do Iguaçu | Controle de Pragas",
+    "description": "Dedetização e controle de pragas em Foz do Iguaçu: baratas, formigas, cupins, ratos e escorpiões, com produtos registrados, sem cheiro forte e seguro para família e pets.",
+    "keywords": "dedetização foz do iguaçu, controle de pragas, dedetizadora, combate a cupim, controle de baratas, desratização, escorpião, dedetização de condomínio, controle de formigas",
+    "breadcrumbLabel": "Dedetização"
+  },
+  "sections": {
+    "hero": {
+      "title": "Sua Casa Livre de Pragas, com Segurança",
+      "description": "Fazemos dedetização e controle de baratas, formigas, cupins, ratos e escorpiões com produtos registrados. Aplicação sem cheiro forte, segura para a família e os pets."
+    },
+    "overview": {
+      "kicker": "Praga eliminada na raiz",
+      "title": "Dedetização em Foz do Iguaçu",
+      "imageAlt": "Serviço de dedetização e controle de pragas em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz dedetização em Foz do Iguaçu: controle de baratas, formigas, cupins, ratos, escorpiões e mosquitos, para residências, condomínios e comércios.",
+        "Identificamos a praga e os focos, aplicamos produtos registrados na dosagem certa e orientamos a prevenção, com segurança para pessoas e animais e sem cheiro forte.",
+        "Você trata apenas com a SOS, da vistoria ao retorno de garantia. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Vistoria e Identificação", "description": "Identificamos a praga, o grau de infestação e os focos para atacar o problema na origem.", "icon": "magnify-scan" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos o método, o produto e o número de aplicações com valor fechado.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Aplicação Segura", "description": "Aplicamos produtos registrados na dosagem correta, sem cheiro forte e seguros para a família.", "icon": "spray-bottle" },
+        { "step": 4, "title": "Prevenção e Retorno", "description": "Orientamos a prevenção e retornamos conforme o plano, garantindo o controle.", "icon": "shield-check-outline" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Controle de Pragas", "description": "Nossa equipe trata a infestação na origem, com produtos registrados e dosagem correta. Controle seguro para a família e os pets, que resolve de verdade e previne o retorno." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Dedetização da SOS",
+      "reasons": [
+        { "title": "Produtos Registrados", "description": "Produtos aprovados e seguros, aplicados por profissional, não veneno de prateleira sem controle.", "icon": "shield-check-outline" },
+        { "title": "Seguro para Família e Pets", "description": "Dosagem e aplicação corretas, sem cheiro forte, para você voltar ao ambiente com tranquilidade.", "icon": "paw-outline" },
+        { "title": "Ataca a Origem", "description": "Tratamento dos focos e ninhos, não só o inseto visível, para a praga não voltar.", "icon": "target" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Dedetização",
+      "questions": [
+        { "question": "A dedetização é segura para crianças e animais?", "answer": "Sim. Usamos produtos registrados, na dosagem correta e aplicados por profissional. Orientamos o tempo de ausência do ambiente e os cuidados para total segurança." },
+        { "question": "Preciso sair de casa durante e depois?", "answer": "Depende do produto e da praga. Em geral, pede-se ausência por algumas horas. Passamos as orientações exatas de tempo e ventilação antes da aplicação." },
+        { "question": "Quanto tempo dura o efeito?", "answer": "Varia conforme a praga e o ambiente, mas o controle costuma durar meses. Trabalhamos com planos e retornos que mantêm o local protegido ao longo do tempo." },
+        { "question": "Vocês fazem controle de cupim e de escorpião?", "answer": "Sim. Fazemos o combate a cupins (de madeira e de solo) e o controle de escorpiões, com métodos específicos para cada caso, além da orientação de prevenção." }
+      ]
+    },
+    "finalCta": { "title": "Não divida a sua casa com pragas", "description": "Baratas, cupins ou escorpiões colocam a saúde e o patrimônio em risco. Resolva com dedetização segura e profissional.", "ctaText": "Agendar Dedetização" }
+  }
+}
