@@ -64,7 +64,7 @@ const paths: JoinPath[] = [
     ],
     ctaText: 'Quero me cadastrar',
     ctaLink: '/faca-parte/profissional',
-    external: false,
+    external: true,
   },
 ]
 

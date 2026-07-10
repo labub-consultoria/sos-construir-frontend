@@ -3,6 +3,11 @@ import type { BreadcrumbItem } from '@nuxt/ui'
 import { useProfessionalFormStore, TOTAL_STEPS } from '~/stores/professionalForm'
 import { useProfessionalSchemas } from '~/composables/useProfessionalSchemas'
 
+// O backend de cadastro ainda não está publicado: enquanto o endpoint não sobe,
+// encaminha para o formulário externo em vez de expor o wizard, que falharia no
+// submit e na carga de profissões. Remover esta linha junto com o deploy do backend.
+await navigateTo(FORM_PRESTADOR_LINK, { external: true })
+
 // Telas utilitárias: fora do índice, mas seguindo links (§12 da spec).
 useSeoMeta({
   title: 'Cadastro de profissional',
