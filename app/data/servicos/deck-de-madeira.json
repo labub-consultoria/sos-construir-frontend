@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Deck de Madeira em Foz do Iguaçu | Instalação",
+    "description": "Instalação de deck de madeira e ecológico em Foz do Iguaçu: áreas de piscina, varandas e jardins, com estrutura ventilada, fixação firme e acabamento resistente ao tempo.",
+    "keywords": "deck de madeira foz do iguaçu, instalação de deck, deck para piscina, deck ecológico, deck de varanda, madeira para deck, deck wpc, piso de madeira externo",
+    "breadcrumbLabel": "Deck de Madeira"
+  },
+  "sections": {
+    "hero": {
+      "title": "O Aconchego da Madeira na sua Área Externa",
+      "description": "Instalamos deck de madeira e ecológico em áreas de piscina, varandas e jardins. Estrutura ventilada, fixação firme e acabamento tratado para resistir ao sol e à chuva."
+    },
+    "overview": {
+      "kicker": "Área externa mais aconchegante",
+      "title": "Deck de madeira em Foz do Iguaçu",
+      "imageAlt": "Instalação de deck de madeira em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala deck em Foz do Iguaçu: deck de madeira maciça, tratada ou ecológico (WPC) para bordas de piscina, varandas, jardins e áreas de lazer.",
+        "Montamos a estrutura ventilada que preserva a madeira, fixamos as réguas com espaçamento correto para drenagem e aplicamos o acabamento que protege do sol e da chuva.",
+        "Você trata apenas com a SOS, da estrutura ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Medição e Projeto", "description": "Medimos a área e definimos o tipo de madeira e o sentido das réguas para o melhor resultado.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos material, estrutura e prazo com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Estrutura Ventilada", "description": "Montamos a base ventilada que evita o contato direto com o solo e prolonga a vida da madeira.", "icon": "view-week" },
+        { "step": 4, "title": "Réguas e Acabamento", "description": "Fixamos as réguas com espaçamento para drenagem e aplicamos o tratamento de proteção.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Instaladores de Deck", "description": "Nossa equipe monta deck com estrutura ventilada e fixação firme, base de um piso que não empena nem range. Acabamento tratado que encara sol forte e chuva." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Deck da SOS",
+      "reasons": [
+        { "title": "Estrutura que Dura", "description": "Base ventilada e fixação correta que evitam o apodrecimento e o empenamento das réguas.", "icon": "shield-check-outline" },
+        { "title": "Drenagem Correta", "description": "Espaçamento entre réguas que escoa a água, importante em bordas de piscina e áreas de chuva.", "icon": "water-off-outline" },
+        { "title": "Madeira Certa para o Uso", "description": "Indicação entre madeira tratada e ecológico (WPC) conforme o clima, o uso e a manutenção.", "icon": "leaf" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Deck de Madeira",
+      "questions": [
+        { "question": "Qual a diferença entre madeira maciça e deck ecológico (WPC)?", "answer": "A maciça tem o charme natural, mas pede manutenção periódica. O ecológico (WPC) imita a madeira, resiste mais à umidade e a cupim e exige menos cuidado. Indicamos pelo uso." },
+        { "question": "Deck de madeira precisa de manutenção?", "answer": "A madeira maciça pede reaplicação periódica de óleo ou verniz para manter a cor e a proteção. O WPC precisa apenas de limpeza. Orientamos a manutenção certa de cada tipo." },
+        { "question": "Posso instalar deck na borda da piscina?", "answer": "Sim, é uma das aplicações mais comuns. Usamos madeira ou WPC adequados à umidade e garantimos o espaçamento e a fixação corretos para a área molhada." },
+        { "question": "Deck é escorregadio quando molha?", "answer": "Com o espaçamento e o acabamento corretos, o deck oferece boa aderência. Para áreas de piscina, indicamos modelos e tratamentos antiderrapantes." }
+      ]
+    },
+    "finalCta": { "title": "Transforme sua área externa em um refúgio", "description": "Um deck bem instalado valoriza a piscina, a varanda e o jardim. Fale com quem monta a estrutura certa para durar.", "ctaText": "Solicitar Deck de Madeira" }
+  }
+}

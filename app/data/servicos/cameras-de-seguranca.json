@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Câmeras de Segurança em Foz do Iguaçu | CFTV",
+    "description": "Instalação de câmeras de segurança e CFTV em Foz do Iguaçu: monitoramento por celular, gravação, visão noturna e alta definição, para residências e comércios.",
+    "keywords": "câmeras de segurança foz do iguaçu, cftv, instalação de câmeras, monitoramento por celular, câmera com gravação, dvr, câmera de segurança residencial, visão noturna",
+    "breadcrumbLabel": "Câmeras de Segurança"
+  },
+  "sections": {
+    "hero": {
+      "title": "Sua Casa e seu Negócio sob o seu Olhar",
+      "description": "Instalamos câmeras de segurança e sistemas de CFTV com gravação, visão noturna e acesso pelo celular. Projeto que cobre os pontos certos, sem ângulo cego, em alta definição."
+    },
+    "overview": {
+      "kicker": "Vigilância na palma da mão",
+      "title": "Câmeras de segurança e CFTV em Foz do Iguaçu",
+      "imageAlt": "Instalação de câmeras de segurança em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala câmeras de segurança e CFTV em Foz do Iguaçu: câmeras internas e externas, gravador (DVR/NVR), infraestrutura e acesso remoto, para residências e comércios.",
+        "Planejamos o posicionamento para cobrir entradas e pontos cegos, instalamos com alta definição e visão noturna e configuramos o acesso e os alertas no seu celular.",
+        "Você trata apenas com a SOS, da vistoria à configuração no celular. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Vistoria dos Pontos",
+          "description": "Avaliamos entradas, garagem e áreas cegas para posicionar as câmeras onde realmente importa.",
+          "icon": "cctv"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Definimos quantidade, tipo de câmera e gravação com valor fechado antes de instalar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Instalação e Infraestrutura",
+          "description": "Passamos a fiação, fixamos as câmeras e instalamos o gravador com organização e alta definição.",
+          "icon": "cog"
+        },
+        {
+          "step": 4,
+          "title": "Configuração no Celular",
+          "description": "Configuramos o acesso remoto, a gravação e os alertas para você acompanhar de qualquer lugar.",
+          "icon": "cellphone-cog"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Técnicos em CFTV",
+      "description": "Nossos técnicos projetam e instalam sistemas de câmeras que cobrem o que importa, sem ponto cego. Imagem nítida e acesso remoto que trazem segurança de verdade."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em CFTV da SOS",
+      "reasons": [
+        {
+          "title": "Sem Ângulo Cego",
+          "description": "Posicionamento planejado que cobre entradas e pontos vulneráveis, sem desperdiçar câmera.",
+          "icon": "eye-outline"
+        },
+        {
+          "title": "Imagem que Identifica",
+          "description": "Câmeras em alta definição com visão noturna que mostram detalhes, não só vultos.",
+          "icon": "high-definition"
+        },
+        {
+          "title": "Acesso de Qualquer Lugar",
+          "description": "Monitoramento e alertas no celular, em casa ou viajando, a qualquer hora.",
+          "icon": "cellphone-check"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Câmeras de Segurança",
+      "questions": [
+        {
+          "question": "Consigo ver as câmeras pelo celular?",
+          "answer": "Sim. Configuramos o acesso remoto para você ver as câmeras ao vivo e as gravações pelo aplicativo, de qualquer lugar, além de receber alertas."
+        },
+        {
+          "question": "As câmeras gravam? Por quanto tempo?",
+          "answer": "Sim, gravam em um DVR ou NVR. O tempo de armazenamento depende da capacidade do HD, da quantidade de câmeras e da resolução — dimensionamos conforme a sua necessidade."
+        },
+        {
+          "question": "Funcionam à noite e na chuva?",
+          "answer": "Sim. Usamos câmeras com visão noturna infravermelha e, nas áreas externas, modelos com proteção contra chuva e sol para funcionar em qualquer condição."
+        },
+        {
+          "question": "Quantas câmeras eu preciso?",
+          "answer": "Depende do imóvel e dos pontos a cobrir. Na vistoria identificamos entradas e áreas cegas e indicamos a quantidade certa, sem exagero nem ponto desprotegido."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Fique de olho no que importa, esteja onde estiver",
+      "description": "Proteja sua família e seu patrimônio com um sistema de câmeras bem posicionado, nítido e acessível pelo celular.",
+      "ctaText": "Solicitar Câmeras de Segurança"
+    }
+  }
+}

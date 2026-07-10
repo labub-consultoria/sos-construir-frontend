@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Cerca Elétrica em Foz do Iguaçu | Instalação e Reparo",
+    "description": "Instalação e manutenção de cerca elétrica em Foz do Iguaçu: eletrificação de muro, central com alarme e concertina, para residências e comércios. Atendimento rápido.",
+    "keywords": "cerca elétrica foz do iguaçu, instalação de cerca elétrica, eletrificação de muro, central de choque, concertina, alarme perimetral, cerca elétrica residencial, conserto de cerca elétrica",
+    "breadcrumbLabel": "Cerca Elétrica"
+  },
+  "sections": {
+    "hero": {
+      "title": "A Primeira Barreira de Proteção do seu Imóvel",
+      "description": "Instalamos e mantemos cerca elétrica com central de choque, alarme e concertina no muro. Proteção perimetral eficiente, dentro das normas e com atendimento rápido para reparos."
+    },
+    "overview": {
+      "kicker": "Segurança que começa no muro",
+      "title": "Cerca elétrica em Foz do Iguaçu",
+      "imageAlt": "Instalação de cerca elétrica em muro em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala e mantém cerca elétrica em Foz do Iguaçu: eletrificação de muros, central de choque com alarme, hastes, concertina e integração com o sistema de segurança.",
+        "Dimensionamos a central para o tamanho do perímetro, instalamos as hastes e fios com tensionamento correto e configuramos o alarme, seguindo as normas de segurança.",
+        "Você trata apenas com a SOS, da vistoria ao teste de disparo. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Vistoria do Perímetro",
+          "description": "Medimos o muro e avaliamos o perímetro para dimensionar a central e a quantidade de material.",
+          "icon": "clipboard-search-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Definimos central, hastes, alarme e serviço com valor fechado antes de instalar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Instalação e Tensionamento",
+          "description": "Fixamos as hastes, passamos os fios com tensionamento correto e instalamos a central.",
+          "icon": "cog"
+        },
+        {
+          "step": 4,
+          "title": "Alarme e Teste",
+          "description": "Configuramos o alarme e testamos o disparo em cada trecho para garantir a proteção total.",
+          "icon": "shield-check-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Técnicos em Segurança Perimetral",
+      "description": "Nossos técnicos instalam e reparam cerca elétrica com tensionamento e disparo testados em cada trecho. Proteção perimetral que funciona quando você mais precisa."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Cerca Elétrica da SOS",
+      "reasons": [
+        {
+          "title": "Perímetro sem Falha",
+          "description": "Tensionamento e disparo testados em todos os trechos, sem ponto desprotegido.",
+          "icon": "shield-home-outline"
+        },
+        {
+          "title": "Dentro das Normas",
+          "description": "Instalação com tensão e sinalização corretas, segura para moradores e visitantes.",
+          "icon": "check-decagram-outline"
+        },
+        {
+          "title": "Atendimento para Reparo",
+          "description": "Cerca disparando à toa ou sem funcionar? Equipe pronta para resolver rápido.",
+          "icon": "alert-decagram-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Cerca Elétrica",
+      "questions": [
+        {
+          "question": "A cerca elétrica é perigosa para pessoas e animais?",
+          "answer": "Não, quando instalada nas normas. O choque é pulsado e não contínuo: assusta e afasta, sem causar dano permanente. A instalação correta é o que garante essa segurança."
+        },
+        {
+          "question": "Funciona na falta de energia?",
+          "answer": "Sim. A central tem bateria de backup que mantém a cerca ativa por horas durante quedas de energia, sem deixar o perímetro desprotegido."
+        },
+        {
+          "question": "Dispara sozinha com vento ou chuva?",
+          "answer": "Com o tensionamento e a instalação corretos, disparos falsos são raros. Se a sua cerca dispara à toa, geralmente é fio frouxo ou vegetação encostando — que resolvemos na manutenção."
+        },
+        {
+          "question": "Vocês fazem manutenção de cerca já instalada?",
+          "answer": "Sim. Consertamos cercas de qualquer instalador: fio partido, central com defeito, disparo falso ou falta de choque. Diagnosticamos e resolvemos com transparência."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Proteja quem está dentro antes que o problema entre",
+      "description": "A cerca elétrica é a primeira barreira do seu imóvel. Instale ou conserte com quem faz dentro das normas e testa cada trecho.",
+      "ctaText": "Solicitar Cerca Elétrica"
+    }
+  }
+}

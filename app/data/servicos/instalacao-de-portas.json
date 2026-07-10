@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Instalação de Portas em Foz do Iguaçu",
+    "description": "Instalação profissional de portas em Foz do Iguaçu. Especialistas em Kit Porta Pronta Rohden. Acabamento premium, isolamento acústico e agilidade na obra.",
+    "keywords": "instalação de portas foz do iguaçu, portas rohden, kit porta pronta, instalador de portas, portas de madeira",
+    "breadcrumbLabel": "Instalação de Portas"
+  },
+  "sections": {
+    "hero": {
+      "title": "Instalação de Portas Sem Dor de Cabeça",
+      "description": "Transforme seus ambientes com a sofisticação das portas Rohden e a instalação impecável da SOS Construir. Rapidez, limpeza e precisão técnica."
+    },
+    "overview": {
+      "kicker": "Portas instaladas com acabamento impecável",
+      "title": "Instalação de portas em Foz do Iguaçu",
+      "imageAlt": "Instalação de portas residenciais pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz instalação de portas em Foz do Iguaçu, com especialidade no Kit Porta Pronta Rohden, para deixar seus ambientes prontos e bem acabados.",
+        "Fazemos a medição e a montagem com precisão, sem retrabalho, entregando portas alinhadas, com bom isolamento acústico e estética premium.",
+        "Você trata apenas com a SOS, da escolha à instalação final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "partner": {
+      "partnerName": "Rohden Portas",
+      "logo": "/images/services/instalacao-de-portas/rohden/logo.png",
+      "coverImage": "/images/services/instalacao-de-portas/rohden/cover.jpg",
+      "description": "Como representantes oficiais da Rohden em Foz do Iguaçu, oferecemos o Kit Porta Pronta: a solução líder de mercado que une tecnologia, beleza e durabilidade com certificação internacional.",
+      "tags": [
+        {
+          "icon": "shield-check",
+          "text": "5 camadas de pintura UV (não amarela)"
+        },
+        {
+          "icon": "volume-off",
+          "text": "Isolamento acústico com borracha de vedação"
+        },
+        {
+          "icon": "door",
+          "text": "Kit Porta Pronta: Agilidade 3x maior na obra"
+        },
+        {
+          "icon": "certificate",
+          "text": "Produto com certificação de qualidade exportação"
+        }
+      ],
+      "cta": {
+        "text": "Conhecer as Portas Rohden",
+        "link": "https://rohden.com"
+      },
+      "footerInfo": {
+        "usage": "Líder nacional com +20 milhões de portas produzidas",
+        "guarantee": "Garantia de fábrica e suporte exclusivo SOS"
+      }
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 150
+        },
+        {
+          "label": "Linha Elegance",
+          "slug": "elegance",
+          "count": 60
+        },
+        {
+          "label": "Portas Pivotantes",
+          "slug": "pivotantes",
+          "count": 25
+        },
+        {
+          "label": "Portas de Correr",
+          "slug": "correr",
+          "count": 40
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Consultoria e Medição",
+          "description": "Realizamos a medição técnica dos vãos para garantir que cada porta se ajuste perfeitamente.",
+          "icon": "ruler"
+        },
+        {
+          "step": 2,
+          "title": "Escolha do Modelo",
+          "description": "Apresentamos as linhas Elegance, Deluxe e opções de acabamento (frisos e cores).",
+          "icon": "palette-outline"
+        },
+        {
+          "step": 3,
+          "title": "Instalação Técnica",
+          "description": "Instalação do Kit Porta Pronta (porta, batente e guarnições) com ferragens pré-instaladas.",
+          "icon": "hammer-wrench"
+        },
+        {
+          "step": 4,
+          "title": "Ajuste Final",
+          "description": "Regulagem fina das dobradiças e fechaduras para um fechamento suave e silencioso.",
+          "icon": "check-decagram"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Especialistas em Kit Porta Pronta",
+      "description": "Instalar uma porta de alto padrão exige ferramentas específicas e precisão. Nossa equipe é treinada para realizar a montagem sem sujeira e com o alinhamento perfeito que seu projeto exige."
+    },
+    "whyChooseUs": {
+      "title": "Por que investir em nossas portas?",
+      "reasons": [
+        {
+          "title": "Sem Retrabalho",
+          "description": "O Kit Porta Pronta elimina a necessidade de lixamento ou pintura no local.",
+          "icon": "clock-fast"
+        },
+        {
+          "title": "Resistência",
+          "description": "Tratamento contra umidade e cupins, garantindo anos de durabilidade.",
+          "icon": "shield-lock"
+        },
+        {
+          "title": "Estética Premium",
+          "description": "Acabamento uniforme que valoriza o imóvel e encanta arquitetos.",
+          "icon": "home-modern"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Portas e Instalação",
+      "questions": [
+        {
+          "question": "O que é o Kit Porta Pronta?",
+          "answer": "É a solução completa: a porta já vem montada com batente e guarnições, com ferragens pré-instaladas, pronta para ser fixada no vão com espuma expansiva."
+        },
+        {
+          "question": "As portas brancas amarelam com o tempo?",
+          "answer": "Não! As portas Rohden possuem 5 camadas de pintura UV de alta resistência, que protegem a cor e evitam o amarelamento causado pela luz."
+        },
+        {
+          "question": "É possível corrigir riscos ou amassados?",
+          "answer": "Sim, as linhas permitem correções e até repintura com facilidade, mantendo a qualidade original do acabamento."
+        },
+        {
+          "question": "Vocês instalam portas pivotantes de entrada?",
+          "answer": "Sim, instalamos toda a linha Deluxe da Rohden, incluindo portas pivotantes de grandes dimensões que trazem imponência à fachada."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Sua casa merece portas de alto padrão",
+      "description": "Agende uma consultoria técnica e veja como as portas Rohden podem transformar seu projeto.",
+      "ctaText": "Solicitar Orçamento de Portas"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Pedreiro Profissional em Foz do Iguaçu",
+    "description": "Encontre pedreiros experientes e confiáveis em Foz do Iguaçu. Construção, reforma, reboco e estruturas com garantia de qualidade e zero dor de cabeça.",
+    "keywords": "pedreiro foz do iguaçu, mestre de obras, pedreiro para reforma, construção civil foz, reboco e alvenaria",
+    "breadcrumbLabel": "Pedreiro"
+  },
+  "sections": {
+    "hero": {
+      "title": "Mão de Obra de Elite para Construir Seus Sonhos",
+      "description": "Chega de atrasos e serviços mal executados. Conte com pedreiros verificados pela SOS Construir para uma obra limpa, rápida e com acabamento de alto padrão."
+    },
+    "overview": {
+      "kicker": "Mão de obra de elite para a sua obra",
+      "title": "Pedreiro profissional em Foz do Iguaçu",
+      "imageAlt": "Serviço de pedreiro e alvenaria pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir conecta você a pedreiros experientes em Foz do Iguaçu para construção, reforma, reboco e estruturas, com qualidade garantida.",
+        "Trabalhamos com versatilidade técnica e foco na entrega, sem surpresas no meio do caminho e com garantia no resultado final.",
+        "Você trata apenas com a SOS, do início ao acabamento da obra. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos os Projetos",
+          "slug": "todos",
+          "count": 650
+        },
+        {
+          "label": "Construção do Zero",
+          "slug": "construcao",
+          "count": 280
+        },
+        {
+          "label": "Reformas Gerais",
+          "slug": "reformas",
+          "count": 220
+        },
+        {
+          "label": "Lazer e Gourmet",
+          "slug": "lazer",
+          "count": 150
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Planejamento e Medição",
+          "description": "Alinhamos cada detalhe do projeto, definindo níveis, esquadros e o cronograma exato da obra.",
+          "icon": "ruler-square"
+        },
+        {
+          "step": 2,
+          "title": "Infraestrutura e Alvenaria",
+          "description": "Levantamento de paredes, vigas e colunas com precisão técnica e materiais de primeira linha.",
+          "icon": "wall"
+        },
+        {
+          "step": 3,
+          "title": "Reboco e Regularização",
+          "description": "Acabamento de paredes e contrapisos perfeitamente nivelados, prontos para receber o revestimento final.",
+          "icon": "format-paint"
+        },
+        {
+          "step": 4,
+          "title": "Entrega e Limpeza",
+          "description": "Finalização do serviço com inspeção rigorosa de qualidade. Entregamos sua obra limpa e organizada.",
+          "icon": "clipboard-check"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Pedreiros Verificados e Confiáveis",
+      "description": "Na SOS Construir, não contratamos curiosos. Nossos pedreiros passam por um rigoroso processo de seleção técnica e avaliação de histórico, garantindo que você tenha um profissional dedicado e honesto dentro da sua propriedade."
+    },
+    "whyChooseUs": {
+      "title": "Por que a SOS é a melhor escolha para sua obra?",
+      "reasons": [
+        {
+          "title": "Zero Surpresas",
+          "description": "Trabalhamos com transparência total. Você sabe exatamente o que está sendo feito em cada etapa.",
+          "icon": "eye-check-outline"
+        },
+        {
+          "title": "Versatilidade Técnica",
+          "description": "Especialistas em tudo: de escadas complexas a churrasqueiras e lareiras personalizadas.",
+          "icon": "hammer-wrench"
+        },
+        {
+          "title": "Garantia de Entrega",
+          "description": "Compromisso real com prazos. Sua obra não fica parada nem um dia sequer.",
+          "icon": "calendar-check-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Serviços de Pedreiro",
+      "questions": [
+        {
+          "question": "Vocês pegam obras desde o alicerce?",
+          "answer": "Sim! Temos equipes capacitadas para realizar a obra completa, desde a fundação até o acabamento final, ou apenas reformas específicas conforme sua necessidade."
+        },
+        {
+          "question": "Como é feito o pagamento do serviço?",
+          "answer": "Oferecemos condições flexíveis e facilitadas, com cronograma financeiro atrelado à evolução da obra, garantindo segurança para você."
+        },
+        {
+          "question": "A SOS fornece os materiais básicos também?",
+          "answer": "Sim, como um Hub completo, podemos fornecer areia, pedra, tijolos e cimento direto da fábrica, otimizando o custo total da sua construção."
+        },
+        {
+          "question": "Vocês fazem manutenção corretiva em prédios e condomínios?",
+          "answer": "Com certeza. Realizamos reparos estruturais, manutenção de calçadas, rebocos externos e soluções de drenagem para condomínios residenciais e comerciais."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Transforme seu projeto em realidade hoje",
+      "description": "Evite as dores de cabeça comuns da construção civil. Fale com quem entrega qualidade e profissionalismo há mais de 10 anos.",
+      "ctaText": "Falar com Especialista em Obras"
+    }
+  }
+}

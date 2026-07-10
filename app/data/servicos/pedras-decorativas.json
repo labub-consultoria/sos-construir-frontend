@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Pedras Decorativas em Foz do Iguaçu | Revestimentos SOS Construir",
+    "description": "Transforme seus ambientes com pedras decorativas em Foz do Iguaçu. Revestimentos naturais para paredes, pisos e jardins com instalação precisa e design exclusivo.",
+    "keywords": "pedras decorativas foz do iguaçu, revestimento de pedra, pedra canjiquinha, pedra ferro, filete de pedra, pedras para jardim",
+    "breadcrumbLabel": "Pedras Decorativas"
+  },
+  "sections": {
+    "hero": {
+      "title": "A Beleza Natural que Transforma seu Ambiente",
+      "description": "Eleve o nível do seu projeto com texturas e cores que só a natureza oferece. Instalação artesanal de pedras decorativas para interiores, fachadas e paisagismo."
+    },
+    "overview": {
+      "kicker": "Revestimentos naturais que valorizam o ambiente",
+      "title": "Pedras decorativas em Foz do Iguaçu",
+      "imageAlt": "Revestimento com pedras decorativas pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz revestimento com pedras decorativas em Foz do Iguaçu para paredes, pisos e jardins, trazendo a beleza natural para o seu ambiente.",
+        "A instalação é artesanal, com texturas e cores que criam ambientes únicos, com durabilidade e valorização do imóvel.",
+        "Você trata apenas com a SOS, da escolha da pedra ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "partner": {
+      "partnerName": "Roca Design Pedras",
+      "logo": "/images/services/pedras-decorativas/roca/logo.webp",
+      "coverImage": "/images/services/pedras-decorativas/roca/cover.jpeg",
+      "description": "Parceria estratégica com a Roca Design Pedras, referência em revestimentos naturais de alto padrão na região sul. Oferecemos acesso a um catálogo exclusivo de pedras nacionais e importadas, unindo a nobreza do material Roca à instalação artesanal e precisa da SOS Construir.",
+      "tags": [
+        {
+          "icon": "diamond-stone",
+          "text": "Pedras Naturais Exclusivas: Visual único para seu projeto"
+        },
+        {
+          "icon": "home-modern",
+          "text": "Alto Padrão: Ideal para fachadas, áreas gourmet e interiores"
+        },
+        {
+          "icon": "earth",
+          "text": "Curadoria de materiais nacionais e importados"
+        },
+        {
+          "icon": "fountain-pen-tip",
+          "text": "Consultoria em design de revestimentos naturais"
+        }
+      ],
+      "cta": {
+        "text": "Ver Catálogo Roca Pedras",
+        "link": "https://rocapedras.com.br"
+      },
+      "footerInfo": {
+        "usage": "Revestimentos para bordas de piscina, muros e paredes decorativas",
+        "guarantee": "Material natural com durabilidade vitalícia e suporte SOS"
+      }
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 250
+        },
+        {
+          "label": "Fachadas Externas",
+          "slug": "fachadas",
+          "count": 110
+        },
+        {
+          "label": "Interiores/Lareiras",
+          "slug": "interiores",
+          "count": 85
+        },
+        {
+          "label": "Jardins e Piscinas",
+          "slug": "externo",
+          "count": 55
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Seleção da Pedra",
+          "description": "Ajudamos você a escolher o tipo ideal (Ferro, São Tomé, Canjiquinha) conforme o estilo do seu projeto.",
+          "icon": "diamond-stone"
+        },
+        {
+          "step": 2,
+          "title": "Preparação da Base",
+          "description": "Tratamento da superfície para garantir aderência máxima, evitando que as pedras se soltem com o tempo.",
+          "icon": "wall"
+        },
+        {
+          "step": 3,
+          "title": "Assentamento Artesanal",
+          "description": "Aplicação peça por peça, cuidando do alinhamento, paginação e harmonia das texturas.",
+          "icon": "hand-back-right"
+        },
+        {
+          "step": 4,
+          "title": "Impermeabilização",
+          "description": "Aplicação de resinas protetoras que realçam a cor e facilitam a limpeza futura.",
+          "icon": "water-opacity"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Mão de Obra Especializada",
+      "description": "Instalar pedras decorativas é um trabalho artístico. Nossa equipe domina as técnicas de recorte e encaixe, garantindo um visual coeso, sem falhas de alinhamento e com acabamento impecável."
+    },
+    "whyChooseUs": {
+      "title": "O Toque Especial da SOS Construir",
+      "reasons": [
+        {
+          "title": "Ambientes Únicos",
+          "description": "Por serem naturais, nenhuma pedra é igual à outra, garantindo exclusividade total ao seu espaço.",
+          "icon": "star-face"
+        },
+        {
+          "title": "Durabilidade Eterna",
+          "description": "Revestimentos em pedra resistem ao sol, chuva e impactos, mantendo a beleza por décadas.",
+          "icon": "infinity"
+        },
+        {
+          "title": "Valorização Imobiliária",
+          "description": "O uso de pedras naturais é um dos investimentos que mais agregam valor estético e comercial a um imóvel.",
+          "icon": "trending-up"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Pedras Decorativas",
+      "questions": [
+        {
+          "question": "Posso aplicar pedras decorativas sobre pintura ou gesso?",
+          "answer": "O ideal é remover a pintura ou picotar a parede para garantir a aderência da argamassa. Em drywall, são necessários reforços e placas específicas devido ao peso das pedras."
+        },
+        {
+          "question": "As pedras precisam ser lavadas com frequência?",
+          "answer": "Não. Quando bem impermeabilizadas, a manutenção é mínima. Apenas uma limpeza leve com água e sabão neutro é suficiente para manter o brilho natural."
+        },
+        {
+          "question": "Qual a melhor pedra para fachadas externas?",
+          "answer": "Pedras como a Pedra Ferro ou a São Tomé são excelentes para áreas externas por serem muito resistentes às intempéries e variações térmicas de Foz do Iguaçu."
+        },
+        {
+          "question": "O assentamento das pedras gera muita sujeira?",
+          "answer": "Comparado a uma obra de alvenaria, o processo é mais limpo. No entanto, o corte das pedras gera pó, por isso nossa equipe utiliza técnicas para minimizar o impacto no ambiente."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Leve a sofisticação da natureza para sua casa",
+      "description": "Quer uma fachada impactante ou uma sala de estar acolhedora? Fale com nossos especialistas em revestimentos naturais.",
+      "ctaText": "Solicitar Orçamento de Pedras"
+    }
+  }
+}

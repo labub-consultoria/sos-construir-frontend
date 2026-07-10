@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Impermeabilização em Foz do Iguaçu | Lajes e Telhados",
+    "description": "Impermeabilização em Foz do Iguaçu para lajes, telhados, banheiros, caixas d'água e piscinas. Diagnóstico da infiltração e aplicação com garantia contra vazamentos.",
+    "keywords": "impermeabilização foz do iguaçu, impermeabilizar laje, infiltração, manta asfáltica, membrana líquida, impermeabilização de telhado, umidade na parede, caixa d'água",
+    "breadcrumbLabel": "Impermeabilização"
+  },
+  "sections": {
+    "hero": {
+      "title": "Proteja seu Imóvel contra Infiltração e Umidade",
+      "description": "Protegemos lajes, telhados e áreas molhadas contra infiltração e umidade. Diagnóstico da origem e aplicação do sistema certo, com garantia contra novos vazamentos."
+    },
+    "overview": {
+      "kicker": "Infiltração resolvida na origem",
+      "title": "Impermeabilização em Foz do Iguaçu",
+      "imageAlt": "Impermeabilização de laje em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz impermeabilização em Foz do Iguaçu: lajes, telhados, banheiros, box, caixas d'água, piscinas e paredes com infiltração, do diagnóstico à aplicação.",
+        "Identificamos a causa da umidade e escolhemos o sistema certo — manta asfáltica, membrana líquida ou argamassa polimérica — com o preparo de superfície que garante a aderência.",
+        "Você trata apenas com a SOS, do diagnóstico à vedação final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Diagnóstico da Infiltração",
+          "description": "Localizamos a origem da umidade — nem sempre é onde a mancha aparece — para tratar a causa e não só o sintoma.",
+          "icon": "magnify-scan"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Indicamos o sistema de impermeabilização ideal e o preparo necessário, com valor fechado antes de começar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Preparo e Aplicação",
+          "description": "Preparamos a superfície e aplicamos manta ou membrana com o número de demãos correto para a vedação total.",
+          "icon": "format-paint"
+        },
+        {
+          "step": 4,
+          "title": "Teste de Estanqueidade",
+          "description": "Fazemos teste de água para confirmar que a área está 100% vedada antes de liberar o uso.",
+          "icon": "water-check"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Especialistas em Impermeabilização",
+      "description": "Nossa equipe trata desde uma laje exposta até um box de banheiro ou uma caixa d'água. Aplicação correta que evita retrabalho, mofo e dano estrutural pela umidade."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Impermeabilização da SOS",
+      "reasons": [
+        {
+          "title": "Tratamos a Causa, não a Mancha",
+          "description": "Diagnóstico que encontra a real origem da infiltração, evitando retrabalho e prejuízo.",
+          "icon": "target"
+        },
+        {
+          "title": "Sistema Certo para Cada Superfície",
+          "description": "Manta, membrana ou argamassa — escolhemos a solução adequada a laje, telhado ou área molhada.",
+          "icon": "layers-triple"
+        },
+        {
+          "title": "Garantia contra Vazamento",
+          "description": "Aplicação certificada, com teste de estanqueidade e garantia de vedação.",
+          "icon": "shield-check-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Impermeabilização",
+      "questions": [
+        {
+          "question": "Como sei que preciso impermeabilizar?",
+          "answer": "Sinais como mancha de umidade, mofo, pintura descascando, pingos na laje ou infiltração após chuva indicam que a vedação falhou. Avaliamos e confirmamos a origem."
+        },
+        {
+          "question": "Qual a diferença entre manta asfáltica e membrana líquida?",
+          "answer": "A manta é indicada para grandes áreas e lajes expostas; a membrana líquida se adapta melhor a recortes, ralos e áreas molhadas. Escolhemos pela superfície e uso."
+        },
+        {
+          "question": "Preciso quebrar o piso para impermeabilizar o banheiro?",
+          "answer": "Em áreas molhadas geralmente sim, pois a impermeabilização vai sob o revestimento. Avaliamos cada caso para fazer só o necessário e refazer o acabamento."
+        },
+        {
+          "question": "Quanto tempo dura a impermeabilização?",
+          "answer": "Com o sistema correto e a aplicação bem feita, a proteção dura muitos anos. A durabilidade depende do produto, da superfície e do uso da área."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Não espere a infiltração virar um problema estrutural",
+      "description": "Umidade ignorada compromete laje, pintura e até a estrutura. Resolva na origem com quem entende de vedação.",
+      "ctaText": "Solicitar Impermeabilização"
+    }
+  }
+}

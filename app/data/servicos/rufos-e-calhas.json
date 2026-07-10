@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Rufos e Calhas em Foz do Iguaçu | Instalação e Troca",
+    "description": "Instalação e troca de rufos e calhas em Foz do Iguaçu: captação e escoamento da água da chuva em galvanizado e alumínio, sem vazamento nem infiltração no telhado.",
+    "keywords": "rufos e calhas foz do iguaçu, instalação de calha, calha de alumínio, calha galvanizada, rufo, algeroz, condutor de água, calheiro, troca de calha, escoamento de telhado",
+    "breadcrumbLabel": "Rufos e Calhas"
+  },
+  "sections": {
+    "hero": {
+      "title": "A Água da Chuva no Lugar Certo",
+      "description": "Instalamos e trocamos rufos e calhas em galvanizado e alumínio para captar e escoar a água da chuva. Caimento correto, emendas vedadas e fim das infiltrações no telhado."
+    },
+    "overview": {
+      "kicker": "Chuva escoada, telhado protegido",
+      "title": "Rufos e calhas em Foz do Iguaçu",
+      "imageAlt": "Instalação de calhas em telhado em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala e troca rufos e calhas em Foz do Iguaçu: calhas, rufos, condutores e algeroz em galvanizado e alumínio, para casas, prédios e galpões.",
+        "Calculamos o caimento e o dimensionamento para o volume de chuva da região, vedamos as emendas e direcionamos a água para longe da estrutura, evitando infiltração.",
+        "Você trata apenas com a SOS, da medição ao teste de escoamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Medição e Caimento",
+          "description": "Medimos o telhado e calculamos o caimento para a água correr sem empoçar nem transbordar.",
+          "icon": "ruler-square"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Definimos material, metragem e prazo com valor fechado antes de instalar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Fabricação e Instalação",
+          "description": "Cortamos e instalamos as peças com fixação firme e caimento certo para o escoamento.",
+          "icon": "hammer-wrench"
+        },
+        {
+          "step": 4,
+          "title": "Vedação e Teste",
+          "description": "Vedamos emendas e testamos o escoamento para garantir zero vazamento e infiltração.",
+          "icon": "water-check"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Especialistas em Calhas",
+      "description": "Nossos profissionais instalam desde a calha de uma casa até o sistema de um galpão. Trabalho que capta e direciona a água da chuva, protegendo parede, telhado e fundação."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Calhas da SOS",
+      "reasons": [
+        {
+          "title": "Caimento Bem Calculado",
+          "description": "A água corre para o ponto certo, sem empoçar na calha nem transbordar na parede.",
+          "icon": "angle-acute"
+        },
+        {
+          "title": "Emendas Bem Vedadas",
+          "description": "Junções seladas que impedem gotejamento e infiltração ao longo do tempo.",
+          "icon": "water-off-outline"
+        },
+        {
+          "title": "Material que não Enferruja",
+          "description": "Galvanizado e alumínio adequados que resistem à chuva sem corroer rápido.",
+          "icon": "shield-check-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Rufos e Calhas",
+      "questions": [
+        {
+          "question": "Qual a diferença entre calha e rufo?",
+          "answer": "A calha capta e conduz a água que escorre do telhado; o rufo é a peça que veda encontros e quinas (como telhado com parede) para a água não entrar. Muitas vezes trabalham juntos."
+        },
+        {
+          "question": "Calha entope? Precisa de manutenção?",
+          "answer": "Pode entupir com folhas e sujeira. A manutenção é uma limpeza periódica; em locais com muitas árvores, indicamos telas de proteção para reduzir o acúmulo."
+        },
+        {
+          "question": "Dá para instalar calha em telhado já pronto?",
+          "answer": "Sim. Instalamos e trocamos calhas em telhados existentes, ajustando a fixação e o caimento sem precisar refazer o telhado."
+        },
+        {
+          "question": "Galvanizado ou alumínio: qual escolher?",
+          "answer": "O galvanizado é resistente e econômico; o alumínio é leve e não enferruja. Indicamos o melhor conforme o telhado, a estética e o orçamento."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Não deixe a chuva estragar o seu telhado",
+      "description": "Água mal escoada infiltra parede, apodrece madeira e mancha o forro. Direcione a chuva com calhas bem instaladas.",
+      "ctaText": "Solicitar Rufos e Calhas"
+    }
+  }
+}

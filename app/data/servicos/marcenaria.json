@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Marcenaria em Foz do Iguaçu | Móveis Planejados",
+    "description": "Marcenaria sob medida em Foz do Iguaçu: móveis planejados para cozinha, dormitório, closet e home office, projetados em 3D e instalados com acabamento de alto padrão.",
+    "keywords": "marcenaria foz do iguaçu, móveis planejados, móveis sob medida, marceneiro, cozinha planejada, closet planejado, home office planejado, projeto de móveis",
+    "breadcrumbLabel": "Marcenaria"
+  },
+  "sections": {
+    "hero": {
+      "title": "Móveis Planejados que Cabem Exatamente no seu Espaço",
+      "description": "Projetamos e fabricamos móveis planejados que aproveitam cada canto do seu ambiente. Do desenho em 3D à instalação, com MDF de procedência e acabamento de alto padrão."
+    },
+    "overview": {
+      "kicker": "Cada centímetro aproveitado",
+      "title": "Marcenaria sob medida em Foz do Iguaçu",
+      "imageAlt": "Móveis planejados sob medida em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz marcenaria sob medida em Foz do Iguaçu: móveis planejados para cozinhas, dormitórios, closets, home office e ambientes comerciais, do projeto à instalação.",
+        "Desenhamos o móvel em 3D para você aprovar antes de cortar, usamos MDF de procedência com ferragens de qualidade e um acabamento que valoriza cada ambiente.",
+        "Você trata apenas com a SOS, do projeto à montagem. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Medição e Projeto 3D",
+          "description": "Medimos o ambiente no local e desenhamos o móvel em 3D para você visualizar e aprovar cada detalhe antes de produzir.",
+          "icon": "ruler-square"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Definimos materiais, ferragens e prazo, com valor fechado antes de iniciar a fabricação.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Fabricação sob Medida",
+          "description": "Produzimos as peças com corte preciso e MDF de procedência, respeitando exatamente o projeto aprovado.",
+          "icon": "saw-blade"
+        },
+        {
+          "step": 4,
+          "title": "Instalação e Ajuste Fino",
+          "description": "Montamos no local com nivelamento, regulagem de portas e gavetas e acabamento final impecável.",
+          "icon": "screwdriver"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Marceneiros Especializados",
+      "description": "Nossos marceneiros dominam desde uma cozinha completa até um painel ripado ou um closet detalhado. Precisão que evita desperdício de material e garante um móvel que dura e encaixa perfeito."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Marcenaria da SOS",
+      "reasons": [
+        {
+          "title": "Projeto 3D Antes de Cortar",
+          "description": "Você aprova o móvel visualmente antes da produção, sem surpresa de medida ou de layout.",
+          "icon": "cube-scan"
+        },
+        {
+          "title": "Aproveitamento Total do Espaço",
+          "description": "Móvel feito para o seu ambiente, usando cada canto e resolvendo recortes que o modulado pronto não cobre.",
+          "icon": "ruler-square"
+        },
+        {
+          "title": "Acabamento de Alto Padrão",
+          "description": "Ferragens de qualidade, fechamento suave e acabamento que dura e valoriza o imóvel.",
+          "icon": "diamond-stone"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Móveis Planejados",
+      "questions": [
+        {
+          "question": "Qual a diferença entre móvel planejado e modulado pronto?",
+          "answer": "O planejado é desenhado para o seu ambiente, aproveitando medidas e recortes exatos. O modulado pronto vem em tamanhos fixos e quase sempre sobra ou falta espaço."
+        },
+        {
+          "question": "Quanto tempo leva do projeto à instalação?",
+          "answer": "Depende do tamanho do projeto, mas em geral fica entre algumas semanas. Passamos o prazo exato no orçamento, já contando produção e montagem."
+        },
+        {
+          "question": "Que material vocês usam?",
+          "answer": "Trabalhamos com MDF de procedência, com opções de revestimento e ferragens de qualidade. Indicamos o mais adequado para uso, umidade e acabamento de cada ambiente."
+        },
+        {
+          "question": "Vocês fazem o projeto ou preciso levar pronto?",
+          "answer": "Nós fazemos o projeto. A partir da sua necessidade e do ambiente, desenhamos a solução em 3D e ajustamos com você antes de produzir."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "O móvel dos seus sonhos começa com um bom projeto",
+      "description": "Chega de improviso e espaço mal aproveitado. Fale com quem projeta e fabrica sob medida do início ao fim.",
+      "ctaText": "Solicitar Orçamento de Marcenaria"
+    }
+  }
+}

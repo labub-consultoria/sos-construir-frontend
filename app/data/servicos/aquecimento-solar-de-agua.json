@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Aquecimento Solar de Água em Foz do Iguaçu",
+    "description": "Instalação de aquecimento solar de água em Foz do Iguaçu: coletores, boiler e apoio, para chuveiro, torneiras e piscina, com economia de energia e água quente o ano todo.",
+    "keywords": "aquecimento solar foz do iguaçu, aquecedor solar, boiler, coletor solar, água quente, aquecimento solar de piscina, economia de energia, chuveiro quente",
+    "breadcrumbLabel": "Aquecimento Solar de Água"
+  },
+  "sections": {
+    "hero": {
+      "title": "Água Quente do Sol, com Economia na Conta",
+      "description": "Instalamos aquecimento solar de água com coletores, boiler e sistema de apoio. Banho e torneiras quentes o ano todo, aproveitando o sol e reduzindo a conta de energia."
+    },
+    "overview": {
+      "kicker": "Sol trabalhando pela sua conta",
+      "title": "Aquecimento solar de água em Foz do Iguaçu",
+      "imageAlt": "Instalação de coletor solar de aquecimento de água em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala aquecimento solar de água em Foz do Iguaçu: coletores solares, reservatório térmico (boiler) e apoio elétrico ou a gás, para banho, torneiras e piscina.",
+        "Dimensionamos os coletores e o boiler pelo consumo da casa, instalamos com a inclinação correta e integramos o apoio, garantindo água quente mesmo em dias nublados.",
+        "Você trata apenas com a SOS, do dimensionamento à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Dimensionamento", "description": "Calculamos coletores e boiler pelo número de pontos e pelo consumo, para não faltar água quente.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos equipamento, apoio e prazo com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Instalação dos Coletores", "description": "Instalamos os coletores na inclinação e orientação corretas e o boiler com isolamento térmico.", "icon": "solar-power-variant-outline" },
+        { "step": 4, "title": "Integração e Teste", "description": "Integramos o apoio elétrico ou a gás e testamos o sistema para água quente o ano todo.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Aquecimento Solar", "description": "Nossa equipe dimensiona e instala o sistema pelo consumo real da casa, com a inclinação certa dos coletores. Água quente com economia e sem surpresa no inverno." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Aquecimento Solar da SOS",
+      "reasons": [
+        { "title": "Economia na Conta", "description": "O sol aquece a água de graça, reduzindo bastante o gasto do chuveiro elétrico ou do gás.", "icon": "cash-multiple" },
+        { "title": "Dimensionado Certo", "description": "Coletores e boiler no tamanho do seu consumo, para não faltar água quente nos horários de pico.", "icon": "ruler-square" },
+        { "title": "Quente até em Dia Nublado", "description": "Sistema de apoio integrado que garante água quente mesmo sem sol por vários dias.", "icon": "weather-partly-cloudy" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Aquecimento Solar de Água",
+      "questions": [
+        { "question": "Funciona em dia nublado ou no inverno?", "answer": "Sim. Os coletores captam calor mesmo com o céu encoberto, e o sistema de apoio (elétrico ou a gás) complementa quando o sol não é suficiente, garantindo água quente sempre." },
+        { "question": "Quanto de economia dá para ter?", "answer": "O aquecimento da água é um dos maiores gastos de energia da casa. Com o solar, a economia é expressiva; calculamos a estimativa conforme o seu consumo no orçamento." },
+        { "question": "Dá para aquecer a piscina?", "answer": "Sim. Usamos coletores específicos para piscina que prolongam a temporada de banho, aproveitando o sol para manter a água agradável." },
+        { "question": "Precisa de manutenção?", "answer": "A manutenção é simples e periódica: verificação dos coletores, do boiler e das conexões. Também fazemos manutenção de sistemas já instalados." }
+      ]
+    },
+    "finalCta": { "title": "Deixe o sol pagar o seu banho quente", "description": "Água quente o ano todo com uma conta de energia menor. Instale aquecimento solar dimensionado para o consumo da sua casa.", "ctaText": "Solicitar Aquecimento Solar" }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Painéis Ripados em Foz do Iguaçu | Sob Medida",
+    "description": "Painéis ripados em Foz do Iguaçu: revestimento de parede, painel de TV, forro e divisórias em madeira e MDF, sob medida, com acabamento moderno e instalação nivelada.",
+    "keywords": "ripados foz do iguaçu, painel ripado, painel de tv, revestimento de parede, ripado de madeira, ripado de mdf, forro ripado, painel ripado sob medida, cabeceira ripada",
+    "breadcrumbLabel": "Ripados"
+  },
+  "sections": {
+    "hero": {
+      "title": "O Toque de Madeira que Transforma o Ambiente",
+      "description": "Fabricamos e instalamos painéis ripados em madeira e MDF para paredes, painel de TV, forros e divisórias. Sob medida, com acabamento moderno e instalação alinhada."
+    },
+    "overview": {
+      "kicker": "Aconchego moderno na parede",
+      "title": "Painéis ripados em Foz do Iguaçu",
+      "imageAlt": "Instalação de painel ripado de madeira em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz painéis ripados em Foz do Iguaçu: revestimento de parede, painel de TV, cabeceira, forro e divisórias em madeira, MDF ripado e réguas, sob medida.",
+        "Medimos o ambiente, definimos o espaçamento e o sentido das ripas e instalamos com nível e fixação escondida, para um acabamento moderno e uniforme.",
+        "Você trata apenas com a SOS, do projeto à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Medição e Projeto", "description": "Medimos a parede e definimos o espaçamento e o sentido das ripas para o melhor efeito.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos material, acabamento e prazo com valor fechado antes de produzir.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Produção sob Medida", "description": "Produzimos as réguas ou o painel ripado no material e acabamento escolhidos.", "icon": "saw-blade" },
+        { "step": 4, "title": "Instalação Nivelada", "description": "Instalamos com nível e fixação escondida, para um painel alinhado e sem parafuso à mostra.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Ripados", "description": "Nossa equipe produz e instala painéis ripados com espaçamento certo e fixação escondida. Acabamento moderno e uniforme que dá personalidade e aconchego ao ambiente." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Ripados da SOS",
+      "reasons": [
+        { "title": "Espaçamento Certo", "description": "Ripas alinhadas e no espaçamento ideal, o que faz o painel ficar harmônico e moderno.", "icon": "ruler-square" },
+        { "title": "Fixação Escondida", "description": "Instalação sem parafuso aparente, para um acabamento limpo e profissional.", "icon": "diamond-stone" },
+        { "title": "Sob Medida para o Vão", "description": "Painel produzido para a sua parede, encaixando perfeito em tomadas, cantos e TV.", "icon": "cube-scan" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Ripados",
+      "questions": [
+        { "question": "Ripado de madeira ou de MDF: qual escolher?", "answer": "A madeira maciça tem visual e textura naturais; o MDF ripado (ripado moderno) tem custo menor e ótimo acabamento. Indicamos conforme o ambiente, o uso e o orçamento." },
+        { "question": "Serve para painel de TV e cabeceira?", "answer": "Sim. O painel ripado é muito usado atrás da TV e como cabeceira de cama, criando um ponto de destaque moderno e aconchegante no ambiente." },
+        { "question": "Pode usar em área externa?", "answer": "Sim, com o material certo. Para áreas externas ou úmidas usamos madeira tratada ou réguas próprias, com fixação e acabamento adequados à exposição." },
+        { "question": "Como é a fixação, aparece parafuso?", "answer": "Trabalhamos com fixação escondida sempre que possível, sem parafuso à mostra, garantindo um acabamento limpo e profissional no painel." }
+      ]
+    },
+    "finalCta": { "title": "Dê personalidade à sua parede com ripados", "description": "Um painel ripado transforma a sala, o quarto ou o comércio com um toque moderno e aconchegante. Fale com quem faz sob medida.", "ctaText": "Solicitar Painel Ripado" }
+  }
+}

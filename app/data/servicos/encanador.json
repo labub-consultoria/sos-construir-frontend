@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Encanador Profissional em Foz do Iguaçu",
+    "description": "Serviços hidráulicos completos em Foz do Iguaçu. Detecção de vazamentos, desentupimento, manutenção de tubulações e reparos de emergência 24h.",
+    "keywords": "encanador foz do iguaçu, caça vazamento, desentupidora foz, encanador 24h, conserto de descarga, reparo hidráulico",
+    "breadcrumbLabel": "Encanador"
+  },
+  "sections": {
+    "hero": {
+      "title": "Encanadores Profissionais sem Dor de Cabeça",
+      "description": "Vazamentos, entupimentos ou novas instalações? Nossa equipe utiliza tecnologia de ponta para diagnosticar e reparar problemas hidráulicos com máxima eficiência e limpeza."
+    },
+    "overview": {
+      "kicker": "Hidráulica resolvida, sem vazamentos",
+      "title": "Encanador profissional em Foz do Iguaçu",
+      "imageAlt": "Serviço hidráulico de encanador pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz serviços hidráulicos completos em Foz do Iguaçu: detecção de vazamentos, desentupimento, manutenção de tubulações e reparos de emergência.",
+        "Usamos tecnologia caça-vazamento para diagnosticar com precisão, com atendimento de emergência e garantia de estanqueidade em cada reparo.",
+        "Você trata apenas com a SOS, do diagnóstico ao conserto. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 450
+        },
+        {
+          "label": "Detecção de Vazamento",
+          "slug": "vazamento",
+          "count": 180
+        },
+        {
+          "label": "Instalações Novas",
+          "slug": "instalacoes",
+          "count": 120
+        },
+        {
+          "label": "Manutenção Predial",
+          "slug": "manutencao",
+          "count": 150
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Diagnóstico Preciso",
+          "description": "Usamos geofone e câmeras térmicas para localizar vazamentos invisíveis sem precisar quebrar paredes aleatoriamente.",
+          "icon": "magnify-scan"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Apresentamos o plano de reparo e os materiais necessários antes de iniciar qualquer intervenção.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Reparo Especializado",
+          "description": "Substituição de conexões, reparos em PPR, PVC ou cobre com técnica que garante zero vazamentos futuros.",
+          "icon": "pipe-wrench"
+        },
+        {
+          "step": 4,
+          "title": "Teste de Pressão",
+          "description": "Validamos o serviço com testes de carga e pressão para garantir que o fluxo está 100% normalizado.",
+          "icon": "gauge"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Mestres em Hidráulica",
+      "description": "Nossos encanadores são treinados para lidar desde a troca de um simples reparo de torneira até redes complexas de esgoto e água quente. Profissionalismo que evita desperdício de água e dinheiro."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial Hidráulico da SOS",
+      "reasons": [
+        {
+          "title": "Tecnologia Caça-Vazamento",
+          "description": "Localização eletrônica que economiza tempo e evita destruição desnecessária do seu acabamento.",
+          "icon": "radar"
+        },
+        {
+          "title": "Atendimento de Emergência",
+          "description": "Sabemos que água vazando não espera. Equipes prontas para agir rápido em situações críticas.",
+          "icon": "alert-decagram-outline"
+        },
+        {
+          "title": "Garantia de Estanqueidade",
+          "description": "Serviço certificado que garante que sua rede hidráulica ficará seca e segura por muito tempo.",
+          "icon": "water-off-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Serviços Hidráulicos",
+      "questions": [
+        {
+          "question": "Como saber se tenho um vazamento oculto?",
+          "answer": "Sinais como conta de água alta, manchas de umidade, mofo ou o relógio girando sem uso de água indicam vazamentos. Nós usamos aparelhos eletrônicos para confirmar o local exato."
+        },
+        {
+          "question": "Vocês trabalham com água quente (aquecimento solar/gás)?",
+          "answer": "Sim! Instalamos e reparamos tubulações específicas para água quente, como CPVC e PPR, garantindo isolamento térmico e resistência."
+        },
+        {
+          "question": "O desentupimento danifica os canos?",
+          "answer": "Não. Utilizamos técnicas de mola rotativa ou hidrojateamento que limpam as paredes internas da tubulação sem comprometer a estrutura do cano."
+        },
+        {
+          "question": "Vocês instalam metais e louças sanitárias?",
+          "answer": "Sim. Instalamos desde torneiras gourmet e chuveiros modernos até vasos sanitários com caixa acoplada e sistemas de descarga monobloco."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Não deixe o prejuízo escorrer pelo ralo",
+      "description": "Vazamentos pequenos podem causar grandes danos estruturais. Chame quem entende de hidráulica de verdade.",
+      "ctaText": "Solicitar Encanador Agora"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Automação Residencial em Foz do Iguaçu | Casa Inteligente",
+    "description": "Automação residencial em Foz do Iguaçu: iluminação, cortinas, câmeras, fechaduras e controle por app ou voz. Projeto e instalação de casa inteligente sob medida.",
+    "keywords": "automação residencial foz do iguaçu, casa inteligente, automação de iluminação, fechadura eletrônica, cortina automatizada, controle por aplicativo, smart home, automação de câmeras",
+    "breadcrumbLabel": "Automação Residencial"
+  },
+  "sections": {
+    "hero": {
+      "title": "Sua Casa Inteligente, no Controle da sua Mão",
+      "description": "Automatizamos iluminação, cortinas, câmeras, fechaduras e climatização com controle por aplicativo ou voz. Projeto sob medida, integrado e fácil de usar no dia a dia."
+    },
+    "overview": {
+      "kicker": "Praticidade e segurança conectadas",
+      "title": "Automação residencial em Foz do Iguaçu",
+      "imageAlt": "Instalação de automação residencial em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz automação residencial em Foz do Iguaçu: iluminação, cortinas e persianas, câmeras, fechaduras eletrônicas, interfones e climatização integrados em um só sistema.",
+        "Projetamos a automação de acordo com a sua rotina, integramos os dispositivos com controle por aplicativo ou voz e configuramos cenários para economia de energia e segurança.",
+        "Você trata apenas com a SOS, do projeto ao treinamento de uso. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Levantamento da Rotina",
+          "description": "Entendemos como você usa a casa para automatizar o que realmente traz praticidade, sem exagero.",
+          "icon": "clipboard-search-outline"
+        },
+        {
+          "step": 2,
+          "title": "Projeto e Orçamento",
+          "description": "Definimos dispositivos, integração e cenários, com valor fechado antes de instalar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Instalação e Integração",
+          "description": "Instalamos e integramos os equipamentos em um só sistema, com controle por app ou voz.",
+          "icon": "cog"
+        },
+        {
+          "step": 4,
+          "title": "Configuração e Treinamento",
+          "description": "Configuramos os cenários e ensinamos você a usar tudo com facilidade no dia a dia.",
+          "icon": "cellphone-cog"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Especialistas em Casa Inteligente",
+      "description": "Nossa equipe integra dispositivos de diferentes marcas em um sistema que conversa entre si. Automação pensada para a sua rotina, que simplifica em vez de complicar."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Automação da SOS",
+      "reasons": [
+        {
+          "title": "Sistema Integrado",
+          "description": "Tudo em um app só, sem controles espalhados e dispositivos que não conversam entre si.",
+          "icon": "vector-link"
+        },
+        {
+          "title": "Economia de Energia",
+          "description": "Cenários e sensores que desligam o que não está em uso e reduzem a conta de luz.",
+          "icon": "leaf"
+        },
+        {
+          "title": "Segurança Conectada",
+          "description": "Câmeras, fechaduras e alertas no seu celular, onde você estiver.",
+          "icon": "shield-home-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Automação Residencial",
+      "questions": [
+        {
+          "question": "Preciso trocar toda a fiação da casa?",
+          "answer": "Nem sempre. Boa parte da automação usa módulos sem fio ou aproveita a instalação existente. Avaliamos o que dá para integrar sem quebra-quebra na sua casa."
+        },
+        {
+          "question": "Funciona sem internet?",
+          "answer": "As funções locais, como acender luzes e abrir cortinas por interruptor ou voz, continuam funcionando. O controle remoto pelo celular fora de casa é que depende da internet."
+        },
+        {
+          "question": "Dá para automatizar aos poucos?",
+          "answer": "Sim. Projetamos de forma que você comece pelo essencial e amplie depois, sem retrabalho, integrando os novos dispositivos ao mesmo sistema."
+        },
+        {
+          "question": "Consigo controlar de longe, fora de casa?",
+          "answer": "Sim. Com o sistema conectado à internet, você controla luzes, câmeras e fechaduras pelo aplicativo de qualquer lugar, além de receber alertas no celular."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Mais conforto e segurança em um toque",
+      "description": "Transforme a sua casa em um ambiente inteligente, econômico e seguro. Comece pelo essencial e amplie quando quiser.",
+      "ctaText": "Solicitar Projeto de Automação"
+    }
+  }
+}

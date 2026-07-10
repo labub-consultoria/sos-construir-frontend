@@ -1,0 +1,23 @@
+# Dependências e artefatos de build — reinstalados/regerados dentro da imagem.
+node_modules
+.output
+.nuxt
+
+# Segredo (SUPABASE_SECRET_KEY): fora do build. O runtime lê as vars por env.
+.env
+.env.*
+!.env.example
+
+# Cover/hero de serviço: fonte de verdade é o Supabase. Fora da imagem (parceiros ficam).
+public/images/services/*/cover*
+public/images/services/*/hero*
+
+# Controle de versão e CI
+.git
+.github
+
+
+# Metadados de editor/lint que não entram no build de produção.
+.editorconfig
+.prettierrc
+renovate.json

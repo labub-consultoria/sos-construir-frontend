@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useIntersectionObserver } from '@vueuse/core'
+import { useIntersectionObserver, usePreferredReducedMotion } from '@vueuse/core'
 
 import type { BreadcrumbItem } from '@nuxt/ui'
 import categoriesData from '@/data/servicesCategories.json'
@@ -16,10 +16,15 @@ const {
   visibleServices,
   totalServices,
   pending,
+  isAppending,
+  pageSize,
   setCategory,
   loadMore,
   clearFilters,
 } = useServices()
+
+// no mobile a lista de categorias é colapsável e começa fechada; no desktop fica sempre visível
+const showCategories = ref(false)
 
 const finalCtaSection: FinalCtaSection = {
   title: 'Não Encontrou o Serviço que Procura?',
@@ -59,6 +64,36 @@ const mappedCards = computed<ServiceCard[]>(() => {
   })
 })
 
+// Trocando a lista (ver `isAppending`): grade inteira vira skeleton.
+const isReplacingList = computed(() => pending.value && !isAppending.value)
+
+// Acrescentando: mantém os cards atuais e enfileira skeletons dos que faltam,
+// evitando o salto de layout quando os dados chegam.
+const incomingCount = computed(() =>
+  isAppending.value && pending.value ? Math.max(0, visibleCount.value - mappedCards.value.length) : 0
+)
+
+const resultsRef = useTemplateRef('resultsRef')
+const reducedMotion = usePreferredReducedMotion()
+
+// Traz o topo dos resultados de volta ao trocar de categoria — a grade muda abaixo
+// da dobra e o clique não teria efeito visível. Só sobe (guarda do `top < 0`) para
+// não empurrar título/busca de quem está no começo. `nextTick` espera o colapso das
+// categorias no mobile, senão a altura muda no meio da rolagem.
+const selectCategory = async (slug: string) => {
+  setCategory(slug)
+  showCategories.value = false
+  await nextTick()
+
+  const results = resultsRef.value
+  if (!results || results.getBoundingClientRect().top >= 0) return
+
+  results.scrollIntoView({
+    behavior: reducedMotion.value === 'reduce' ? 'auto' : 'smooth',
+    block: 'start'
+  })
+}
+
 // Scroll Infinito: Atualizado para checar contra o total do servidor
 useIntersectionObserver(
   loadMoreTrigger,
@@ -95,35 +130,58 @@ useIntersectionObserver(
         </div>
       </div>
 
-      <UScrollArea v-slot="{ item }" :items="categories" orientation="horizontal"
-        class="w-full scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent hover:scrollbar-thumb-gray-400 mb-5 py-2 gap-3">
-        <button class="px-5 py-2.5 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-300 mx-2"
-          :class="[
-            selectedCategory === item.slug
-              ? 'bg-orange-500 text-white shadow-md shadow-orange-500/20'
-              : 'bg-white text-gray-600 border border-gray-200 hover:border-orange-500 hover:text-orange-500',
-          ]" @click="setCategory(item.slug)">
-          {{ item.name }}
-        </button>
-      </UScrollArea>
-      <div class="min-h-96">
-        <div v-if="filteredServices.length === 0 && !pending && searchQuery.length > 0"
-          class="py-20 text-center flex flex-col items-center justify-center min-h-60">
-          <UIcon name="i-heroicons-magnifying-glass" class="text-gray-300 text-6xl mb-4" />
-          <h3 class="text-xl font-medium text-gray-900 mb-2">Nenhum serviço encontrado</h3>
-          <p class="text-gray-500">Não encontramos nenhum resultado para "{{ searchQuery }}".</p>
-          <UButton class="mt-4" color="primary" variant="soft" @click="clearFilters">
-            Limpar filtros
-          </UButton>
-        </div>
+      <div class="grid grid-cols-1 md:grid-cols-[2.5fr_9.5fr] gap-8 mb-15">
+        <!-- SIDEBAR de categorias (seleção única) -->
+        <aside class="md:sticky md:top-20 self-start">
+          <!-- Mobile: cabeçalho-toggle (fechado por padrão). Desktop: título fixo -->
+          <button type="button" class="md:hidden w-full flex items-center justify-between mb-4"
+            @click="showCategories = !showCategories">
+            <span class="font-bold text-blue-500 text-lg">Categorias</span>
+            <UIcon :name="showCategories ? 'i-heroicons-chevron-up-20-solid' : 'i-heroicons-chevron-down-20-solid'"
+              class="text-blue-500 text-xl" />
+          </button>
+          <h3 class="hidden md:block font-bold text-blue-500 text-lg mb-4">Categorias</h3>
 
-        <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          <ServiceCard v-for="card in mappedCards" :key="card.id" :card="card" class="min-h-72" />
-        </div>
+          <div class="flex-col gap-3 md:flex" :class="showCategories ? 'flex' : 'hidden'">
+            <button v-for="item in categories" :key="item.slug" type="button"
+              class="text-left text-sm transition-colors"
+              :class="selectedCategory === item.slug
+                ? 'text-orange-500 font-semibold'
+                : 'text-gray-600 hover:text-orange-500'"
+              @click="selectCategory(item.slug)">
+              {{ item.name }}
+            </button>
+          </div>
+        </aside>
 
-        <div ref="loadMoreTrigger" v-show="visibleCount < totalServices || pending"
-          class="py-20 min-h-60 flex items-center justify-center">
-          <UIcon v-if="pending" name="mdi:loading" class="animate-spin text-3xl text-orange-500" />
+        <!-- GRID -->
+        <div ref="resultsRef" class="min-h-96 scroll-mt-24">
+          <div v-if="filteredServices.length === 0 && !pending && searchQuery.length > 0"
+            class="py-20 text-center flex flex-col items-center justify-center min-h-60">
+            <UIcon name="i-heroicons-magnifying-glass" class="text-gray-300 text-6xl mb-4" />
+            <h3 class="text-xl font-medium text-gray-900 mb-2">Nenhum serviço encontrado</h3>
+            <p class="text-gray-500">Não encontramos nenhum resultado para "{{ searchQuery }}".</p>
+            <UButton class="mt-4" color="primary" variant="soft" @click="clearFilters">
+              Limpar filtros
+            </UButton>
+          </div>
+
+          <div v-else :aria-busy="pending" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 mb-8">
+            <template v-if="isReplacingList">
+              <USkeleton v-for="i in pageSize" :key="`sk-${i}`" class="h-[280px] md:h-[240px] rounded-2xl" />
+            </template>
+
+            <template v-else>
+              <ServiceCard v-for="(card, index) in mappedCards" :key="card.id" :card="card"
+                :priority="index < 3" class="min-h-72" />
+              <USkeleton v-for="i in incomingCount" :key="`sk-more-${i}`"
+                class="h-[280px] md:h-[240px] rounded-2xl" />
+            </template>
+          </div>
+
+          <p v-if="pending" role="status" class="sr-only">Carregando serviços</p>
+
+          <div v-show="visibleCount < totalServices || pending" ref="loadMoreTrigger" class="py-8" />
         </div>
       </div>
     </UContainer>

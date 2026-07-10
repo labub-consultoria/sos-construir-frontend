@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Piso Laminado e Vinílico em Foz do Iguaçu",
+    "description": "Instalação de piso laminado e vinílico em Foz do Iguaçu: aplicação nivelada, com preparo do contrapiso e acabamento em rodapés, para casas, apartamentos e comércios.",
+    "keywords": "piso laminado foz do iguaçu, piso vinílico, instalação de piso laminado, piso vinílico em régua, lvt, manta acústica, colocar piso laminado, piso que imita madeira, rodapé",
+    "breadcrumbLabel": "Piso Laminado e Vinílico"
+  },
+  "sections": {
+    "hero": {
+      "title": "Um Piso Novo, sem Quebra-Quebra",
+      "description": "Instalamos piso laminado e vinílico com preparo do contrapiso e acabamento perfeito nos rodapés. Aplicação rápida, nivelada e sem a sujeira de uma obra de piso tradicional."
+    },
+    "overview": {
+      "kicker": "Piso novo em pouco tempo",
+      "title": "Instalação de piso laminado e vinílico em Foz do Iguaçu",
+      "imageAlt": "Instalação de piso vinílico em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala piso laminado e vinílico em Foz do Iguaçu: réguas laminadas, vinílico em manta, régua ou placa (LVT), para casas, apartamentos e comércios.",
+        "Preparamos e nivelamos o contrapiso, aplicamos a manta acústica e assentamos as réguas com juntas alinhadas e acabamento nos rodapés e soleiras.",
+        "Você trata apenas com a SOS, do preparo do contrapiso ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Avaliação do Contrapiso",
+          "description": "Conferimos o nível e a umidade do contrapiso, condição essencial para o piso não estufar nem estalar depois.",
+          "icon": "magnify-scan"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Calculamos a metragem, o material e o rodapé com valor fechado antes de instalar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Preparo e Nivelamento",
+          "description": "Nivelamos o contrapiso e aplicamos a manta acústica que garante conforto e durabilidade.",
+          "icon": "ruler-square"
+        },
+        {
+          "step": 4,
+          "title": "Assentamento e Acabamento",
+          "description": "Assentamos as réguas com juntas alinhadas e finalizamos rodapés e soleiras com acabamento limpo.",
+          "icon": "layers-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Instaladores de Piso",
+      "description": "Nossos instaladores assentam laminado e vinílico com o contrapiso bem preparado, base de um piso que dura. Serviço a seco, rápido e sem a bagunça de uma obra."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Pisos da SOS",
+      "reasons": [
+        {
+          "title": "Contrapiso Bem Preparado",
+          "description": "Nível e umidade conferidos para o piso não estufar, estalar nem soltar com o tempo.",
+          "icon": "ruler-square"
+        },
+        {
+          "title": "Instalação Rápida e Limpa",
+          "description": "Aplicação a seco que renova o ambiente sem quebra-quebra nem a poeira de obra.",
+          "icon": "clock-fast"
+        },
+        {
+          "title": "Acabamento nos Detalhes",
+          "description": "Rodapés, soleiras e recortes de porta bem-feitos para um resultado impecável.",
+          "icon": "check-decagram-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Piso Laminado e Vinílico",
+      "questions": [
+        {
+          "question": "Posso instalar por cima do piso atual?",
+          "answer": "Na maioria dos casos sim, desde que o piso existente esteja firme e nivelado. Avaliamos a base para decidir entre aplicar sobre ela ou preparar um novo contrapiso."
+        },
+        {
+          "question": "Qual a diferença entre laminado e vinílico?",
+          "answer": "O laminado tem base de madeira e visual sofisticado, mas teme água. O vinílico é mais resistente à umidade e a impactos. Indicamos o ideal para cada ambiente."
+        },
+        {
+          "question": "Esse piso resiste a água e umidade?",
+          "answer": "O vinílico resiste bem à umidade do dia a dia; o laminado é mais sensível. Para áreas com risco de água, orientamos o material e a vedação adequados."
+        },
+        {
+          "question": "Quanto tempo leva a instalação?",
+          "answer": "Por ser aplicação a seco, é rápida: um ambiente costuma ficar pronto no mesmo dia. O prazo depende da metragem e do preparo necessário no contrapiso."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Renove o seu piso sem virar a casa de cabeça para baixo",
+      "description": "Troque o visual do ambiente com um piso moderno, aplicado rápido e sem quebra-quebra. Fale com quem prepara a base direito.",
+      "ctaText": "Solicitar Instalação de Piso"
+    }
+  }
+}

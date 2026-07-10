@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Chaveiro em Foz do Iguaçu | Atendimento 24h",
+    "description": "Chaveiro em Foz do Iguaçu: abertura de portas, troca e conserto de fechaduras, cópia de chaves e chaveiro automotivo, com atendimento rápido e de emergência 24h.",
+    "keywords": "chaveiro foz do iguaçu, chaveiro 24h, abertura de porta, troca de fechadura, cópia de chave, fechadura digital, chaveiro automotivo, chave codificada, tranca de segurança",
+    "breadcrumbLabel": "Chaveiro"
+  },
+  "sections": {
+    "hero": {
+      "title": "Portas Abertas e Fechaduras Seguras, sem Espera",
+      "description": "Fazemos abertura de portas, troca e conserto de fechaduras, cópia de chaves e chaveiro automotivo. Atendimento rápido e de emergência, sem danificar a sua porta."
+    },
+    "overview": {
+      "kicker": "Acesso resolvido, sem estrago",
+      "title": "Chaveiro em Foz do Iguaçu",
+      "imageAlt": "Serviço de chaveiro instalando fechadura em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir tem serviço de chaveiro em Foz do Iguaçu: abertura de portas, troca e conserto de fechaduras, cópia e codificação de chaves, fechadura digital e chaveiro automotivo.",
+        "Fazemos a abertura sem arrombar quando possível, instalamos fechaduras e trancas de segurança e codificamos chaves, com atendimento de emergência para quem ficou na rua.",
+        "Você trata apenas com a SOS, da emergência à troca de fechadura. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Atendimento Rápido", "description": "Chegamos rápido no chamado de emergência, para você não ficar preso na rua ou em casa.", "icon": "clock-fast" },
+        { "step": 2, "title": "Diagnóstico da Fechadura", "description": "Avaliamos a porta e a fechadura para abrir ou consertar sem danificar mais que o necessário.", "icon": "magnify-scan" },
+        { "step": 3, "title": "Abertura ou Troca", "description": "Abrimos sem arrombar quando possível ou trocamos a fechadura por uma de segurança.", "icon": "key-variant" },
+        { "step": 4, "title": "Teste e Cópia", "description": "Testamos o funcionamento e fazemos as cópias de chave necessárias na hora.", "icon": "content-copy" }
+      ]
+    },
+    "professionals": { "title": "Chaveiros de Confiança", "description": "Nossos chaveiros abrem, trocam e codificam com técnica, sem estragar a sua porta. Atendimento de confiança, inclusive na emergência de quem ficou sem a chave." },
+    "whyChooseUs": {
+      "title": "O Diferencial do Chaveiro da SOS",
+      "reasons": [
+        { "title": "Atendimento de Emergência", "description": "Ficou na rua ou perdeu a chave? Equipe pronta para chegar rápido, inclusive fora do horário comercial.", "icon": "clock-fast" },
+        { "title": "Sem Arrombar quando Possível", "description": "Técnicas que abrem a porta preservando a fechadura e a estrutura, evitando gasto extra.", "icon": "lock-open-outline" },
+        { "title": "Fechaduras de Segurança", "description": "Instalação de trancas, tetra e fechadura digital que aumentam de verdade a proteção.", "icon": "shield-lock-outline" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Chaveiro",
+      "questions": [
+        { "question": "Vocês abrem a porta sem danificar?", "answer": "Sempre que possível, sim. Usamos técnicas que abrem a fechadura sem arrombar. Quando a fechadura já está danificada ou travada, orientamos a melhor solução antes de agir." },
+        { "question": "Fazem chave codificada de carro?", "answer": "Sim. Fazemos cópia e codificação de chaves automotivas, incluindo chaves com transponder e controle, conforme o modelo do veículo." },
+        { "question": "Instalam fechadura digital?", "answer": "Sim. Instalamos e configuramos fechaduras digitais (senha, biometria ou aplicativo) em portas residenciais e comerciais, com orientação de uso." },
+        { "question": "Atendem de madrugada e em emergência?", "answer": "Sim. Temos atendimento de emergência para abertura de portas e problemas com fechadura fora do horário comercial." }
+      ]
+    },
+    "finalCta": { "title": "Não fique na porta esperando, chame o chaveiro", "description": "Perdeu a chave, quebrou a fechadura ou quer mais segurança? Resolva rápido com um chaveiro de confiança.", "ctaText": "Chamar Chaveiro Agora" }
+  }
+}

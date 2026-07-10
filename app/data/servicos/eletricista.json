@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Eletricista Profissional em Foz do Iguaçu | Padrão Copel",
+    "description": "Serviços elétricos residenciais, prediais e industriais em Foz do Iguaçu. Especialistas em Padrão Copel, manutenção preventiva e instalações seguras.",
+    "keywords": "eletricista foz do iguaçu, padrão copel foz, instalação elétrica residencial, manutenção elétrica, eletricista 24h foz",
+    "breadcrumbLabel": "Eletricista"
+  },
+  "sections": {
+    "hero": {
+      "title": "Energia Segura e Instalações Dentro das Normas",
+      "description": "Evite curto-circuitos e prejuízos. Conte com eletricistas certificados para projetos residenciais, prediais e adequação total ao Padrão Copel."
+    },
+    "overview": {
+      "kicker": "Instalações elétricas seguras e no padrão Copel",
+      "title": "Eletricista profissional em Foz do Iguaçu",
+      "imageAlt": "Serviço de eletricista no padrão Copel pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz serviços elétricos residenciais, prediais e industriais em Foz do Iguaçu, com especialidade em padrão Copel.",
+        "Contamos com eletricistas certificados para instalações e manutenção preventiva, evitando curto-circuitos e ajudando a economizar energia.",
+        "Você trata apenas com a SOS, do projeto à ligação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "partner": {
+      "partnerName": "Ande Materiais Elétricos",
+      "logo": "/images/services/eletricista/ande/logo.png",
+      "coverImage": "/images/services/eletricista/ande/cover.jpg",
+      "description": "Parceria estratégica com a Ande Materiais Elétricos, tradição em Foz do Iguaçu desde 1987. Oferecemos acesso a um catálogo completo de materiais certificados, garantindo que sua instalação siga rigorosamente as normas técnicas com o melhor custo-benefício da cidade.",
+      "tags": [
+        {
+          "icon": "lightning-bolt",
+          "text": "Catálogo completo: de fios a painéis de automação"
+        },
+        {
+          "icon": "certificate-outline",
+          "text": "Materiais homologados e padrão Copel"
+        },
+        {
+          "icon": "store-clock-outline",
+          "text": "Tradição e confiança em Foz há mais de 35 anos"
+        },
+        {
+          "icon": "account-wrench-outline",
+          "text": "Suporte técnico especializado para o seu projeto"
+        }
+      ],
+      "cta": {
+        "text": "Ver Materiais na Ande",
+        "link": "https://www.ande.com.br"
+      },
+      "footerInfo": {
+        "usage": "Referência em elétrica para residências e comércios",
+        "guarantee": "Produtos com garantia de fábrica e selo Inmetro"
+      }
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 520
+        },
+        {
+          "label": "Padrão Copel",
+          "slug": "copel",
+          "count": 180
+        },
+        {
+          "label": "Instalações Prediais",
+          "slug": "predial",
+          "count": 140
+        },
+        {
+          "label": "Manutenção Residencial",
+          "slug": "residencial",
+          "count": 200
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Dimensionamento de Carga",
+          "description": "Calculamos a demanda real dos seus aparelhos para evitar sobrecargas e quedas de energia.",
+          "icon": "flash-auto"
+        },
+        {
+          "step": 2,
+          "title": "Passagem e Cabeamento",
+          "description": "Instalação de condutores e fiação seguindo as cores e normas técnicas de segurança (NBR 5410).",
+          "icon": "cable-data"
+        },
+        {
+          "step": 3,
+          "title": "Montagem de Quadros",
+          "description": "Organização de disjuntores e dispositivos de proteção (DR e DPS) para proteger sua família contra choques e surtos.",
+          "icon": "dresser-outline"
+        },
+        {
+          "step": 4,
+          "title": "Testes e Certificação",
+          "description": "Verificação de aterramento e tensão em todos os pontos para garantir uma rede 100% operacional.",
+          "icon": "check-network-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Eletricistas Certificados",
+      "description": "Eletricidade é coisa séria. Está apta a realizar desde pequenos reparos até a montagem de padrões de entrada complexos, sempre com foco na preservação da vida e do seu patrimônio."
+    },
+    "whyChooseUs": {
+      "title": "Por que a SOS é a escolha certa para sua parte elétrica?",
+      "reasons": [
+        {
+          "title": "Especialistas Copel",
+          "description": "Garantimos a aprovação da sua entrada de energia sem idas e vindas burocráticas.",
+          "icon": "home-lightning-bolt-outline"
+        },
+        {
+          "title": "Segurança Preventiva",
+          "description": "Identificamos fios aquecidos e conexões frouxas que podem causar incêndios invisíveis.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "Economia de Energia",
+          "description": "Projetos bem dimensionados evitam a fuga de corrente e reduzem o valor da sua conta.",
+          "icon": "leaf"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Serviços Elétricos",
+      "questions": [
+        {
+          "question": "O que é o Padrão Copel e por que preciso dele?",
+          "answer": "É o conjunto de normas que a concessionária exige para ligar a energia no seu imóvel. Se o poste ou a caixa de luz estiverem fora do padrão, a Copel não faz a ligação."
+        },
+        {
+          "question": "Por que meu disjuntor cai quando ligo o chuveiro e o ar-condicionado?",
+          "answer": "Isso indica sobrecarga no circuito. O disjuntor desarma para evitar que os fios derretam e causem um incêndio. Precisamos redimensionar a fiação desse setor."
+        },
+        {
+          "question": "Vocês instalam ventiladores, lustres e ar-condicionado?",
+          "answer": "Sim! Realizamos toda a parte de iluminação decorativa e a preparação elétrica necessária (fiação e disjuntores) para a instalação de ar-condicionado."
+        },
+        {
+          "question": "O que são os dispositivos DR e DPS?",
+          "answer": "O DR protege as pessoas contra choques elétricos fatais, desligando o circuito ao menor sinal de fuga. O DPS protege seus eletrônicos contra queimas causadas por raios e surtos na rede."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Proteja seu lar contra riscos elétricos",
+      "description": "Instalações antigas ou mal feitas são as maiores causas de incêndios. Agende uma revisão elétrica hoje mesmo.",
+      "ctaText": "Solicitar Orçamento Elétrico"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Manutenção de Piscina em Foz do Iguaçu | Piscineiro",
+    "description": "Manutenção de piscina em Foz do Iguaçu: limpeza, tratamento da água, equilíbrio do pH e conserto de bombas e filtros. Água cristalina com atendimento periódico.",
+    "keywords": "manutenção de piscina foz do iguaçu, piscineiro, limpeza de piscina, tratamento de água, água verde, conserto de bomba de piscina, filtro de piscina, produtos para piscina",
+    "breadcrumbLabel": "Manutenção de Piscina"
+  },
+  "sections": {
+    "hero": {
+      "title": "Água Cristalina o Ano Inteiro, sem Trabalho",
+      "description": "Cuidamos da limpeza, do tratamento e do equilíbrio químico da sua piscina, além de bombas e filtros. Água cristalina e segura, com visitas periódicas e você sem se preocupar."
+    },
+    "overview": {
+      "kicker": "Piscina pronta para o mergulho",
+      "title": "Manutenção de piscina em Foz do Iguaçu",
+      "imageAlt": "Manutenção e limpeza de piscina em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz manutenção de piscina em Foz do Iguaçu: limpeza, aspiração, tratamento e equilíbrio químico da água, além de manutenção de bombas, filtros e aquecimento.",
+        "Fazemos a dosagem correta de produtos, medimos pH e cloro e limpamos filtros e bordas, mantendo a água cristalina e segura para a família o ano todo.",
+        "Você trata apenas com a SOS, da análise da água à checagem dos equipamentos. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Análise da Água",
+          "description": "Medimos pH, cloro e alcalinidade para saber exatamente o que a água precisa.",
+          "icon": "test-tube"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Definimos o plano de manutenção e a frequência ideal com valor fechado.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Limpeza e Tratamento",
+          "description": "Aspiramos o fundo, limpamos bordas e filtros e fazemos a dosagem correta de produtos.",
+          "icon": "pool"
+        },
+        {
+          "step": 4,
+          "title": "Equilíbrio e Checagem",
+          "description": "Equilibramos a química da água e conferimos bombas e filtros para tudo funcionar.",
+          "icon": "check-decagram-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Piscineiros Profissionais",
+      "description": "Nossos piscineiros cuidam de piscinas residenciais e de condomínio com dosagem certa e visita periódica. Água que fica cristalina e segura, sem virar dor de cabeça no verão."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Manutenção da SOS",
+      "reasons": [
+        {
+          "title": "Água Sempre Equilibrada",
+          "description": "Dosagem certa de produtos que mantém a água cristalina e segura, sem irritar pele e olhos.",
+          "icon": "water-check"
+        },
+        {
+          "title": "Manutenção Preventiva",
+          "description": "Cuidado periódico que evita água verde, mancha e conserto caro de equipamento.",
+          "icon": "calendar-check-outline"
+        },
+        {
+          "title": "Bombas e Filtros em Dia",
+          "description": "Verificação e manutenção do sistema para a piscina circular e filtrar como deve.",
+          "icon": "cog"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Manutenção de Piscina",
+      "questions": [
+        {
+          "question": "De quanto em quanto tempo preciso de manutenção?",
+          "answer": "O ideal é uma visita semanal ou quinzenal, dependendo do uso, do clima e da presença de árvores por perto. Definimos a frequência certa na avaliação."
+        },
+        {
+          "question": "Minha água ficou verde, tem conserto?",
+          "answer": "Tem. Fazemos o tratamento de choque, corrigimos o equilíbrio químico e limpamos o filtro, devolvendo a água cristalina — geralmente em poucos dias."
+        },
+        {
+          "question": "Vocês consertam bomba e filtro?",
+          "answer": "Sim. Fazemos manutenção e reparo de bombas, filtros e sistemas de aquecimento, além de orientar quando vale a pena trocar por um equipamento mais eficiente."
+        },
+        {
+          "question": "Preciso de manutenção mesmo sem usar a piscina?",
+          "answer": "Sim. Água parada sem tratamento fica verde e vira foco de mosquito. A manutenção preventiva mantém a piscina pronta para uso e evita gasto maior depois."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Mergulhe numa água sempre cristalina",
+      "description": "Deixe o cuidado com produtos, filtro e limpeza com quem entende. Sua piscina pronta para o mergulho o ano todo.",
+      "ctaText": "Agendar Manutenção da Piscina"
+    }
+  }
+}

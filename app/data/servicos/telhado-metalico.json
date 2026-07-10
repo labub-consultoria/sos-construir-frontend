@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Telhado Metálico em Foz do Iguaçu | Aluzinco",
+    "description": "Telhado metálico em Foz do Iguaçu: telhas de aluzinco e galvanizadas, telha sanduíche e estrutura, para casas, galpões e coberturas, com instalação e vedação.",
+    "keywords": "telhado metálico foz do iguaçu, telha de aluzinco, telha galvanizada, telha sanduíche, telha termoacústica, cobertura de galpão, estrutura metálica, telhado de galpão",
+    "breadcrumbLabel": "Telhado Metálico"
+  },
+  "sections": {
+    "hero": {
+      "title": "Cobertura Metálica Rápida, Leve e Durável",
+      "description": "Instalamos telhado metálico em aluzinco, telha galvanizada e telha sanduíche, com estrutura dimensionada. Cobertura rápida, leve e resistente para casas, galpões e áreas."
+    },
+    "overview": {
+      "kicker": "Cobertura que encara o tempo",
+      "title": "Telhado metálico em Foz do Iguaçu",
+      "imageAlt": "Instalação de telhado metálico de aluzinco em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala telhado metálico em Foz do Iguaçu: telhas de aluzinco, galvanizadas e termoacústicas (sanduíche), com estrutura metálica, para casas, galpões, garagens e áreas.",
+        "Dimensionamos a estrutura e o caimento, instalamos as telhas com fixação e vedação corretas e finalizamos rufos e cumeeira, para uma cobertura sem goteira nem barulho.",
+        "Você trata apenas com a SOS, da estrutura ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Medição e Estrutura", "description": "Medimos o vão e dimensionamos a estrutura e o caimento para o tipo de telha metálica.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos telha, estrutura e prazo com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Instalação das Telhas", "description": "Instalamos com fixação e sobreposição corretas, garantindo vedação contra chuva.", "icon": "home-roof" },
+        { "step": 4, "title": "Rufos e Acabamento", "description": "Finalizamos rufos, cumeeira e vedação para uma cobertura sem goteira nem infiltração.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Telhado Metálico", "description": "Nossa equipe cobre casas e galpões com telha metálica bem fixada e vedada. Cobertura leve e rápida, com opção termoacústica para reduzir calor e barulho." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Telhado Metálico da SOS",
+      "reasons": [
+        { "title": "Cobertura Rápida e Leve", "description": "Telha metálica cobre grandes áreas rápido e pesa pouco sobre a estrutura.", "icon": "clock-fast" },
+        { "title": "Vedação sem Goteira", "description": "Fixação, sobreposição e rufos corretos que impedem infiltração mesmo em temporal.", "icon": "water-off-outline" },
+        { "title": "Opção Termoacústica", "description": "Telha sanduíche que reduz o calor e o barulho da chuva, para áreas habitadas.", "icon": "home-thermometer-outline" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Telhado Metálico",
+      "questions": [
+        { "question": "Telha metálica esquenta e faz barulho de chuva?", "answer": "A telha simples esquenta e faz mais ruído; por isso, para áreas habitadas, indicamos a telha sanduíche (termoacústica) ou o uso de isolamento, que reduzem calor e barulho." },
+        { "question": "Serve para casa ou só para galpão?", "answer": "Serve para os dois. Em galpões e áreas usamos telha simples; em residências, a telha termoacústica traz o conforto necessário, com o mesmo ganho de rapidez." },
+        { "question": "Qual a diferença da telha sanduíche?", "answer": "A telha sanduíche tem um núcleo isolante entre duas chapas, o que reduz bastante a transmissão de calor e o barulho da chuva, ideal para ambientes habitados." },
+        { "question": "Dá para instalar sobre a estrutura existente?", "answer": "Em muitos casos sim, desde que a estrutura suporte e esteja em bom estado. Avaliamos a estrutura atual para indicar a solução mais segura e econômica." }
+      ]
+    },
+    "finalCta": { "title": "Cubra sua área com rapidez e sem goteira", "description": "Casa, galpão ou área de lazer: o telhado metálico cobre rápido e dura. Fale com quem dimensiona a estrutura e veda direito.", "ctaText": "Solicitar Telhado Metálico" }
+  }
+}

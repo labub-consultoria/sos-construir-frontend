@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Demolição em Foz do Iguaçu | Controlada e Segura",
+    "description": "Serviço de demolição em Foz do Iguaçu: demolição controlada de paredes, lajes e construções, com remoção de entulho e segurança estrutural. Residencial e comercial.",
+    "keywords": "demolição foz do iguaçu, demolição controlada, derrubar parede, demolição de laje, remoção de entulho, demolição residencial, demolição comercial, abrir parede",
+    "breadcrumbLabel": "Demolição"
+  },
+  "sections": {
+    "hero": {
+      "title": "Abrindo Espaço para o seu Novo Projeto",
+      "description": "Executamos demolição controlada de paredes, lajes e construções com segurança e remoção de entulho. Avaliação estrutural, contenção de poeira e limpeza da área ao final."
+    },
+    "overview": {
+      "kicker": "Demolição segura, sem surpresa",
+      "title": "Demolição em Foz do Iguaçu",
+      "imageAlt": "Serviço de demolição controlada em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz demolição em Foz do Iguaçu: derrubada controlada de paredes, muros, lajes e construções inteiras, com remoção de entulho, para obras residenciais e comerciais.",
+        "Avaliamos a estrutura antes de derrubar para não comprometer o que fica de pé, isolamos a área, controlamos a poeira e destinamos o entulho corretamente.",
+        "Você trata apenas com a SOS, da avaliação à limpeza final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Avaliação Estrutural",
+          "description": "Verificamos o que é parede de vedação e o que é estrutural para demolir sem risco ao restante da obra.",
+          "icon": "magnify-scan"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento e Planejamento",
+          "description": "Definimos método, prazo, isolamento e destino do entulho com valor fechado antes de iniciar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Demolição Controlada",
+          "description": "Derrubamos de forma controlada, com contenção de poeira e proteção das áreas vizinhas.",
+          "icon": "hammer"
+        },
+        {
+          "step": 4,
+          "title": "Remoção e Limpeza",
+          "description": "Removemos o entulho com destinação correta e entregamos a área limpa e pronta para a próxima etapa.",
+          "icon": "dump-truck"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Equipe de Demolição",
+      "description": "Nossa equipe derruba com técnica e segurança, do simples abrir de uma parede à demolição de uma construção inteira. Força bruta na medida certa, sem risco ao que fica."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Demolição da SOS",
+      "reasons": [
+        {
+          "title": "Segurança Estrutural",
+          "description": "Avaliação antes de derrubar para não comprometer o que precisa continuar de pé.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "Controle de Poeira e Ruído",
+          "description": "Isolamento e contenção que reduzem sujeira e transtorno para você e os vizinhos.",
+          "icon": "weather-dust"
+        },
+        {
+          "title": "Entulho com Destino Certo",
+          "description": "Remoção e descarte corretos, sem deixar o problema na sua calçada.",
+          "icon": "dump-truck"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Demolição",
+      "questions": [
+        {
+          "question": "Como sei se posso derrubar uma parede?",
+          "answer": "É preciso saber se a parede é estrutural (sustenta a construção) ou de vedação (apenas divide o espaço). Fazemos essa avaliação antes de qualquer demolição para não comprometer o imóvel."
+        },
+        {
+          "question": "Vocês removem o entulho?",
+          "answer": "Sim. A remoção e a destinação correta do entulho fazem parte do serviço, deixando a área limpa e liberada para a próxima etapa da obra."
+        },
+        {
+          "question": "Quanta poeira e sujeira fica?",
+          "answer": "Isolamos a área e usamos técnicas de contenção de poeira para reduzir ao máximo a sujeira. Ao final, entregamos o espaço limpo."
+        },
+        {
+          "question": "Precisa de autorização para demolir?",
+          "answer": "Depende do porte da obra e das regras do município ou condomínio. Orientamos sobre a documentação necessária para que a demolição seja feita dentro das normas."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "O primeiro passo da sua reforma é abrir espaço",
+      "description": "Comece a sua obra com uma demolição segura, limpa e no prazo. Deixe a força bruta com quem faz com técnica.",
+      "ctaText": "Solicitar Orçamento de Demolição"
+    }
+  }
+}

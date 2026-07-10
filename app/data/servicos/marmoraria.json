@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Marmoraria em Foz do Iguaçu | Granito e Mármore",
+    "description": "Marmoraria em Foz do Iguaçu: bancadas, pias, soleiras e escadas em granito, mármore e quartzo, sob medida, com corte preciso e acabamento polido. Medição e instalação.",
+    "keywords": "marmoraria foz do iguaçu, bancada de granito, bancada de mármore, pia de granito, soleira, peitoril, bancada de quartzo, escada de granito, mármore sob medida, marmorista",
+    "breadcrumbLabel": "Marmoraria"
+  },
+  "sections": {
+    "hero": {
+      "title": "O Acabamento Nobre que Valoriza sua Obra",
+      "description": "Fabricamos e instalamos bancadas, pias e soleiras em granito, mármore e quartzo sob medida. Corte preciso, acabamento polido e encaixe perfeito para cada ambiente."
+    },
+    "overview": {
+      "kicker": "Pedra natural sob medida",
+      "title": "Marmoraria em Foz do Iguaçu",
+      "imageAlt": "Instalação de bancada de granito em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz marmoraria em Foz do Iguaçu: bancadas de cozinha e banheiro, pias, soleiras, peitoris, escadas e rodapés em granito, mármore e quartzo, sob medida.",
+        "Medimos o ambiente no local, cortamos a pedra com precisão e acabamento polido e instalamos com nível e vedação, para um resultado durável e sofisticado.",
+        "Você trata apenas com a SOS, da medição à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Medição no Local",
+          "description": "Medimos o ambiente com precisão para a peça encaixar sem folga nem emenda mal colocada.",
+          "icon": "ruler-square"
+        },
+        {
+          "step": 2,
+          "title": "Escolha da Pedra",
+          "description": "Ajudamos a escolher granito, mármore ou quartzo pelo uso, pela cor e pelo orçamento.",
+          "icon": "palette-outline"
+        },
+        {
+          "step": 3,
+          "title": "Corte e Acabamento",
+          "description": "Cortamos sob medida e fazemos o acabamento de borda e o polimento da superfície.",
+          "icon": "saw-blade"
+        },
+        {
+          "step": 4,
+          "title": "Instalação Nivelada",
+          "description": "Instalamos com nível, apoio correto e vedação, pronta para o uso diário.",
+          "icon": "check-decagram-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Especialistas em Marmoraria",
+      "description": "Nossos marmoristas trabalham granito, mármore e quartzo com corte preciso e acabamento fino. Peças sob medida que encaixam perfeito e valorizam o ambiente."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Marmoraria da SOS",
+      "reasons": [
+        {
+          "title": "Medida Exata",
+          "description": "Medição no local e corte preciso para a peça encaixar perfeita, sem gambiarra.",
+          "icon": "ruler-square"
+        },
+        {
+          "title": "Acabamento Polido",
+          "description": "Bordas trabalhadas e superfície polida que dão o toque nobre ao ambiente.",
+          "icon": "diamond-stone"
+        },
+        {
+          "title": "Pedra Certa para o Uso",
+          "description": "Indicação de material resistente a manchas e calor conforme cada ambiente.",
+          "icon": "shield-check-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Marmoraria",
+      "questions": [
+        {
+          "question": "Qual a diferença entre granito, mármore e quartzo?",
+          "answer": "O granito é resistente e ótimo para cozinha; o mármore é sofisticado, mas mais sensível a manchas; o quartzo une beleza e resistência. Indicamos pelo uso e ambiente."
+        },
+        {
+          "question": "A bancada mancha ou risca com facilidade?",
+          "answer": "Depende da pedra. Granito e quartzo resistem bem a risco e mancha; o mármore pede mais cuidado. Orientamos o material e a manutenção certa para cada caso."
+        },
+        {
+          "question": "Vocês fazem a medida ou preciso passar as dimensões?",
+          "answer": "Nós fazemos a medição no local, com precisão. Isso garante que a peça encaixe perfeita, sem folga nem necessidade de ajuste improvisado na hora de instalar."
+        },
+        {
+          "question": "Dá para emendar pedra em bancada grande?",
+          "answer": "Sim. Em peças grandes, planejamos a emenda no ponto menos aparente, com encaixe e acabamento cuidadosos para que fique discreta e resistente."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "O toque final que transforma o ambiente",
+      "description": "Bancadas e acabamentos em pedra natural sob medida, com o corte e o polimento de quem entende. Valorize a sua obra no detalhe.",
+      "ctaText": "Solicitar Orçamento de Marmoraria"
+    }
+  }
+}

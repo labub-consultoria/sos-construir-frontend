@@ -60,7 +60,8 @@ export interface PartnersSection extends BaseSection {
   partners: Partner[]
 }
 
-export interface ServiceCard extends Service {
+// `type` aqui é a variante visual do card (não o trilho do serviço), por isso o Omit.
+export interface ServiceCard extends Omit<Service, 'type'> {
   type: 'image' | 'standard'
   size?: 'large' | 'medium'
   link?: string

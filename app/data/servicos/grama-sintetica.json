@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Grama Sintética em Foz do Iguaçu | Instalação",
+    "description": "Instalação de grama sintética em Foz do Iguaçu: jardins, quintais, playgrounds e áreas de lazer, com base bem preparada, drenagem e acabamento sem emendas aparentes.",
+    "keywords": "grama sintética foz do iguaçu, instalação de grama sintética, grama artificial, jardim sem manutenção, grama para playground, grama decorativa, tapete de grama",
+    "breadcrumbLabel": "Grama Sintética"
+  },
+  "sections": {
+    "hero": {
+      "title": "Um Verde Perfeito o Ano Todo, sem Manutenção",
+      "description": "Instalamos grama sintética em jardins, quintais e áreas de lazer com base bem preparada e drenagem. Sempre verde, sem corte, sem barro e sem irrigação."
+    },
+    "overview": {
+      "kicker": "Sempre verde, sem trabalho",
+      "title": "Grama sintética em Foz do Iguaçu",
+      "imageAlt": "Instalação de grama sintética em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir instala grama sintética em Foz do Iguaçu: jardins, quintais, playgrounds, áreas de pet, sacadas e paredes verdes, com base nivelada e drenante.",
+        "Preparamos e nivelamos a base, garantimos a drenagem e assentamos a grama com emendas invisíveis e fixação firme, para um gramado uniforme que dura anos.",
+        "Você trata apenas com a SOS, do preparo da base ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Preparo da Base", "description": "Nivelamos e compactamos o solo e garantimos a drenagem para a água não empoçar sob a grama.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Calculamos a metragem, o modelo de grama e o material com valor fechado antes de instalar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Assentamento", "description": "Assentamos os rolos no sentido certo, com emendas invisíveis e fixação firme nas bordas.", "icon": "grass" },
+        { "step": 4, "title": "Acabamento e Escovação", "description": "Escovamos as fibras e finalizamos as bordas para um gramado uniforme e natural.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Instaladores de Grama Sintética", "description": "Nossa equipe prepara a base direito, o segredo de um gramado que não afunda nem descola. Emendas invisíveis e acabamento natural que enganam o olho." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Grama Sintética da SOS",
+      "reasons": [
+        { "title": "Base Bem Drenada", "description": "Preparo que evita poça e mau cheiro, deixando a água escoar mesmo em chuva forte.", "icon": "water-off-outline" },
+        { "title": "Emendas Invisíveis", "description": "Assentamento no sentido certo com junções bem-feitas, sem aquele risco no meio do gramado.", "icon": "vector-combine" },
+        { "title": "Zero Manutenção", "description": "Sempre verde, sem cortar, adubar nem regar, e sem barro na entrada de casa.", "icon": "leaf" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Grama Sintética",
+      "questions": [
+        { "question": "A grama sintética esquenta muito no sol?", "answer": "As gramas atuais têm fibras que reduzem o aquecimento. Em áreas de sol intenso, indicamos modelos e cuidados que deixam o piso mais confortável." },
+        { "question": "A água da chuva escoa?", "answer": "Sim. A grama é drenante e, com a base bem preparada, a água escoa normalmente, sem empoçar nem causar mau cheiro." },
+        { "question": "Serve para cachorro?", "answer": "Sim. É ótima para pets: fácil de limpar, sem barro e sem buracos. Indicamos modelos resistentes e a higienização correta para áreas de pet." },
+        { "question": "Quanto tempo dura?", "answer": "Com boa instalação e material de qualidade, dura muitos anos mantendo a cor, graças à proteção UV das fibras contra o desbotamento." }
+      ]
+    },
+    "finalCta": { "title": "Um gramado impecável sem cortar grama nunca mais", "description": "Troque o barro e a manutenção por um verde perfeito o ano inteiro. Instale grama sintética com base bem preparada.", "ctaText": "Solicitar Grama Sintética" }
+  }
+}

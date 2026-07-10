@@ -1,32 +1,54 @@
 {
   "categories": [
     {
-      "name": "Acabamento",
-      "slug": "acabamento"
+      "name": "Pintura e Acabamento",
+      "slug": "pintura-e-acabamento",
+      "examples": "Pintura, gesso, piso, revestimento, mármore, vidro"
     },
     {
-      "name": "Construção",
-      "slug": "construcao"
+      "name": "Pedreiro e Obra",
+      "slug": "pedreiro-e-obra",
+      "examples": "Reboco, muro, demolição, impermeabilização, steel frame"
     },
     {
-      "name": "Instalações",
-      "slug": "instalacoes"
+      "name": "Serralheria e Metalúrgica",
+      "slug": "serralheria-e-metalurgica",
+      "examples": "Portão de ferro, grade, solda, estrutura metálica, corrimão"
     },
     {
-      "name": "Externo",
-      "slug": "externo"
+      "name": "Encanador e Vazamentos",
+      "slug": "encanador-e-vazamentos",
+      "examples": "Vazamento, entupimento, cano, caixa d'água, poço"
     },
     {
-      "name": "Estrutura",
-      "slug": "estrutura"
+      "name": "Elétrica e Energia Solar",
+      "slug": "eletrica-e-energia-solar",
+      "examples": "Eletricista, energia solar, automação"
     },
     {
-      "name": "Reformas",
-      "slug": "reformas"
+      "name": "Ar-Condicionado e Gás",
+      "slug": "ar-condicionado-e-gas",
+      "examples": "Instalação e manutenção de ar, gás encanado"
     },
     {
-      "name": "Móveis",
-      "slug": "moveis"
+      "name": "Jardim e Área Externa",
+      "slug": "jardim-e-area-externa",
+      "examples": "Jardim, calçada/paver, piscina, toldo, terraplanagem"
+    },
+    {
+      "name": "Reformas e Telhado",
+      "slug": "reformas-e-telhado",
+      "examples": "Reforma de casa, telhado, calhas"
+    },
+    {
+      "name": "Móveis e Marcenaria",
+      "slug": "moveis-e-marcenaria",
+      "examples": "Sofá sob medida, móveis planejados, montagem"
+    },
+    {
+      "name": "Limpeza e Dedetização",
+      "slug": "limpeza-e-dedetizacao",
+      "examples": "Limpeza pós-obra, dedetização, controle de pragas"
     }
   ]
 }

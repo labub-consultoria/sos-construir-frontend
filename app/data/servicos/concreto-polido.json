@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Piso de Concreto Polido em Foz do Iguaçu",
+    "description": "Especialistas em concreto polido em Foz do Iguaçu. Pisos brilhantes, resistentes e de baixa manutenção para indústrias, comércios e residências modernas.",
+    "keywords": "concreto polido foz do iguaçu, piso industrial, cimento queimado polido, polimento de concreto, piso para galpão",
+    "breadcrumbLabel": "Concreto Polido"
+  },
+  "sections": {
+    "hero": {
+      "title": "A Força do Concreto com o Brilho do Alto Padrão",
+      "description": "Transforme pisos comuns em superfícies espelhadas, densas e altamente resistentes. A solução definitiva para quem busca durabilidade extrema sem abrir mão da elegância."
+    },
+    "overview": {
+      "kicker": "Pisos resistentes e de baixa manutenção",
+      "title": "Piso de concreto polido em Foz do Iguaçu",
+      "imageAlt": "Execução de piso de concreto polido pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz piso de concreto polido em Foz do Iguaçu para indústrias, comércios e residências, com pisos brilhantes e resistentes.",
+        "O resultado é um piso de baixa manutenção, que reflete a luz do ambiente e oferece durabilidade com boa relação de custo.",
+        "Você trata apenas com a SOS, do preparo ao polimento final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 180
+        },
+        {
+          "label": "Industrial/Galpões",
+          "slug": "industrial",
+          "count": 90
+        },
+        {
+          "label": "Comercial/Lojas",
+          "slug": "comercial",
+          "count": 55
+        },
+        {
+          "label": "Residencial Loft",
+          "slug": "residencial",
+          "count": 35
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Desbaste Inicial",
+          "description": "Uso de abrasivos diamantados para remover a camada superficial e expor os agregados do concreto.",
+          "icon": "layers-remove"
+        },
+        {
+          "step": 2,
+          "title": "Endurecimento Químico",
+          "description": "Aplicação de silicatos que reagem com o concreto, tornando-o muito mais denso e resistente à abrasão.",
+          "icon": "flask-round-bottom-outline"
+        },
+        {
+          "step": 3,
+          "title": "Polimento Progressivo",
+          "description": "Sequência de lixamento com granulometrias finas até atingir o nível de brilho (fosco, acetinado ou espelhado) desejado.",
+          "icon": "auto-fix"
+        },
+        {
+          "step": 4,
+          "title": "Selagem Protetora",
+          "description": "Tratamento final que fecha os poros, protegendo contra manchas de óleo e facilitando a limpeza diária.",
+          "icon": "shield-star-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Especialistas em Polimento Mecânico",
+      "description": "Nossa equipe utiliza maquinário de última geração (politrizes planetárias) para garantir um nivelamento perfeito. Não é apenas brilho; é uma correção estrutural da superfície que elimina irregularidades e poeira excessiva."
+    },
+    "whyChooseUs": {
+      "title": "Vantagens do Concreto Polido SOS",
+      "reasons": [
+        {
+          "title": "Manutenção Zero",
+          "description": "Diferente de tintas ou cerâmicas, o concreto polido não descasca e não exige cera. Basta água e sabão neutro.",
+          "icon": "broom"
+        },
+        {
+          "title": "Reflexão de Luz",
+          "description": "Aumenta a luminosidade do ambiente em até 30%, gerando economia real de energia elétrica.",
+          "icon": "lightbulb-outline"
+        },
+        {
+          "title": "Sustentabilidade",
+          "description": "Aproveita a estrutura existente do piso, reduzindo o desperdício de materiais e a pegada de carbono.",
+          "icon": "leaf"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Concreto Polido",
+      "questions": [
+        {
+          "question": "O concreto polido é escorregadio?",
+          "answer": "Apesar do brilho intenso, o concreto polido seco tem um coeficiente de atrito excelente. Em áreas molhadas, aplicamos aditivos antiderrapantes para garantir a segurança."
+        },
+        {
+          "question": "Posso polir um concreto antigo que já está feio?",
+          "answer": "Sim! O processo de polimento remove a camada degradada e 'abre' o concreto novo por baixo, revitalizando totalmente o piso antigo."
+        },
+        {
+          "question": "Qual a diferença entre concreto polido e cimento queimado?",
+          "answer": "O cimento queimado é uma argamassa aplicada sobre o piso que costuma trincar. O concreto polido é o próprio piso de concreto trabalhado mecanicamente, sendo muito mais resistente e durável."
+        },
+        {
+          "question": "Quanto tempo demora o processo?",
+          "answer": "Depende da área, mas em média conseguimos polir de 50m² a 100m² por dia com nossa equipe e maquinário especializado."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Dê um upgrade no seu piso hoje mesmo",
+      "description": "Quer um piso indestrutível e com brilho de shopping? Fale com quem é referência em concreto polido na região.",
+      "ctaText": "Solicitar Orçamento de Polimento"
+    }
+  }
+}

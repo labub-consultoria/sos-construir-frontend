@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Laje Pré-Moldada em Foz do Iguaçu | Montagem",
+    "description": "Montagem de laje pré-moldada em Foz do Iguaçu: vigotas, lajotas e escoramento, com concretagem, para casas e ampliações. Laje rápida, econômica e bem escorada.",
+    "keywords": "laje pré-moldada foz do iguaçu, montagem de laje, laje treliçada, vigota, lajota, escoramento de laje, concretagem, laje de forro, laje de piso, laje para ampliação",
+    "breadcrumbLabel": "Laje Pré-Moldada"
+  },
+  "sections": {
+    "hero": {
+      "title": "Sua Laje Pronta com Rapidez e Segurança",
+      "description": "Montamos laje pré-moldada com vigotas, lajotas e escoramento correto, seguida de concretagem. Solução rápida e econômica para lajes de casas, ampliações e coberturas."
+    },
+    "overview": {
+      "kicker": "Laje econômica, bem escorada",
+      "title": "Laje pré-moldada em Foz do Iguaçu",
+      "imageAlt": "Montagem de laje pré-moldada em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir monta laje pré-moldada em Foz do Iguaçu: laje treliçada e comum com vigotas e lajotas (isopor ou cerâmica), escoramento e concretagem, para casas e ampliações.",
+        "Dimensionamos a laje pelo vão e pela carga, montamos com escoramento e contra-flecha corretos e concretamos, garantindo uma laje resistente e sem risco de flechar.",
+        "Você trata apenas com a SOS, do dimensionamento à concretagem. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Dimensionamento", "description": "Calculamos a laje pelo vão e pela carga para definir vigotas, enchimento e espessura.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos material, escoramento e prazo com valor fechado antes de montar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Montagem e Escoramento", "description": "Montamos vigotas e lajotas com escoramento e contra-flecha corretos para a laje não ceder.", "icon": "view-day-outline" },
+        { "step": 4, "title": "Concretagem e Cura", "description": "Concretamos com a espessura certa e orientamos a cura e a retirada do escoramento.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Equipe de Lajes", "description": "Nossa equipe monta laje pré-moldada com escoramento e contra-flecha corretos, o que evita flechar e trincar. Laje rápida e econômica, dimensionada pela carga de uso." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Lajes da SOS",
+      "reasons": [
+        { "title": "Escoramento Correto", "description": "Escora e contra-flecha bem-feitas, o que evita a laje flechar e trincar depois.", "icon": "shield-check-outline" },
+        { "title": "Rápida e Econômica", "description": "A pré-moldada é mais rápida e barata que a laje maciça, sem abrir mão da resistência.", "icon": "clock-fast" },
+        { "title": "Dimensionada pela Carga", "description": "Vigotas e espessura calculadas para o uso da laje, seja forro ou piso.", "icon": "ruler-square" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Laje Pré-Moldada",
+      "questions": [
+        { "question": "Qual a diferença entre laje pré-moldada e maciça?", "answer": "A pré-moldada usa vigotas e enchimento (isopor ou cerâmica), é mais leve, rápida e econômica. A maciça é toda de concreto armado, mais pesada e cara, indicada para cargas maiores." },
+        { "question": "Laje pré-moldada aguenta segundo andar ou piso?", "answer": "Sim, desde que dimensionada para isso. Para laje de piso usamos vigotas e espessura maiores que na laje de forro, calculadas pela carga prevista." },
+        { "question": "Quanto tempo o escoramento fica?", "answer": "O escoramento permanece durante a cura do concreto, em geral algumas semanas. Orientamos o prazo correto de retirada para a laje ganhar resistência com segurança." },
+        { "question": "Dá para fazer laje em ampliação?", "answer": "Sim. A pré-moldada é muito usada em ampliações e segundos pavimentos, por ser mais leve e de montagem rápida. Avaliamos a estrutura existente para apoiar a nova laje." }
+      ]
+    },
+    "finalCta": { "title": "Feche a sua laje com rapidez e segurança", "description": "Laje bem dimensionada e escorada é o que evita trinca e dor de cabeça depois. Fale com quem calcula e monta direito.", "ctaText": "Solicitar Laje Pré-Moldada" }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Poço Artesiano em Foz do Iguaçu",
+    "description": "Perfuração de poços artesianos e semi-artesianos em Foz do Iguaçu. Garanta autonomia, água de qualidade e redução de custos para sua residência ou empresa.",
+    "keywords": "poço artesiano foz do iguaçu, perfuração de poços, bomba submersa, manutenção de poços, outorga de água",
+    "breadcrumbLabel": "Poço Artesiano"
+  },
+  "sections": {
+    "hero": {
+      "title": "Independência e Água de Qualidade na sua Propriedade",
+      "description": "Garanta o abastecimento contínuo e reduza drasticamente seus custos com água. Projetos completos de perfuração e manutenção com total segurança técnica."
+    },
+    "overview": {
+      "kicker": "Água própria e mais economia",
+      "title": "Perfuração de poço artesiano em Foz do Iguaçu",
+      "imageAlt": "Perfuração de poço artesiano pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz perfuração de poços artesianos e semi-artesianos em Foz do Iguaçu, garantindo autonomia de água e redução de custos na sua propriedade.",
+        "Cuidamos do projeto completo de perfuração, com água de qualidade, abastecimento contínuo e valorização do seu terreno.",
+        "Você trata apenas com a SOS, do estudo à entrega do poço. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 80
+        },
+        {
+          "label": "Residencial/Condomínios",
+          "slug": "residencial",
+          "count": 45
+        },
+        {
+          "label": "Áreas Rurais/Sítios",
+          "slug": "rural",
+          "count": 25
+        },
+        {
+          "label": "Indústria/Comércio",
+          "slug": "industrial",
+          "count": 10
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Estudo de Viabilidade",
+          "description": "Análise geológica do terreno para identificar a melhor localização e profundidade estimada para o poço.",
+          "icon": "map-search-outline"
+        },
+        {
+          "step": 2,
+          "title": "Perfuração Técnica",
+          "description": "Utilização de sondas rotativas modernas para perfuração de poços profundos em solo ou rocha.",
+          "icon": "screw-machine-round-top"
+        },
+        {
+          "step": 3,
+          "title": "Instalação do Sistema",
+          "description": "Montagem da bomba submersa, tubulações e painéis elétricos de comando automático.",
+          "icon": "pipe-leak"
+        },
+        {
+          "step": 4,
+          "title": "Análise e Outorga",
+          "description": "Teste de vazão, análise química da água e auxílio no processo de regularização ambiental.",
+          "icon": "file-check-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Engenharia de Perfuração",
+      "description": "Nossa equipe conta com geólogos e técnicos especializados que garantem a execução correta da obra, evitando contaminação de lençóis freáticos e garantindo a vazão constante do seu poço."
+    },
+    "whyChooseUs": {
+      "title": "Vantagens do Poço Artesiano",
+      "reasons": [
+        {
+          "title": "Economia Real",
+          "description": "Livre-se das tarifas crescentes das concessionárias e tenha um retorno rápido do seu investimento.",
+          "icon": "cash-multiple"
+        },
+        {
+          "title": "Água Mais Pura",
+          "description": "Acesso direto a reservatórios subterrâneos com água rica em minerais e livre de tratamentos químicos pesados.",
+          "icon": "water-check"
+        },
+        {
+          "title": "Valorização de Terra",
+          "description": "Uma propriedade com fonte própria de água é muito mais valorizada no mercado imobiliário e rural.",
+          "icon": "trending-up"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Poço Artesiano",
+      "questions": [
+        {
+          "question": "Qual a diferença entre poço artesiano e semi-artesiano?",
+          "answer": "O poço artesiano é mais profundo e a pressão natural pode fazer a água subir. O semi-artesiano geralmente atinge o primeiro lençol e necessita obrigatoriamente de bombas para a captação."
+        },
+        {
+          "question": "Precisa de autorização para furar um poço?",
+          "answer": "Sim. A perfuração e o uso da água exigem outorga ou dispensa de outorga dos órgãos ambientais. A SOS Construir auxilia você em todo esse processo burocrático."
+        },
+        {
+          "question": "Quanto tempo dura a perfuração?",
+          "answer": "Depende da geologia do terreno, mas em média o processo leva de 3 a 7 dias para ser concluído, desde o início da perfuração até a instalação da bomba."
+        },
+        {
+          "question": "A manutenção deve ser feita com qual frequência?",
+          "answer": "Recomendamos uma limpeza e revisão do sistema de bombeamento a cada 2 anos para garantir que a vazão e a qualidade da água permaneçam ideais."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Garanta sua autonomia hídrica hoje",
+      "description": "Não fique à mercê de racionamentos ou aumentos de tarifa. Entre em contato e peça seu estudo de viabilidade gratuito.",
+      "ctaText": "Solicitar Orçamento de Poço"
+    }
+  }
+}

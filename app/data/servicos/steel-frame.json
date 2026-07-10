@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Steel Frame em Foz do Iguaçu | Construção a Seco",
+    "description": "Construção em steel frame em Foz do Iguaçu: casas, ampliações e mezaninos em estrutura de aço leve, com obra rápida, limpa e alto isolamento térmico e acústico.",
+    "keywords": "steel frame foz do iguaçu, construção a seco, estrutura de aço, casa de steel frame, ampliação, mezanino, light steel frame, construção rápida, drywall estrutural",
+    "breadcrumbLabel": "Steel Frame"
+  },
+  "sections": {
+    "hero": {
+      "title": "Sua Obra mais Rápida, Limpa e Precisa",
+      "description": "Construímos casas, ampliações e mezaninos em steel frame, a estrutura de aço leve. Obra rápida e limpa, com alto isolamento térmico e acústico e medidas precisas."
+    },
+    "overview": {
+      "kicker": "Construção a seco, no prazo",
+      "title": "Construção em steel frame em Foz do Iguaçu",
+      "imageAlt": "Construção em steel frame em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir constrói em steel frame em Foz do Iguaçu: casas, ampliações, segundos pavimentos, mezaninos e paredes em estrutura de aço galvanizado leve.",
+        "Montamos a estrutura com perfis dimensionados em projeto, fechamos com placas e isolamento térmico e acústico, e entregamos com obra seca, rápida e sem desperdício.",
+        "Você trata apenas com a SOS, do projeto à entrega. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Projeto e Dimensionamento", "description": "Dimensionamos os perfis de aço conforme o projeto e as cargas, garantindo segurança estrutural.", "icon": "ruler-square" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos material, fechamento e prazo com valor fechado antes de iniciar a montagem.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Montagem da Estrutura", "description": "Montamos a estrutura de aço galvanizado com precisão de milímetros, seguindo o projeto.", "icon": "home-modern" },
+        { "step": 4, "title": "Fechamento e Isolamento", "description": "Fechamos com placas e aplicamos isolamento térmico e acústico, pronto para o acabamento.", "icon": "layers-triple" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Steel Frame", "description": "Nossa equipe monta estrutura de aço leve com precisão de projeto. Construção rápida, limpa e leve, com desempenho térmico e acústico superior ao da alvenaria." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Steel Frame da SOS",
+      "reasons": [
+        { "title": "Obra Rápida e Limpa", "description": "Construção a seco que reduz prazo, desperdício e a sujeira de uma obra de alvenaria.", "icon": "clock-fast" },
+        { "title": "Conforto Térmico e Acústico", "description": "Isolamento nas paredes que deixa a casa mais fresca, quente no frio e silenciosa.", "icon": "home-thermometer-outline" },
+        { "title": "Medidas Precisas", "description": "Estrutura industrializada com encaixe milimétrico, sem paredes tortas nem retrabalho.", "icon": "ruler-square" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Steel Frame",
+      "questions": [
+        { "question": "Casa de steel frame é resistente?", "answer": "Sim. A estrutura de aço galvanizado é dimensionada em projeto para as cargas e resiste a intempéries e pragas. É um sistema consolidado e usado em todo o mundo." },
+        { "question": "É mais barato que a alvenaria?", "answer": "O custo é competitivo e a obra é mais rápida, o que reduz gastos com mão de obra e tempo. Comparamos os custos no orçamento para você decidir com clareza." },
+        { "question": "Posso fazer só uma ampliação ou segundo andar?", "answer": "Sim. O steel frame é leve e ideal para ampliações e segundos pavimentos, pois adiciona pouca carga à estrutura existente e a obra é rápida." },
+        { "question": "A parede segura peso, como armários e TV?", "answer": "Sim. Planejamos reforços nos pontos de fixação para suportar armários, TV, pias e o que for necessário, com segurança." }
+      ]
+    },
+    "finalCta": { "title": "Construa mais rápido, sem abrir mão da qualidade", "description": "Do zero à ampliação, o steel frame entrega no prazo, com conforto e precisão. Fale com quem constrói a seco com técnica.", "ctaText": "Solicitar Orçamento de Steel Frame" }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Montador de Móveis em Foz do Iguaçu",
+    "description": "Montador de móveis em Foz do Iguaçu: montagem e desmontagem de guarda-roupa, cozinha, estante e móveis de escritório, com ferramenta certa e sem danificar as peças.",
+    "keywords": "montador de móveis foz do iguaçu, montagem de móveis, montar guarda-roupa, desmontagem de móveis, montador para mudança, montar cozinha, montar estante, montador de escritório",
+    "breadcrumbLabel": "Montador de Móveis"
+  },
+  "sections": {
+    "hero": {
+      "title": "Seus Móveis Montados Certo, sem Estresse",
+      "description": "Montamos e desmontamos guarda-roupas, cozinhas, estantes e móveis de escritório com a ferramenta certa. Serviço rápido, nivelado e sem peça faltando nem parafuso sobrando."
+    },
+    "overview": {
+      "kicker": "Montagem sem dor de cabeça",
+      "title": "Montador de móveis em Foz do Iguaçu",
+      "imageAlt": "Montagem de móveis residenciais em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir tem montador de móveis em Foz do Iguaçu: montagem e desmontagem de guarda-roupas, cozinhas, estantes, camas e móveis de escritório, residenciais e comerciais.",
+        "Seguimos o manual de cada peça, usamos ferramenta adequada e nivelamos portas e gavetas, evitando riscos, furos errados e móvel torto.",
+        "Você trata apenas com a SOS, da conferência das peças à fixação final. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Conferência das Peças",
+          "description": "Conferimos peças e ferragens antes de montar para evitar surpresa de item faltando no meio do serviço.",
+          "icon": "clipboard-check-outline"
+        },
+        {
+          "step": 2,
+          "title": "Montagem Correta",
+          "description": "Seguimos o manual e usamos a ferramenta certa para não espanar parafuso nem danificar o MDF.",
+          "icon": "screwdriver"
+        },
+        {
+          "step": 3,
+          "title": "Nivelamento e Ajuste",
+          "description": "Nivelamos o móvel e regulamos portas e gavetas para fechar alinhado e funcionar liso.",
+          "icon": "tune"
+        },
+        {
+          "step": 4,
+          "title": "Fixação e Limpeza",
+          "description": "Fixamos na parede o que precisa por segurança e deixamos o ambiente limpo.",
+          "icon": "broom"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Montadores Experientes",
+      "description": "Nossos montadores conhecem os sistemas das principais lojas e fabricantes. Serviço que evita móvel torto, gaveta desalinhada e aquele parafuso que sempre 'sobra'."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Montagem da SOS",
+      "reasons": [
+        {
+          "title": "Sem Peça Danificada",
+          "description": "Ferramenta e técnica certas que evitam riscar, espanar parafuso ou lascar o MDF.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "Móvel Nivelado",
+          "description": "Portas e gavetas reguladas para fechar alinhado e não desgastar com o tempo.",
+          "icon": "ruler-square"
+        },
+        {
+          "title": "Fixação Segura",
+          "description": "Prendemos guarda-roupas e estantes altas na parede para evitar tombamento.",
+          "icon": "wall"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Montagem de Móveis",
+      "questions": [
+        {
+          "question": "Vocês montam móveis de qualquer loja ou marca?",
+          "answer": "Sim. Montamos móveis das principais lojas e fabricantes, seguindo o manual de cada peça. Basta ter o móvel e o manual no local do serviço."
+        },
+        {
+          "question": "Fazem desmontagem para mudança?",
+          "answer": "Fazemos. Desmontamos com cuidado, organizamos as ferragens por peça e, se contratado, remontamos no novo endereço já nivelado."
+        },
+        {
+          "question": "E se faltar uma peça ou ferragem?",
+          "answer": "Conferimos tudo antes de começar justamente para não travar no meio. Se faltar algo do fabricante, orientamos como solicitar a reposição e retornamos para concluir."
+        },
+        {
+          "question": "Vocês fixam o móvel na parede?",
+          "answer": "Sim. Guarda-roupas e estantes altas devem ser fixados por segurança, evitando tombamento. Fazemos a fixação adequada ao tipo de parede."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Deixe a montagem com quem faz certo da primeira vez",
+      "description": "Nada de manual confuso e peça sobrando. Móveis montados, nivelados e fixados com segurança.",
+      "ctaText": "Chamar Montador de Móveis"
+    }
+  }
+}

@@ -5,7 +5,13 @@ const props = defineProps<{
   section: OverviewSection
 }>()
 
-const images = computed(() => props.section.images ?? [])
+const route = useRoute()
+// Cover por convenção do slug (Supabase). Sem imagem → foto real da SOS.
+const cfg = useRuntimeConfig().public
+const coverFailed = ref(false)
+const cover = computed(() =>
+  coverFailed.value ? serviceImageFallback(cfg.supabaseUrl, cfg.supabaseBucket) : serviceImageUrl(cfg.supabaseUrl, cfg.supabaseBucket, String(route.params.slug ?? ''), 'cover')
+)
 const imageAlt = computed(() => props.section.imageAlt || props.section.title || 'SOS Construir')
 </script>
 
@@ -14,17 +20,14 @@ const imageAlt = computed(() => props.section.imageAlt || props.section.title ||
     <UContainer>
       <div class="grid lg:grid-cols-3 gap-2 lg:gap-12 items-stretch">
 
-        <!-- Imagens (desktop) -->
-        <div v-if="images.length" class="flex flex-col gap-4">
-          <NuxtImg :src="images[0]" :alt="imageAlt"
-            class="hidden lg:block w-full object-cover rounded-2xl shadow-sm"
-            :class="images[1] ? 'h-[450px]' : 'h-[560px]'" loading="lazy" />
-          <NuxtImg v-if="images[1]" :src="images[1]" :alt="imageAlt"
-            class="hidden lg:block w-full h-[250px] object-cover rounded-2xl shadow-sm" loading="lazy" />
+        <!-- Imagem (desktop) — cover por slug, fallback foto real da SOS -->
+        <div class="flex flex-col gap-4">
+          <NuxtImg :src="cover" :alt="imageAlt" @error="coverFailed = true"
+            class="hidden lg:block w-full h-[560px] object-cover rounded-2xl shadow-sm" loading="lazy" />
         </div>
 
         <!-- Texto -->
-        <div class="flex flex-col justify-center" :class="images.length ? 'lg:col-span-2' : 'lg:col-span-3'">
+        <div class="flex flex-col justify-center lg:col-span-2">
 
           <p v-if="section.kicker" class="text-orange-500 font-bold text-xs uppercase tracking-wider mb-4">
             {{ section.kicker }}
@@ -34,7 +37,7 @@ const imageAlt = computed(() => props.section.imageAlt || props.section.title ||
             {{ section.title }}
           </h2>
 
-          <NuxtImg v-if="images.length" :src="images[0]" :alt="imageAlt"
+          <NuxtImg :src="cover" :alt="imageAlt" @error="coverFailed = true"
             class="w-full lg:hidden h-[250px] my-3 object-cover rounded-2xl shadow-sm" loading="lazy" />
 
           <div class="space-y-4 text-gray-600 leading-relaxed mb-8 text-[16px]">

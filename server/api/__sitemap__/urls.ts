@@ -47,23 +47,22 @@ export default defineSitemapEventHandler(async () => {
       }) satisfies SitemapUrlInput
   )
 
-  // Serviços prestados
-  const servicesUrls = servicesData.services.map(
-    (service) =>
-      ({
-        loc: `/servicos/${service.slug}`,
-        changefreq: 'monthly',
-        priority: 0.8,
-        images: service.image
-          ? [
-              {
-                loc: `https://www.sosconstruir.com.br${service.image}`,
-                title: `${service.name} - SOS Construir`,
-              },
-            ]
-          : [],
-      }) satisfies SitemapUrlInput
-  )
+  // Serviços prestados — cover resolvido por convenção do slug (Supabase ou local)
+  const { supabaseUrl, supabaseBucket } = useRuntimeConfig().public
+  const servicesUrls = servicesData.services.map((service) => {
+    const cover = serviceImageUrl(supabaseUrl, supabaseBucket, service.slug, 'cover')
+    return {
+      loc: `/servicos/${service.slug}`,
+      changefreq: 'monthly',
+      priority: 0.8,
+      images: [
+        {
+          loc: cover.startsWith('http') ? cover : `https://www.sosconstruir.com.br${cover}`,
+          title: `${service.name} - SOS Construir`,
+        },
+      ],
+    } satisfies SitemapUrlInput
+  })
 
   // Produtos dos catalogos
   const productsUrls = productsData.map(

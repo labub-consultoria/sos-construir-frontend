@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Isolamento Térmico e Acústico em Foz do Iguaçu",
+    "description": "Isolamento térmico e acústico em Foz do Iguaçu: forros, paredes, telhados e drywall com lã de rocha e manta, para reduzir calor e ruído em casas, estúdios e comércios.",
+    "keywords": "isolamento térmico foz do iguaçu, isolamento acústico, isolamento de telhado, lã de rocha, manta térmica, tratamento acústico, isolamento de parede, conforto térmico",
+    "breadcrumbLabel": "Isolamento Térmico e Acústico"
+  },
+  "sections": {
+    "hero": {
+      "title": "Menos Calor e Menos Barulho na sua Casa",
+      "description": "Aplicamos isolamento térmico e acústico em telhados, forros e paredes com lã de rocha e manta. Ambientes mais frescos, quentes no frio e livres do barulho de fora."
+    },
+    "overview": {
+      "kicker": "Conforto que se sente na hora",
+      "title": "Isolamento térmico e acústico em Foz do Iguaçu",
+      "imageAlt": "Aplicação de isolamento térmico em telhado em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz isolamento térmico e acústico em Foz do Iguaçu: telhados, forros, paredes de drywall, estúdios e salas comerciais, com lã de rocha, lã de vidro e mantas.",
+        "Identificamos a origem do calor ou do ruído e aplicamos o material certo na espessura adequada, reduzindo a temperatura, o eco e o barulho que vem de fora ou entre ambientes.",
+        "Você trata apenas com a SOS, do diagnóstico à aplicação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Diagnóstico", "description": "Identificamos de onde vem o calor ou o ruído para tratar a origem, não só o sintoma.", "icon": "magnify-scan" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos o material, a espessura e o serviço com valor fechado antes de aplicar.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Aplicação do Isolante", "description": "Aplicamos lã de rocha, lã de vidro ou manta na espessura certa para o desempenho desejado.", "icon": "layers-triple" },
+        { "step": 4, "title": "Fechamento e Acabamento", "description": "Fechamos com forro ou placa e finalizamos, entregando o ambiente pronto e mais confortável.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Especialistas em Isolamento", "description": "Nossa equipe aplica o isolante certo na espessura certa, o que faz a diferença entre sentir e não sentir o resultado. Menos calor, menos ruído, mais conforto." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Isolamento da SOS",
+      "reasons": [
+        { "title": "Material e Espessura Certos", "description": "A escolha correta do isolante e da espessura é o que garante o resultado que se sente.", "icon": "layers-triple" },
+        { "title": "Menos Conta de Energia", "description": "Um telhado bem isolado reduz o uso do ar-condicionado e o gasto com climatização.", "icon": "home-thermometer-outline" },
+        { "title": "Silêncio de Verdade", "description": "Tratamento acústico que barra o barulho da rua, do vizinho e o eco entre cômodos.", "icon": "volume-off" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Isolamento Térmico e Acústico",
+      "questions": [
+        { "question": "Isolar o telhado reduz mesmo o calor?", "answer": "Sim, e bastante. A maior parte do calor entra pela cobertura. Um bom isolamento no telhado ou forro deixa o ambiente vários graus mais fresco e reduz o uso do ar." },
+        { "question": "Qual material é melhor para barrar barulho?", "answer": "Depende do tipo de ruído. Para som aéreo (voz, música) usamos lã de rocha ou vidro em paredes e forros; indicamos a solução conforme a fonte e o ambiente." },
+        { "question": "Dá para isolar um cômodo já pronto?", "answer": "Sim. Em muitos casos aplicamos o isolamento por dentro, com drywall ou forro, sem precisar refazer a obra inteira. Avaliamos a melhor forma para cada ambiente." },
+        { "question": "Serve para estúdio ou home studio?", "answer": "Sim. Fazemos tratamento acústico para estúdios, salas de música e home theaters, combinando isolamento e absorção para o resultado sonoro desejado." }
+      ]
+    },
+    "finalCta": { "title": "Sua casa mais fresca e silenciosa o ano todo", "description": "Calor no telhado e barulho da rua têm solução. Aplique o isolamento certo e sinta a diferença no conforto e na conta de luz.", "ctaText": "Solicitar Isolamento" }
+  }
+}

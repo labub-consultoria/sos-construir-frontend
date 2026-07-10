@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Reforma e Construção em Foz do Iguaçu",
+    "description": "Sua solução completa em construção civil residencial e comercial em Foz do Iguaçu. Da fundação ao acabamento, garantimos prazos, qualidade e zero dor de cabeça.",
+    "keywords": "reforma residencial foz, construção civil foz do iguaçu, construtora foz, reforma comercial, gerenciamento de obras",
+    "breadcrumbLabel": "Reforma e Construção"
+  },
+  "sections": {
+    "hero": {
+      "title": "Sua Escolha de Confiança para Reformas e Construção",
+      "description": "Sua obra entregue no prazo, com custo otimizado e qualidade superior. Assumimos a responsabilidade integral do seu projeto, da fundação à entrega das chaves."
+    },
+    "overview": {
+      "kicker": "Sua obra completa, do início ao fim",
+      "title": "Reforma e construção em Foz do Iguaçu",
+      "imageAlt": "Gestão de reforma e construção pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz reforma e construção civil residencial e comercial em Foz do Iguaçu, da fundação ao acabamento, com prazo e qualidade garantidos.",
+        "Assumimos a responsabilidade única da obra, com transparência financeira e tecnologia no acompanhamento de cada etapa.",
+        "Você trata apenas com a SOS, do planejamento à entrega das chaves. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos os Projetos",
+          "slug": "todos",
+          "count": 1200
+        },
+        {
+          "label": "Residencial",
+          "slug": "residencial",
+          "count": 750
+        },
+        {
+          "label": "Comercial/Predial",
+          "slug": "comercial",
+          "count": 300
+        },
+        {
+          "label": "Reformas de Alto Padrão",
+          "slug": "alto-padrao",
+          "count": 150
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Planejamento e Viabilidade",
+          "description": "Análise técnica do projeto, levantamento de custos e definição do cronograma real da obra.",
+          "icon": "clipboard-edit-outline"
+        },
+        {
+          "step": 2,
+          "title": "Gestão de Suprimentos",
+          "description": "Logística integrada de materiais básicos e acabamentos direto dos melhores fornecedores e parceiros.",
+          "icon": "truck-cargo-container"
+        },
+        {
+          "step": 3,
+          "title": "Execução Especializada",
+          "description": "Equipes multidisciplinares coordenadas por mestres de obra e engenheiros experientes.",
+          "icon": "crane"
+        },
+        {
+          "step": 4,
+          "title": "Entrega e Pós-Obra",
+          "description": "Inspeção final de qualidade, limpeza técnica e garantia total de todos os serviços prestados.",
+          "icon": "key-chain"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Expertise que Faz a Diferença",
+      "description": "Nossa força reside na curadoria de talentos. Pedreiros, eletricistas, encanadores e engenheiros trabalham de forma integrada sob a gestão da SOS Construir, eliminando falhas de comunicação e atrasos típicos de obras fragmentadas."
+    },
+    "whyChooseUs": {
+      "title": "O Padrão de Qualidade SOS Construir",
+      "reasons": [
+        {
+          "title": "Responsabilidade Única",
+          "description": "Você lida apenas com a SOS. Nós resolvemos qualquer desafio com fornecedores ou equipes.",
+          "icon": "shield-account"
+        },
+        {
+          "title": "Transparência Financeira",
+          "description": "Relatórios periódicos e controle rigoroso de custos para que seu orçamento seja respeitado.",
+          "icon": "cash-register"
+        },
+        {
+          "title": "Tecnologia na Obra",
+          "description": "Utilização de métodos modernos e materiais de primeira linha para maior durabilidade estrutural.",
+          "icon": "hammer-wrench"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Reformas e Construções",
+      "questions": [
+        {
+          "question": "A SOS Construir faz apenas grandes obras?",
+          "answer": "Não! Atendemos desde pequenas reformas em apartamentos e residências até construções comerciais de grande porte e prédios."
+        },
+        {
+          "question": "O gerenciamento de obras aumenta o custo final?",
+          "answer": "Pelo contrário. Com nossa rede de parceiros e logística eficiente, evitamos desperdícios e compras erradas, o que costuma reduzir o custo final da obra em comparação ao modelo tradicional."
+        },
+        {
+          "question": "Vocês ajudam com a parte de documentação e alvarás?",
+          "answer": "Sim. Nossa consultoria orienta e auxilia em todos os trâmites necessários para que sua obra esteja em total conformidade com a prefeitura e órgãos ambientais."
+        },
+        {
+          "question": "Como funciona a garantia da obra?",
+          "answer": "Oferecemos garantia integral sobre os serviços prestados. Em caso de qualquer eventualidade após a conclusão, nossa equipe de assistência técnica resolve rapidamente."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Sua obra merece o profissionalismo da SOS",
+      "description": "Transforme sua visão em realidade com a empresa líder em Foz do Iguaçu. Agende agora uma consultoria gratuita.",
+      "ctaText": "Solicitar Orçamento Personalizado"
+    }
+  }
+}

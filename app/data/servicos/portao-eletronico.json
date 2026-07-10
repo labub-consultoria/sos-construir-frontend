@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Portão Eletrônico em Foz do Iguaçu | Instalação e Reparo",
+    "description": "Instalação, automação e conserto de portão eletrônico em Foz do Iguaçu: motor deslizante e basculante, controle remoto, trava elétrica e reparo de emergência.",
+    "keywords": "portão eletrônico foz do iguaçu, automação de portão, motor de portão, conserto de portão eletrônico, portão deslizante, portão basculante, controle de portão",
+    "breadcrumbLabel": "Portão Eletrônico"
+  },
+  "sections": {
+    "hero": {
+      "title": "Segurança e Praticidade na Entrada da sua Casa",
+      "description": "Instalamos, automatizamos e consertamos portões eletrônicos deslizantes e basculantes. Motor dimensionado certo, trava de segurança e atendimento rápido para panes."
+    },
+    "overview": {
+      "kicker": "Entra e sai sem descer do carro",
+      "title": "Automação de portão eletrônico em Foz do Iguaçu",
+      "imageAlt": "Instalação de motor de portão eletrônico em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz instalação, automação e conserto de portão eletrônico em Foz do Iguaçu: motores deslizantes e basculantes, controles, trava elétrica, sensores e interfone.",
+        "Dimensionamos o motor pelo peso e pelo uso do portão, instalamos com fim de curso e trava de segurança, e programamos os controles, com atendimento para travas e panes.",
+        "Você trata apenas com a SOS, da instalação à manutenção. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Avaliação do Portão",
+          "description": "Verificamos peso, tipo e estado do portão para indicar o motor certo e a melhor solução de automação.",
+          "icon": "clipboard-search-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento Transparente",
+          "description": "Apresentamos motor, acessórios e serviço com valor fechado antes de instalar.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Instalação e Programação",
+          "description": "Fixamos o motor, ajustamos fim de curso e trava, e programamos controles e sensores de segurança.",
+          "icon": "cog"
+        },
+        {
+          "step": 4,
+          "title": "Teste de Funcionamento",
+          "description": "Testamos abertura, fechamento, reversão por obstáculo e alcance do controle antes de entregar.",
+          "icon": "check-decagram-outline"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Técnicos em Automação de Portões",
+      "description": "Nossos técnicos instalam e reparam motores de diversas marcas, do residencial ao comercial. Serviço que garante abertura suave, segura e sem forçar a estrutura do portão."
+    },
+    "whyChooseUs": {
+      "title": "O Diferencial em Automação da SOS",
+      "reasons": [
+        {
+          "title": "Motor Dimensionado Certo",
+          "description": "Escolha do motor pelo peso e pela frequência de uso, para durar sem forçar nem superaquecer.",
+          "icon": "engine-outline"
+        },
+        {
+          "title": "Segurança na Abertura",
+          "description": "Sensor de obstáculo e trava elétrica que protegem pessoas, veículos e o próprio portão.",
+          "icon": "shield-lock-outline"
+        },
+        {
+          "title": "Atendimento para Emergência",
+          "description": "Portão preso deixa você na rua ou na garagem — equipe pronta para resolver rápido.",
+          "icon": "alert-decagram-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Portão Eletrônico",
+      "questions": [
+        {
+          "question": "Meu portão manual pode ser automatizado?",
+          "answer": "Na maioria dos casos sim. Avaliamos o peso, o tipo (deslizante ou basculante) e a estrutura para indicar o motor adequado e os reforços necessários."
+        },
+        {
+          "question": "O portão funciona na falta de luz?",
+          "answer": "Sim. Todo motor tem trava de desbloqueio manual para abrir sem energia, e é possível instalar bateria de backup para manter o funcionamento durante quedas."
+        },
+        {
+          "question": "Qual a diferença entre motor deslizante e basculante?",
+          "answer": "O deslizante corre para o lado, ideal para portões de correr; o basculante levanta o portão inteiro, comum em garagens de folha única. Cada um pede um motor específico."
+        },
+        {
+          "question": "Vocês consertam motor de qualquer marca?",
+          "answer": "Trabalhamos com as principais marcas do mercado. Diagnosticamos a pane — placa, capacitor, fim de curso ou motor — e indicamos reparo ou troca com transparência."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Comodidade e segurança começam no seu portão",
+      "description": "Não fique na mão com um portão parado ou inseguro. Automatize ou conserte com quem entende de motor e instalação.",
+      "ctaText": "Solicitar Instalação de Portão"
+    }
+  }
+}

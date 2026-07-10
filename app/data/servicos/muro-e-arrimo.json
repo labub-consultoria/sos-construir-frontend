@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Muro e Arrimo em Foz do Iguaçu | Construção",
+    "description": "Construção de muro e muro de arrimo em Foz do Iguaçu: divisa, fechamento e contenção de terreno em bloco e concreto, com fundação, dreno e cálculo estrutural.",
+    "keywords": "muro foz do iguaçu, muro de arrimo, construção de muro, muro de divisa, contenção de terreno, arrimo de concreto, muro de bloco, fechamento de terreno, muro de contenção",
+    "breadcrumbLabel": "Muro e Arrimo"
+  },
+  "sections": {
+    "hero": {
+      "title": "Divisa Definida e Terreno Contido com Segurança",
+      "description": "Construímos muros de divisa e muros de arrimo em bloco e concreto, com fundação, dreno e cálculo estrutural. Fechamento firme e contenção que segura o terreno de verdade."
+    },
+    "overview": {
+      "kicker": "Estrutura que segura o terreno",
+      "title": "Muro e muro de arrimo em Foz do Iguaçu",
+      "imageAlt": "Construção de muro de arrimo em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir constrói muros e muros de arrimo em Foz do Iguaçu: divisa, fechamento e contenção de terreno em bloco de concreto, concreto armado e pedra, para casas e terrenos.",
+        "Executamos a fundação adequada ao solo, dimensionamos o arrimo pela altura e pela carga do terreno e instalamos dreno, para o muro não trincar nem empurrar com a pressão da terra.",
+        "Você trata apenas com a SOS, da fundação ao acabamento. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Análise do Terreno", "description": "Avaliamos o solo, a altura e a carga para definir a fundação e o tipo de muro ou arrimo.", "icon": "magnify-scan" },
+        { "step": 2, "title": "Orçamento Transparente", "description": "Definimos fundação, material e prazo com valor fechado antes de iniciar a obra.", "icon": "file-document-outline" },
+        { "step": 3, "title": "Fundação e Estrutura", "description": "Executamos a fundação e a estrutura dimensionadas, com dreno no arrimo para aliviar a pressão da água.", "icon": "wall" },
+        { "step": 4, "title": "Levantamento e Acabamento", "description": "Levantamos o muro no prumo e entregamos com acabamento pronto para pintura ou revestimento.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Equipe de Muros e Arrimo", "description": "Nossa equipe constrói com fundação e dreno corretos, o que separa um muro que dura de um que trinca e tomba. Contenção segura e divisa firme, no prumo." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Muros da SOS",
+      "reasons": [
+        { "title": "Fundação Adequada ao Solo", "description": "Base dimensionada para o terreno, essencial para o muro não trincar nem inclinar.", "icon": "shield-check-outline" },
+        { "title": "Arrimo com Dreno", "description": "Dreno que alivia a pressão da água da terra, evitando que o arrimo seja empurrado e ceda.", "icon": "water-off-outline" },
+        { "title": "Prumo e Acabamento", "description": "Muro reto, no prumo e nivelado, pronto para receber pintura ou revestimento.", "icon": "ruler-square" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Muro e Arrimo",
+      "questions": [
+        { "question": "Qual a diferença entre muro comum e muro de arrimo?", "answer": "O muro comum divide ou fecha o terreno; o muro de arrimo, além disso, contém a pressão da terra em desníveis. O arrimo exige cálculo estrutural, fundação reforçada e dreno." },
+        { "question": "Meu terreno tem desnível, preciso de arrimo?", "answer": "Provavelmente sim. Sempre que há terra empurrando (corte ou aterro), o arrimo é necessário para conter o solo com segurança. Avaliamos a altura e a carga para dimensionar." },
+        { "question": "Por que o muro de arrimo precisa de dreno?", "answer": "A água acumulada na terra gera uma pressão enorme sobre o muro. O dreno escoa essa água e alivia a pressão, evitando que o arrimo trinque ou tombe com o tempo." },
+        { "question": "Vocês entregam o muro pronto para pintar?", "answer": "Sim. Entregamos o muro no prumo, com o acabamento acordado, pronto para receber pintura, textura ou revestimento conforme o seu projeto." }
+      ]
+    },
+    "finalCta": { "title": "Contenha o terreno antes que ele ceda", "description": "Muro trincado ou terra empurrando são sinais de risco. Construa muro e arrimo com fundação, cálculo e dreno corretos.", "ctaText": "Solicitar Orçamento de Muro" }
+  }
+}

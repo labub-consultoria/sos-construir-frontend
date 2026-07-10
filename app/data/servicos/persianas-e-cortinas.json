@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Persianas e Cortinas em Foz do Iguaçu | Instalação",
+    "description": "Persianas e cortinas sob medida em Foz do Iguaçu: rolô, romana, double vision e trilhos, com medição e instalação nivelada para salas, quartos e escritórios.",
+    "keywords": "persianas foz do iguaçu, cortinas sob medida, persiana rolô, cortina romana, double vision, trilho de cortina, blackout, persiana para escritório, instalação de cortina",
+    "breadcrumbLabel": "Persianas e Cortinas"
+  },
+  "sections": {
+    "hero": {
+      "title": "Controle da Luz e Privacidade em Cada Ambiente",
+      "description": "Fornecemos e instalamos persianas e cortinas sob medida: rolô, romana, double vision e blackout. Medição precisa e instalação nivelada para o tecido cair perfeito."
+    },
+    "overview": {
+      "kicker": "Luz na medida que você quer",
+      "title": "Persianas e cortinas em Foz do Iguaçu",
+      "imageAlt": "Instalação de persiana rolô em Foz do Iguaçu — SOS Construir",
+      "stats": [
+        { "icon": "mdi:calendar-blank-outline", "value": "10+ anos", "label": "de experiência em obras e acabamento em Foz do Iguaçu e região." },
+        { "icon": "mdi:account-group-outline", "value": "100+", "label": "profissionais e parceiros verificados, prontos para cada etapa." },
+        { "icon": "mdi:shield-check-outline", "value": "Garantia", "label": "integral e suporte pós-obra em todos os serviços." }
+      ],
+      "paragraphs": [
+        "A SOS Construir fornece e instala persianas e cortinas em Foz do Iguaçu: rolô, romana, double vision, painel, blackout e trilhos, para salas, quartos, escritórios e comércios.",
+        "Medimos a janela com precisão, indicamos o modelo e o tecido ideais para a luz e a privacidade de cada ambiente e instalamos com nível para o acionamento correr suave.",
+        "Você trata apenas com a SOS, da medição à instalação. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [{ "label": "Todos", "slug": "todos" }]
+    },
+    "process": {
+      "steps": [
+        { "step": 1, "title": "Medição da Janela", "description": "Medimos cada vão com precisão para o modelo cobrir a janela sem sobra nem folga de luz.", "icon": "ruler-square" },
+        { "step": 2, "title": "Escolha do Modelo", "description": "Indicamos persiana ou cortina e o tecido conforme a luz, a privacidade e a decoração do ambiente.", "icon": "palette-outline" },
+        { "step": 3, "title": "Orçamento Transparente", "description": "Definimos modelo, tecido e prazo com valor fechado antes de confeccionar.", "icon": "file-document-outline" },
+        { "step": 4, "title": "Instalação Nivelada", "description": "Instalamos com nível e fixação firme para o tecido cair reto e o acionamento correr suave.", "icon": "check-decagram-outline" }
+      ]
+    },
+    "professionals": { "title": "Instaladores de Persianas", "description": "Nossa equipe mede e instala com precisão, o que faz a persiana subir e descer suave e a cortina cair reta. Acabamento que valoriza a janela e o ambiente." },
+    "whyChooseUs": {
+      "title": "O Diferencial em Persianas da SOS",
+      "reasons": [
+        { "title": "Medida Exata", "description": "Medição precisa que evita frestas de luz e persiana curta ou larga demais.", "icon": "ruler-square" },
+        { "title": "Modelo Certo para o Ambiente", "description": "Indicação de tecido e tipo conforme a luz, a privacidade e o uso de cada janela.", "icon": "lightbulb-on-outline" },
+        { "title": "Instalação que Corre Suave", "description": "Nível e fixação firmes para o acionamento não travar nem entortar com o tempo.", "icon": "gesture-swipe-vertical" }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Persianas e Cortinas",
+      "questions": [
+        { "question": "Qual a diferença entre persiana e cortina?", "answer": "A persiana controla a luz por lâminas ou rolô e ocupa pouco espaço; a cortina é de tecido e traz aconchego e decoração. Muitas vezes se combinam no mesmo ambiente." },
+        { "question": "Qual modelo bloqueia melhor a luz para dormir?", "answer": "O blackout, em persiana rolô ou cortina, bloqueia quase toda a luz, ideal para quartos. Indicamos o modelo e a instalação que evitam frestas nas laterais." },
+        { "question": "Vocês fazem sob medida?", "answer": "Sim. Medimos cada janela e confeccionamos a persiana ou cortina exata, no tecido e cor que você escolher, para um caimento perfeito." },
+        { "question": "Dá para instalar persiana motorizada?", "answer": "Sim. Trabalhamos com persianas motorizadas, com controle ou aplicativo, que podem ser integradas à automação da casa." }
+      ]
+    },
+    "finalCta": { "title": "A luz do jeito que você gosta, em cada ambiente", "description": "Persianas e cortinas sob medida transformam o conforto e a decoração. Fale com quem mede certo e instala nivelado.", "ctaText": "Solicitar Persianas ou Cortinas" }
+  }
+}

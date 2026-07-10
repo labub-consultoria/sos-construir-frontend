@@ -1,0 +1,13 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: dockerfile
+    image: pemaismais/sos-construir-frontend:latest
+    ports:
+      - "3000:3000"
+    environment:
+      NUXT_PUBLIC_API_BASE: ${NUXT_PUBLIC_API_BASE:-http://localhost:8080}
+      NUXT_PUBLIC_SUPABASE_URL: ${NUXT_PUBLIC_SUPABASE_URL:-}
+      NUXT_PUBLIC_SUPABASE_BUCKET: ${NUXT_PUBLIC_SUPABASE_BUCKET:-}
+    restart: unless-stopped

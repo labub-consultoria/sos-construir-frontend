@@ -9,6 +9,11 @@ export function useServices() {
   const selectedCategory = ref('todos')
   const visibleCount = ref(PAGE_SIZE)
 
+  // Scroll infinito acrescenta à lista; categoria/busca a substituem. Só no
+  // primeiro caso a UI preserva os cards atuais — no segundo eles não batem
+  // mais com o filtro.
+  const isAppending = ref(false)
+
   const _updateSearch = useDebounceFn((val: string) => {
     debouncedSearch.value = val
   }, 300)
@@ -16,6 +21,7 @@ export function useServices() {
   watch(searchQuery, (newVal) => {
     _updateSearch(newVal)
     visibleCount.value = PAGE_SIZE
+    isAppending.value = false
   })
 
   const { data, pending } = useFetch('/api/servicos', {
@@ -26,16 +32,22 @@ export function useServices() {
     })),
   })
 
+  watch(pending, (isPending) => {
+    if (!isPending) isAppending.value = false
+  })
+
   const visibleServices = computed(() => data.value?.data || [])
   const totalServices = computed(() => data.value?.meta?.total || 0)
 
   const setCategory = (slug: string) => {
     selectedCategory.value = slug
     visibleCount.value = PAGE_SIZE
+    isAppending.value = false
   }
 
   const loadMore = () => {
     if (visibleCount.value < totalServices.value) {
+      isAppending.value = true
       visibleCount.value += PAGE_SIZE
     }
   }
@@ -44,6 +56,7 @@ export function useServices() {
     searchQuery.value = ''
     selectedCategory.value = 'todos'
     visibleCount.value = PAGE_SIZE
+    isAppending.value = false
   }
 
   type Suggestion = Pick<Service, 'slug' | 'name' | 'description' | 'icon'>
@@ -89,6 +102,8 @@ export function useServices() {
     visibleCount,
     totalServices,
     pending,
+    isAppending,
+    pageSize: PAGE_SIZE,
 
     // dados
     filteredServices: visibleServices,

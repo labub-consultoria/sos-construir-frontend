@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Terraplanagem e Locação de Máquinas em Foz do Iguaçu",
+    "description": "Serviços de terraplanagem, limpeza de terreno e locação de máquinas em Foz do Iguaçu. Retroescavadeira, Bobcat e caminhão caçamba. Base sólida para sua obra.",
+    "keywords": "terraplanagem foz do iguaçu, aluguel de retroescavadeira, locação de bobcat, limpeza de terreno, escavação foz",
+    "breadcrumbLabel": "Terraplanagem e Locação"
+  },
+  "sections": {
+    "hero": {
+      "title": "A Base Sólida que Sua Obra Começa Aqui",
+      "description": "Preparação de terreno com precisão técnica e agilidade. Locação de equipamentos modernos com operadores experientes para garantir o nível perfeito do seu projeto."
+    },
+    "overview": {
+      "kicker": "A base sólida onde sua obra começa",
+      "title": "Terraplanagem e locação de máquinas em Foz do Iguaçu",
+      "imageAlt": "Serviço de terraplanagem e preparação de terreno pela SOS Construir em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:account-group-outline",
+          "value": "100+",
+          "label": "profissionais e parceiros verificados, prontos para cada etapa."
+        },
+        {
+          "icon": "mdi:shield-check-outline",
+          "value": "Garantia",
+          "label": "integral e suporte pós-obra em todos os serviços."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir faz terraplanagem e locação de máquinas em Foz do Iguaçu, preparando o terreno da sua obra com precisão técnica e agilidade.",
+        "Disponibilizamos retroescavadeira, Bobcat e caminhão caçamba com operadores experientes, para limpeza de terreno e movimentação de solo sem atrasos.",
+        "Você trata apenas com a SOS, do nivelamento à liberação do terreno. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "workGallery": {
+      "filters": [
+        {
+          "label": "Todos",
+          "slug": "todos",
+          "count": 200
+        },
+        {
+          "label": "Terraplanagem",
+          "slug": "terraplanagem",
+          "count": 120
+        },
+        {
+          "label": "Limpeza de Terreno",
+          "slug": "limpeza",
+          "count": 50
+        },
+        {
+          "label": "Demolição",
+          "slug": "demolicao",
+          "count": 30
+        }
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Vistoria e Topografia",
+          "description": "Analisamos as cotas do terreno e o tipo de solo para planejar o volume de terra a ser movido.",
+          "icon": "circular-saw"
+        },
+        {
+          "step": 2,
+          "title": "Limpeza e Supressão",
+          "description": "Remoção de vegetação, entulhos ou estruturas antigas para liberar a área de trabalho.",
+          "icon": "shovel"
+        },
+        {
+          "step": 3,
+          "title": "Corte e Aterro",
+          "description": "Movimentação técnica de terra para atingir o nivelamento exato projetado pela engenharia.",
+          "icon": "truck-flatbed"
+        },
+        {
+          "step": 4,
+          "title": "Compactação Final",
+          "description": "Solo firme e pronto para receber a fundação ou o pavimento, sem riscos de recalque.",
+          "icon": "image-filter-hdr"
+        }
+      ]
+    },
+    "professionals": {
+      "title": "Operadores de Elite",
+      "description": "Mais do que dirigir máquinas, nossos operadores entendem de níveis, drenagem e segurança. Um trabalho mal feito na terraplanagem pode custar caro no futuro; na SOS, garantimos a precisão desde o primeiro metro cúbico."
+    },
+    "whyChooseUs": {
+      "title": "Por que preparar seu solo conosco?",
+      "reasons": [
+        {
+          "title": "Precisão Técnica",
+          "description": "Trabalhamos com foco no nivelamento perfeito, facilitando as próximas etapas da obra.",
+          "icon": "target"
+        },
+        {
+          "title": "Economia de Tempo",
+          "description": "Máquinas rápidas e operadores focados em cumprir o cronograma rigorosamente.",
+          "icon": "timer-sand"
+        },
+        {
+          "title": "Solução Completa",
+          "description": "Da escavação ao transporte de resíduos, resolvemos tudo em um só lugar.",
+          "icon": "vibrate"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Terraplanagem e Máquinas",
+      "questions": [
+        {
+          "question": "Vocês alugam a máquina com ou sem operador?",
+          "answer": "Trabalhamos preferencialmente com locação acompanhada de nossos operadores qualificados, garantindo a segurança do equipamento e a qualidade do serviço executado."
+        },
+        {
+          "question": "O que está incluso no serviço de limpeza de terreno?",
+          "answer": "Inclui a remoção de mato, retirada de árvores (conforme autorização ambiental), remoção de entulhos e nivelamento superficial."
+        },
+        {
+          "question": "Vocês fazem apenas pequenos aterros residenciais?",
+          "answer": "Atendemos desde pequenos jardins e calçadas residenciais até grandes platôs para barracões industriais e loteamentos."
+        },
+        {
+          "question": "Como é cobrado o serviço de locação?",
+          "answer": "Pode ser cobrado por hora de máquina trabalhada ou por valor fechado (empreitada) do projeto, dependendo da complexidade do terreno."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Comece sua obra do jeito certo",
+      "description": "Evite problemas estruturais no futuro com uma terraplanagem bem executada. Peça seu orçamento agora!",
+      "ctaText": "Solicitar Orçamento de Terraplanagem"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxtjs/seo', '@nuxt/image'],
+  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxtjs/seo', '@nuxt/image', '@pinia/nuxt'],
   devtools: {
     enabled: true,
   },
@@ -10,12 +10,17 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
   },
+  // Overrides por env: NUXT_PUBLIC_API_BASE, NUXT_PUBLIC_SUPABASE_URL/BUCKET.
+  runtimeConfig: {
+    public: {
+      apiBase: 'http://localhost:8080',
+      // Vazio = imagens de serviço em /images local; preenchido = Supabase.
+      supabaseUrl: '',
+      supabaseBucket: ''
+    }
+  },
   routeRules: {
-    '/': { prerender: true },
-    // Remove logos/fachadas de parceiros do Google Imagens. Cobre toda a pasta
-    // de imagens de serviços (logos de parceiros + ilustrações de categoria) —
-    // as obras reais (portfólio) e produtos ficam em outros caminhos e seguem
-    // indexáveis. Mantém 200 OK p/ o Google ler o noindex — não usar Disallow.
+    // noindex nas logos de parceiro; 200 (não Disallow) p/ o Google ler o header.
     '/images/services/**': { headers: { 'X-Robots-Tag': 'noindex' } },
   },
 
@@ -36,5 +41,7 @@ export default defineNuxtConfig({
   },
   sitemap: {
     sources: ['/api/__sitemap__/urls'],
+    // Telas utilitárias do cadastro: fora do sitemap (o módulo auto-descobre rotas).
+    exclude: ['/faca-parte/profissional', '/faca-parte/profissional/**', '/faca-parte/empresa'],
   },
 })
