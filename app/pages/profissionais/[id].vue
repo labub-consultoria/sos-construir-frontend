@@ -13,8 +13,9 @@ useSeoMeta({
   description: () => professional.value?.bio?.slice(0, 150) + '...',
   ogTitle: () => `${professional.value?.name} - ${professional.value?.title}`,
   ogDescription: () => professional.value?.bio,
-  ogImage: () => professional.value?.avatarUrl,
-  ogImageAlt: () => `Foto de perfil de ${professional.value?.name}`,
+  // Sem `ogImage`: o avatar é uma miniatura de 300px de um serviço externo de
+  // placeholder. Herdar o card da marca dá uma prévia válida em vez de anunciar
+  // uma imagem de terceiros com dimensões que ela não tem.
 })
 
 const breadcrumbItems = computed<BreadcrumbItem[]>(() => [

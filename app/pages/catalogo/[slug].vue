@@ -17,6 +17,12 @@ useSeoMeta({
   ogTitle: () => product.value?.title,
   ogImage: () => product.value?.image,
   ogDescription: () => product.value?.description,
+  ogImageAlt: () => product.value?.title,
+  // Herdaria type/width/height do card padrão (JPEG 1200x630), que não descrevem
+  // a foto do produto. Declarar errado é pior que omitir — as três são opcionais.
+  ogImageType: null,
+  ogImageWidth: null,
+  ogImageHeight: null,
 })
 
 const categoryLabel = computed(() =>
