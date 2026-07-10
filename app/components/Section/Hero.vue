@@ -39,7 +39,7 @@ const defaultSection = {
   },
   {
     name: 'Metalúrgico',
-    slug: 'metalurgico'
+    slug: 'metalurgica'
   }, {
     name: 'Energia Solar',
     slug: 'energia-solar'
