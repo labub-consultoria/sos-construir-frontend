@@ -10,24 +10,17 @@ export default defineNuxtConfig({
   ui: {
     colorMode: false,
   },
-  // Base URL do backend Spring (Cadastro de Profissional). Override por ambiente
-  // via NUXT_PUBLIC_API_BASE (ver .env.example). `public` → exposto no client.
+  // Overrides por env: NUXT_PUBLIC_API_BASE, NUXT_PUBLIC_SUPABASE_URL/BUCKET.
   runtimeConfig: {
     public: {
       apiBase: 'http://localhost:8080',
-      // Supabase Storage das imagens de serviço (mesma convenção do backend: URL + BUCKET).
-      // Override via NUXT_PUBLIC_SUPABASE_URL / NUXT_PUBLIC_SUPABASE_BUCKET.
-      // Vazio = usa /images local (transição). A URL pública é derivada em serviceImageUrl().
+      // Vazio = imagens de serviço em /images local; preenchido = Supabase.
       supabaseUrl: '',
       supabaseBucket: ''
     }
   },
   routeRules: {
-    '/': { prerender: true },
-    // Remove logos/fachadas de parceiros do Google Imagens. Cobre toda a pasta
-    // de imagens de serviços (logos de parceiros + ilustrações de categoria) —
-    // as obras reais (portfólio) e produtos ficam em outros caminhos e seguem
-    // indexáveis. Mantém 200 OK p/ o Google ler o noindex — não usar Disallow.
+    // noindex nas logos de parceiro; 200 (não Disallow) p/ o Google ler o header.
     '/images/services/**': { headers: { 'X-Robots-Tag': 'noindex' } },
   },
 
@@ -48,9 +41,7 @@ export default defineNuxtConfig({
   },
   sitemap: {
     sources: ['/api/__sitemap__/urls'],
-    // Telas utilitárias do cadastro (§12 da spec): noindex e fora do sitemap.
-    // O `@nuxtjs/sitemap` auto-descobre rotas do app, então excluímos explicitamente
-    // em vez de confiar na detecção do `noindex` dinâmico.
+    // Telas utilitárias do cadastro: fora do sitemap (o módulo auto-descobre rotas).
     exclude: ['/faca-parte/profissional', '/faca-parte/profissional/**', '/faca-parte/empresa'],
   },
 })
