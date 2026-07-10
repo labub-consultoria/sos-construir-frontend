@@ -31,3 +31,6 @@ logs
 
 # Imagens geradas por IA (revisão local — fonte de verdade é o bucket)
 scripts/generated/
+
+public/images/services/*/cover*
+public/images/services/*/hero*
