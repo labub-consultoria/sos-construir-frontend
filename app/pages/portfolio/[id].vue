@@ -9,13 +9,22 @@ const { project, relatedProjects, error } = useProjectDetail(id)
 if (error.value) {
   throw createError({ statusCode: 404, fatal: true })
 }
-if (project.value) {
-  useSeoMeta({
-    title: `${project.value.title} | SOS Construir`,
-    description: project.value.description,
-    ogImage: project.value.imageUrl,
-  })
-}
+// Getters, não `if (project.value)`: no SSR o `useFetch` ainda não resolveu quando
+// o setup roda, e um bloco condicional nunca chegaria a registrar as tags.
+// O `@nuxtjs/seo` já anexa o nome do site ao título; repetir aqui duplicaria o sufixo.
+useSeoMeta({
+  title: () => project.value?.title,
+  description: () => project.value?.description,
+  ogTitle: () => project.value?.title,
+  ogDescription: () => project.value?.description,
+  ogImage: () => project.value?.imageUrl,
+  ogImageAlt: () => project.value?.title,
+  // Herdaria type/width/height do card padrão (JPEG 1200x630), que não descrevem
+  // a foto da obra. Declarar errado é pior que omitir — as três são opcionais.
+  ogImageType: null,
+  ogImageWidth: null,
+  ogImageHeight: null,
+})
 
 const activeCardId = ref<number | string | null>(null)
 
