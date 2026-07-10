@@ -21,7 +21,10 @@ export default defineEventHandler((event) => {
   const query = getQuery(event)
 
   const page = Math.max(1, parseInt(query.page as string) || 1)
-  const limit = Math.min(parseInt(query.limit as string) || 10, 50)
+  // Teto no tamanho do catálogo, não num número fixo: a listagem faz scroll
+  // infinito crescendo o `limit`, então um teto menor que o total esconderia
+  // os serviços do fim para sempre.
+  const limit = Math.min(parseInt(query.limit as string) || 10, services.length)
 
   const requestedSort = query.sortBy as keyof Service
   const sortBy = sortableFields.includes(requestedSort) ? requestedSort : 'popularity'

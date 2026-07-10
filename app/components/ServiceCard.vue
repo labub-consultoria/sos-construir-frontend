@@ -2,9 +2,16 @@
 import { Icon } from '#components'
 import type { ServiceCard } from '~~/shared/types/sections'
 
-const props = defineProps<{
-  card: ServiceCard
-}>()
+// `priority`: cards visíveis sem rolagem. Imagem lazy não é vista pelo preload
+// scanner e só baixa depois do layout, com prioridade baixa — o que atrasa
+// justamente a imagem que o usuário já está olhando.
+const props = withDefaults(
+  defineProps<{
+    card: ServiceCard
+    priority?: boolean
+  }>(),
+  { priority: false }
+)
 
 // Cover resolvido por convenção do slug (Supabase). Sem imagem → fundo branco.
 const cfg = useRuntimeConfig().public
@@ -51,7 +58,8 @@ const cover = computed(() => serviceImageUrl(cfg.supabaseUrl, cfg.supabaseBucket
         <div v-if="coverFailed" class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-orange-50/60">
           <Icon :name="card.icon" class="absolute -right-6 -bottom-6 text-[9rem] text-blue-500/[0.06]" />
         </div>
-        <NuxtImg v-else :src="cover" :alt="card.name" loading="lazy" @error="coverFailed = true"
+        <NuxtImg v-else :src="cover" :alt="card.name" :loading="priority ? 'eager' : 'lazy'"
+          :fetchpriority="priority ? 'high' : 'auto'" @error="coverFailed = true"
           class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-95" />
         <div v-if="!coverFailed" class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent z-10" />
         <template #header>

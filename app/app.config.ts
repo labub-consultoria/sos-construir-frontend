@@ -22,7 +22,10 @@ export default defineAppConfig({
       ],
     },
     skeleton: {
-      base: 'animate-pulse rounded-md bg-default/10',
+      // bg-accented, não bg-default: o fundo padrão é branco, e a 10% de opacidade
+      // sobre a página branca o skeleton fica invisível.
+      // motion-reduce: a pulsação é decorativa e incomoda quem pediu menos movimento.
+      base: 'animate-pulse motion-reduce:animate-none rounded-md bg-accented',
     },
   },
 })
