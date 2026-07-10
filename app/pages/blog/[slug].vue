@@ -16,7 +16,13 @@ useSeoMeta({
   description: () => post.value?.description,
   ogTitle: () => post.value?.title,
   ogImage: () => post.value?.coverImage,
-  ogDescription: () => post.value?.description
+  ogDescription: () => post.value?.description,
+  ogImageAlt: () => post.value?.title,
+  // Herdaria type/width/height do card padrão (JPEG 1200x630), que não descrevem
+  // a capa do post. Declarar errado é pior que omitir — as três são opcionais.
+  ogImageType: null,
+  ogImageWidth: null,
+  ogImageHeight: null
 })
 
 
