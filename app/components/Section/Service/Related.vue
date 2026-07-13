@@ -20,7 +20,7 @@ const cards = computed<ServiceCard[]>(() =>
     ...service,
     link: `/servicos/${service.slug}`,
     size: 'medium',
-    type: 'standard',
+    type: 'image',
   }))
 )
 </script>
@@ -28,15 +28,15 @@ const cards = computed<ServiceCard[]>(() =>
 <template>
   <section v-if="cards.length" class="py-16 w-full" :class="props.section?.bgSection">
     <div class="container mx-auto px-4 max-w-7xl">
-      <h2 class="title-section">
+      <h2 class="title-section text-center">
         {{ section.title }}
       </h2>
-      <p class="subtitle-section mb-8 leading-relaxed">
+      <p class="subtitle-section mb-8 leading-relaxed text-center">
         {{ section.description }}
       </p>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <ServiceCard v-for="card in cards" :key="card.id" :card="card" />
+      <div class="flex flex-wrap justify-center gap-6">
+        <ServiceCard v-for="card in cards" :key="card.id" :card="card" class="w-full md:w-[calc(33.333%-1rem)] max-w-[400px]" />
       </div>
     </div>
   </section>
