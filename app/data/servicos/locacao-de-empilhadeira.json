@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Locação de Empilhadeira em Foz do Iguaçu | Com Operador",
+    "description": "Aluguel de empilhadeira em Foz do Iguaçu para descarregar caminhão e movimentar carga pesada em obra, barracão e indústria. Com operador habilitado. Peça orçamento.",
+    "keywords": "locação de empilhadeira foz do iguaçu, aluguel de empilhadeira, empilhadeira com operador, movimentação de carga, descarregar caminhão",
+    "breadcrumbLabel": "Locação de Empilhadeira"
+  },
+  "sections": {
+    "hero": {
+      "title": "Carga Pesada Sai do Caminhão em Minutos",
+      "description": "Empilhadeira com operador habilitado na sua obra ou barracão, pelo período que o serviço exigir. Palete de piso não se descarrega no braço."
+    },
+    "overview": {
+      "kicker": "Peso que a equipe não levanta",
+      "title": "Locação de empilhadeira em Foz do Iguaçu",
+      "imageAlt": "Empilhadeira movimentando palete de material em um barracão em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:handshake-outline",
+          "value": "Parceiros",
+          "label": "locadores verificados, com equipamento revisado e operador habilitado."
+        },
+        {
+          "icon": "mdi:phone-outline",
+          "value": "Um contato",
+          "label": "do orçamento à retirada, você fala só com a SOS."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir intermedia a locação de empilhadeira em Foz do Iguaçu para descarregar caminhão, movimentar palete de piso, bloco, telha e sacaria, e organizar estoque em barracão.",
+        "Trabalhamos com locadores parceiros, e o equipamento vai com operador habilitado. Carga pesada mal içada quebra material e machuca gente, e o custo disso passa longe da diária.",
+        "Diga o peso da carga, a altura de empilhamento e como é o piso. Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "A Carga e o Local",
+          "description": "Peso, altura de empilhamento e tipo de piso definem o modelo de empilhadeira que dá conta.",
+          "icon": "chat-question-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento e Período",
+          "description": "Fechamos o equipamento, o período e a forma de cobrança, por hora trabalhada ou por diária.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Equipamento no Local",
+          "description": "O locador parceiro leva a empilhadeira e o operador até o endereço combinado.",
+          "icon": "truck-flatbed"
+        },
+        {
+          "step": 4,
+          "title": "Serviço e Retirada",
+          "description": "Terminada a movimentação, a retirada é agendada. Precisou de mais tempo, a prorrogação se resolve conosco.",
+          "icon": "calendar-check-outline"
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Por que alugar pela SOS?",
+      "reasons": [
+        {
+          "title": "Operador Habilitado",
+          "description": "Empilhadeira exige treinamento e certificação. O operador vem com o equipamento.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "O Modelo que Aguenta",
+          "description": "Capacidade e altura de elevação variam por modelo. Indicamos o que levanta a sua carga.",
+          "icon": "target"
+        },
+        {
+          "title": "Diesel ou Elétrica",
+          "description": "Área fechada não aceita diesel. Piso irregular derruba a elétrica. O local decide.",
+          "icon": "swap-horizontal"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Locação de Empilhadeira",
+      "questions": [
+        {
+          "question": "A empilhadeira vem com operador?",
+          "answer": "Sim, o padrão é com operador habilitado, porque a operação exige treinamento e certificação específicos. Se a sua equipe tem operador certificado, avise no orçamento que verificamos com o locador."
+        },
+        {
+          "question": "Diesel ou elétrica, qual eu preciso?",
+          "answer": "Depende do local. Em galpão fechado e com pouca ventilação, a elétrica é a opção, porque motor a diesel solta gás. Em pátio, obra e piso irregular, a diesel aguenta mais e não depende de carga de bateria."
+        },
+        {
+          "question": "Quanto peso ela levanta?",
+          "answer": "Varia por modelo, e a capacidade cai conforme a carga sobe de altura. Diga o peso do palete e até onde precisa empilhar que indicamos o equipamento adequado."
+        },
+        {
+          "question": "Como é cobrada a locação?",
+          "answer": "Por hora trabalhada ou por diária, conforme o serviço. Descarregar um caminhão costuma ser cobrado por hora. Obra com movimentação ao longo de dias trabalha melhor com diária."
+        },
+        {
+          "question": "Meu piso é de terra batida. Funciona?",
+          "answer": "Empilhadeira comum trabalha em piso firme e nivelado. Em terra batida, areia ou piso esburacado, a roda afunda e a carga desequilibra. Para esse cenário existe a manipuladora telescópica, com pneu de obra. Descreva o piso que indicamos a saída."
+        }
+      ]
+    },
+    "related": {
+      "services": ["paver", "pavimentacao-asfaltica"]
+    },
+    "finalCta": {
+      "title": "Chegou carga e ninguém descarrega?",
+      "description": "Diga o peso, a altura de empilhamento e como é o piso. Indicamos a empilhadeira certa e fechamos o orçamento sem compromisso.",
+      "ctaText": "Solicitar Orçamento de Empilhadeira"
+    }
+  }
+}

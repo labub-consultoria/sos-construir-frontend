@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Locação de Andaimes em Foz do Iguaçu | Aluguel e Montagem",
+    "description": "Aluguel de andaime em Foz do Iguaçu para pintura, reboco, fachada e telhado. Andaime tubular e fachadeiro entregue na obra, com montagem. Peça orçamento.",
+    "keywords": "locação de andaime foz do iguaçu, aluguel de andaime, andaime fachadeiro, andaime tubular, montagem de andaime",
+    "breadcrumbLabel": "Locação de Andaimes"
+  },
+  "sections": {
+    "hero": {
+      "title": "Trabalhe em Altura com o Pé no Chão",
+      "description": "Andaime entregue e montado na sua obra, pelo tempo que o serviço durar. Escada apoiada na parede não pinta fachada nem levanta telhado."
+    },
+    "overview": {
+      "kicker": "Altura pede estrutura, não improviso",
+      "title": "Locação de andaimes em Foz do Iguaçu",
+      "imageAlt": "Andaime tubular montado na fachada de uma casa em obra em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:handshake-outline",
+          "value": "Parceiros",
+          "label": "locadores verificados, com material conferido peça por peça."
+        },
+        {
+          "icon": "mdi:phone-outline",
+          "value": "Um contato",
+          "label": "da montagem à desmontagem, você fala só com a SOS."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir intermedia a locação de andaimes em Foz do Iguaçu para pintura de fachada, reboco, reforma de telhado, instalação de calha e qualquer serviço que tire o profissional do chão.",
+        "Trabalhamos com locadores parceiros e o material vai conferido: peça torta, trava faltando ou piso de madeira lascado são o que transforma andaime em acidente. A montagem também pode entrar na locação.",
+        "Diga a altura da fachada e o que vai ser feito lá em cima. Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "A Altura e o Serviço",
+          "description": "Casa de um pavimento, sobrado, oitão ou telhado. A altura e o tipo de trabalho definem o modelo de andaime.",
+          "icon": "chat-question-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento e Período",
+          "description": "Fechamos o modelo, a quantidade de módulos, o período e se a montagem entra no pacote.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Entrega e Montagem",
+          "description": "O material chega na obra e é montado nivelado, travado e apoiado em base firme.",
+          "icon": "wrench-outline"
+        },
+        {
+          "step": 4,
+          "title": "Desmontagem e Retirada",
+          "description": "Terminado o serviço, a desmontagem e a retirada são agendadas com você.",
+          "icon": "calendar-check-outline"
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Por que alugar o andaime pela SOS?",
+      "reasons": [
+        {
+          "title": "Material Conferido",
+          "description": "Trava, piso e sapata são checados antes de sair. Andaime velho e remendado a gente não entrega.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "Montagem Inclusa",
+          "description": "Você não precisa descobrir sozinho como travar módulo e nivelar base em terreno torto.",
+          "icon": "wrench-outline"
+        },
+        {
+          "title": "O Modelo Certo",
+          "description": "Fachadeiro, tubular ou torre móvel resolvem serviços diferentes. Indicamos o que dá conta do seu.",
+          "icon": "target"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Locação de Andaimes",
+      "questions": [
+        {
+          "question": "A montagem está inclusa?",
+          "answer": "Pode estar. Se a sua equipe monta, a locação sai só com o material. Se você prefere receber pronto, a montagem entra no orçamento. Para fachada alta e terreno em desnível, vale contratar a montagem."
+        },
+        {
+          "question": "Qual a diferença entre andaime fachadeiro e tubular?",
+          "answer": "O fachadeiro é modular, sobe rente à parede e é o mais usado em pintura e reboco de fachada. O tubular é montado com tubos e braçadeiras e se adapta a formatos irregulares, como oitão e área com desnível. Para serviço rápido e baixo, uma torre móvel costuma bastar."
+        },
+        {
+          "question": "Preciso de andaime para pintar minha casa?",
+          "answer": "Se a parede passa da altura que você alcança de uma escada com segurança, sim. Pintor trabalhando de escada em fachada rende menos, deixa emenda visível e é o que mais gera queda em obra residencial."
+        },
+        {
+          "question": "Quanto tempo posso ficar com o andaime?",
+          "answer": "O período é combinado no orçamento e pode ser prorrogado. Pintura de fachada costuma levar mais dias do que o dono da obra imagina, então é melhor folgar o prazo do que renegociar no meio."
+        },
+        {
+          "question": "E se faltar peça ou algo quebrar?",
+          "answer": "Peça com defeito é responsabilidade do locador, que substitui. Perda e dano por uso indevido entram no contrato de locação, então confira as condições antes de assinar."
+        }
+      ]
+    },
+    "related": {
+      "services": ["pintor", "reforma-de-telhado", "rufos-e-calhas"]
+    },
+    "finalCta": {
+      "title": "Serviço em altura começa por baixo",
+      "description": "Diga a altura da fachada e o que vai ser feito. Indicamos o andaime certo e fechamos o orçamento sem compromisso.",
+      "ctaText": "Solicitar Orçamento de Andaime"
+    }
+  }
+}

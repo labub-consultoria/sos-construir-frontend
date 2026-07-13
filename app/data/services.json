@@ -783,6 +783,58 @@
       "popularity": 80
     },
     {
+      "id": 67,
+      "name": "Locação de Caçamba",
+      "slug": "locacao-de-cacamba",
+      "type": "locacao",
+      "category": "pedreiro-e-obra",
+      "size": "medium",
+      "icon": "mdi-dump-truck",
+      "description": "Caçamba de entulho na sua obra, com retirada quando você chamar.",
+      "keywords": ["caçamba de entulho", "aluguel de caçamba", "locação de caçamba", "caçamba", "tirar entulho", "retirada de entulho", "caçamba para obra", "descarte de entulho", "entulho de reforma", "caçamba estacionária", "remoção de entulho", "onde jogar entulho", "caçamba de lixo de obra"],
+      "aliases": ["caçamba brooks", "container de entulho"],
+      "popularity": 88
+    },
+    {
+      "id": 68,
+      "name": "Locação de Andaimes",
+      "slug": "locacao-de-andaimes",
+      "type": "locacao",
+      "category": "pedreiro-e-obra",
+      "size": "medium",
+      "icon": "mdi-ladder",
+      "description": "Andaime montado na sua obra para trabalhar em altura com segurança.",
+      "keywords": ["aluguel de andaime", "locação de andaime", "andaime", "andaime fachadeiro", "andaime tubular", "montagem de andaime", "trabalho em altura", "andaime para pintura", "andaime para fachada", "torre de andaime", "andaime residencial", "plataforma de trabalho"],
+      "aliases": ["andaime metálico", "balancim"],
+      "popularity": 82
+    },
+    {
+      "id": 69,
+      "name": "Locação de Banheiro Químico",
+      "slug": "locacao-de-banheiro-quimico",
+      "type": "locacao",
+      "category": "pedreiro-e-obra",
+      "size": "medium",
+      "icon": "mdi-toilet",
+      "description": "Banheiro químico para obra ou evento, com limpeza e higienização.",
+      "keywords": ["banheiro químico", "aluguel de banheiro químico", "locação de banheiro químico", "bwc químico", "banheiro para obra", "banheiro portátil", "banheiro para evento", "cabine sanitária", "banheiro de canteiro", "higienização de banheiro químico"],
+      "aliases": ["bwc químico", "sanitário químico"],
+      "popularity": 74
+    },
+    {
+      "id": 70,
+      "name": "Locação de Empilhadeira",
+      "slug": "locacao-de-empilhadeira",
+      "type": "locacao",
+      "category": "pedreiro-e-obra",
+      "size": "medium",
+      "icon": "mdi-forklift",
+      "description": "Empilhadeira com operador para movimentar carga pesada na sua obra.",
+      "keywords": ["aluguel de empilhadeira", "locação de empilhadeira", "empilhadeira", "movimentação de carga", "empilhadeira a diesel", "empilhadeira elétrica", "descarregar caminhão", "movimentar palete", "carga pesada", "empilhadeira para obra", "empilhadeira com operador"],
+      "aliases": ["paleteira", "máquina de movimentar carga"],
+      "popularity": 70
+    },
+    {
       "id": 23,
       "name": "Vidraçaria",
       "slug": "vidracaria",

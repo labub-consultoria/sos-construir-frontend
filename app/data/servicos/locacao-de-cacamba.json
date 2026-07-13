@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Locação de Caçamba em Foz do Iguaçu | Retirada de Entulho",
+    "description": "Aluguel de caçamba para entulho em Foz do Iguaçu. A caçamba fica na sua obra pelo período combinado e a retirada é agendada com você. Peça orçamento pelo WhatsApp.",
+    "keywords": "locação de caçamba foz do iguaçu, aluguel de caçamba, caçamba de entulho, retirada de entulho, descarte de entulho",
+    "breadcrumbLabel": "Locação de Caçamba"
+  },
+  "sections": {
+    "hero": {
+      "title": "O Entulho Sai da Sua Obra",
+      "description": "Caçamba entregue no endereço, pelo período que a obra precisar, com retirada agendada. Você chama, a gente busca."
+    },
+    "overview": {
+      "kicker": "Entulho tem hora para ir embora",
+      "title": "Locação de caçamba em Foz do Iguaçu",
+      "imageAlt": "Caçamba de entulho posicionada em frente a uma obra residencial em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:handshake-outline",
+          "value": "Parceiros",
+          "label": "locadores verificados, com descarte em local licenciado."
+        },
+        {
+          "icon": "mdi:phone-outline",
+          "value": "Um contato",
+          "label": "da entrega à retirada, você fala só com a SOS."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir intermedia a locação de caçamba em Foz do Iguaçu para obra, reforma, demolição e limpeza de terreno. A caçamba chega no endereço que você indicar e fica pelo período combinado.",
+        "Trabalhamos com locadores parceiros que descartam o material em local licenciado. Entulho jogado em terreno baldio é multa para quem contratou, não só para quem despejou, e por isso a destinação entra no combinado desde o orçamento.",
+        "Encheu antes do previsto? Chame que a gente troca. Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Você Diz o que Vai Descartar",
+          "description": "Entulho de reforma, terra, galho de poda ou móvel velho. O material define o tamanho da caçamba e o destino dele.",
+          "icon": "chat-question-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento e Período",
+          "description": "Fechamos o tamanho, o período e a forma de cobrança antes de a caçamba sair.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Entrega no Endereço",
+          "description": "A caçamba é posicionada onde você indicar, dentro do terreno ou na via, conforme o espaço disponível.",
+          "icon": "truck-flatbed"
+        },
+        {
+          "step": 4,
+          "title": "Retirada Quando Você Chamar",
+          "description": "Encheu ou acabou a obra, é só avisar. Precisa de outra no lugar, a troca se resolve no mesmo contato.",
+          "icon": "calendar-check-outline"
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Por que alugar a caçamba pela SOS?",
+      "reasons": [
+        {
+          "title": "Descarte em Local Licenciado",
+          "description": "O material vai para destinação legal. O problema sai da sua obra e não vira outro problema depois.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "O Tamanho Certo",
+          "description": "Caçamba pequena demais obriga a alugar outra. Grande demais é dinheiro parado na calçada.",
+          "icon": "ruler-square"
+        },
+        {
+          "title": "Troca sem Burocracia",
+          "description": "Encheu antes da hora, você fala com a SOS e a substituição é agendada.",
+          "icon": "swap-horizontal"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Locação de Caçamba",
+      "questions": [
+        {
+          "question": "Posso deixar a caçamba na rua?",
+          "answer": "Em Foz do Iguaçu, ocupar a via pública com caçamba exige autorização da prefeitura, e as regras variam conforme a rua e o tempo de permanência. Sempre que houver espaço no terreno, a caçamba entra. Se não houver, orientamos sobre a autorização antes da entrega."
+        },
+        {
+          "question": "O que não pode ir na caçamba?",
+          "answer": "Lixo orgânico, produto químico, tinta, óleo, amianto e material de saúde ficam de fora. Esses resíduos têm destinação própria e o aterro recusa a carga. Entulho de obra, terra, madeira, poda e móvel velho são aceitos, e a mistura deles pode mudar o valor do descarte."
+        },
+        {
+          "question": "Quanto tempo a caçamba pode ficar?",
+          "answer": "O período é combinado no orçamento, e a maioria das obras trabalha com alguns dias. Precisando de mais tempo, avise antes do prazo terminar."
+        },
+        {
+          "question": "Qual tamanho eu preciso?",
+          "answer": "Depende do volume e do tipo de material. Uma reforma de banheiro costuma caber numa caçamba pequena. Demolição de parede, laje ou piso enche rápido, porque entulho de alvenaria pesa muito mais do que parece. Descreva o serviço que indicamos o tamanho."
+        },
+        {
+          "question": "Quem carrega o entulho?",
+          "answer": "O carregamento é por sua conta ou da equipe que está na obra. A locação cobre a caçamba, a entrega, a retirada e a destinação do material."
+        }
+      ]
+    },
+    "related": {
+      "services": ["demolicao", "limpeza-pos-obra"]
+    },
+    "finalCta": {
+      "title": "Sua obra precisa de espaço, não de entulho",
+      "description": "Diga o que vai descartar e onde a caçamba pode ficar. O orçamento sai sem compromisso.",
+      "ctaText": "Solicitar Orçamento de Caçamba"
+    }
+  }
+}
