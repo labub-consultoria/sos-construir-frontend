@@ -58,13 +58,15 @@ export interface ServicePartnerSection extends BaseSection {
   footerInfo: { usage: string; guarantee: string }
 }
 
+// Locação não tem equipe própria nem obra para fotografar, então `professionals` e `workGallery`
+// ficam de fora dessas páginas.
 export interface ServiceSections {
   hero: ServiceHeroSection
   overview?: OverviewSection
   partner?: PartnerSection
-  workGallery: WorkGallerySection
+  workGallery?: WorkGallerySection
   process: ProcessSection
-  professionals: BaseSection
+  professionals?: BaseSection
   whyChooseUs?: WhyChooseUsSection
   faq?: FAQSection
   testimonials?: BaseSection

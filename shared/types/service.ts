@@ -1,5 +1,6 @@
-// Eixo que separa intenção: execução (mão de obra) tem página dedicada;
-// locação/material/projeto entram só no catálogo e roteiam diferente.
+// A SOS intermedia os quatro tipos; não executa nenhum. O que muda é o que o cliente leva:
+// execução entrega um resultado (terreno nivelado), locação entrega tempo de uso (a caçamba
+// fica 7 dias na obra). Serviço novo se classifica por aí.
 export type ServiceType = 'execucao' | 'locacao' | 'material' | 'projeto'
 
 export interface Category {
