@@ -4,7 +4,12 @@ import p_metalurgica from './metalurgica.json'
 import p_paver from './paver.json'
 import p_instalacao_de_portas from './instalacao-de-portas.json'
 import p_energia_solar from './energia-solar.json'
-import p_terraplanagem_e_locacao from './terraplanagem-e-locacao.json'
+import p_terraplanagem from './terraplanagem.json'
+import p_locacao_de_equipamentos_pesados from './locacao-de-equipamentos-pesados.json'
+import p_locacao_de_cacamba from './locacao-de-cacamba.json'
+import p_locacao_de_andaimes from './locacao-de-andaimes.json'
+import p_locacao_de_banheiro_quimico from './locacao-de-banheiro-quimico.json'
+import p_locacao_de_empilhadeira from './locacao-de-empilhadeira.json'
 import p_reforma_de_telhado from './reforma-de-telhado.json'
 import p_gesso_e_drywall from './gesso-e-drywall.json'
 import p_poco_artesiano from './poco-artesiano.json'
@@ -73,7 +78,12 @@ export const servicePages: Record<string, ServicePage> = {
   'paver': p_paver,
   'instalacao-de-portas': p_instalacao_de_portas,
   'energia-solar': p_energia_solar,
-  'terraplanagem-e-locacao': p_terraplanagem_e_locacao,
+  'terraplanagem': p_terraplanagem,
+  'locacao-de-equipamentos-pesados': p_locacao_de_equipamentos_pesados,
+  'locacao-de-cacamba': p_locacao_de_cacamba,
+  'locacao-de-andaimes': p_locacao_de_andaimes,
+  'locacao-de-banheiro-quimico': p_locacao_de_banheiro_quimico,
+  'locacao-de-empilhadeira': p_locacao_de_empilhadeira,
   'reforma-de-telhado': p_reforma_de_telhado,
   'gesso-e-drywall': p_gesso_e_drywall,
   'poco-artesiano': p_poco_artesiano,

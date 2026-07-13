@@ -230,103 +230,423 @@
     }
   },
   "forro-de-pvc": {
-    "hero": { "subject": "a worker installing a white PVC ceiling panel, fitting a plank into the ceiling structure", "attire": "a plain work shirt", "scene": "a residential room", "light": "interno" },
-    "cover": { "subject": "a worker measuring and cutting a white PVC ceiling plank on a bench", "attire": "a plain work shirt", "scene": "a room under renovation", "light": "interno" }
+    "hero": {
+      "subject": "a worker installing a white PVC ceiling panel, fitting a plank into the ceiling structure",
+      "attire": "a plain work shirt",
+      "scene": "a residential room",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a worker measuring and cutting a white PVC ceiling plank on a bench",
+      "attire": "a plain work shirt",
+      "scene": "a room under renovation",
+      "light": "interno"
+    }
   },
   "steel-frame": {
-    "hero": { "subject": "construction workers assembling a light steel frame house structure", "attire": "a hard hat, gloves and a plain uniform", "scene": "a residential construction site", "light": "externo" },
-    "cover": { "subject": "a worker screwing a cement board onto a steel frame wall", "attire": "a hard hat, gloves and a plain uniform", "scene": "an interior under construction", "light": "interno" }
+    "hero": {
+      "subject": "construction workers assembling a light steel frame house structure",
+      "attire": "a hard hat, gloves and a plain uniform",
+      "scene": "a residential construction site",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a worker screwing a cement board onto a steel frame wall",
+      "attire": "a hard hat, gloves and a plain uniform",
+      "scene": "an interior under construction",
+      "light": "interno"
+    }
   },
   "corrimao-e-guarda-corpo": {
-    "hero": { "subject": "a worker installing a glass guard rail on a staircase", "attire": "gloves and a plain uniform", "scene": "a modern home interior with a staircase", "light": "interno" },
-    "cover": { "subject": "a metalworker welding a steel handrail", "attire": "a welding mask, gloves and a plain uniform", "scene": "a metalworking workshop", "light": "interno" }
+    "hero": {
+      "subject": "a worker installing a glass guard rail on a staircase",
+      "attire": "gloves and a plain uniform",
+      "scene": "a modern home interior with a staircase",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a metalworker welding a steel handrail",
+      "attire": "a welding mask, gloves and a plain uniform",
+      "scene": "a metalworking workshop",
+      "light": "interno"
+    }
   },
   "grama-sintetica": {
-    "hero": { "subject": "a worker rolling out and installing synthetic grass turf", "attire": "a plain t-shirt and knee pads", "scene": "a residential backyard", "light": "externo" },
-    "cover": { "subject": "a worker trimming and fitting the edge of synthetic grass with a utility knife", "attire": "a plain t-shirt and knee pads", "scene": "a residential garden", "light": "externo" }
+    "hero": {
+      "subject": "a worker rolling out and installing synthetic grass turf",
+      "attire": "a plain t-shirt and knee pads",
+      "scene": "a residential backyard",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a worker trimming and fitting the edge of synthetic grass with a utility knife",
+      "attire": "a plain t-shirt and knee pads",
+      "scene": "a residential garden",
+      "light": "externo"
+    }
   },
   "deck-de-madeira": {
-    "hero": { "subject": "a worker installing a wooden deck around a swimming pool, screwing down deck boards", "attire": "a plain t-shirt and a tool belt", "scene": "a residential backyard with a pool", "light": "externo" },
-    "cover": { "subject": "a carpenter building the ventilated support frame of a wooden deck", "attire": "a plain t-shirt and a tool belt", "scene": "a residential backyard", "light": "externo" }
+    "hero": {
+      "subject": "a worker installing a wooden deck around a swimming pool, screwing down deck boards",
+      "attire": "a plain t-shirt and a tool belt",
+      "scene": "a residential backyard with a pool",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a carpenter building the ventilated support frame of a wooden deck",
+      "attire": "a plain t-shirt and a tool belt",
+      "scene": "a residential backyard",
+      "light": "externo"
+    }
   },
   "irrigacao-automatizada": {
-    "hero": { "subject": "a technician installing a pop-up sprinkler in a garden lawn", "attire": "a plain polo shirt", "scene": "a residential garden lawn", "light": "externo" },
-    "cover": { "subject": "a technician setting an irrigation timer controller mounted on a wall", "attire": "a plain polo shirt", "scene": "at a residential outdoor wall", "light": "externo" }
+    "hero": {
+      "subject": "a technician installing a pop-up sprinkler in a garden lawn",
+      "attire": "a plain polo shirt",
+      "scene": "a residential garden lawn",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a technician setting an irrigation timer controller mounted on a wall",
+      "attire": "a plain polo shirt",
+      "scene": "at a residential outdoor wall",
+      "light": "externo"
+    }
   },
   "persianas-e-cortinas": {
-    "hero": { "subject": "a worker installing a roller blind on a living room window", "attire": "a plain work shirt", "scene": "a modern living room", "light": "interno" },
-    "cover": { "subject": "a worker measuring a window and mounting a curtain rail", "attire": "a plain work shirt", "scene": "a residential room", "light": "interno" }
+    "hero": {
+      "subject": "a worker installing a roller blind on a living room window",
+      "attire": "a plain work shirt",
+      "scene": "a modern living room",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a worker measuring a window and mounting a curtain rail",
+      "attire": "a plain work shirt",
+      "scene": "a residential room",
+      "light": "interno"
+    }
   },
   "interfone-e-video-porteiro": {
-    "hero": { "subject": "a technician installing a video door phone outdoor unit next to the front gate", "attire": "a plain work shirt", "scene": "a residential entrance gate", "light": "externo" },
-    "cover": { "subject": "a technician configuring the indoor video door phone monitor mounted on a wall", "attire": "a plain work shirt", "scene": "a home entrance hall", "light": "interno" }
+    "hero": {
+      "subject": "a technician installing a video door phone outdoor unit next to the front gate",
+      "attire": "a plain work shirt",
+      "scene": "a residential entrance gate",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a technician configuring the indoor video door phone monitor mounted on a wall",
+      "attire": "a plain work shirt",
+      "scene": "a home entrance hall",
+      "light": "interno"
+    }
   },
   "aterramento-e-spda": {
-    "hero": { "subject": "a technician driving a copper grounding rod into the soil, connecting a cable", "attire": "gloves and a plain uniform", "scene": "a residential yard", "light": "externo" },
-    "cover": { "subject": "a technician measuring earth resistance with a ground resistance tester meter", "attire": "gloves and a plain uniform", "scene": "at a residential grounding point", "light": "externo" }
+    "hero": {
+      "subject": "a technician driving a copper grounding rod into the soil, connecting a cable",
+      "attire": "gloves and a plain uniform",
+      "scene": "a residential yard",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a technician measuring earth resistance with a ground resistance tester meter",
+      "attire": "gloves and a plain uniform",
+      "scene": "at a residential grounding point",
+      "light": "externo"
+    }
   },
   "rede-de-protecao": {
-    "hero": { "subject": "a worker installing a protective safety net on a residential window", "attire": "a plain work shirt", "scene": "a residential apartment window", "light": "interno" },
-    "cover": { "subject": "a worker tensioning and fixing a protective net on a balcony railing", "attire": "a plain work shirt", "scene": "a residential balcony", "light": "externo" }
+    "hero": {
+      "subject": "a worker installing a protective safety net on a residential window",
+      "attire": "a plain work shirt",
+      "scene": "a residential apartment window",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a worker tensioning and fixing a protective net on a balcony railing",
+      "attire": "a plain work shirt",
+      "scene": "a residential balcony",
+      "light": "externo"
+    }
   },
   "isolamento-termico-e-acustico": {
-    "hero": { "subject": "a worker installing rock wool thermal insulation under a roof", "attire": "gloves, a dust mask and a plain uniform", "scene": "an attic under a roof", "light": "interno" },
-    "cover": { "subject": "a worker fitting acoustic insulation panels inside a drywall wall frame", "attire": "gloves, a dust mask and a plain uniform", "scene": "a room under renovation", "light": "interno" }
+    "hero": {
+      "subject": "a worker installing rock wool thermal insulation under a roof",
+      "attire": "gloves, a dust mask and a plain uniform",
+      "scene": "an attic under a roof",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a worker fitting acoustic insulation panels inside a drywall wall frame",
+      "attire": "gloves, a dust mask and a plain uniform",
+      "scene": "a room under renovation",
+      "light": "interno"
+    }
   },
   "aquecimento-solar-de-agua": {
-    "hero": { "subject": "a technician installing solar water heating collector panels on a roof", "attire": "gloves and a plain uniform", "scene": "a residential rooftop", "light": "externo" },
-    "cover": { "subject": "a technician connecting the pipes of a solar water heating boiler tank", "attire": "gloves and a plain uniform", "scene": "a rooftop next to the boiler tank", "light": "externo" }
+    "hero": {
+      "subject": "a technician installing solar water heating collector panels on a roof",
+      "attire": "gloves and a plain uniform",
+      "scene": "a residential rooftop",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a technician connecting the pipes of a solar water heating boiler tank",
+      "attire": "gloves and a plain uniform",
+      "scene": "a rooftop next to the boiler tank",
+      "light": "externo"
+    }
   },
   "reforma-de-estofados": {
-    "hero": { "subject": "an upholsterer stretching and stapling new fabric over a sofa frame", "attire": "a plain work apron", "scene": "an upholstery workshop", "light": "interno" },
-    "cover": { "subject": "an upholsterer replacing the foam cushioning of a sofa", "attire": "a plain work apron", "scene": "an upholstery workshop", "light": "interno" }
+    "hero": {
+      "subject": "an upholsterer stretching and stapling new fabric over a sofa frame",
+      "attire": "a plain work apron",
+      "scene": "an upholstery workshop",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "an upholsterer replacing the foam cushioning of a sofa",
+      "attire": "a plain work apron",
+      "scene": "an upholstery workshop",
+      "light": "interno"
+    }
   },
   "muro-e-arrimo": {
-    "hero": { "subject": "construction workers building a concrete block boundary wall, laying blocks with mortar", "attire": "a hard hat, gloves and a plain uniform", "scene": "a residential construction site", "light": "externo" },
-    "cover": { "subject": "a worker plastering and finishing a masonry wall with a trowel", "attire": "gloves and a plain uniform", "scene": "at a residential wall", "light": "externo" }
+    "hero": {
+      "subject": "construction workers building a concrete block boundary wall, laying blocks with mortar",
+      "attire": "a hard hat, gloves and a plain uniform",
+      "scene": "a residential construction site",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a worker plastering and finishing a masonry wall with a trowel",
+      "attire": "gloves and a plain uniform",
+      "scene": "at a residential wall",
+      "light": "externo"
+    }
   },
   "fossa-septica": {
-    "hero": { "subject": "workers installing a large septic tank into an excavated pit in the ground", "attire": "a hard hat, gloves and a plain uniform", "scene": "a residential yard with an excavation", "light": "externo" },
-    "cover": { "subject": "a technician cleaning a septic tank with a large suction hose", "attire": "rubber gloves, rubber boots and a plain uniform", "scene": "a residential outdoor area", "light": "externo" }
+    "hero": {
+      "subject": "workers installing a large septic tank into an excavated pit in the ground",
+      "attire": "a hard hat, gloves and a plain uniform",
+      "scene": "a residential yard with an excavation",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a technician cleaning a septic tank with a large suction hose",
+      "attire": "rubber gloves, rubber boots and a plain uniform",
+      "scene": "a residential outdoor area",
+      "light": "externo"
+    }
   },
   "chaveiro": {
-    "hero": { "subject": "a locksmith installing a door lock cylinder on a front door", "attire": "a plain work shirt", "scene": "a residential front door", "light": "externo" },
-    "cover": { "subject": "a locksmith cutting a duplicate key on a key cutting machine", "attire": "a plain work shirt", "scene": "a locksmith workshop counter", "light": "interno" }
+    "hero": {
+      "subject": "a locksmith installing a door lock cylinder on a front door",
+      "attire": "a plain work shirt",
+      "scene": "a residential front door",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a locksmith cutting a duplicate key on a key cutting machine",
+      "attire": "a plain work shirt",
+      "scene": "a locksmith workshop counter",
+      "light": "interno"
+    }
   },
   "marido-de-aluguel": {
-    "hero": { "subject": "a handyman mounting a floating shelf on a wall with a drill", "attire": "a plain t-shirt and a tool belt", "scene": "a modern living room", "light": "interno" },
-    "cover": { "subject": "a handyman fixing a kitchen faucet under the sink with a wrench", "attire": "a plain t-shirt and a tool belt", "scene": "a residential kitchen", "light": "interno" }
+    "hero": {
+      "subject": "a handyman mounting a floating shelf on a wall with a drill",
+      "attire": "a plain t-shirt and a tool belt",
+      "scene": "a modern living room",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a handyman fixing a kitchen faucet under the sink with a wrench",
+      "attire": "a plain t-shirt and a tool belt",
+      "scene": "a residential kitchen",
+      "light": "interno"
+    }
   },
   "dedetizacao": {
-    "hero": { "subject": "a pest control technician spraying insecticide along a baseboard with a sprayer", "attire": "gloves, a face mask and a plain uniform", "scene": "a residential kitchen", "light": "interno" },
-    "cover": { "subject": "a pest control technician inspecting and spraying an outdoor corner of a house", "attire": "gloves, a face mask and a plain uniform", "scene": "a residential exterior corner", "light": "externo" }
+    "hero": {
+      "subject": "a pest control technician spraying insecticide along a baseboard with a sprayer",
+      "attire": "gloves, a face mask and a plain uniform",
+      "scene": "a residential kitchen",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a pest control technician inspecting and spraying an outdoor corner of a house",
+      "attire": "gloves, a face mask and a plain uniform",
+      "scene": "a residential exterior corner",
+      "light": "externo"
+    }
   },
   "limpeza-pos-obra": {
-    "hero": { "subject": "a cleaner scraping paint and cement splatter off a window glass with a scraper", "attire": "a plain t-shirt and rubber gloves", "scene": "a newly built apartment", "light": "interno" },
-    "cover": { "subject": "a cleaner mopping and cleaning the floor of a newly renovated room", "attire": "a plain t-shirt and rubber gloves", "scene": "a newly renovated room", "light": "interno" }
+    "hero": {
+      "subject": "a cleaner scraping paint and cement splatter off a window glass with a scraper",
+      "attire": "a plain t-shirt and rubber gloves",
+      "scene": "a newly built apartment",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a cleaner mopping and cleaning the floor of a newly renovated room",
+      "attire": "a plain t-shirt and rubber gloves",
+      "scene": "a newly renovated room",
+      "light": "interno"
+    }
   },
   "alarme-residencial": {
-    "hero": { "subject": "a technician installing an alarm motion sensor high in an interior wall corner", "attire": "a plain work shirt", "scene": "a modern living room", "light": "interno" },
-    "cover": { "subject": "a technician configuring the alarm control panel keypad on a wall", "attire": "a plain work shirt", "scene": "a home entrance hall", "light": "interno" }
+    "hero": {
+      "subject": "a technician installing an alarm motion sensor high in an interior wall corner",
+      "attire": "a plain work shirt",
+      "scene": "a modern living room",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a technician configuring the alarm control panel keypad on a wall",
+      "attire": "a plain work shirt",
+      "scene": "a home entrance hall",
+      "light": "interno"
+    }
   },
   "comunicacao-visual": {
-    "hero": { "subject": "workers installing an ACM storefront sign with channel letters on a shop facade", "attire": "gloves and a plain uniform", "scene": "a commercial street facade", "light": "externo" },
-    "cover": { "subject": "a worker applying vinyl lettering onto a store window", "attire": "a plain work shirt", "scene": "a storefront window", "light": "externo" }
+    "hero": {
+      "subject": "workers installing an ACM storefront sign with channel letters on a shop facade",
+      "attire": "gloves and a plain uniform",
+      "scene": "a commercial street facade",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a worker applying vinyl lettering onto a store window",
+      "attire": "a plain work shirt",
+      "scene": "a storefront window",
+      "light": "externo"
+    }
   },
   "telhado-metalico": {
-    "hero": { "subject": "workers installing metal roofing sheets on a large roof structure", "attire": "a hard hat, gloves and a plain uniform", "scene": "a warehouse under construction", "light": "externo" },
-    "cover": { "subject": "a worker fixing a metal roof sheet with a screw gun on a residential metal roof", "attire": "a hard hat, gloves and a plain uniform", "scene": "a residential rooftop", "light": "externo" }
+    "hero": {
+      "subject": "workers installing metal roofing sheets on a large roof structure",
+      "attire": "a hard hat, gloves and a plain uniform",
+      "scene": "a warehouse under construction",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a worker fixing a metal roof sheet with a screw gun on a residential metal roof",
+      "attire": "a hard hat, gloves and a plain uniform",
+      "scene": "a residential rooftop",
+      "light": "externo"
+    }
   },
   "laje-pre-moldada": {
-    "hero": { "subject": "construction workers assembling a precast concrete slab with joists and filler blocks, shored underneath", "attire": "a hard hat, gloves and a plain uniform", "scene": "a residential construction site", "light": "externo" },
-    "cover": { "subject": "workers pouring and leveling concrete over a precast slab", "attire": "a hard hat, rubber boots and a plain uniform", "scene": "a residential construction site", "light": "externo" }
+    "hero": {
+      "subject": "construction workers assembling a precast concrete slab with joists and filler blocks, shored underneath",
+      "attire": "a hard hat, gloves and a plain uniform",
+      "scene": "a residential construction site",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "workers pouring and leveling concrete over a precast slab",
+      "attire": "a hard hat, rubber boots and a plain uniform",
+      "scene": "a residential construction site",
+      "light": "externo"
+    }
   },
   "ripados": {
-    "hero": { "subject": "a carpenter installing a wooden slat panel on a living room wall behind a TV", "attire": "a plain t-shirt and a tool belt", "scene": "a modern living room", "light": "interno" },
-    "cover": { "subject": "a carpenter assembling wooden slats into a slat panel on a workbench", "attire": "a plain work apron", "scene": "a carpentry workshop", "light": "interno" }
+    "hero": {
+      "subject": "a carpenter installing a wooden slat panel on a living room wall behind a TV",
+      "attire": "a plain t-shirt and a tool belt",
+      "scene": "a modern living room",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a carpenter assembling wooden slats into a slat panel on a workbench",
+      "attire": "a plain work apron",
+      "scene": "a carpentry workshop",
+      "light": "interno"
+    }
   },
   "pavimentacao-asfaltica": {
-    "hero": { "subject": "workers laying and spreading fresh asphalt on a road", "attire": "a hard hat, a reflective safety vest and a plain uniform", "scene": "a residential street", "light": "externo" },
-    "cover": { "subject": "a worker compacting fresh asphalt with a plate compactor", "attire": "a hard hat, a reflective safety vest and a plain uniform", "scene": "a parking area", "light": "externo" }
+    "hero": {
+      "subject": "workers laying and spreading fresh asphalt on a road",
+      "attire": "a hard hat, a reflective safety vest and a plain uniform",
+      "scene": "a residential street",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a worker compacting fresh asphalt with a plate compactor",
+      "attire": "a hard hat, a reflective safety vest and a plain uniform",
+      "scene": "a parking area",
+      "light": "externo"
+    }
+  },
+  "locacao-de-cacamba": {
+    "hero": {
+      "subject": "a construction worker tossing broken bricks and rubble into a large open steel skip dumpster parked in the driveway",
+      "attire": "a hard hat, work gloves and a plain work shirt",
+      "scene": "the front of a middle-class house under renovation on a quiet residential street",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a large open steel skip dumpster loaded with construction rubble, with a worker shovelling debris into it",
+      "attire": "a hard hat and a plain work shirt",
+      "scene": "a residential renovation site with a wheelbarrow nearby",
+      "light": "externo"
+    }
+  },
+  "locacao-de-andaimes": {
+    "hero": {
+      "subject": "a painter standing on a metal tubular scaffold platform, painting the upper facade of a two-story house",
+      "attire": "a safety harness, hard hat and a plain work shirt",
+      "scene": "the facade of a middle-class two-story house, the scaffold assembled from the ground up",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a worker assembling a metal tubular scaffold, locking a coupler onto a steel tube",
+      "attire": "work gloves, a hard hat and a plain work shirt",
+      "scene": "a residential building site with scaffold modules stacked on the ground",
+      "light": "externo"
+    }
+  },
+  "locacao-de-banheiro-quimico": {
+    "hero": {
+      "subject": "a single blue portable chemical toilet cabin standing on firm level ground at a residential construction site, with a worker walking past it",
+      "attire": "a hard hat and a plain work shirt",
+      "scene": "a construction site with a house under construction in the background",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a clean blue portable chemical toilet cabin with the door closed",
+      "attire": "a hard hat and a plain work shirt",
+      "scene": "the edge of a residential construction site, on level dirt ground",
+      "light": "externo"
+    }
+  },
+  "locacao-de-empilhadeira": {
+    "hero": {
+      "subject": "a forklift operator driving a counterbalance forklift, lifting a wrapped pallet of ceramic floor tiles",
+      "attire": "a hard hat, safety vest and a plain work shirt",
+      "scene": "a large storage warehouse with pallets of construction material stacked on the floor",
+      "light": "interno"
+    },
+    "cover": {
+      "subject": "a forklift lifting a heavy pallet of grey concrete blocks, seen from the side, with the operator seated in the cab",
+      "attire": "a hard hat, safety glasses and a plain work shirt",
+      "scene": "an open storage yard of a construction material depot, with stacks of cement bags and blocks on the ground and no vehicles in view",
+      "light": "interno"
+    }
+  },
+  "locacao-de-equipamentos-pesados": {
+    "hero": {
+      "subject": "a backhoe loader operator digging a trench with the excavator arm",
+      "attire": "a hard hat and a plain work shirt",
+      "scene": "a construction site with red-brown soil and a pile of excavated earth",
+      "light": "externo"
+    },
+    "cover": {
+      "subject": "a backhoe loader scooping red soil into a dump truck, with the operator in the cab",
+      "attire": "a hard hat and a plain work shirt",
+      "scene": "a construction site being prepared, with tyre tracks in the soil",
+      "light": "externo"
+    }
   }
 }

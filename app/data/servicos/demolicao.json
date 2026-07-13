@@ -113,6 +113,9 @@
         }
       ]
     },
+    "related": {
+      "services": ["limpeza-pos-obra", "reforma-e-construcao"]
+    },
     "finalCta": {
       "title": "O primeiro passo da sua reforma é abrir espaço",
       "description": "Comece a sua obra com uma demolição segura, limpa e no prazo. Deixe a força bruta com quem faz com técnica.",

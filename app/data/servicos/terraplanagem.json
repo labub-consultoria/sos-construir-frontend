@@ -1,18 +1,18 @@
 {
   "meta": {
-    "title": "Terraplanagem e Locação de Máquinas em Foz do Iguaçu",
-    "description": "Serviços de terraplanagem, limpeza de terreno e locação de máquinas em Foz do Iguaçu. Retroescavadeira, Bobcat e caminhão caçamba. Base sólida para sua obra.",
-    "keywords": "terraplanagem foz do iguaçu, aluguel de retroescavadeira, locação de bobcat, limpeza de terreno, escavação foz",
-    "breadcrumbLabel": "Terraplanagem e Locação"
+    "title": "Terraplanagem em Foz do Iguaçu | Limpeza e Nivelamento de Terreno",
+    "description": "Serviço de terraplanagem em Foz do Iguaçu: limpeza de terreno, corte e aterro, nivelamento e compactação. A base firme que sua obra precisa antes da fundação.",
+    "keywords": "terraplanagem foz do iguaçu, limpeza de terreno, nivelar terreno, corte e aterro, compactação de solo, preparar terreno para construir",
+    "breadcrumbLabel": "Terraplanagem"
   },
   "sections": {
     "hero": {
-      "title": "A Base Sólida que Sua Obra Começa Aqui",
-      "description": "Preparação de terreno com precisão técnica e agilidade. Locação de equipamentos modernos com operadores experientes para garantir o nível perfeito do seu projeto."
+      "title": "A Base Sólida onde Sua Obra Começa",
+      "description": "Limpeza, corte, aterro e compactação do terreno com precisão técnica. Solo firme e no nível certo para receber a fundação, sem surpresa depois."
     },
     "overview": {
       "kicker": "A base sólida onde sua obra começa",
-      "title": "Terraplanagem e locação de máquinas em Foz do Iguaçu",
+      "title": "Terraplanagem em Foz do Iguaçu",
       "imageAlt": "Serviço de terraplanagem e preparação de terreno pela SOS Construir em Foz do Iguaçu",
       "stats": [
         {
@@ -32,8 +32,8 @@
         }
       ],
       "paragraphs": [
-        "A SOS Construir faz terraplanagem e locação de máquinas em Foz do Iguaçu, preparando o terreno da sua obra com precisão técnica e agilidade.",
-        "Disponibilizamos retroescavadeira, Bobcat e caminhão caçamba com operadores experientes, para limpeza de terreno e movimentação de solo sem atrasos.",
+        "A SOS Construir faz terraplanagem em Foz do Iguaçu: limpeza do terreno, movimentação de solo, nivelamento e compactação, para a sua obra começar sobre uma base firme.",
+        "Analisamos as cotas e o tipo de solo antes de mover o primeiro metro cúbico. Terreno mal preparado cobra caro lá na frente, em recalque e trinca na estrutura.",
         "Você trata apenas com a SOS, do nivelamento à liberação do terreno. Quer um orçamento sem compromisso? Fale pelo WhatsApp ou ligue para (45) 99997-6544."
       ]
     },
@@ -114,12 +114,8 @@
       ]
     },
     "faq": {
-      "title": "Dúvidas sobre Terraplanagem e Máquinas",
+      "title": "Dúvidas sobre Terraplanagem",
       "questions": [
-        {
-          "question": "Vocês alugam a máquina com ou sem operador?",
-          "answer": "Trabalhamos preferencialmente com locação acompanhada de nossos operadores qualificados, garantindo a segurança do equipamento e a qualidade do serviço executado."
-        },
         {
           "question": "O que está incluso no serviço de limpeza de terreno?",
           "answer": "Inclui a remoção de mato, retirada de árvores (conforme autorização ambiental), remoção de entulhos e nivelamento superficial."
@@ -129,10 +125,17 @@
           "answer": "Atendemos desde pequenos jardins e calçadas residenciais até grandes platôs para barracões industriais e loteamentos."
         },
         {
-          "question": "Como é cobrado o serviço de locação?",
-          "answer": "Pode ser cobrado por hora de máquina trabalhada ou por valor fechado (empreitada) do projeto, dependendo da complexidade do terreno."
+          "question": "Preciso de terraplanagem se o terreno já parece plano?",
+          "answer": "Quase sempre sim. Mesmo um terreno aparentemente plano costuma ter desnível, camada vegetal e solo solto na superfície, que precisam sair antes da fundação."
+        },
+        {
+          "question": "Quero só a máquina, sem o serviço. Vocês fazem?",
+          "answer": "Fazemos. Nesse caso o que você procura é a locação de equipamentos pesados: o equipamento vai até a sua obra pelo período que você contratar."
         }
       ]
+    },
+    "related": {
+      "services": ["locacao-de-equipamentos-pesados", "muro-e-arrimo"]
     },
     "finalCta": {
       "title": "Comece sua obra do jeito certo",

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Locação de Banheiro Químico em Foz do Iguaçu | Obra e Evento",
+    "description": "Aluguel de banheiro químico em Foz do Iguaçu para canteiro de obra e evento. Entrega, higienização periódica e retirada. Peça orçamento pelo WhatsApp.",
+    "keywords": "locação de banheiro químico foz do iguaçu, aluguel de banheiro químico, bwc químico, banheiro para obra, banheiro portátil para evento",
+    "breadcrumbLabel": "Locação de Banheiro Químico"
+  },
+  "sections": {
+    "hero": {
+      "title": "Banheiro na Obra, do Primeiro Dia ao Último",
+      "description": "Cabine entregue no canteiro ou no evento, com higienização periódica e retirada agendada. A obra começa antes de existir hidráulica."
+    },
+    "overview": {
+      "kicker": "A obra começa antes do encanamento",
+      "title": "Locação de banheiro químico em Foz do Iguaçu",
+      "imageAlt": "Cabine de banheiro químico instalada em um canteiro de obra em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:handshake-outline",
+          "value": "Parceiros",
+          "label": "locadores verificados, com higienização e descarte licenciado."
+        },
+        {
+          "icon": "mdi:phone-outline",
+          "value": "Um contato",
+          "label": "da entrega à retirada, você fala só com a SOS."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir intermedia a locação de banheiro químico em Foz do Iguaçu para canteiro de obra, reforma, festa e evento. A cabine chega montada e pronta para uso no dia combinado.",
+        "No canteiro, o banheiro não é conforto: é exigência de norma quando há trabalhador em campo, e a fiscalização cobra. Antes da hidráulica ficar pronta, ele é a única opção.",
+        "Trabalhamos com locadores parceiros que fazem a higienização periódica e a destinação do resíduo em local licenciado. Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Quantas Pessoas e por Quanto Tempo",
+          "description": "O número de usuários e a duração definem quantas cabines e com que frequência a limpeza acontece.",
+          "icon": "account-group-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento e Higienização",
+          "description": "Fechamos a quantidade, o período e a frequência da higienização antes da entrega.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Entrega no Local",
+          "description": "A cabine é posicionada onde o caminhão alcança e o acesso permite, montada e abastecida.",
+          "icon": "truck-flatbed"
+        },
+        {
+          "step": 4,
+          "title": "Limpeza e Retirada",
+          "description": "A higienização segue o combinado durante a locação. Terminada a obra ou o evento, a retirada é agendada.",
+          "icon": "calendar-check-outline"
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Por que alugar pela SOS?",
+      "reasons": [
+        {
+          "title": "Higienização no Combinado",
+          "description": "A limpeza tem frequência definida no orçamento. Cabine mal cuidada esvazia o canteiro na primeira semana.",
+          "icon": "spray-bottle"
+        },
+        {
+          "title": "Resíduo com Destino Legal",
+          "description": "O descarte é feito em local licenciado pelo locador parceiro, com o comprovante que a obra pode precisar.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "Obra e Evento",
+          "description": "Canteiro de longa duração e festa de fim de semana pedem arranjos diferentes. Os dois a gente atende.",
+          "icon": "calendar-range"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Banheiro Químico",
+      "questions": [
+        {
+          "question": "Com que frequência a cabine é limpa?",
+          "answer": "A frequência é combinada no orçamento e depende do número de usuários. Canteiro com equipe fixa costuma pedir higienização semanal. Evento de um dia é limpo antes e recolhido depois."
+        },
+        {
+          "question": "Preciso de banheiro químico na minha obra?",
+          "answer": "Havendo trabalhador em campo, a instalação sanitária é exigida por norma, e a fiscalização autua a obra que não tem. Enquanto a hidráulica definitiva não fica pronta, a cabine química resolve."
+        },
+        {
+          "question": "Quantas cabines para o meu evento?",
+          "answer": "Depende do público e da duração. Diga quantas pessoas você espera e por quantas horas que indicamos a quantidade. Fila em banheiro de evento é reclamação garantida."
+        },
+        {
+          "question": "Precisa de água ou luz no local?",
+          "answer": "Não. A cabine é autônoma e trabalha com produto químico no tanque, sem ligação de água ou esgoto. Basta um piso firme e nivelado, e acesso para o caminhão de entrega."
+        },
+        {
+          "question": "Onde a cabine pode ficar?",
+          "answer": "Em piso plano e firme, onde o caminhão consiga chegar na entrega e na retirada. Terreno em declive, área encharcada e ponto sem acesso de veículo inviabilizam a instalação."
+        }
+      ]
+    },
+    "related": {
+      "services": ["reforma-e-construcao", "limpeza-pos-obra"]
+    },
+    "finalCta": {
+      "title": "Sua equipe precisa de banheiro no primeiro dia",
+      "description": "Diga quantas pessoas e por quanto tempo. Indicamos a quantidade de cabines e a frequência de limpeza, sem compromisso.",
+      "ctaText": "Solicitar Orçamento de Banheiro Químico"
+    }
+  }
+}
