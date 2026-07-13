@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Locação de Equipamentos Pesados em Foz do Iguaçu | Retroescavadeira e Bobcat",
+    "description": "Locação de máquinas pesadas em Foz do Iguaçu: retroescavadeira, Bobcat, minicarregadeira e caminhão basculante, com operador, pelo período que sua obra precisar.",
+    "keywords": "locação de máquina foz do iguaçu, aluguel de retroescavadeira, locação de bobcat, aluguel de escavadeira, hora máquina, alugar máquina para obra",
+    "breadcrumbLabel": "Locação de Equipamentos Pesados"
+  },
+  "sections": {
+    "hero": {
+      "title": "A Máquina Certa, pelo Tempo que Você Precisar",
+      "description": "Retroescavadeira, Bobcat, minicarregadeira e caminhão basculante para a sua obra em Foz do Iguaçu. Você diz o serviço, a gente leva o equipamento e o operador."
+    },
+    "overview": {
+      "kicker": "Máquina na obra, sem dor de cabeça",
+      "title": "Locação de equipamentos pesados em Foz do Iguaçu",
+      "imageAlt": "Retroescavadeira em operação numa obra em Foz do Iguaçu",
+      "stats": [
+        {
+          "icon": "mdi:calendar-blank-outline",
+          "value": "10+ anos",
+          "label": "de experiência em obras e acabamento em Foz do Iguaçu e região."
+        },
+        {
+          "icon": "mdi:handshake-outline",
+          "value": "Parceiros",
+          "label": "locadores verificados, com equipamento revisado e operador habilitado."
+        },
+        {
+          "icon": "mdi:phone-outline",
+          "value": "Um contato",
+          "label": "do orçamento à retirada da máquina — você fala só com a SOS."
+        }
+      ],
+      "paragraphs": [
+        "A SOS Construir intermedeia a locação de equipamentos pesados em Foz do Iguaçu: retroescavadeira, Bobcat, minicarregadeira, trator e caminhão basculante, para obras residenciais, comerciais e industriais.",
+        "Trabalhamos com locadores parceiros que já conhecemos: equipamento revisado e operador habilitado. Você não precisa cotar com cinco empresas nem descobrir sozinho qual máquina resolve o seu serviço.",
+        "Diga o que precisa fazer — abrir vala, limpar terreno, movimentar terra, carregar entulho — e nós indicamos o equipamento adequado. Fale pelo WhatsApp ou ligue para (45) 99997-6544."
+      ]
+    },
+    "process": {
+      "steps": [
+        {
+          "step": 1,
+          "title": "Você Diz o Serviço",
+          "description": "Conte o que precisa fazer e como é o acesso à obra. A partir daí definimos qual máquina dá conta.",
+          "icon": "chat-question-outline"
+        },
+        {
+          "step": 2,
+          "title": "Orçamento e Período",
+          "description": "Fechamos o equipamento, o período e a forma de cobrança — por hora trabalhada ou por período — antes de qualquer coisa chegar na obra.",
+          "icon": "file-document-outline"
+        },
+        {
+          "step": 3,
+          "title": "Máquina na Obra",
+          "description": "O locador parceiro leva o equipamento até o endereço combinado, com o operador.",
+          "icon": "truck-flatbed"
+        },
+        {
+          "step": 4,
+          "title": "Uso e Retirada",
+          "description": "Terminado o serviço, a retirada é agendada. Precisou de mais tempo? A prorrogação se resolve conosco.",
+          "icon": "calendar-check-outline"
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Por que alugar pela SOS?",
+      "reasons": [
+        {
+          "title": "A Máquina Certa para o Serviço",
+          "description": "Bobcat não faz o serviço de retroescavadeira. Indicamos o equipamento que resolve, e não o que está parado no pátio.",
+          "icon": "target"
+        },
+        {
+          "title": "Locador Verificado",
+          "description": "Parceiros que já trabalham conosco, com equipamento revisado e operador habilitado.",
+          "icon": "shield-check-outline"
+        },
+        {
+          "title": "Um Contato Só",
+          "description": "Do orçamento à retirada, você fala com a SOS. Sem ficar no meio de locador, operador e transportador.",
+          "icon": "phone-outline"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dúvidas sobre Locação de Máquinas",
+      "questions": [
+        {
+          "question": "A máquina vem com operador?",
+          "answer": "Sim, o padrão é a locação com operador habilitado. É o que garante a segurança do equipamento e o serviço bem feito. Se você tem operador próprio, avise no orçamento que verificamos a possibilidade com o locador."
+        },
+        {
+          "question": "Como é cobrada a locação?",
+          "answer": "Pode ser por hora de máquina trabalhada ou por período fechado, dependendo do serviço e do equipamento. O valor é combinado no orçamento, antes de a máquina sair para a obra."
+        },
+        {
+          "question": "Qual o período mínimo?",
+          "answer": "Varia conforme o equipamento e o locador. Serviços curtos costumam ser cobrados por hora, com um mínimo de horas por deslocamento. Consulte no orçamento."
+        },
+        {
+          "question": "Minha obra tem acesso apertado. Cabe alguma máquina?",
+          "answer": "Provavelmente sim. Para acessos estreitos existem equipamentos compactos, como a minicarregadeira (Bobcat), que entram onde uma retroescavadeira não passa. Descreva o acesso e o portão que indicamos a opção."
+        },
+        {
+          "question": "Quem leva e busca o equipamento?",
+          "answer": "O transporte fica por conta do locador e entra no orçamento. Você combina o endereço e o dia; não precisa providenciar prancha nem caminhão."
+        },
+        {
+          "question": "E se a máquina quebrar durante o serviço?",
+          "answer": "Falha do equipamento é responsabilidade do locador, que faz a manutenção ou a substituição. Danos causados por uso indevido na obra são tratados no contrato de locação — leia as condições antes de assinar."
+        }
+      ]
+    },
+    "related": {
+      "services": ["terraplanagem", "demolicao"]
+    },
+    "finalCta": {
+      "title": "Qual serviço você precisa fazer?",
+      "description": "Conte o que a obra precisa e o acesso que ela tem. Indicamos a máquina certa e fechamos o orçamento sem compromisso.",
+      "ctaText": "Solicitar Orçamento de Locação"
+    }
+  }
+}
