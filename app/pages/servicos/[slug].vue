@@ -10,6 +10,7 @@ import {
   SectionFaq,
   SectionFinalCta,
   SectionWhyChooseUs,
+  SectionServiceRelated,
 } from '#components'
 import type { BreadcrumbItem } from '@nuxt/ui'
 
@@ -26,8 +27,10 @@ const sectionComponents: Record<SectionKey, Component> = {
   faq: SectionFaq,
   finalCta: SectionFinalCta,
   testimonials: SectionTestimonials,
+  related: SectionServiceRelated,
 }
 
+// `finalCta` não entra na lista: é renderizado depois do loop, sempre por último.
 const layoutOrder: SectionKey[] = [
   'hero',
   'overview',
@@ -38,6 +41,7 @@ const layoutOrder: SectionKey[] = [
   'workGallery',
   'whyChooseUs',
   'faq',
+  'related',
 ]
 
 const { data: service, error } = await useFetch<{

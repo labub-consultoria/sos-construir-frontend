@@ -32,4 +32,15 @@ describe('catálogo de serviços', () => {
 
     expect(orfas).toEqual([])
   })
+
+  // Um slug com typo no `related` não quebra o build: o card some da página e ninguém percebe.
+  it('todo slug citado em `related` existe e não aponta para a própria página', () => {
+    const quebrados = Object.entries(servicePages).flatMap(([slug, page]) =>
+      (page.sections.related?.services ?? [])
+        .filter((alvo) => !slugs.has(alvo) || alvo === slug)
+        .map((alvo) => `${slug} → ${alvo}`)
+    )
+
+    expect(quebrados).toEqual([])
+  })
 })
