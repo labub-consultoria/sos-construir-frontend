@@ -93,18 +93,18 @@ const handleSelect = (slug: string) => {
 </script>
 
 <template>
-  <section class="relative pt-24 pb-16 lg:pt-10 lg:pb-10 overflow-hidden" :class="section.bgSection">
+  <section class="relative pt-8 sm:pt-24 pb-12 sm:pb-16 lg:pt-10 lg:pb-10 overflow-hidden" :class="section.bgSection">
     <div class="container mx-auto px-4 max-w-7xl">
       <div class="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-12 lg:gap-10 items-center">
         <div class="flex flex-col items-start z-10">
           <HeroChip :users="users" />
 
-          <h1 class="text-[2.5rem] sm:text-6xl font-extrabold tracking-tight mb-6 leading-[1.1]">
-            <span class="text-blue-500 block mb-2">{{ section.titleDark }}</span>
+          <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-4 sm:mb-6 leading-[1.1]">
+            <span class="text-blue-500 block mb-1 sm:mb-2">{{ section.titleDark }}</span>
             <span class="text-orange-500 block">{{ section.titleOrange }}</span>
           </h1>
 
-          <p class="text-gray-500 text-lg mb-10 max-w-lg leading-relaxed">
+          <p class="text-gray-500 text-base sm:text-lg mb-6 sm:mb-10 max-w-lg leading-relaxed">
             {{ section.subtitle }}
           </p>
           <!-- input -->
@@ -129,7 +129,7 @@ const handleSelect = (slug: string) => {
             class="w-full h-full object-cover rounded-3xl shadow-2xl" />
 
           <div v-if="section.floatingCard"
-            class="absolute -bottom-6 left-4 lg:-left-10 sm:bottom-12 bg-white p-5 sm:p-6 rounded-2xl shadow-xl border border-gray-100 max-w-[260px] animate-fade-in-up">
+            class="absolute -bottom-6 left-4 lg:-left-10 sm:bottom-12 bg-white p-4 sm:p-6 rounded-2xl shadow-xl border border-gray-100 max-w-[220px] sm:max-w-[260px] animate-fade-in-up">
             <div class="flex gap-1 mb-3">
               <Icon v-for="i in 5" :key="i" name="mdi:star-outline" class="text-orange-500 text-lg"
                 :class="{ 'text-orange-500': i <= section.floatingCard.rating }" />
