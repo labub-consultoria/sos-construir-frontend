@@ -32,7 +32,7 @@ const defaultSection = {
   titleOrange: 'Começa Aqui',
   subtitle:
     'Da visita técnica ao acabamento, a SOS Construir assume tudo. Profissionais qualificados, materiais de primeira linha e garantia integral do início ao fim.',
-  searchPlaceholder: 'O que você procura? (ex: Pintor, Piso...)',
+  searchPlaceholder: 'Ex: meu cano estourou, preciso de uma caçamba…',
   popularTags: [{
     name: 'Pintor',
     slug: 'pintor'
@@ -86,28 +86,8 @@ const users = [
     avatar: 'https://i.pravatar.cc/100?img=3',
   },
 ]
-// Input
-const { searchQuery, suggestions, clearSearch } = useServices()
-
-const showSuggestions = computed({
-  get: () => suggestions.value.length > 0,
-  set: (isOpen) => {
-    if (!isOpen) {
-      clearSearch()
-    }
-  }
-})
 const handleSelect = (slug: string) => {
-  clearSearch()
-  navigateTo(`/servicos/${slug}`)
-}
-
-const handleSearch = () => {
-  console.log('handle search activated')
-  const first = suggestions.value[0]
-  if (first) {
-    handleSelect(first.slug)
-  }
+  navigateTo(slug ? `/servicos/${slug}` : '/servicos')
 }
 
 </script>
@@ -115,7 +95,7 @@ const handleSearch = () => {
 <template>
   <section class="relative pt-24 pb-16 lg:pt-10 lg:pb-10 overflow-hidden" :class="section.bgSection">
     <div class="container mx-auto px-4 max-w-7xl">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-12 lg:gap-10 items-center">
         <div class="flex flex-col items-start z-10">
           <HeroChip :users="users" />
 
@@ -128,42 +108,8 @@ const handleSearch = () => {
             {{ section.subtitle }}
           </p>
           <!-- input -->
-          <div class="w-full max-w-xl relative">
-            <UPopover v-model:open="showSuggestions" :dismissible="true"
-              :ui="{ content: 'w-(--reka-popper-anchor-width) ' }">
-              <template #anchor>
-                <div class="w-full bg-white rounded-2xl shadow-md border border-gray-100 flex items-center">
-                  <UInput v-model="searchQuery" icon="i-heroicons-magnifying-glass-20-solid"
-                    :placeholder="section.searchPlaceholder" size="xl" color="secondary" variant="none"
-                    class="grow bg-transparent border-none outline-none py-3 text-sm sm:text-base"
-                    @keyup.enter="handleSearch" @keyup.escape="clearSearch">
-                    <template #default>
-                      <UButton color="primary" variant="solid" size="xl"
-                        class="font-bold mr-2 sm:px-6 sm:py-3 rounded-xl transition-colors text-white"
-                        @click="handleSearch">
-                        Buscar
-                      </UButton>
-                    </template>
-                  </UInput>
-                </div>
-              </template>
-
-              <template #content>
-                <ul
-                  class=" bg-white border border-gray-100 rounded-2xl shadow-xl z-50 max-h-64 
-                scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent hover:scrollbar-thumb-gray-400 overflow-y-auto">
-                  <li v-for="service in suggestions" :key="service.slug" class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-orange-50
-               transition-colors border-b border-gray-50 last:border-none" @click="handleSelect(service.slug)">
-                    <UIcon :name="service.icon" class="text-orange-500 bg-orange-500 text-xl shrink-0" />
-                    <div class="flex flex-col min-w-0">
-                      <span class="font-semibold text-blue-500 text-sm">{{ service.name }}</span>
-                      <span class="text-xs text-gray-500 truncate">{{ service.description }}</span>
-                    </div>
-                    <UIcon name="mdi:arrow-right" class="ml-auto text-gray-500 shrink-0" />
-                  </li>
-                </ul>
-              </template>
-            </UPopover>
+          <div class="w-full max-w-2xl relative">
+            <ServiceSearch :placeholder="section.searchPlaceholder" @select="handleSelect" />
           </div>
 
           <!-- tags populares -->
@@ -178,7 +124,7 @@ const handleSearch = () => {
             </template>
           </div>
         </div>
-        <div class="relative w-full h-[400px] sm:h-[500px] lg:h-[600px] mt-8 lg:mt-0">
+        <div class="relative w-full h-[240px] sm:h-[300px] lg:h-[420px] mt-8 lg:mt-0">
           <NuxtImg :src="section.mainImage" alt="Obra perfeita"
             class="w-full h-full object-cover rounded-3xl shadow-2xl" />
 
