@@ -1,19 +1,9 @@
-import Fuse from 'fuse.js'
 import baseServicesData from '~/data/services.json'
+import { createServiceSearch } from '../../utils/serviceSearch'
 
 const services = baseServicesData.services as Service[]
 
-const fuse = new Fuse(services, {
-  keys: [
-    { name: 'name', weight: 0.5 },
-    { name: 'keywords', weight: 0.3 },
-    { name: 'aliases', weight: 0.3 },
-    { name: 'description', weight: 0.2 },
-  ],
-  threshold: 0.3,
-  ignoreLocation: true,
-  useExtendedSearch: true,
-})
+const searchServices = createServiceSearch(services)
 
 const sortableFields: (keyof Service)[] = ['name', 'category', 'popularity']
 
@@ -37,7 +27,7 @@ export default defineEventHandler((event) => {
   let filtered: Service[]
   // filtro
   if (search) {
-    filtered = fuse.search(search).map((r) => r.item)
+    filtered = searchServices(search)
   } else {
     filtered = services
   }

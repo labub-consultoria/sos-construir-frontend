@@ -1,11 +1,16 @@
 <script setup lang="ts">
 import type { ServicesSection } from '~~/shared/types/sections'
+import servicesData from '@/data/services.json'
+
+// Contagem derivada do catálogo (dezena arredondada pra baixo): número fixo no texto
+// já mentiu antes — dizia "30+" com 70 serviços no ar.
+const servicesCount = Math.floor(servicesData.services.length / 10) * 10
 
 const defaultSection: ServicesSection = {
   kicker: 'EXPLORE POR CATEGORIA',
   title: 'Nossas Soluções',
   description: 'Tudo o que sua casa precisa, em um único lugar.',
-  ctaText: 'Ver todos os 30+ Serviços',
+  ctaText: `Ver todos os ${servicesCount}+ Serviços`,
   ctaLink: '/servicos',
   bgSection: 'bg-section-bg-2',
 }
