@@ -166,12 +166,14 @@ useIntersectionObserver(
           }" />
         </div>
 
-        <!-- nowrap na linha laranja: sem ele, "hoje?" quebra viúvo numa 3ª linha no mobile -->
-        <h1 class="text-4xl sm:text-6xl font-extrabold text-white mb-6">
+        <!-- nowrap na linha laranja: sem ele, "hoje?" quebra viúvo numa 3ª linha no mobile.
+             text-3xl no mobile: a linha nowrap tem que caber em 320px — maior, o
+             overflow-hidden da section corta as pontas do texto sem dar scroll. -->
+        <h1 class="text-3xl sm:text-6xl font-extrabold text-white mb-6">
           O que a sua casa <br>
-          <span class="text-orange-500 whitespace-nowrap inline-block mt-2">está precisando hoje?</span>
+          <span class="text-orange-500 whitespace-nowrap inline-block mt-1 sm:mt-2">está precisando hoje?</span>
         </h1>
-        <p class="text-blue-100/80 text-base sm:text-xl mb-10">
+        <p class="text-blue-100/80 text-sm sm:text-xl mb-8 sm:mb-10">
           Conte do seu jeito que a gente encontra quem faz
         </p>
 
@@ -204,8 +206,10 @@ useIntersectionObserver(
     <UContainer>
       <div ref="resultsRef" class="min-h-96 scroll-mt-24 py-10">
         <div class="mb-5">
-          <h2 class="title-section">{{ activeTrilho.gridTitle }}</h2>
-          <p class="text-gray-600 text-lg">{{ activeTrilho.gridSubtitle }}</p>
+          <!-- No mobile o h1 do herói desce a 30px (limite do nowrap em 320px); o h2 da
+               seção fica um degrau abaixo para a hierarquia da página não inverter. -->
+          <h2 class="title-section max-sm:text-2xl">{{ activeTrilho.gridTitle }}</h2>
+          <p class="text-gray-600 text-base sm:text-lg">{{ activeTrilho.gridSubtitle }}</p>
         </div>
 
         <UScrollArea v-if="showCategories" v-slot="{ item }" :items="categories" orientation="horizontal"

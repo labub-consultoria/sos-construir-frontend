@@ -40,14 +40,14 @@ const defaultSection = {
   {
     name: 'Metalúrgico',
     slug: 'metalurgica'
+  },  {
+    name: 'Telhado',
+    slug: 'reforma-de-telhado'
   }, {
     name: 'Energia Solar',
     slug: 'energia-solar'
   },
-  {
-    name: 'Telhado',
-    slug: 'reforma-de-telhado'
-  }
+
   ],
   mainImage:
     'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop', // Imagem de obra genérica

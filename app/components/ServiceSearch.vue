@@ -207,7 +207,8 @@ onUnmounted(stopLive)
             @keydown.enter.prevent="confirm" @keydown.escape.prevent="close">
             <template #default>
               <UButton color="primary" variant="solid" size="xl"
-                class="font-bold mr-2 sm:px-6 sm:py-3 rounded-xl transition-colors text-white" @click="confirm">
+                class="font-bold mr-1.5 sm:mr-2 px-3 py-2 text-sm sm:text-base sm:px-6 sm:py-3 rounded-xl transition-colors text-white"
+                @click="confirm">
                 Buscar
               </UButton>
             </template>
@@ -234,10 +235,10 @@ onUnmounted(stopLive)
       </template>
     </UPopover>
 
-    <div v-if="quickSearches.length" class="flex flex-wrap items-center justify-start gap-2 mt-5">
+    <div v-if="quickSearches.length" class="flex flex-wrap items-center justify-start gap-1.5 sm:gap-2 mt-4 sm:mt-5">
       <span class="text-white/60 text-sm mr-2 hidden sm:block">Mais buscados:</span>
       <button v-for="term in quickSearches" :key="term" type="button" class="rounded-full border border-white/20
-        bg-white/5 px-4 py-1.5 text-sm text-white transition-colors hover:bg-white/10"
+        bg-white/5 px-3 py-1 text-xs sm:px-4 sm:py-1.5 sm:text-sm text-white transition-colors hover:bg-white/10"
         @click="applyQuickSearch(term)">
         {{ term }}
       </button>
